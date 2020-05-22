@@ -1,0 +1,56 @@
+﻿name,abv,geo,fips
+Alabama,AL,st,1
+Alaska,AK,st,2
+Arizona,AZ,st,4
+Arkansas,AR,st,5
+California,CA,st,6
+Colorado,CO,st,8
+Connecticut,CT,st,9
+Delaware,DE,st,10
+Florida,FL,st,12
+Georgia,GA,st,13
+Hawaii,HI,st,15
+Idaho,ID,st,16
+Illinois,IL,st,17
+Indiana,IN,st,18
+Iowa,IA,st,19
+Kansas,KS,st,20
+Kentucky,KY,st,21
+Louisiana,LA,st,22
+Maine,ME,st,23
+Maryland,MD,st,24
+Massachusetts,MA,st,25
+Michigan,MI,st,26
+Minnesota,MN,st,27
+Mississippi,MS,st,28
+Missouri,MO,st,29
+Montana,MT,st,30
+Nebraska,NE,st,31
+Nevada,NV,st,32
+New Hampshire,NH,st,33
+New Jersey,NJ,st,34
+New Mexico,NM,st,35
+New York,NY,st,36
+North Carolina,NC,st,37
+North Dakota,ND,st,38
+Ohio,OH,st,39
+Oklahoma,OK,st,40
+Oregon,OR,st,41
+Pennsylvania,PA,st,42
+Rhode Island,RI,st,44
+South Carolina,SC,st,45
+South Dakota,SD,st,46
+Tennessee,TN,st,47
+Texas,TX,st,48
+Utah,UT,st,49
+Vermont,VT,st,50
+Virginia,VA,st,51
+Washington,WA,st,53
+West Virginia,WV,st,54
+Wisconsin,WI,st,55
+Wyoming,WY,st,56
+American Samoa,AS,st,60
+Guam,GU,st,66
+Northern Mariana Islands,MP,st,69
+Puerto Rico,PR,st,72
+Virgin Islands,VI,st,78
