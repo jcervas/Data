@@ -6,7 +6,7 @@
 |sta|State Abbreviation|
 |year|year of election|
 |rc|? (always "P")|
-|plan|year of redistricting|
+|plan|year of redistricting, beginning in 2016 (sta,year,code [I=Independent Commission, H=Legislature, C=Court]|
 |ed|district number (99 for single seat states, D.C.=98)
 |source|?|
 |dem|Total Democratic votes|
