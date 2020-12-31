@@ -5,7 +5,7 @@
 |---|---|
 |sta|State Abbreviation|
 |year|year of election|
-|rc|?|
+|rc|? (always "P")|
 |plan|year of redistricting|
 |ed|district number (99 for single seat states)
 |source|?|
