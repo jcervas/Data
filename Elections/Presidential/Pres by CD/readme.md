@@ -7,7 +7,7 @@
 |year|year of election|
 |rc|? (always "P")|
 |plan|year of redistricting|
-|ed|district number (99 for single seat states)
+|ed|district number (99 for single seat states, D.C.=98)
 |source|?|
 |dem|Total Democratic votes|
 |rep|Total Republican votes|
