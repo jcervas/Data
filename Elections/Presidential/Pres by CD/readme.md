@@ -1,5 +1,5 @@
 # Presidential Results by CD (1952-2016)
-###### Source: Tom Brunell, 1952-2012. Jonathan Cervas, 2016-2020
+###### Source: Tom Brunell, 1952-2012. DailyKos, 2016-2020
 
 |Variables|Description|
 |---|---|
