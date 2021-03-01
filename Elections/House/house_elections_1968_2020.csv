@@ -3993,7 +3993,7 @@ year,state,district,dem,rep,other
 1986,Florida,2,110141,0,625
 1986,Florida,3,1,0,0
 1986,Florida,4,1,0,0
-1986,Florida,5,0,0,0
+1986,Florida,5,0,1,0
 1986,Florida,6,143598,61069,0
 1986,Florida,7,1,0,0
 1986,Florida,8,0,1,0
@@ -8716,7 +8716,7 @@ year,state,district,dem,rep,other
 2008,Arizona,6,115457,208582,10137
 2008,Arizona,7,124304,64425,7760
 2008,Arizona,8,179629,140553,8084
-2008,Arkansas,1,0,0,0
+2008,Arkansas,1,1,0,0
 2008,Arkansas,2,212303,0,65063
 2008,Arkansas,3,0,215196,58850
 2008,Arkansas,4,203178,0,32603
@@ -10320,7 +10320,7 @@ year,state,district,dem,rep,other
 2014,Ohio,14,70856,135736,7988
 2014,Ohio,15,66125,128496,0
 2014,Ohio,16,75199,132176,0
-2014,Oklahoma,1,0,0,0
+2014,Oklahoma,1,0,1,0
 2014,Oklahoma,2,38964,110925,8518
 2014,Oklahoma,3,36270,133335,0
 2014,Oklahoma,4,40998,117721,7549
