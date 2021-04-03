@@ -3,7 +3,7 @@
 
 
 rm(x.i)
-x.i <- read.csv("https://raw.githubusercontent.com/jcervas/Data/master/Elections/Senate/Ari/117th.csv")
+x.i <- read.csv("https://raw.githubusercontent.com/jcervas/Data/master/Elections/Senate/Ari/117th%20votes.csv")
   x.i$total <- x.i$democrat+x.i$republican
   x.i$dem <- x.i$democrat/x.i$total
   x.i$dwin <- ifelse(x.i$dem>0.5, 1,0)
