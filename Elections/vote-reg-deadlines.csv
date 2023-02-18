@@ -1,0 +1,57 @@
+state,abv,fips,deadline
+Alabama,AL,1,15
+Alaska,AK,2,30
+Arizona,AZ,4,29
+Arkansas,AR,5,30
+California,CA,6,0
+Colorado,CO,8,0
+Connecticut,CT,9,0
+Delaware,DE,10,24
+District of Columbia,DC,,0
+Florida,FL,12,29
+Georgia,GA,13,29
+Hawaii,HI,15,0
+Idaho,ID,16,0
+Illinois,IL,17,0
+Indiana,IN,18,29
+Iowa,IA,19,0
+Kansas,KS,20,21
+Kentucky,KY,21,29
+Louisiana,LA,22,20
+Maine,ME,23,0
+Maryland,MD,24,0
+Massachusetts,MA,25,10
+Michigan,MI,26,0
+Minnesota,MN,27,0
+Mississippi,MS,28,30
+Missouri,MO,29,37
+Montana,MT,30,1
+Nebraska,NE,31,11
+Nevada,NV,32,0
+New Hampshire,NH,33,0
+New Jersey,NJ,34,21
+New Mexico,NM,35,0
+New York,NY,36,10
+North Carolina,NC,37,1
+North Dakota,ND,38,NA
+Ohio,OH,39,20
+Oklahoma,OK,40,25
+Oregon,OR,41,21
+Pennsylvania,PA,42,15
+Rhode Island,RI,44,30
+South Carolina,SC,45,30
+South Dakota,SD,46,15
+Tennessee,TN,47,30
+Texas,TX,48,30
+Utah,UT,49,0
+Vermont,VT,50,0
+Virginia,VA,51,0
+Washington,WA,53,0
+West Virginia,WV,54,21
+Wisconsin,WI,55,0
+Wyoming,WY,56,0
+American Samoa,AS,60,-
+Guam,GU,66,-
+Northern Mariana Islands,MP,69,-
+Puerto Rico,PR,72,30
+Virgin Islands,VI,78,30
