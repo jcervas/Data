@@ -1,0 +1,86 @@
+
+
+```{r, variable names}
+data_names <- c(
+     "year",
+     "type",
+     "county",
+     "prec",
+     "office_code",
+     "district",
+     "party",
+     "ballot_pos",
+     "office",
+     "party",
+     "cand_num",
+     "last",
+     "first",
+     "middle",
+     "suffix",
+     "vote",
+     "yes",
+     "no",
+     "cong_dist",
+     "sen_dist",
+     "house_dist",
+     "muni_type",
+     "muni_name",
+     "muni_breakdown_code_1",
+     "muni_breakdown_name_1",
+     "muni_breakdown_code_2",
+     "muni_breakdown_name_2",
+     "bicounty_code",
+     "mcd",
+     "fips",
+     "vtd",
+     "ballot_question",
+     "record_type",
+     "prev_prec_code",
+     "prev_cong_dist",
+     "prev_sen_dist",
+     "prev_house_dist"
+)
+```
+
+```{r}
+g22 <- read.csv("https://www.dos.pa.gov/VotingElections/BEST/stats/Documents/ElectionReturns_2022_General_PrecinctReturns.txt", header=FALSE, stringsAsFactors=FALSE)
+     names(g22) <- data_names
+```
+
+
+```{r}
+USS <- subset(g22, (office=="USS"))
+GOV <- subset(g22, (office=="GOV"))
+USC <- subset(g22, (office=="USC"))
+STH <- subset(g22, (office=="STH"))
+STS <- subset(g22, (office=="STS"))
+```
+
+```{r, USS}
+fetterman <- subset(g22, (last=="FETTERMAN"))
+oz <- subset(g22, (last=="OZ"))
+
+fetterman_house <- aggregate(list(dem=fetterman$vote), list(house_dist=fetterman$house_dist), FUN=sum)
+oz_house <- aggregate(list(gop=oz$vote), list(house_dist=oz$house_dist), FUN=sum)
+
+fetterman_sen <- aggregate(list(dem=fetterman$vote), list(sen_dist=fetterman$sen_dist), FUN=sum)
+oz_sen <- aggregate(list(gop=oz$vote), list(sen_dist=oz$sen_dist), FUN=sum)
+
+house_by_USS <- cbind(fetterman_house, oz_house)
+sen_by_USS <- cbind(fetterman_sen, oz_sen)
+```
+
+
+```{r}
+house_by_USS$DEM <- house_by_USS$dem/(house_by_USS$dem + house_by_USS$gop)
+sen_by_USS$DEM <- sen_by_USS$dem/(sen_by_USS$dem + sen_by_USS$gop)
+
+## seats by party
+table(1 * (house_by_USS$DEM > 0.5))
+table(1 * (sen_by_USS$DEM > 0.5))
+```
+
+
+
+
+
