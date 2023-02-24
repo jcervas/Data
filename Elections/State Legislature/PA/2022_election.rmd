@@ -71,16 +71,55 @@ sen_by_USS <- cbind(fetterman_sen, oz_sen)
 ```
 
 
+```{r, GOV}
+SHAPIRO <- subset(g22, (last=="SHAPIRO"))
+MASTRIANO <- subset(g22, (last=="MASTRIANO"))
+
+SHAPIRO_house <- aggregate(list(dem=SHAPIRO$vote), list(house_dist=SHAPIRO$house_dist), FUN=sum)
+MASTRIANO_house <- aggregate(list(gop=MASTRIANO$vote), list(house_dist=MASTRIANO$house_dist), FUN=sum)
+
+SHAPIRO_sen <- aggregate(list(dem=SHAPIRO$vote), list(sen_dist=SHAPIRO$sen_dist), FUN=sum)
+MASTRIANO_sen <- aggregate(list(gop=MASTRIANO$vote), list(sen_dist=MASTRIANO$sen_dist), FUN=sum)
+
+house_by_GOV <- cbind(SHAPIRO_house, MASTRIANO_house)
+sen_by_GOV <- cbind(SHAPIRO_sen, MASTRIANO_sen)
+```
+
+
+
+
 ```{r}
 house_by_USS$DEM <- house_by_USS$dem/(house_by_USS$dem + house_by_USS$gop)
 sen_by_USS$DEM <- sen_by_USS$dem/(sen_by_USS$dem + sen_by_USS$gop)
 
 ## seats by party
 table(1 * (house_by_USS$DEM > 0.5))
+prop.table(table(1 * (house_by_USS$DEM > 0.5)))
+
 table(1 * (sen_by_USS$DEM > 0.5))
+prop.table(table(1 * (sen_by_USS$DEM > 0.5)))
+```
+
+```{r}
+house_by_GOV$DEM <- house_by_GOV$dem/(house_by_GOV$dem + house_by_GOV$gop)
+sen_by_GOV$DEM <- sen_by_GOV$dem/(sen_by_GOV$dem + sen_by_GOV$gop)
+
+## votes by party
+sum(house_by_GOV$gop)
+sum(house_by_GOV$dem)
+
+## seats by party
+table(1 * (house_by_GOV$DEM > 0.5))
+prop.table(table(1 * (house_by_GOV$DEM > 0.5)))
+
+table(1 * (sen_by_GOV$DEM > 0.5))
+prop.table(table(1 * (sen_by_GOV$DEM > 0.5)))
 ```
 
 
 
+```{r}
+house_by_USS$DEM * seq(-0.1,1,0.01)
 
+```
 
