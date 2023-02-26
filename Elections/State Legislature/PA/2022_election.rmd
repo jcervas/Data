@@ -95,9 +95,11 @@ sen_by_USS$DEM <- sen_by_USS$dem/(sen_by_USS$dem + sen_by_USS$gop)
 ## seats by party
 table(1 * (house_by_USS$DEM > 0.5))
 prop.table(table(1 * (house_by_USS$DEM > 0.5)))
+mean(house_by_USS$DEM)
 
 table(1 * (sen_by_USS$DEM > 0.5))
 prop.table(table(1 * (sen_by_USS$DEM > 0.5)))
+mean(sen_by_USS$DEM)
 ```
 
 ```{r}
@@ -111,15 +113,20 @@ sum(house_by_GOV$dem)
 ## seats by party
 table(1 * (house_by_GOV$DEM > 0.5))
 prop.table(table(1 * (house_by_GOV$DEM > 0.5)))
+mean(house_by_GOV$DEM)
 
 table(1 * (sen_by_GOV$DEM > 0.5))
 prop.table(table(1 * (sen_by_GOV$DEM > 0.5)))
+mean(sen_by_GOV$DEM)
 ```
 
 
 
 ```{r}
-house_by_USS$DEM * seq(-0.1,1,0.01)
+range_sim <- seq(-0.1,1,0.01)
+full_sims <- rep(house_by_USS$DEM, length(range_sim))
+
+1 * (full_sims > 0.5)
 
 ```
 
