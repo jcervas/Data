@@ -64,6 +64,8 @@ STS <- subset(g22, (office=="STS"))
 
 
 ```{r, GOV}
+
+
 total_votes_by_party <- function(df) {
   offices <- unique(df$office)  # Get unique office names
   
@@ -71,40 +73,41 @@ total_votes_by_party <- function(df) {
   
   for (office in offices) {
     # Aggregate the data for the current office
-    office_df <- subset(df, office %in% office_df$office)
-    house <- aggregate(vote ~ office + house_dist + cand_num + last, data = office_df, sum)
-    prev_house <- aggregate(vote ~ office + prev_house_dist + cand_num + last, data = office_df, sum)
-    sen <- aggregate(vote ~ office + sen_dist + cand_num + last, data = office_df, sum)
-    prev_sen <- aggregate(vote ~ office + prev_sen_dist + cand_num + last, data = office_df, sum)
+    house <- aggregate(vote ~ house_dist + cand_num + last, data = subset(df, office == office), sum)
+    prev_house <- aggregate(vote ~ prev_house_dist + cand_num + last, data = subset(df, office == office), sum)
+    sen <- aggregate(vote ~ sen_dist + cand_num + last, data = subset(df, office == office), sum)
+    prev_sen <- aggregate(vote ~ prev_sen_dist + cand_num + last, data = subset(df, office == office), sum)
     
     # Convert the aggregates to wide format
-    wide_house <- reshape(house, idvar = c("office", "house_dist", "last"), timevar = "cand_num", direction = "wide")
-    wide_prev_house <- reshape(prev_house, idvar = c("office", "prev_house_dist", "last"), timevar = "cand_num", direction = "wide")
-    wide_sen <- reshape(sen, idvar = c("office", "sen_dist", "last"), timevar = "cand_num", direction = "wide")
-    wide_prev_sen <- reshape(prev_sen, idvar = c("office", "prev_sen_dist", "last"), timevar = "cand_num", direction = "wide")
+    wide_house <- reshape(house, idvar = c("house_dist", "last"), timevar = "cand_num", direction = "wide")
+    wide_prev_house <- reshape(prev_house, idvar = c("prev_house_dist", "last"), timevar = "cand_num", direction = "wide")
+    wide_sen <- reshape(sen, idvar = c("sen_dist", "last"), timevar = "cand_num", direction = "wide")
+    wide_prev_sen <- reshape(prev_sen, idvar = c("prev_sen_dist", "last"), timevar = "cand_num", direction = "wide")
     
-    # Merge the wide data frames by office and last name
-    office_result <- merge(wide_house, wide_prev_house, by = c("office", "last"), all = TRUE)
-    office_result <- merge(office_result, wide_sen, by = c("office", "last"), all = TRUE)
-    office_result <- merge(office_result, wide_prev_sen, by = c("office", "last"), all = TRUE)
+    # Merge the wide data frames by last name
+    office_result <- merge(wide_house, wide_prev_house, by = "last", all = TRUE)
+    office_result <- merge(office_result, wide_sen, by = "last", all = TRUE)
+    office_result <- merge(office_result, wide_prev_sen, by = "last", all = TRUE)
     
-    # Remove unnecessary columns and rename the rest
-    office_result <- office_result[, !grepl("NA", colnames(office_result))]
-    names(office_result)[-c(1:2)] <- c(paste0("house_", names(wide_house)[-c(1:2)]),
+    # Add a column for the current office and rearrange the columns
+    office_result$office <- office
+    office_result <- office_result[, c("office", "last", 
+                                        paste0("house_", names(wide_house)[-c(1:2)]),
                                         paste0("prev_house_", names(wide_prev_house)[-c(1:2)]),
                                         paste0("sen_", names(wide_sen)[-c(1:2)]),
-                                        paste0("prev_sen_", names(wide_prev_sen)[-c(1:2)]))
+                                        paste0("prev_sen_", names(wide_prev_sen)[-c(1:2)]))]
     
     # Merge the results for the current office into the overall result
     if (nrow(result) == 0) {
       result <- office_result  # First office
     } else {
-      result <- merge(result, office_result, all = TRUE)  # Subsequent offices
+      result <- rbind(result, office_result)  # Subsequent offices
     }
   }
   
   return(result)
 }
+
 
 
 ```
