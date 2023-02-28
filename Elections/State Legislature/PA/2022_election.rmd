@@ -78,11 +78,21 @@ MASTRIANO <- subset(g22, (last=="MASTRIANO"))
 SHAPIRO_house <- aggregate(list(dem=SHAPIRO$vote), list(house_dist=SHAPIRO$house_dist), FUN=sum)
 MASTRIANO_house <- aggregate(list(gop=MASTRIANO$vote), list(house_dist=MASTRIANO$house_dist), FUN=sum)
 
+SHAPIRO_prev_house <- aggregate(list(dem=SHAPIRO$vote), list(prev_house_dist=SHAPIRO$prev_house_dist), FUN=sum)
+MASTRIANO_prev_house <- aggregate(list(gop=MASTRIANO$vote), list(prev_house_dist=MASTRIANO$prev_house_dist), FUN=sum)
+
 SHAPIRO_sen <- aggregate(list(dem=SHAPIRO$vote), list(sen_dist=SHAPIRO$sen_dist), FUN=sum)
 MASTRIANO_sen <- aggregate(list(gop=MASTRIANO$vote), list(sen_dist=MASTRIANO$sen_dist), FUN=sum)
 
+SHAPIRO_prev_sen <- aggregate(list(dem=SHAPIRO$vote), list(prev_sen_dist=SHAPIRO$prev_sen_dist), FUN=sum)
+MASTRIANO_prev_sen <- aggregate(list(gop=MASTRIANO$vote), list(prev_sen_dist=MASTRIANO$prev_sen_dist), FUN=sum)
+
+
 house_by_GOV <- cbind(SHAPIRO_house, MASTRIANO_house)
 sen_by_GOV <- cbind(SHAPIRO_sen, MASTRIANO_sen)
+
+prev_house_by_GOV <- cbind(SHAPIRO_prev_house, MASTRIANO_prev_house)
+prev_sen_by_GOV <- cbind(SHAPIRO_prev_sen, MASTRIANO_prev_sen)
 ```
 
 
