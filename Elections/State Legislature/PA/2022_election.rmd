@@ -8,7 +8,7 @@ data_names <- c(
      "prec",
      "office_code",
      "district",
-     "party",
+     "party_code",
      "ballot_pos",
      "office",
      "party",
@@ -49,12 +49,66 @@ g22 <- read.csv("https://www.dos.pa.gov/VotingElections/BEST/stats/Documents/Ele
 
 
 ```{r}
+
+DEM <- subset(g22, (party=="DEM"))
+GOP <- subset(g22, (party=="REP"))
+OTH <- subset(g22, (!party %in% c("DEM","REP")))
+
 USS <- subset(g22, (office=="USS"))
 GOV <- subset(g22, (office=="GOV"))
 USC <- subset(g22, (office=="USC"))
 STH <- subset(g22, (office=="STH"))
 STS <- subset(g22, (office=="STS"))
 ```
+
+
+
+```{r, GOV}
+total_votes_by_party <- function(df) {
+  offices <- unique(df$office)  # Get unique office names
+  
+  result <- data.frame()  # Create an empty data frame to store the results
+  
+  for (office in offices) {
+    # Aggregate the data for the current office
+    office_df <- subset(df, office %in% office_df$office)
+    house <- aggregate(vote ~ office + house_dist + cand_num + last, data = office_df, sum)
+    prev_house <- aggregate(vote ~ office + prev_house_dist + cand_num + last, data = office_df, sum)
+    sen <- aggregate(vote ~ office + sen_dist + cand_num + last, data = office_df, sum)
+    prev_sen <- aggregate(vote ~ office + prev_sen_dist + cand_num + last, data = office_df, sum)
+    
+    # Convert the aggregates to wide format
+    wide_house <- reshape(house, idvar = c("office", "house_dist", "last"), timevar = "cand_num", direction = "wide")
+    wide_prev_house <- reshape(prev_house, idvar = c("office", "prev_house_dist", "last"), timevar = "cand_num", direction = "wide")
+    wide_sen <- reshape(sen, idvar = c("office", "sen_dist", "last"), timevar = "cand_num", direction = "wide")
+    wide_prev_sen <- reshape(prev_sen, idvar = c("office", "prev_sen_dist", "last"), timevar = "cand_num", direction = "wide")
+    
+    # Merge the wide data frames by office and last name
+    office_result <- merge(wide_house, wide_prev_house, by = c("office", "last"), all = TRUE)
+    office_result <- merge(office_result, wide_sen, by = c("office", "last"), all = TRUE)
+    office_result <- merge(office_result, wide_prev_sen, by = c("office", "last"), all = TRUE)
+    
+    # Remove unnecessary columns and rename the rest
+    office_result <- office_result[, !grepl("NA", colnames(office_result))]
+    names(office_result)[-c(1:2)] <- c(paste0("house_", names(wide_house)[-c(1:2)]),
+                                        paste0("prev_house_", names(wide_prev_house)[-c(1:2)]),
+                                        paste0("sen_", names(wide_sen)[-c(1:2)]),
+                                        paste0("prev_sen_", names(wide_prev_sen)[-c(1:2)]))
+    
+    # Merge the results for the current office into the overall result
+    if (nrow(result) == 0) {
+      result <- office_result  # First office
+    } else {
+      result <- merge(result, office_result, all = TRUE)  # Subsequent offices
+    }
+  }
+  
+  return(result)
+}
+
+
+```
+
 
 ```{r, USS}
 fetterman <- subset(g22, (last=="FETTERMAN"))
@@ -70,30 +124,6 @@ house_by_USS <- cbind(fetterman_house, oz_house)
 sen_by_USS <- cbind(fetterman_sen, oz_sen)
 ```
 
-
-```{r, GOV}
-SHAPIRO <- subset(g22, (last=="SHAPIRO"))
-MASTRIANO <- subset(g22, (last=="MASTRIANO"))
-
-SHAPIRO_house <- aggregate(list(dem=SHAPIRO$vote), list(house_dist=SHAPIRO$house_dist), FUN=sum)
-MASTRIANO_house <- aggregate(list(gop=MASTRIANO$vote), list(house_dist=MASTRIANO$house_dist), FUN=sum)
-
-SHAPIRO_prev_house <- aggregate(list(dem=SHAPIRO$vote), list(prev_house_dist=SHAPIRO$prev_house_dist), FUN=sum)
-MASTRIANO_prev_house <- aggregate(list(gop=MASTRIANO$vote), list(prev_house_dist=MASTRIANO$prev_house_dist), FUN=sum)
-
-SHAPIRO_sen <- aggregate(list(dem=SHAPIRO$vote), list(sen_dist=SHAPIRO$sen_dist), FUN=sum)
-MASTRIANO_sen <- aggregate(list(gop=MASTRIANO$vote), list(sen_dist=MASTRIANO$sen_dist), FUN=sum)
-
-SHAPIRO_prev_sen <- aggregate(list(dem=SHAPIRO$vote), list(prev_sen_dist=SHAPIRO$prev_sen_dist), FUN=sum)
-MASTRIANO_prev_sen <- aggregate(list(gop=MASTRIANO$vote), list(prev_sen_dist=MASTRIANO$prev_sen_dist), FUN=sum)
-
-
-house_by_GOV <- cbind(SHAPIRO_house, MASTRIANO_house)
-sen_by_GOV <- cbind(SHAPIRO_sen, MASTRIANO_sen)
-
-prev_house_by_GOV <- cbind(SHAPIRO_prev_house, MASTRIANO_prev_house)
-prev_sen_by_GOV <- cbind(SHAPIRO_prev_sen, MASTRIANO_prev_sen)
-```
 
 
 ```{r}
@@ -111,21 +141,7 @@ mean(sen_by_USS$DEM)
 ```
 
 ```{r}
-house_by_GOV$DEM <- house_by_GOV$dem/(house_by_GOV$dem + house_by_GOV$gop)
-sen_by_GOV$DEM <- sen_by_GOV$dem/(sen_by_GOV$dem + sen_by_GOV$gop)
 
-## votes by party
-sum(house_by_GOV$gop)
-sum(house_by_GOV$dem)
-
-## seats by party
-table(1 * (house_by_GOV$DEM > 0.5))
-prop.table(table(1 * (house_by_GOV$DEM > 0.5)))
-mean(house_by_GOV$DEM)
-
-table(1 * (sen_by_GOV$DEM > 0.5))
-prop.table(table(1 * (sen_by_GOV$DEM > 0.5)))
-mean(sen_by_GOV$DEM)
 ```
 
 
