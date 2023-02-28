@@ -86,8 +86,6 @@ sen_by_GOV <- cbind(SHAPIRO_sen, MASTRIANO_sen)
 ```
 
 
-
-
 ```{r}
 house_by_USS$DEM <- house_by_USS$dem/(house_by_USS$dem + house_by_USS$gop)
 sen_by_USS$DEM <- sen_by_USS$dem/(sen_by_USS$dem + sen_by_USS$gop)
