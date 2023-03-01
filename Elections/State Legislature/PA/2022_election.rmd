@@ -45,6 +45,8 @@ data_names <- c(
 ```{r}
 g22 <- read.csv("https://www.dos.pa.gov/VotingElections/BEST/stats/Documents/ElectionReturns_2022_General_PrecinctReturns.txt", header=FALSE, stringsAsFactors=FALSE)
      names(g22) <- data_names
+     
+g22_reduced <- g22[names(g22) %in% c("county", "office", "party", "last", "vtd", "cong_dist", "house_dist", "sen_dist", "vote")]
 ```
 
 
