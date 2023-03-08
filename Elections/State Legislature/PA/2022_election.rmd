@@ -42,15 +42,45 @@ data_names <- c(
 )
 ```
 
+```{r, name=Functions}
+leadingZeroes <- function(m,d=0) formatC(m, width = d, format = "d", flag = "0")
+substrRight <- function(x, n) substr(as.character(x), nchar(as.character(x))-n+1, nchar(as.character(x)))
+```
+
 ```{r}
-g22 <- read.csv("https://www.dos.pa.gov/VotingElections/BEST/stats/Documents/ElectionReturns_2022_General_PrecinctReturns.txt", header=FALSE, stringsAsFactors=FALSE)
+PA_g22 <- read.csv("https://www.dos.pa.gov/VotingElections/BEST/stats/Documents/ElectionReturns_2022_General_PrecinctReturns.txt", header=FALSE, stringsAsFactors=FALSE)
+```
+
+```{r}
+g22 <- PA_g22
      names(g22) <- data_names
-     
-g22_reduced <- g22[names(g22) %in% c("county", "office", "party", "last", "vtd", "cong_dist", "house_dist", "sen_dist", "vote")]
+
+
+g22$GEOID20 <- paste0(42,leadingZeroes(g22$county,3), substrRight(paste0("000000",g22$vtd),6))
+  length(unique(g22$GEOID20))
+
+g22_reduced <- g22[names(g22) %in% c("county", "GEOID20", "office", "party", "last", "vtd", "cong_dist", "house_dist", "sen_dist", "vote")]
+  head(g22_reduced)
 ```
 
 
 ```{r}
+
+offices_total <- split(g22_reduced, f = list(g22_reduced$office, g22_reduced$party))
+
+uss.dem <- offices_total$USS.DEM
+uss.gop <- offices_total$USS.REP
+
+uss.dem <- cbind.data.frame(GEOID20=uss.dem$GEOID20, uss.dem=uss.dem$vote)
+uss.gop <- cbind.data.frame(GEOID20=uss.gop$GEOID20, uss.gop=uss.gop$vote)
+
+uss <- merge(uss.dem,uss.gop, by="GEOID20")
+
+uss$GEOID20 <- as.character(uss$GEOID20)
+
+write.csv(uss, "/Users/cervas/Library/Mobile Documents/com~apple~CloudDocs/Downloads/uss.csv", row.names=F)
+
+lapply(offices_total, function(x) aggregate(x[,"vote"], by=list(x[,"cong_dist"]), FUN=sum))
 
 DEM <- subset(g22, (party=="DEM"))
 GOP <- subset(g22, (party=="REP"))
