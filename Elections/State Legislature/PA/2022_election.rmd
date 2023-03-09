@@ -43,137 +43,66 @@ data_names <- c(
 ```
 
 ```{r, name=Functions}
-leadingZeroes <- function(m,d=0) formatC(m, width = d, format = "d", flag = "0")
-substrRight <- function(x, n) substr(as.character(x), nchar(as.character(x))-n+1, nchar(as.character(x)))
+source("https://raw.githubusercontent.com/jcervas/R-Functions/main/GERRYfunctions.R")
 ```
 
 ```{r}
+## https://www.dos.pa.gov/VotingElections/BEST/stats/_layouts/15/formspubs/formsandpubs.aspx
 PA_g22 <- read.csv("https://www.dos.pa.gov/VotingElections/BEST/stats/Documents/ElectionReturns_2022_General_PrecinctReturns.txt", header=FALSE, stringsAsFactors=FALSE)
+names(PA_g22) <- data_names
 ```
 
 ```{r}
 g22 <- PA_g22
-     names(g22) <- data_names
 
-
-g22$GEOID20 <- paste0(42,leadingZeroes(g22$county,3), substrRight(paste0("000000",g22$vtd),6))
+g22$GEOID20 <- paste0(42,leadingZeroes(g22$fips,3), substrRight(paste0("000000",g22$prec),6))
   length(unique(g22$GEOID20))
 
-g22_reduced <- g22[names(g22) %in% c("county", "GEOID20", "office", "party", "last", "vtd", "cong_dist", "house_dist", "sen_dist", "vote")]
+g22_reduced <- g22[names(g22) %in% c("fips", "GEOID20", "office", "party", "last", "prec", "cong_dist", "house_dist", "sen_dist", "vote", "muni_name")]
   head(g22_reduced)
 ```
 
 
 ```{r}
 
-offices_total <- split(g22_reduced, f = list(g22_reduced$office, g22_reduced$party))
 
-uss.dem <- offices_total$USS.DEM
-uss.gop <- offices_total$USS.REP
+## collect election results wide by race/district
+  ## house_dist, sen_dist, cong_dist
+    elect_collect <- function(x,variable=NA) {
+        if(is.na(variable)){stop("choose a variable to aggregate on.")}
+      DEM <- subset(x, (party=="DEM"))
+      GOP <- subset(x, (party=="REP"))
+      OTH <- subset(x, (!party %in% c("DEM","REP")))
 
-uss.dem <- cbind.data.frame(GEOID20=uss.dem$GEOID20, uss.dem=uss.dem$vote)
-uss.gop <- cbind.data.frame(GEOID20=uss.gop$GEOID20, uss.gop=uss.gop$vote)
+      tmp.dem <- aggregate(list(dem=DEM[,"vote"]), by=list(district=DEM[,variable]), FUN=sum)
+      tmp.gop <- aggregate(list(gop=GOP[,"vote"]), by=list(district=GOP[,variable]), FUN=sum)
+      tmp.oth <- aggregate(list(oth=OTH[,"vote"]), by=list(district=OTH[,variable]), FUN=sum)
 
-uss <- merge(uss.dem,uss.gop, by="GEOID20")
-
-uss$GEOID20 <- as.character(uss$GEOID20)
-
-write.csv(uss, "/Users/cervas/Library/Mobile Documents/com~apple~CloudDocs/Downloads/uss.csv", row.names=F)
-
-lapply(offices_total, function(x) aggregate(x[,"vote"], by=list(x[,"cong_dist"]), FUN=sum))
-
-DEM <- subset(g22, (party=="DEM"))
-GOP <- subset(g22, (party=="REP"))
-OTH <- subset(g22, (!party %in% c("DEM","REP")))
-
-USS <- subset(g22, (office=="USS"))
-GOV <- subset(g22, (office=="GOV"))
-USC <- subset(g22, (office=="USC"))
-STH <- subset(g22, (office=="STH"))
-STS <- subset(g22, (office=="STS"))
+      out <- merge(tmp.dem,tmp.gop, by="district", all = TRUE)
+      out <- merge(out,tmp.oth, by="district", all = TRUE)
+      out <- replaceNA(out)
+      return(out)
+    }
 ```
 
+```{r}
+offices <- c("USS", "GOV", "USC", "STH", "STS")
+agg_type <- c("house_dist", "sen_dist", "cong_dist")
 
-
-```{r, GOV}
-
-
-total_votes_by_party <- function(df) {
-  offices <- unique(df$office)  # Get unique office names
-  
-  result <- data.frame()  # Create an empty data frame to store the results
-  
-  for (office in offices) {
-    # Aggregate the data for the current office
-    house <- aggregate(vote ~ house_dist + cand_num + last, data = subset(df, office == office), sum)
-    prev_house <- aggregate(vote ~ prev_house_dist + cand_num + last, data = subset(df, office == office), sum)
-    sen <- aggregate(vote ~ sen_dist + cand_num + last, data = subset(df, office == office), sum)
-    prev_sen <- aggregate(vote ~ prev_sen_dist + cand_num + last, data = subset(df, office == office), sum)
-    
-    # Convert the aggregates to wide format
-    wide_house <- reshape(house, idvar = c("house_dist", "last"), timevar = "cand_num", direction = "wide")
-    wide_prev_house <- reshape(prev_house, idvar = c("prev_house_dist", "last"), timevar = "cand_num", direction = "wide")
-    wide_sen <- reshape(sen, idvar = c("sen_dist", "last"), timevar = "cand_num", direction = "wide")
-    wide_prev_sen <- reshape(prev_sen, idvar = c("prev_sen_dist", "last"), timevar = "cand_num", direction = "wide")
-    
-    # Merge the wide data frames by last name
-    office_result <- merge(wide_house, wide_prev_house, by = "last", all = TRUE)
-    office_result <- merge(office_result, wide_sen, by = "last", all = TRUE)
-    office_result <- merge(office_result, wide_prev_sen, by = "last", all = TRUE)
-    
-    # Add a column for the current office and rearrange the columns
-    office_result$office <- office
-    office_result <- office_result[, c("office", "last", 
-                                        paste0("house_", names(wide_house)[-c(1:2)]),
-                                        paste0("prev_house_", names(wide_prev_house)[-c(1:2)]),
-                                        paste0("sen_", names(wide_sen)[-c(1:2)]),
-                                        paste0("prev_sen_", names(wide_prev_sen)[-c(1:2)]))]
-    
-    # Merge the results for the current office into the overall result
-    if (nrow(result) == 0) {
-      result <- office_result  # First office
-    } else {
-      result <- rbind(result, office_result)  # Subsequent offices
+for (i in offices) {
+  tmp <- subset(g22_reduced, (office==i))
+  assign(i, tmp)
+  print(i)
+    for (j in agg_type) {
+    j_tmp <- elect_collect(tmp, j)
+      j_tmp$DEM <- default.unc(two_party(j_tmp$dem,j_tmp$gop))
+    tmp_j <- assign(paste0(i,j),j_tmp)
+    print(paste0(i,j))
     }
-  }
-  
-  return(result)
 }
 
-
-
 ```
 
-
-```{r, USS}
-fetterman <- subset(g22, (last=="FETTERMAN"))
-oz <- subset(g22, (last=="OZ"))
-
-fetterman_house <- aggregate(list(dem=fetterman$vote), list(house_dist=fetterman$house_dist), FUN=sum)
-oz_house <- aggregate(list(gop=oz$vote), list(house_dist=oz$house_dist), FUN=sum)
-
-fetterman_sen <- aggregate(list(dem=fetterman$vote), list(sen_dist=fetterman$sen_dist), FUN=sum)
-oz_sen <- aggregate(list(gop=oz$vote), list(sen_dist=oz$sen_dist), FUN=sum)
-
-house_by_USS <- cbind(fetterman_house, oz_house)
-sen_by_USS <- cbind(fetterman_sen, oz_sen)
-```
-
-
-
-```{r}
-house_by_USS$DEM <- house_by_USS$dem/(house_by_USS$dem + house_by_USS$gop)
-sen_by_USS$DEM <- sen_by_USS$dem/(sen_by_USS$dem + sen_by_USS$gop)
-
-## seats by party
-table(1 * (house_by_USS$DEM > 0.5))
-prop.table(table(1 * (house_by_USS$DEM > 0.5)))
-mean(house_by_USS$DEM)
-
-table(1 * (sen_by_USS$DEM > 0.5))
-prop.table(table(1 * (sen_by_USS$DEM > 0.5)))
-mean(sen_by_USS$DEM)
-```
 
 ```{r}
 
@@ -182,10 +111,23 @@ mean(sen_by_USS$DEM)
 
 
 ```{r}
-range_sim <- seq(-0.1,1,0.01)
-full_sims <- rep(house_by_USS$DEM, length(range_sim))
+range_sim <- seq(-0.1,0.1,0.01)
+n <- length(range_sim)
+votes_seats <- rbind(rep(NA, n), rep(NA,n))
+rownames(votes_seats) <- c("votes","seats")
+colnames(votes_seats) <- range_sim
 
-1 * (full_sims > 0.5)
+for (i in 1:n) {
+  tmp <- gov_house + range_sim[i]
+  seats_tmp <- prop.table(table(1 * (tmp > 0.5)))
+  votes_seats[1,i] <- mean(tmp)
+  votes_seats[2,i] <- seats_tmp[2]
+}
 
+s <- votes_seats[2,]
+v <- votes_seats[1,]
+
+seatsvotes.plot()
+sv_curve(s, v)
 ```
 
