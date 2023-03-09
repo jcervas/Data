@@ -98,6 +98,7 @@ for (i in offices) {
       j_tmp$DEM <- default.unc(two_party(j_tmp$dem,j_tmp$gop))
     tmp_j <- assign(paste0(i,j),j_tmp)
     print(paste0(i,j))
+    print(mean(1 * (j_tmp$DEM > 0.5)))
     }
 }
 
@@ -111,23 +112,29 @@ for (i in offices) {
 
 
 ```{r}
+
+v_s_sim <- function(data) {
 range_sim <- seq(-0.1,0.1,0.01)
 n <- length(range_sim)
-votes_seats <- rbind(rep(NA, n), rep(NA,n))
-rownames(votes_seats) <- c("votes","seats")
-colnames(votes_seats) <- range_sim
+votes_seats <- cbind(rep(NA, n), rep(NA,n))
+colnames(votes_seats) <- c("votes","seats")
+rownames(votes_seats) <- range_sim
 
-for (i in 1:n) {
-  tmp <- gov_house + range_sim[i]
-  seats_tmp <- prop.table(table(1 * (tmp > 0.5)))
-  votes_seats[1,i] <- mean(tmp)
-  votes_seats[2,i] <- seats_tmp[2]
+  for (i in 1:n) {
+    tmp <- data + range_sim[i]
+    seats_tmp <- prop.table(table(1 * (tmp > 0.5)))
+    votes_seats[i,1] <- mean(tmp)
+    votes_seats[i,2] <- seats_tmp[2]
+  }
+  return(votes_seats)
 }
 
-s <- votes_seats[2,]
-v <- votes_seats[1,]
+v <-v_s_sim(STHcong_dist$DEM)[,1]
+s <- v_s_sim(STHcong_dist$DEM)[,2]
+
 
 seatsvotes.plot()
-sv_curve(s, v)
+sv_curve(s, v, lwd=.5, col="gray70")
+
 ```
 
