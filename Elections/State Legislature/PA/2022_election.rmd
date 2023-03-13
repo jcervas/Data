@@ -44,6 +44,8 @@ data_names <- c(
 
 ```{r, name=Functions}
 source("https://raw.githubusercontent.com/jcervas/R-Functions/main/GERRYfunctions.R")
+
+source("https://raw.githubusercontent.com/jcervas/R-Functions/main/sv-hyp.R")
 ```
 
 ```{r}
@@ -134,7 +136,7 @@ s <- v_s_sim(STHcong_dist$DEM)[,2]
 
 
 seatsvotes.plot()
-sv_curve(s, v, lwd=.5, col="gray70")
+sv_curve(s, v, lwd=0.5, col="gray70")
 
 ```
 
