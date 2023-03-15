@@ -132,13 +132,18 @@ rownames(votes_seats) <- range_sim
 }
 
 
-
+to_plot <- list(USS_house_dist$DEM, GOV_house_dist$DEM, STS_house_dist$DEM, USC_house_dist$DEM, STH_house_dist$DEM)
+v <- list()
+s <- list()
 
 seatsvotes.plot()
 
+for (i in 1:length(to_plot)) {
+  v[[i]] <-v_s_sim(USS_house_dist$DEM)[,1]
+  s[[i]] <- v_s_sim(USS_house_dist$DEM)[,2]
+}
 
-v <-v_s_sim(USS_house_dist$DEM)[,1]
-s <- v_s_sim(USS_house_dist$DEM)[,2]
+
 
 sv_curve(s, v, lwd=0.5, col="gray70")
 
