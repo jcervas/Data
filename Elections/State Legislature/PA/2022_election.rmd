@@ -168,3 +168,11 @@ sv_curve(s, v, lwd=0.5, col="gray70")
 
 ```
 
+
+```{r}
+pa_census <- read.csv("/Users/cervas/My Drive/GitHub/Data/Elections/State Legislature/PA/PA-Census-10-20.csv")
+census_bar <- pa_census[,c(4)]
+names(census_bar) <- pa_census[,1]
+
+```
+
