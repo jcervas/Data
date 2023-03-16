@@ -139,8 +139,8 @@ s <- list()
 seatsvotes.plot()
 
 for (i in 1:length(to_plot)) {
-  v[[i]] <-v_s_sim(USS_house_dist$DEM)[,1]
-  s[[i]] <- v_s_sim(USS_house_dist$DEM)[,2]
+  v[[i]] <-v_s_sim(to_plot[[i]], range_sim=seq(-.2,.2,.01))[,1]
+  s[[i]] <- v_s_sim(to_plot[[i]], range_sim=seq(-.2,.2,.01))[,2]
 }
 
 
