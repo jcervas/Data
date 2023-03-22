@@ -136,7 +136,7 @@ to_plot <- list(USS_house_dist$DEM, GOV_house_dist$DEM, STS_house_dist$DEM, USC_
 v <- list()
 s <- list()
 
-seatsvotes.plot()
+seatsvotes.plot(main="PA House of Representatives")
 
 for (i in 1:length(to_plot)) {
   v[[i]] <-v_s_sim(to_plot[[i]], range_sim=seq(-.2,.2,.01))[,1]
