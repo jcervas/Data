@@ -147,27 +147,27 @@ for (i in 1:length(to_plot)) {
 
 sv_curve(s, v, lwd=0.5, col="gray70")
 
-v <-v_s_sim(GOV_house_dist$DEM)[,1]
-s <- v_s_sim(GOV_house_dist$DEM)[,2]
+GOV_v <-v_s_sim(GOV_house_dist$DEM)[,1]
+GOV_s <- v_s_sim(GOV_house_dist$DEM)[,2]
 
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-
-v <-v_s_sim(STS_house_dist$DEM)[,1]
-s <- v_s_sim(STS_house_dist$DEM)[,2]
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-v <-v_s_sim(USC_house_dist$DEM)[,1]
-s <- v_s_sim(USC_house_dist$DEM)[,2]
-
-sv_curve(s, v, lwd=0.5, col="gray70")
+sv_curve(GOV_s, GOV_v, lwd=0.5, col="gray70")
 
 
-v <-v_s_sim(STH_house_dist$DEM, range_sim=seq(-.2,.2,.01))[,1]
-s <- v_s_sim(STH_house_dist$DEM, range_sim=seq(-.2,.2,.01))[,2]
+STS_v <-v_s_sim(STS_house_dist$DEM)[,1]
+STS_s <- v_s_sim(STS_house_dist$DEM)[,2]
 
-sv_curve(s, v, lwd=0.5, col="gray70")
+sv_curve(STS_s, STS_v, lwd=0.5, col="gray70")
+
+USC_v <-v_s_sim(USC_house_dist$DEM)[,1]
+USC_s <- v_s_sim(USC_house_dist$DEM)[,2]
+
+sv_curve(USC_s, USC_v, lwd=0.5, col="gray70")
+
+
+STH_v <-v_s_sim(STH_house_dist$DEM, range_sim=seq(-.2,.2,.01))[,1]
+STH_s <- v_s_sim(STH_house_dist$DEM, range_sim=seq(-.2,.2,.01))[,2]
+
+sv_curve(STH_s, STH_v, lwd=0.5, col="gray70")
 
 
 
