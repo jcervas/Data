@@ -1,6 +1,3 @@
-
-MIT Election Data and Science Lab, 2018, "County Presidential Election Returns 2000-2020", https://doi.org/10.7910/DVN/VOQCHQ
-
 # Codebook for 2000-2020 County Presidential Data
 
 The data file `countypres_2000-2020` contains county-level returns for presidential elections from 2000 to 2020. The data source is official state election data records.
