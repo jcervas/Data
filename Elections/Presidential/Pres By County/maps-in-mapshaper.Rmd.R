@@ -1,0 +1,99 @@
+---
+title: "United States County-level Election Results, 2020"
+date: "23 March 2023"
+output: 
+  pdf_document: default
+  html_document: default
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancypagestyle{plain}{\pagestyle{fancy}}
+  - \fancyhead[L]{}
+  - \fancyhead[C]{This material should not be shared beyond those who are enrolled in this class}
+---
+
+Navigate your browser to `https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_us_county_20m.zip` 
+to download a Cartographic Boundary File for counties (2020 vintage). You can view all 
+of the cartographic products here: 
+https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.2020.html 
+Cartographic boundary files differ from other Census GIS data in that they have already removed 
+water areas, making their appearance better for visualizations.
+
+
+We will create a map using the 2020 presidential election results by county. The data file name is
+`county2020.csv`, which is a CSV data file.  The names and
+descriptions of variables in this data set are:
+
+--------------------------------------------------------------------------------
+ Name                 Description
+ -------------------- ----------------------------------------------------------
+ `year`               Student's race (White = 1, Black = 2, Asian = 3, 
+                      Hispanic = 4,  Native American = 5, Others = 6)
+ 
+ `state_po`          Type of kindergarten class (small = 1, regular = 2, regular with aide = 3)
+ 
+ `county_name`             Total scaled score for math portion of fourth grade standardized test 
+ 
+ `county_fips`          Total scaled score for reading portion of fourth grade standardized test 
+ 
+ `county_fips`         Number of years in small classes 
+ 
+ `hsgrad`             High school graduation (did graduate = 1, did not graduate = 0) 
+ --------------------------------------------------------------------------------
+ 
+Note that there are a fair amount of missing
+values in this data set.  For example, missing values arise because
+some students left a STAR school before third grade or did not enter a
+STAR school until first grade.
+
+## Question 1
+
+
+leadingZeroes <- function(m,d=0) formatC(m, width = d, format = "d", flag = "0")
+
+
+mit_data <- read.csv("/Users/cervas/My Drive/GitHub/Data/Elections/Presidential/Pres By County/County Presidential Election Returns 2000-2020/countypres_2000-2020.csv")
+     mit_data$county_fips <- leadingZeroes(mit_data$county_fips, 5)
+mit <- mit_data[mit_data$year %in% "2020",]
+
+mit_states <- mit[,c("state","county_fips")]
+     mit_states$county_fips[mit_states$county_fips %in% "   NA"] <- 11001
+mit_states <- mit_states[!duplicated(mit_states$county_fips),]
+
+mit_votes <- mit[,c("county_fips","party","candidatevotes")]
+
+dem <- mit_votes[mit_votes$party %in% "DEMOCRAT",]
+     colnames(dem) <- c("county_fips","party","dem")
+     dem <- dem[,c(1,3)]
+     dem <- aggregate(dem ~ county_fips, dem, sum) 
+gop <- mit_votes[mit_votes$party %in% "REPUBLICAN",]
+     colnames(gop) <- c("county_fips","party","gop")
+     gop <- gop[,c(1,3)]
+     gop <- aggregate(gop ~ county_fips, gop, sum)
+other <- mit_votes[!mit_votes$party %in% c("DEMOCRAT","REPUBLICAN"),]
+     colnames(other) <- c("county_fips","party","other")
+     other <- other[,c(1,3)]
+     other <- aggregate(other ~ county_fips, other, sum)
+
+dem.gop <- merge(dem,gop)
+dem.gop.oth <- merge(dem.gop,other)
+
+county2020 <- merge(mit_states,dem.gop.oth)
+
+write.csv(county2020, "/Users/cervas/Downloads/county2020.csv", row.names=F)
+
+
+
+-rename-layers names='counties'
+string-fields=county_fips
+
+-join source=county2020 keys='GEOID,county_fips'
+-each 'margin = dem/(dem+gop)'
+-dissolve state + name=states
+-inerlines
+-style target='states' stroke=#fff stroke-width=1
+-classify field=margin save-as=fill breaks=0.4,0.45,0.5,0.55,0.6 colors='#ca0020','#ffffff','#0571b0' null-value="#fff"
+-proj albersusa
+-innerlines + name='county-lines'
+-style target='county-lines' stroke=#fff stroke-width=0.5
+-merge-layers force target=tl_2020_us_county,county-lines
