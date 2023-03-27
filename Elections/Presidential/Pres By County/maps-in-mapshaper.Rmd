@@ -40,7 +40,9 @@ descriptions of variables in this data set are:
  
  `hsgrad`             High school graduation (did graduate = 1, did not graduate = 0) 
  --------------------------------------------------------------------------------
- 
+
+`https://raw.githubusercontent.com/jcervas/Data/master/Elections/Presidential/Pres%20By%20County/county2020.csv`
+
 Note that there are a fair amount of missing
 values in this data set.  For example, missing values arise because
 some students left a STAR school before third grade or did not enter a
