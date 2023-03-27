@@ -91,10 +91,12 @@ string-fields=county_fips
 
 -join source=county2020 keys='GEOID,county_fips'
 -each 'margin = dem/(dem+gop)'
+-each 'density = Math.log((dem + gop + other)/((ALAND/2589988)))'
 -dissolve state + name=states
--inerlines
+-innerlines
 -style target='states' stroke=#fff stroke-width=1
 -classify field=margin save-as=fill breaks=0.4,0.45,0.5,0.55,0.6 colors='#ca0020','#ffffff','#0571b0' null-value="#fff"
+-style target="counties" opacity=density
 -proj albersusa
 -innerlines + name='county-lines'
 -style target='county-lines' stroke=#fff stroke-width=0.5
