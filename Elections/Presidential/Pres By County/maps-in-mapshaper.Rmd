@@ -88,16 +88,26 @@ write.csv(county2020, "/Users/cervas/Downloads/county2020.csv", row.names=F)
 
 -rename-layers names='counties'
 string-fields=county_fips
-
+-proj albersusa
 -join source=county2020 keys='GEOID,county_fips'
 -each 'margin = dem/(dem+gop)'
--each 'density = Math.log((dem + gop + other)/((ALAND/2589988)))'
--dissolve state + name=states
+-each 'density = (dem + gop + other)/(ALAND/2589988)+100'
+-calc 'meanDensity = mean(density)' 
+-calc 'minDensity = min(density)' 
+-calc 'maxDensity = max(density)'
+-each 'den = Math.log(density+100)'
+-calc 'maxDen = max(den)'
+-calc 'minDen = min(den)'
+-calc 'rangeDen = max(den)-min(den)'
+-classify field=margin save-as=fill breaks=0.4,0.45,0.5,0.55,0.6 colors='#ca0020','#ffffff','#0571b0' null-value="#fff"
+-style target='counties' opacity=Math.sqrt((den-minDen)/rangeDen)
+-innerlines target='counties' + name='county-lines'
+-style target='county-lines' stroke=#fff stroke-width=0.5
+-dissolve target='counties' STATEFP + name=states
 -innerlines
 -style target='states' stroke=#fff stroke-width=1
--classify field=margin save-as=fill breaks=0.4,0.45,0.5,0.55,0.6 colors='#ca0020','#ffffff','#0571b0' null-value="#fff"
--style target="counties" opacity=density
--proj albersusa
--innerlines + name='county-lines'
--style target='county-lines' stroke=#fff stroke-width=0.5
--merge-layers force target=tl_2020_us_county,county-lines
+-dissolve target='counties' + name=us
+-style target='us' fill=none stroke=#000 stroke-width=1
+
+
+-merge-layers force target=counties,county-lines,states
