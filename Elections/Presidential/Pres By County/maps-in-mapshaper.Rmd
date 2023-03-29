@@ -85,13 +85,15 @@ county2020 <- merge(mit_states,dem.gop.oth)
 write.csv(county2020, "/Users/cervas/Downloads/county2020.csv", row.names=F)
 
 
-
--rename-layers names='counties'
+# First drop-and-drag .csv data file and use the following options:
 string-fields=county_fips
+
+#Next, drag the layer file and begin to use these commands
+-rename-layers names='counties'
 -proj albersusa
 -join source=county2020 keys='GEOID,county_fips'
 -each 'margin = dem/(dem+gop)'
--each 'density = (dem + gop + other)/(ALAND/2589988)+100'
+-each 'density = (dem + gop + other)/(ALAND/2589988)'
 -calc 'meanDensity = mean(density)' 
 -calc 'minDensity = min(density)' 
 -calc 'maxDensity = max(density)'
@@ -105,9 +107,30 @@ string-fields=county_fips
 -style target='county-lines' stroke=#fff stroke-width=0.5
 -dissolve target='counties' STATEFP + name=states
 -innerlines
--style target='states' stroke=#fff stroke-width=1
+-style target='states' stroke=#777 stroke-width=1
 -dissolve target='counties' + name=us
 -style target='us' fill=none stroke=#000 stroke-width=1
 
+## drag AK file in
+-proj albersusa
+-each target='AK' 'margin = DemPct/(DemPct+RepPct)'
+-each target='AK' 'ALAND = this.area'
+-each target='AK' 'den = Math.log((TotalPop/(ALAND/2589988))+100)'
+-classify target='AK' field=margin save-as=fill breaks=0.4,0.45,0.5,0.55,0.6 colors='#ca0020','#ffffff','#0571b0' null-value="#fff"
+-style target='AK' opacity=Math.sqrt((den-minDen)/rangeDen)
 
--merge-layers force target=counties,county-lines,states
+
+
+-filter STATEFP==02 target='counties' + name=AK
+-proj albersusa
+-dissolve target='AK' calc='ALAND=sum(ALAND)'
+-each target='AK' 'dem = 153778'
+-each target='AK' 'gop = 189951'
+-each target='AK' 'other = 15801'
+-each target='AK' 'margin = 153778/(153778+189951)'
+-each target='AK' 'den = Math.log((359530/(ALAND/2589988))+100)'
+-classify target='AK' field=margin save-as=fill breaks=0.4,0.45,0.5,0.55,0.6 colors='#ca0020','#ffffff','#0571b0' null-value="#fff"
+-style target='AK' opacity=Math.sqrt((den-minDen)/rangeDen)
+-filter target='counties' STATEFP!=02
+
+
