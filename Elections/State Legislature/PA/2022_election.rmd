@@ -196,6 +196,91 @@ sv_curve(s, v, lwd=1, col="gray30")
 ```
 
 
+
+```{r}
+v_s_sim <- function(data, range_sim=seq(-0.1,0.1,0.01)) {
+range_sim <- ifelse(is.na(range_sim), seq(-0.1,0.1,0.01), range_sim)
+n <- length(range_sim)
+votes_seats <- cbind(rep(NA, n), rep(NA,n))
+colnames(votes_seats) <- c("votes","seats")
+rownames(votes_seats) <- range_sim
+
+  for (i in 1:n) {
+    tmp <- data + range_sim[i]
+    seats_tmp <- prop.table(table(1 * (tmp > 0.5)))
+    votes_seats[i,1] <- mean(tmp)
+    votes_seats[i,2] <- seats_tmp[2]
+  }
+  return(votes_seats)
+}
+
+to_plot <- list(USS_sen_dist$DEM, GOV_sen_dist$DEM, STS_sen_dist$DEM, USC_sen_dist$DEM, STH_sen_dist$DEM)
+v <- list()
+s <- list()
+
+seatsvotes.plot(main="PA Senate")
+
+for (i in 1:length(to_plot)) {
+  v[[i]] <-v_s_sim(to_plot[[i]], range_sim=seq(-.2,.2,.01))[,1]
+  s[[i]] <- v_s_sim(to_plot[[i]], range_sim=seq(-.2,.2,.01))[,2]
+}
+
+
+v <-v_s_sim(USS_sen_dist$DEM)[,1]
+s <- v_s_sim(USS_sen_dist$DEM)[,2]
+
+USS_v <- mean(USS_sen_dist$DEM)
+USS_s <- mean(find.winner(USS_sen_dist$DEM))
+
+sv_curve(s, v, lwd=0.5, col="gray70")
+
+v <-v_s_sim(GOV_sen_dist$DEM)[,1]
+s <- v_s_sim(GOV_sen_dist$DEM)[,2]
+
+GOV_v <- mean(GOV_sen_dist$DEM)
+GOV_s <- mean(find.winner(GOV_sen_dist$DEM))
+
+sv_curve(s, v, lwd=0.5, col="gray70")
+
+
+v <-v_s_sim(STS_sen_dist$DEM)[,1]
+s <- v_s_sim(STS_sen_dist$DEM)[,2]
+
+STS_v <- mean(STS_sen_dist$DEM)
+STS_s <- mean(find.winner(STS_sen_dist$DEM))
+
+sv_curve(s, v, lwd=0.5, col="gray70")
+
+v <-v_s_sim(USC_sen_dist$DEM)[,1]
+s <- v_s_sim(USC_sen_dist$DEM)[,2]
+
+USC_v <- mean(USC_sen_dist$DEM)
+USC_s <- mean(find.winner(USC_sen_dist$DEM))
+
+sv_curve(s, v, lwd=0.5, col="gray70")
+
+
+v <-v_s_sim(STH_sen_dist$DEM, range_sim=seq(-.2,.2,.01))[,1]
+s <- v_s_sim(STH_sen_dist$DEM, range_sim=seq(-.2,.2,.01))[,2]
+
+STH_v <- mean(STH_sen_dist$DEM)
+STH_s <- mean(STH_sen_dist$DEM)
+
+sv_curve(s, v, lwd=0.5, col="gray70")
+
+
+v <- c(USS_v,GOV_v,STS_v,USC_v,STH_v)
+s <- c(USS_s,GOV_s,STS_s,USC_s,STH_s)
+
+## points(v,s)
+sv_curve(s, v, lwd=1, col="gray30")
+```
+
+
+
+
+
+
 ```{r}
 pa_census <- read.csv("/Users/cervas/My Drive/GitHub/Data/Elections/State Legislature/PA/PA-Census-10-20.csv")
 census_bar <- pa_census[,c(4)]
