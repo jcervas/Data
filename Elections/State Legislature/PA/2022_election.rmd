@@ -199,14 +199,14 @@ sv_curve(s, v, lwd=1, col="gray30")
 
 ```{r}
 v_s_sim <- function(data, range_sim=seq(-0.1,0.1,0.01)) {
-range_sim <- ifelse(is.na(range_sim), seq(-0.1,0.1,0.01), range_sim)
-n <- length(range_sim)
-votes_seats <- cbind(rep(NA, n), rep(NA,n))
-colnames(votes_seats) <- c("votes","seats")
-rownames(votes_seats) <- range_sim
+  range_sim <- ifelse(is.na(range_sim), seq(-0.1,0.1,0.01), range_sim)
+  n <- length(range_sim)
+  votes_seats <- cbind(rep(NA, n), rep(NA,n))
+  colnames(votes_seats) <- c("votes","seats")
+  rownames(votes_seats) <- range_sim
 
   for (i in 1:n) {
-    tmp <- data + range_sim[i]
+    tmp <- default.unc(data + range_sim[i])
     seats_tmp <- prop.table(table(1 * (tmp > 0.5)))
     votes_seats[i,1] <- mean(tmp)
     votes_seats[i,2] <- seats_tmp[2]
