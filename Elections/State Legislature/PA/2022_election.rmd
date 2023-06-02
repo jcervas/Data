@@ -101,6 +101,7 @@ for (i in offices) {
     tmp_j <- assign(paste0(i,"_",j),j_tmp)
     print(paste0(i,"_",j))
     print(mean(1 * (j_tmp$DEM > 0.5)))
+    write.csv(tmp_j, paste0("/Users/cervas/Downloads/2022 PA/",i,"_",j,".csv"), row.names=F)
     }
 }
 
