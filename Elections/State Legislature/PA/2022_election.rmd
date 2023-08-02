@@ -66,8 +66,6 @@ g22_reduced <- g22[names(g22) %in% c("fips", "GEOID20", "office", "party", "last
 
 
 ```{r}
-
-
 ## collect election results wide by race/district
   ## house_dist, sen_dist, cong_dist
     elect_collect <- function(x,variable=NA) {
@@ -87,9 +85,12 @@ g22_reduced <- g22[names(g22) %in% c("fips", "GEOID20", "office", "party", "last
     }
 ```
 
+Seat Shares
 ```{r}
 offices <- c("USS", "GOV", "USC", "STH", "STS")
 agg_type <- c("house_dist", "sen_dist", "cong_dist")
+
+per <- function(x) paste0(round(x*100,1),"%")
 
 for (i in offices) {
   tmp <- subset(g22_reduced, (office==i))
@@ -97,20 +98,58 @@ for (i in offices) {
   print(i)
     for (j in agg_type) {
     j_tmp <- elect_collect(tmp, j)
-      j_tmp$DEM <- default.unc(two_party(j_tmp$dem,j_tmp$gop))
+      j_tmp$DEM <- replace_values(two_party(j_tmp$dem,j_tmp$gop))
     tmp_j <- assign(paste0(i,"_",j),j_tmp)
     print(paste0(i,"_",j))
-    print(mean(1 * (j_tmp$DEM > 0.5)))
-    write.csv(tmp_j, paste0("/Users/cervas/Downloads/2022 PA/",i,"_",j,".csv"), row.names=F)
+    print(paste0("Votes: ", mean(j_tmp$DEM)))
+    print(paste0("Seats: ", sum(1 * (j_tmp$DEM > 0.5)), "D-", sum(1 * (j_tmp$DEM < 0.5)),"R (", per(mean(1 * (j_tmp$DEM > 0.5))),")"))
+    write.csv(tmp_j, paste0("/Users/cervas/My Drive/GitHub/Data/Elections/State Legislature/PA/data/",i,"_",j,".csv"), row.names=F)
     }
 }
 
 ```
 
-
+Two Party Statewide Vote Share
 ```{r}
+# PA House
+house_seats_votes <- array(NA, c(5, 3))
+n <- 1
+for (i in offices) {
+  tmp <- subset(g22_reduced, (office==i))
+  statewide <- elect_collect(tmp, "house_dist")
+
+  dem <- mean(replace_values(two_party(statewide$dem, statewide$gop)))
+  gop <- mean(replace_values(two_party(statewide$gop, statewide$dem)))
+print(paste0(i, " D-", per(dem), " R-", per(gop)))
+
+house_seats_votes[n,1] <- i
+house_seats_votes[n,2] <- dem
+house_seats_votes[n,3] <- sum(1 * (replace_values(two_party(statewide$dem, statewide$gop)) > 0.5))
+n <- n+1
+}
+
+# PA Senate
+senate_seats_votes <- array(NA, c(5, 3))
+n <- 1
+for (i in offices) {
+  tmp <- subset(g22_reduced, (office==i))
+  statewide <- elect_collect(tmp, "sen_dist")
+
+  dem <- mean(replace_values(two_party(statewide$dem, statewide$gop)))
+  gop <- mean(replace_values(two_party(statewide$gop, statewide$dem)))
+print(paste0(i, " D-", per(dem), " R-", per(gop)))
+
+senate_seats_votes[n,1] <- i
+senate_seats_votes[n,2] <- dem
+senate_seats_votes[n,3] <- sum(1 * (replace_values(two_party(statewide$dem, statewide$gop)) > 0.5))
+n <- n+1
+}
+
+house_seats_votes
+senate_seats_votes
 
 ```
+
 
 
 
