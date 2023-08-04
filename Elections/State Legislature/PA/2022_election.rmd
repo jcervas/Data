@@ -124,7 +124,7 @@ print(paste0(i, " D-", per(dem), " R-", per(gop)))
 
 house_seats_votes[n,1] <- i
 house_seats_votes[n,2] <- dem
-house_seats_votes[n,3] <- sum(1 * (replace_values(two_party(statewide$dem, statewide$gop)) > 0.5))
+house_seats_votes[n,3] <- sum(1 * (replace_values(two_party(statewide$dem, statewide$gop)) > 0.5))/length(two_party(statewide$dem, statewide$gop))
 n <- n+1
 }
 
@@ -141,7 +141,7 @@ print(paste0(i, " D-", per(dem), " R-", per(gop)))
 
 senate_seats_votes[n,1] <- i
 senate_seats_votes[n,2] <- dem
-senate_seats_votes[n,3] <- sum(1 * (replace_values(two_party(statewide$dem, statewide$gop)) > 0.5))
+senate_seats_votes[n,3] <- sum(1 * (replace_values(two_party(statewide$dem, statewide$gop)) > 0.5)/length(two_party(statewide$dem, statewide$gop)))
 n <- n+1
 }
 
@@ -150,9 +150,22 @@ senate_seats_votes
 
 ```
 
+Plot S/V curves for actual election results
+```{r}
+seatsvotes.plot(main="PA House of Representatives", prop.line=FALSE)
+points(house_seats_votes[,2:3], pch=16)
+sv_curve(as.numeric(house_seats_votes[,3]), as.numeric(house_seats_votes[,2]), lwd=3, col="gray70")
+
+seatsvotes.plot(main="PA Senate", prop.line=FALSE)
+points(senate_seats_votes[,2:3], pch=17)
+sv_curve(as.numeric(senate_seats_votes[,3]), as.numeric(senate_seats_votes[,2]), lwd=3, col="gray70")
+
+```
 
 
+S/V curves for simulated elections
 
+Setup
 ```{r}
 
 v_s_sim <- function(data, range_sim=seq(-0.1,0.1,0.01)) {
@@ -171,160 +184,76 @@ rownames(votes_seats) <- range_sim
   return(votes_seats)
 }
 
-
-to_plot <- list(USS_house_dist$DEM, GOV_house_dist$DEM, STS_house_dist$DEM, USC_house_dist$DEM, STH_house_dist$DEM)
-v <- list()
-s <- list()
-
-seatsvotes.plot(main="PA House of Representatives")
-
-for (i in 1:length(to_plot)) {
-  v[[i]] <-v_s_sim(to_plot[[i]], range_sim=seq(-.2,.2,.01))[,1]
-  s[[i]] <- v_s_sim(to_plot[[i]], range_sim=seq(-.2,.2,.01))[,2]
-}
-
-
-v <-v_s_sim(USS_house_dist$DEM)[,1]
-s <- v_s_sim(USS_house_dist$DEM)[,2]
-
-USS_v <- mean(USS_house_dist$DEM)
-USS_s <- mean(find.winner(USS_house_dist$DEM))
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-v <-v_s_sim(GOV_house_dist$DEM)[,1]
-s <- v_s_sim(GOV_house_dist$DEM)[,2]
-
-GOV_v <- mean(GOV_house_dist$DEM)
-GOV_s <- mean(find.winner(GOV_house_dist$DEM))
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-
-v <-v_s_sim(STS_house_dist$DEM)[,1]
-s <- v_s_sim(STS_house_dist$DEM)[,2]
-
-STS_v <- mean(STS_house_dist$DEM)
-STS_s <- mean(find.winner(STS_house_dist$DEM))
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-v <-v_s_sim(USC_house_dist$DEM)[,1]
-s <- v_s_sim(USC_house_dist$DEM)[,2]
-
-USC_v <- mean(USC_house_dist$DEM)
-USC_s <- mean(find.winner(USC_house_dist$DEM))
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-
-v <-v_s_sim(STH_house_dist$DEM, range_sim=seq(-.2,.2,.01))[,1]
-s <- v_s_sim(STH_house_dist$DEM, range_sim=seq(-.2,.2,.01))[,2]
-
-STH_v <- mean(STH_house_dist$DEM)
-STH_s <- mean(STH_house_dist$DEM)
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-
-v <- c(USS_v,GOV_v,STS_v,USC_v,STH_v)
-s <- c(USS_s,GOV_s,STS_s,USC_s,STH_s)
-
-## points(v,s)
-sv_curve(s, v, lwd=1, col="gray30")
+bias <- responsiveness <- array(NA, c(5, 2))
 
 ```
 
-
-
+PA House of Representatives
 ```{r}
-v_s_sim <- function(data, range_sim=seq(-0.1,0.1,0.01)) {
-  range_sim <- ifelse(is.na(range_sim), seq(-0.1,0.1,0.01), range_sim)
-  n <- length(range_sim)
-  votes_seats <- cbind(rep(NA, n), rep(NA,n))
-  colnames(votes_seats) <- c("votes","seats")
-  rownames(votes_seats) <- range_sim
+seatsvotes.plot(main="PA House of Representatives", prop.line=F)
 
-  for (i in 1:n) {
-    tmp <- default.unc(data + range_sim[i])
-    seats_tmp <- prop.table(table(1 * (tmp > 0.5)))
-    votes_seats[i,1] <- mean(tmp)
-    votes_seats[i,2] <- seats_tmp[2]
-  }
-  return(votes_seats)
+datasets_house <- list(STH_house_dist,STS_house_dist,USS_house_dist, GOV_house_dist, USC_house_dist)
+
+datasets_senate <- list(STH_sen_dist,STS_sen_dist,USS_sen_dist, GOV_sen_dist, USC_sen_dist)
+
+v_vals <- s_vals <- c()
+mean_v <- mean_s <- c()
+
+for (i in 1:length(datasets_house)) {
+  dataset <- as.data.frame(datasets_house[i])
+  v_s <- v_s_sim(dataset$DEM)
+  v <- v_s[, 1]
+  s <- v_s[, 2]
+
+  mean_v <- c(mean_v, mean(dataset$DEM))
+  mean_s <- c(mean_s, mean(find.winner(dataset$DEM)))
+
+  sv_curve(s, v, lwd = 0.5, col = "gray30")
+
+  v_vals <- c(v_vals, v)
+  s_vals <- c(s_vals, s)
+  bias[i,1] <- sv_bias(s,v)
+  responsiveness[i,1] <- sv_responsiveness(s,v)
 }
 
-to_plot <- list(USS_sen_dist$DEM, GOV_sen_dist$DEM, STS_sen_dist$DEM, USC_sen_dist$DEM, STH_sen_dist$DEM)
-v <- list()
-s <- list()
+seatsvotes.plot()
+points(v_s_sim(STH_house_dist$DEM))
 
+```
+
+PA Senate
+```{r}
 seatsvotes.plot(main="PA Senate")
 
-for (i in 1:length(to_plot)) {
-  v[[i]] <-v_s_sim(to_plot[[i]], range_sim=seq(-.2,.2,.01))[,1]
-  s[[i]] <- v_s_sim(to_plot[[i]], range_sim=seq(-.2,.2,.01))[,2]
+datasets_senate <- list(USS_sen_dist, GOV_sen_dist, STS_sen_dist, USC_sen_dist, STH_sen_dist)
+
+v_vals <- s_vals <- c()
+mean_v <- mean_s <- c()
+
+for (i in 1:length(datasets_senate)) {
+  dataset <- as.data.frame(datasets_senate[i])
+  v_s <- v_s_sim(dataset$DEM)
+  v <- v_s[, 1]
+  s <- v_s[, 2]
+
+  mean_v <- c(mean_v, mean(dataset$DEM))
+  mean_s <- c(mean_s, mean(find.winner(dataset$DEM)))
+
+  sv_curve(s, v, lwd = 0.5, col = "gray30")
+
+  v_vals <- c(v_vals, v)
+  s_vals <- c(s_vals, s)
+  bias[i,2] <- sv_bias(s,v)
+  responsiveness[i,2] <- sv_responsiveness(s,v)
 }
 
 
-v <-v_s_sim(USS_sen_dist$DEM)[,1]
-s <- v_s_sim(USS_sen_dist$DEM)[,2]
-
-USS_v <- mean(USS_sen_dist$DEM)
-USS_s <- mean(find.winner(USS_sen_dist$DEM))
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-v <-v_s_sim(GOV_sen_dist$DEM)[,1]
-s <- v_s_sim(GOV_sen_dist$DEM)[,2]
-
-GOV_v <- mean(GOV_sen_dist$DEM)
-GOV_s <- mean(find.winner(GOV_sen_dist$DEM))
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-
-v <-v_s_sim(STS_sen_dist$DEM)[,1]
-s <- v_s_sim(STS_sen_dist$DEM)[,2]
-
-STS_v <- mean(STS_sen_dist$DEM)
-STS_s <- mean(find.winner(STS_sen_dist$DEM))
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-v <-v_s_sim(USC_sen_dist$DEM)[,1]
-s <- v_s_sim(USC_sen_dist$DEM)[,2]
-
-USC_v <- mean(USC_sen_dist$DEM)
-USC_s <- mean(find.winner(USC_sen_dist$DEM))
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-
-v <-v_s_sim(STH_sen_dist$DEM, range_sim=seq(-.2,.2,.01))[,1]
-s <- v_s_sim(STH_sen_dist$DEM, range_sim=seq(-.2,.2,.01))[,2]
-
-STH_v <- mean(STH_sen_dist$DEM)
-STH_s <- mean(STH_sen_dist$DEM)
-
-sv_curve(s, v, lwd=0.5, col="gray70")
-
-
-v <- c(USS_v,GOV_v,STS_v,USC_v,STH_v)
-s <- c(USS_s,GOV_s,STS_s,USC_s,STH_s)
-
-## points(v,s)
-sv_curve(s, v, lwd=1, col="gray30")
-```
-
-
-
-
-
-
-```{r}
-pa_census <- read.csv("/Users/cervas/My Drive/GitHub/Data/Elections/State Legislature/PA/PA-Census-10-20.csv")
-census_bar <- pa_census[,c(4)]
-names(census_bar) <- pa_census[,1]
+colMeans(bias)
+colMeans(responsiveness)
 
 ```
+
+
+
+
 
