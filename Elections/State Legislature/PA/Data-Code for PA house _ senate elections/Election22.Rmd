@@ -1,0 +1,505 @@
+---
+title: "Elections Data and Plots"
+output: html_document
+date: "2023-02-22"
+---
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+d = read.csv("Official_2022.CSV")
+data = d[, c(2:7)]
+data$Votes = as.numeric(gsub(",","",data$Votes))
+```
+
+### House Dataset
+```{r}
+#filter for house
+data.r = data[data$Office.Name == "Representative in the General Assembly", ]
+data.r = data.r[, c(3:6)]
+
+#sum votes 
+data.r  = data.r %>% 
+  group_by(Candidate.Name) %>% 
+  mutate(Total.Votes=sum(Votes)) %>% 
+  ungroup()
+
+# remove old vote columns
+data.r = data.r[, -c(4)]
+data.r = data.r[!duplicated(data.r[c(3)]), ]
+data.r = data.r[, -c(3)]
+```
+
+```{r}
+#table grouped by district
+data.r = data.r %>%
+    pivot_wider(names_from = Party.Name, values_from = c(Total.Votes))
+
+data.r = data.r %>%
+  mutate(Total.Votes = rowSums(across(where(is.numeric)), na.rm=TRUE))
+
+data.r$Election.Year = substr(d$Election.Name[1], 1,4)
+data.r = data.r %>%
+  select(Election.Year, everything())
+
+
+#determine election winner, 1 = Democrat, 0 = Republican
+data.r$Elected.Party = ifelse(data.r$Democratic > data.r$Republican | is.na(data.r$Republican), 1 , 0)
+data.r$Elected.Party[is.na(data.r$Elected.Party)] = 0
+table(data.r$Elected.Party)
+```
+
+### Senate Dataset
+```{r}
+# filter for senate
+data.s = data[data$Office.Name == "Senator in the General Assembly", ]
+data.s = data.s[, c(3:6)]
+
+#sum votes 
+data.s  = data.s %>% 
+  group_by(Candidate.Name) %>% 
+  mutate(Total.Votes=sum(Votes)) %>% 
+  ungroup()
+
+# remove old vote columns
+data.s = data.s[, -c(4)]
+data.s = data.s[!duplicated(data.s[c(3)]), ]
+data.s = data.s[, -c(3)]
+```
+
+```{r}
+#table grouped by district
+data.s = data.s %>% 
+    pivot_wider(names_from = Party.Name, values_from = c(Total.Votes))
+
+data.s = data.s %>%
+  mutate(Total.Votes = rowSums(across(where(is.numeric)), na.rm=TRUE))
+
+data.s$Election.Year = substr(d$Election.Name[1], 1,4)
+data.s = data.s %>%
+  select(Election.Year, everything())
+
+#determine election winner, 1 = Democrat, 0 = Republican
+data.s$Elected.Party = ifelse(data.s$Democratic > data.s$Republican | is.na(data.s$Republican), 1 , 0)
+data.s$Elected.Party[is.na(data.s$Elected.Party)] = 0
+table(data.s$Elected.Party)
+```
+
+
+#function to do this process on all 12 datasets
+```{r}
+representatives = function(d){
+  data = d[, c(2:7)]
+  data$Votes = as.numeric(gsub(",","",data$Votes))
+  
+  #filter for house
+  data.r = data[data$Office.Name == "Representative in the General Assembly", ]
+  data.r = data.r[, c(3:6)]
+
+#sum votes 
+  data.r  = data.r %>% 
+    group_by(Candidate.Name) %>% 
+    mutate(Total.Votes=sum(Votes)) %>% 
+    ungroup()
+
+# remove old vote columns
+  data.r = data.r[, -c(4)]
+  data.r = data.r[!duplicated(data.r[c(3)]), ]
+  data.r = data.r[, -c(3)]
+  
+  #table grouped by district
+  data.r = data.r %>%
+    pivot_wider(names_from = Party.Name, values_from = c(Total.Votes))
+  
+  data.r = data.r %>%
+    mutate(Total.Votes = rowSums(across(c("Democratic", "Republican")), na.rm=TRUE))
+  data.r$Election.Year = substr(d$Election.Name[1], 1,4)
+  data.r = data.r %>%
+    select(Election.Year, everything())
+
+#determine election winner, 1 = Democrat, 0 = Republican
+  data.r$Elected.Party = ifelse(data.r$Democratic > data.r$Republican | is.na(data.r$Republican), 1 , 0)
+  data.r$Elected.Party[is.na(data.r$Elected.Party)] = 0
+  data.r = data.r[, c(1:4, max(ncol(data.r))-1, max(ncol(data.r)))]
+  
+  return(data.r)
+  
+}
+```
+
+```{r}
+rep.table = data.frame(matrix(ncol = 2, nrow = 0))
+rep.table.full = data.frame(matrix(ncol = 6, nrow = 0))
+
+rep.22 = representatives(read.csv("Official_2022.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.22$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.22$Elected.Party)), 
+                  as.vector(table(rep.22$Elected.Party))/nrow(rep.22), 
+                  sum(rep.22$Republican, na.rm = T)/sum(rep.22$Total.Votes),
+                  sum(rep.22$Democratic, na.rm = T)/sum(rep.22$Total.Votes)
+                  ))
+
+rep.20 = representatives(read.csv("Official_2020.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.20$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.20$Elected.Party)), 
+                  as.vector(table(rep.20$Elected.Party))/nrow(rep.20), 
+                  sum(rep.20$Republican, na.rm = T)/sum(rep.20$Total.Votes),
+                  sum(rep.20$Democratic, na.rm = T)/sum(rep.20$Total.Votes)
+                  ))
+
+rep.18 = representatives(read.csv("Official_2018.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.18$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.18$Elected.Party)), 
+                  as.vector(table(rep.18$Elected.Party))/nrow(rep.18), 
+                  sum(rep.18$Republican, na.rm = T)/sum(rep.18$Total.Votes),
+                  sum(rep.18$Democratic, na.rm = T)/sum(rep.18$Total.Votes)
+                  ))
+
+rep.16 = representatives(read.csv("Official_2016.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.16$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.16$Elected.Party)), 
+                  as.vector(table(rep.16$Elected.Party))/nrow(rep.16), 
+                  sum(rep.16$Republican, na.rm = T)/sum(rep.16$Total.Votes),
+                  sum(rep.16$Democratic, na.rm = T)/sum(rep.16$Total.Votes)
+                  ))
+
+rep.14 = representatives(read.csv("Official_2014.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.14$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.14$Elected.Party)), 
+                  as.vector(table(rep.14$Elected.Party))/nrow(rep.14), 
+                  sum(rep.14$Republican, na.rm = T)/sum(rep.14$Total.Votes),
+                  sum(rep.14$Democratic, na.rm = T)/sum(rep.14$Total.Votes)
+                  ))
+
+rep.12 = representatives(read.csv("Official_2012.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.12$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.12$Elected.Party)), 
+                  as.vector(table(rep.12$Elected.Party))/nrow(rep.12), 
+                  sum(rep.12$Republican, na.rm = T)/sum(rep.12$Total.Votes),
+                  sum(rep.12$Democratic, na.rm = T)/sum(rep.12$Total.Votes)
+                  ))
+
+rep.10 = representatives(read.csv("Official_2010.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.10$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.10$Elected.Party)), 
+                  as.vector(table(rep.10$Elected.Party))/nrow(rep.10), 
+                  sum(rep.10$Republican, na.rm = T)/sum(rep.10$Total.Votes),
+                  sum(rep.10$Democratic, na.rm = T)/sum(rep.10$Total.Votes)
+                  ))
+
+rep.08 = representatives(read.csv("Official_2008.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.08$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.08$Elected.Party)), 
+                  as.vector(table(rep.08$Elected.Party))/nrow(rep.08), 
+                  sum(rep.08$Republican, na.rm = T)/sum(rep.08$Total.Votes),
+                  sum(rep.08$Democratic, na.rm = T)/sum(rep.08$Total.Votes)
+                  ))
+
+rep.06 = representatives(read.csv("Official_2006.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.06$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.06$Elected.Party)), 
+                  as.vector(table(rep.06$Elected.Party))/nrow(rep.06), 
+                  sum(rep.06$Republican, na.rm = T)/sum(rep.06$Total.Votes),
+                  sum(rep.06$Democratic, na.rm = T)/sum(rep.06$Total.Votes)
+                  ))
+
+rep.04 = representatives(read.csv("Official_2004.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.04$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.04$Elected.Party)), 
+                  as.vector(table(rep.04$Elected.Party))/nrow(rep.04), 
+                  sum(rep.04$Republican, na.rm = T)/sum(rep.04$Total.Votes),
+                  sum(rep.04$Democratic, na.rm = T)/sum(rep.04$Total.Votes)
+                  ))
+
+rep.02 = representatives(read.csv("Official_2002.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.02$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.02$Elected.Party)), 
+                  as.vector(table(rep.02$Elected.Party))/nrow(rep.02), 
+                  sum(rep.02$Republican, na.rm = T)/sum(rep.02$Total.Votes),
+                  sum(rep.02$Democratic, na.rm = T)/sum(rep.02$Total.Votes)
+                  ))
+
+rep.00 = representatives(read.csv("Official_2000.CSV"))
+rep.table = rbind(rep.table, as.vector(table(rep.00$Elected.Party)))
+
+rep.table.full = rbind(rep.table.full, c(as.vector(table(rep.00$Elected.Party)), 
+                  as.vector(table(rep.00$Elected.Party))/nrow(rep.00), 
+                  sum(rep.00$Republican, na.rm = T)/sum(rep.00$Total.Votes),
+                  sum(rep.00$Democratic, na.rm = T)/sum(rep.00$Total.Votes)
+                  ))
+
+colnames(rep.table) = c("Republicans", "Democrats")
+
+colnames(rep.table.full) = c("Republicans Seats", "Democrats Seats", 
+                             "Proportion of R Seats", "Proportion of D Seats", 
+                             "Proportion of R Votes", "Proportion of D Votes")
+```
+
+```{r}
+rep.table$Year = c(seq(2022, 2000, -2))
+
+rep.table = rep.table %>%
+    select(Year, everything())
+
+rep.table.full$Year = c(seq(2022, 2000, -2))
+
+rep.table.full = rep.table.full %>%
+    select(Year, everything())
+
+rep.table = rep.table %>% 
+  pivot_longer(cols = c("Republicans", "Democrats"),
+               names_to = "Party", values_to = "Seats")
+
+ggplot(data = rep.table, aes(x = Year, y = Seats, group = Party))+
+  geom_line(aes(color = Party)) +
+  geom_point()+
+  scale_color_manual(values=c("#1405BD", "#DE0100"))+
+  labs(x = "Year", y = "Number of Seats", title = "Number of House Seats held by the Democratic and Republican 
+       parties, 2000-2022")+
+  scale_x_continuous(breaks = c(seq(2000, 2022, 2)))+
+  theme_light()
+
+ggplot(data = rep.table, aes(x = Year, y = Seats, fill = factor(Party)))+
+  geom_col(stat = "identity", position = position_dodge(), width = 0.7)+
+  scale_fill_manual(values=c("#1405BD", "#DE0100"))+
+  labs(x = "Year", y = "Number of Seats", title = "Number of House Seats held by the Democratic and Republican 
+        parties, 2000-2022")+
+  theme_light()
+
+```
+```{r}
+plot(rep.table.full$`Proportion of R Seats`, rep.table.full$`Proportion of R Votes`, xlim = c(0, 1), ylim = c(0,1), col = "red")
+points(rep.table.full$`Proportion of D Seats`, rep.table.full$`Proportion of D Votes`, col = "blue")
+abline(v = .5)
+abline(h = .5)
+```
+
+### For Senators
+```{r}
+senators = function(d){
+  data = d[, c(2:7)]
+  data$Votes = as.numeric(gsub(",","",data$Votes))
+  
+  #filter for house
+  data.s = data[data$Office.Name == "Senator in the General Assembly", ]
+  data.s = data.s[, c(3:6)]
+
+#sum votes 
+  data.s  = data.s %>% 
+    group_by(Candidate.Name) %>% 
+    mutate(Total.Votes=sum(Votes)) %>% 
+    ungroup()
+
+# remove old vote columns
+  data.s = data.s[, -c(4)]
+  data.s = data.s[!duplicated(data.s[c(3)]), ]
+  data.s = data.s[, -c(3)]
+  
+  #table grouped by district
+  data.s = data.s %>% 
+    pivot_wider(names_from = Party.Name, values_from = c(Total.Votes))
+  
+  data.s = data.s %>%
+    mutate(Total.Votes = rowSums(across(c("Democratic", "Republican")), na.rm=TRUE))
+  data.s$Election.Year = substr(d$Election.Name[1], 1,4)
+  data.s = data.s %>%
+    select(Election.Year, everything())
+
+#determine election winner, 1 = Democrat, 0 = Republican
+  data.s$Elected.Party = ifelse(data.s$Democratic > data.s$Republican | is.na(data.s$Republican), 1 , 0)
+  data.s$Elected.Party[is.na(data.s$Elected.Party)] = 0
+  data.s = data.s[, c("Election.Year","District.Name", "Democratic", "Republican",
+                      "Total.Votes", "Elected.Party")]
+  
+  return(data.s)
+  
+}
+
+```
+
+```{r}
+sen.table = data.frame(matrix(ncol = 2, nrow = 0))
+sen.table.full = data.frame(matrix(ncol = 6, nrow = 0))
+
+sen.22 = senators(read.csv("Official_2022.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.22$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.22$Elected.Party)), 
+                  as.vector(table(sen.22$Elected.Party))/nrow(sen.22), 
+                  sum(sen.22$Republican, na.rm = T)/sum(sen.22$Total.Votes),
+                  sum(sen.22$Democratic, na.rm = T)/sum(sen.22$Total.Votes)
+                  ))
+
+sen.20 = senators(read.csv("Official_2020.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.20$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.20$Elected.Party)), 
+                  as.vector(table(sen.20$Elected.Party))/nrow(sen.20), 
+                  sum(sen.20$Republican, na.rm = T)/sum(sen.20$Total.Votes),
+                  sum(sen.20$Democratic, na.rm = T)/sum(sen.20$Total.Votes)
+                  ))
+
+sen.18 = senators(read.csv("Official_2018.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.18$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.18$Elected.Party)), 
+                  as.vector(table(sen.18$Elected.Party))/nrow(sen.18), 
+                  sum(sen.18$Republican, na.rm = T)/sum(sen.18$Total.Votes),
+                  sum(sen.18$Democratic, na.rm = T)/sum(sen.18$Total.Votes)
+                  ))
+
+sen.16 = senators(read.csv("Official_2016.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.16$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.16$Elected.Party)), 
+                  as.vector(table(sen.16$Elected.Party))/nrow(sen.16), 
+                  sum(sen.16$Republican, na.rm = T)/sum(sen.16$Total.Votes),
+                  sum(sen.16$Democratic, na.rm = T)/sum(sen.16$Total.Votes)
+                  ))
+
+sen.14 = senators(read.csv("Official_2014.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.14$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.14$Elected.Party)), 
+                  as.vector(table(sen.14$Elected.Party))/nrow(sen.14), 
+                  sum(sen.14$Republican, na.rm = T)/sum(sen.14$Total.Votes),
+                  sum(sen.14$Democratic, na.rm = T)/sum(sen.14$Total.Votes)
+                  ))
+
+sen.12 = senators(read.csv("Official_2012.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.12$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.12$Elected.Party)), 
+                  as.vector(table(sen.12$Elected.Party))/nrow(sen.12), 
+                  sum(sen.12$Republican, na.rm = T)/sum(sen.12$Total.Votes),
+                  sum(sen.12$Democratic, na.rm = T)/sum(sen.12$Total.Votes)
+                  ))
+
+sen.10 = senators(read.csv("Official_2010.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.10$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.10$Elected.Party)), 
+                  as.vector(table(sen.10$Elected.Party))/nrow(sen.10), 
+                  sum(sen.10$Republican, na.rm = T)/sum(sen.10$Total.Votes),
+                  sum(sen.10$Democratic, na.rm = T)/sum(sen.10$Total.Votes)
+                  ))
+
+sen.08 = senators(read.csv("Official_2008.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.08$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.08$Elected.Party)), 
+                  as.vector(table(sen.08$Elected.Party))/nrow(sen.08), 
+                  sum(sen.08$Republican, na.rm = T)/sum(sen.08$Total.Votes),
+                  sum(sen.08$Democratic, na.rm = T)/sum(sen.08$Total.Votes)
+                  ))
+
+sen.06 = senators(read.csv("Official_2006.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.06$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.06$Elected.Party)), 
+                  as.vector(table(sen.06$Elected.Party))/nrow(sen.06), 
+                  sum(sen.06$Republican, na.rm = T)/sum(sen.06$Total.Votes),
+                  sum(sen.06$Democratic, na.rm = T)/sum(sen.06$Total.Votes)
+                  ))
+
+sen.04 = senators(read.csv("Official_2004.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.04$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.04$Elected.Party)), 
+                  as.vector(table(sen.04$Elected.Party))/nrow(sen.04), 
+                  sum(sen.04$Republican, na.rm = T)/sum(sen.04$Total.Votes),
+                  sum(sen.04$Democratic, na.rm = T)/sum(sen.04$Total.Votes)
+                  ))
+
+sen.02 = senators(read.csv("Official_2002.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.02$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.02$Elected.Party)), 
+                  as.vector(table(sen.02$Elected.Party))/nrow(sen.02), 
+                  sum(sen.02$Republican, na.rm = T)/sum(sen.02$Total.Votes),
+                  sum(sen.02$Democratic, na.rm = T)/sum(sen.02$Total.Votes)
+                  ))
+
+sen.00 = senators(read.csv("Official_2000.CSV"))
+sen.table = rbind(sen.table, as.vector(table(sen.00$Elected.Party)))
+
+sen.table.full = rbind(sen.table.full, c(as.vector(table(sen.00$Elected.Party)), 
+                  as.vector(table(sen.00$Elected.Party))/nrow(sen.00), 
+                  sum(sen.00$Republican, na.rm = T)/sum(sen.00$Total.Votes),
+                  sum(sen.00$Democratic, na.rm = T)/sum(sen.00$Total.Votes)
+                  ))
+
+colnames(sen.table) = c("Republicans", "Democrats")
+
+colnames(sen.table.full) = c("Republicans.Seats", "Democrats.Seats", 
+                             "Proportion.R.Seats", "Proportion.D.Seats", 
+                             "Proportion.R.Votes", "Proportion.D.Votes")
+```
+
+```{r}
+sen.table$Year = c(seq(2022, 2000, -2))
+
+sen.table = sen.table %>%
+    select(Year, everything())
+
+sen.table.full$Year = c(seq(2022, 2000, -2))
+
+sen.table.full = sen.table.full %>%
+    select(Year, everything())
+
+sen.table = sen.table %>% 
+  pivot_longer(cols = c("Republicans", "Democrats"),
+               names_to = "Party", values_to = "Seats")
+
+ggplot(data = sen.table, aes(x = Year, y = Seats, group = Party))+
+  geom_line(aes(color = Party)) +
+  geom_point()+
+  scale_color_manual(values=c("#1405BD", "#DE0100"))+
+  labs(x = "Year", y = "Number of Seats", title = "Number of Senate Seats held by the Democratic and Republican 
+       parties, 2000-2022")+
+  scale_x_continuous(breaks = c(seq(2000, 2022, 2)))+
+  scale_y_continuous(breaks = c(seq(0, 18, 2)))+
+  theme_light()
+
+ggplot(data = sen.table, aes(x = Year, y = Seats, fill = factor(Party)))+
+  geom_col(stat = "identity", position = position_dodge(), width = 0.7)+
+  scale_fill_manual(values=c("#1405BD", "#DE0100"))+
+  labs(x = "Year", y = "Number of Seats", title = "Number of Senate Seats held by the Democratic and Republican 
+        parties, 2000-2022")+
+  scale_x_discrete(labels = c(seq(2000, 2022, 2)))+
+  theme_light()
+
+```
+
+```{r}
+
+plot(sen.table.full$Proportion.R.Votes, sen.table.full$Proportion.R.Seats,  xlim = c(0, 1), ylim = c(0,1), col = "red")
+points(sen.table.full$Proportion.D.Seats, sen.table.full$Proportion.D.Votes, col = "blue")
+abline(v = .5)
+abline(h = .5)
+
+plot(sen.table.full$Proportion.R.Votes[1], sen.table.full$Proportion.R.Seats[1],  xlim = c(0, 1), ylim = c(0,1), col = "red")
+abline(v = .5)
+abline(h = .5)
+
+m1 = glm(Proportion.R.Seats ~ Proportion.R.Votes, data = sen.table.full, family = quasibinomial(	(link = "logit")))
+summary(m1)
+plot(seq(0,1,0.1), predict(m1, data.frame(Proportion.R.Votes = seq(0,1,0.1)), type = "response"),xlim = c(0, 1), ylim = c(0,1))
+abline(v = .5)
+abline(h = .5)
+```
+
+#some thoughts:
+#right now i'm leaving in uncontested elections for proportion of votes, should I take those out?
