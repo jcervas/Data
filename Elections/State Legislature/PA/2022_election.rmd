@@ -103,6 +103,8 @@ for (i in offices) {
     for (j in agg_type) {
     j_tmp <- elect_collect(tmp, j)
       j_tmp$DEMtp <- replace_values(two_party(j_tmp$dem,j_tmp$gop))
+      j_tmp$dem_vote <- j_tmp$dem/(j_tmp$dem+j_tmp$gop+j_tmp$oth)
+      j_tmp$gop_vote <- j_tmp$gop/(j_tmp$dem+j_tmp$gop+j_tmp$oth)
     tmp_j <- assign(paste0(i,"_",j),j_tmp)
     print(paste0(i,"_",j))
     print(paste0("Votes: ", per(mean(j_tmp$DEMtp))))
