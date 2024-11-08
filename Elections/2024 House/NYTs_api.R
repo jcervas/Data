@@ -87,6 +87,11 @@ for (i in seats) {
 
 # View the first few rows to verify the party information
 print(head(election_results))
+
+
+
+
+
 ####
 
 # Get unique combinations of State and District
