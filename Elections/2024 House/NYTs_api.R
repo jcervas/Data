@@ -21,17 +21,15 @@ for (i in seats) {
   # Create a lookup table for candidate metadata
   metadata_lookup <- list()
   for (candidate_id in names(candidate_metadata)) {
-    nyt_race_id <- candidate_metadata[[candidate_id]]$nyt_candidate_race_id
-    if (!is.null(nyt_race_id)) {
-      metadata_lookup[[nyt_race_id]] <- list(
-        party_name = ifelse(is.null(candidate_metadata[[candidate_id]]$party$name), 
-                           "NA", 
-                           candidate_metadata[[candidate_id]]$party$name),
-        candidate_name = ifelse(is.null(candidate_metadata[[candidate_id]]$last_name), 
-                              "NA", 
-                              candidate_metadata[[candidate_id]]$last_name)
-      )
-    }
+    current_candidate <- candidate_metadata[[candidate_id]]
+    metadata_lookup[[candidate_id]] <- list(
+      party_name = ifelse(is.null(current_candidate$party$name), 
+                         "NA", 
+                         current_candidate$party$name),
+      candidate_name = ifelse(is.null(current_candidate$last_name), 
+                            "NA", 
+                            current_candidate$last_name)
+    )
   }
   
   # General district-level info
@@ -78,7 +76,8 @@ for (i in seats) {
       CandidateParty = party_name,
       Votes = votes,
       Leader = leader,
-      VotesCounted = votes_counted
+      VotesCounted = votes_counted,
+      stringsAsFactors = FALSE
     )
     
     # Add row to election_results
@@ -86,6 +85,8 @@ for (i in seats) {
   }
 }
 
+# View the first few rows to verify the party information
+print(head(election_results))
 ####
 
 # Get unique combinations of State and District
