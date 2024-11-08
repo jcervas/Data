@@ -69,3 +69,53 @@ for (i in seats) {
 
 # View the combined data frame
 print(head(election_results))
+
+####
+
+# Get unique combinations of State and District
+unique_districts <- unique(election_results[, c("State", "District")])
+
+# Initialize a data frame to store results by State and District with Democrat, Republican, and Other votes
+election_results_party_wide <- data.frame()
+
+# Loop through each unique combination of State and District
+for (i in 1:nrow(unique_districts)) {
+  # Extract the current State and District
+  state <- unique_districts$State[i]
+  district <- unique_districts$District[i]
+  
+  # Filter data for each State/District
+  sd_data <- subset(election_results, State == state & District == district)
+  
+  # Calculate total votes for each party
+  party_totals <- tapply(sd_data$Votes, sd_data$CandidateParty, sum, na.rm = TRUE)
+  
+  # Separate Democrat, Republican, and Other votes
+  democrat_votes <- ifelse("Democrat" %in% names(party_totals), party_totals["Democrat"], 0)
+  republican_votes <- ifelse("Republican" %in% names(party_totals), party_totals["Republican"], 0)
+  other_votes <- sum(party_totals[!names(party_totals) %in% c("Democrat", "Republican")], na.rm = TRUE)
+  
+  # Prepare a row with State, District, and total votes for Democrat, Republican, and Other
+  wide_row <- data.frame(
+    State = state,
+    District = district,
+    ElectionDate = unique(sd_data$ElectionDate),
+    TotalVotes = unique(sd_data$TotalVotes),
+    VotesCounted = unique(sd_data$VotesCounted),
+    Democrat_Votes = democrat_votes,
+    Republican_Votes = republican_votes,
+    Other_Votes = other_votes
+  )
+  
+  # Bind the row to the wide results
+  election_results_party_wide <- rbind(election_results_party_wide, wide_row)
+}
+
+# View the wide-format data frame
+print(head(election_results_party_wide))
+
+
+write.csv(election_results, '/Users/cervas/Library/CloudStorage/GoogleDrive-jcervas@andrew.cmu.edu/My Drive/GitHub/Data/Elections/2024 House/USHouse2024.csv', row.names=F)
+write.csv(election_results_party_wide, '/Users/cervas/Library/CloudStorage/GoogleDrive-jcervas@andrew.cmu.edu/My Drive/GitHub/Data/Elections/2024 House/USHouse2024_wide.csv', row.names=F)
+
+
