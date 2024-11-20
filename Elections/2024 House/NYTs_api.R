@@ -42,9 +42,18 @@ for (i in seats) {
   total_votes <- ifelse(is.null(races[[i]]$reporting_units[[1]]$total_votes), 
                        "NA", 
                        races[[i]]$reporting_units[[1]]$total_votes)
-  votes_counted <- ifelse(is.null(races[[i]]$reporting_units[[1]]$eevp), 
+  # votes_counted <- ifelse(is.null(races[[i]]$reporting_units[[1]]$eevp), 
+  #                        "NA", 
+  #                        races[[i]]$reporting_units[[1]]$eevp)
+
+
+  votes_remaining <- ifelse(is.null(races[[i]]$reporting_units[[1]]$total_expected_vote), 
                          "NA", 
-                         races[[i]]$reporting_units[[1]]$eevp)
+                         races[[i]]$reporting_units[[1]]$total_expected_vote)
+  votes_total <- ifelse(is.null(races[[i]]$reporting_units[[1]]$total_votes) || races[[i]]$reporting_units[[1]]$total_votes %in% 0, 
+                         "NA", 
+                         races[[i]]$reporting_units[[1]]$total_votes)
+  PercentReported <- ifelse(is.null(votes_total) || votes_remaining %in% "NA", "NA", round(votes_total/votes_remaining, d=3) * 100)
   
   # Loop through candidates within each district
   candidates <- races[[i]]$reporting_units[[1]]$candidates
@@ -76,7 +85,9 @@ for (i in seats) {
       CandidateParty = party_name,
       Votes = votes,
       Leader = leader,
-      VotesCounted = votes_counted,
+      VotesCounted = votes_total,
+      VotesRemaining = votes_remaining,
+      PercentReported = PercentReported,
       stringsAsFactors = FALSE
     )
     
