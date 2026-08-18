@@ -1,0 +1,145 @@
+cycle,branch,forecastdate,district,candidateA,candidateB,displaystep,description,margin,lite_weight,classic_weight,deluxe_weight,simulations,timestamp
+2022,Governor,11/8/22,WY-G1,Theresa A. Livingston,Mark Gordon,4,Expert ratings adjusted for national environment,-47.53298,0,0,1.194064,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,WY-G1,Theresa A. Livingston,Mark Gordon,3,Fundamentals (non-polling factors),-43.92045,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,WY-G1,Theresa A. Livingston,Mark Gordon,2,CANTOR (analysis of comparable disticts),-32.15154,.8358126,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,WY-G1,Theresa A. Livingston,Mark Gordon,1,Polls adjusted for house effects & other factors,-52.22471,.9550347,.9550347,.9550347,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,WI-G1,Tony Evers,Tim Michels,4,Expert ratings adjusted for national environment,-3.296664,0,0,8.538977,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,WI-G1,Tony Evers,Tim Michels,3,Fundamentals (non-polling factors),13.32046,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,WI-G1,Tony Evers,Tim Michels,2,CANTOR (analysis of comparable disticts),9.396527,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,WI-G1,Tony Evers,Tim Michels,1,Polls adjusted for house effects & other factors,-.0103951,15.68141,15.68141,15.68141,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,VT-G1,Brenda Siegel,Phil Scott,4,Expert ratings adjusted for national environment,-29.28932,0,0,1.894216,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,VT-G1,Brenda Siegel,Phil Scott,3,Fundamentals (non-polling factors),-12.08181,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,VT-G1,Brenda Siegel,Phil Scott,2,CANTOR (analysis of comparable disticts),1.976404,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,VT-G1,Brenda Siegel,Phil Scott,1,Polls adjusted for house effects & other factors,-38.44313,2.358825,2.358825,2.358825,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,TX-G1,Beto O'Rourke,Greg Abbott,4,Expert ratings adjusted for national environment,-17.29129,0,0,6.600942,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,TX-G1,Beto O'Rourke,Greg Abbott,3,Fundamentals (non-polling factors),-12.84222,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,TX-G1,Beto O'Rourke,Greg Abbott,2,CANTOR (analysis of comparable disticts),-16.80732,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,TX-G1,Beto O'Rourke,Greg Abbott,1,Polls adjusted for house effects & other factors,-8.584938,11.7957,11.7957,11.7957,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,TN-G1,Jason Brantley Martin,Bill Lee,4,Expert ratings adjusted for national environment,-27.08335,0,0,1.250829,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,TN-G1,Jason Brantley Martin,Bill Lee,3,Fundamentals (non-polling factors),-26.71891,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,TN-G1,Jason Brantley Martin,Bill Lee,2,CANTOR (analysis of comparable disticts),-22.93031,.8358126,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,TN-G1,Jason Brantley Martin,Bill Lee,1,Polls adjusted for house effects & other factors,-24.01192,1.068847,1.068847,1.068847,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,SD-G1,Jamie Smith,Kristi Noem,4,Expert ratings adjusted for national environment,-23.62347,0,0,2.061349,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,SD-G1,Jamie Smith,Kristi Noem,3,Fundamentals (non-polling factors),-26.81194,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,SD-G1,Jamie Smith,Kristi Noem,2,CANTOR (analysis of comparable disticts),-23.65281,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,SD-G1,Jamie Smith,Kristi Noem,1,Polls adjusted for house effects & other factors,-15.83267,2.693922,2.693922,2.693922,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,SC-G1,Joe Cunningham,Henry McMaster,4,Expert ratings adjusted for national environment,-25.29099,0,0,2.458977,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,SC-G1,Joe Cunningham,Henry McMaster,3,Fundamentals (non-polling factors),-16.35654,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,SC-G1,Joe Cunningham,Henry McMaster,2,CANTOR (analysis of comparable disticts),-18.20846,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,SC-G1,Joe Cunningham,Henry McMaster,1,Polls adjusted for house effects & other factors,-8.652122,3.491157,3.491157,3.491157,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,RI-G1,Daniel J. McKee,Ashley Kalus,4,Expert ratings adjusted for national environment,18.7462,0,0,2.140648,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,RI-G1,Daniel J. McKee,Ashley Kalus,3,Fundamentals (non-polling factors),12.86521,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,RI-G1,Daniel J. McKee,Ashley Kalus,2,CANTOR (analysis of comparable disticts),9.336673,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,RI-G1,Daniel J. McKee,Ashley Kalus,1,Polls adjusted for house effects & other factors,12.62811,2.852915,2.852915,2.852915,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,PA-G1,Josh Shapiro,Douglas V. Mastriano,4,Expert ratings adjusted for national environment,9.234112,0,0,13.95541,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,PA-G1,Josh Shapiro,Douglas V. Mastriano,3,Fundamentals (non-polling factors),10.7809,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,PA-G1,Josh Shapiro,Douglas V. Mastriano,2,CANTOR (analysis of comparable disticts),-.5393058,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,PA-G1,Josh Shapiro,Douglas V. Mastriano,1,Polls adjusted for house effects & other factors,10.21352,26.54123,26.54123,26.54123,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OR-G1,Tina Kotek,Christine Drazan,4,Expert ratings adjusted for national environment,1.181238,0,0,5.78843,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OR-G1,Tina Kotek,Christine Drazan,3,Fundamentals (non-polling factors),3.942234,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OR-G1,Tina Kotek,Christine Drazan,2,CANTOR (analysis of comparable disticts),3.421531,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OR-G1,Tina Kotek,Christine Drazan,1,Polls adjusted for house effects & other factors,2.107426,10.16663,10.16663,10.16663,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OK-G1,Joy Hofmeister,Kevin Stitt,4,Expert ratings adjusted for national environment,-13.13702,0,0,5.036394,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OK-G1,Joy Hofmeister,Kevin Stitt,3,Fundamentals (non-polling factors),-25.93008,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OK-G1,Joy Hofmeister,Kevin Stitt,2,CANTOR (analysis of comparable disticts),-26.11376,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OK-G1,Joy Hofmeister,Kevin Stitt,1,Polls adjusted for house effects & other factors,-5.223721,8.658817,8.658817,8.658817,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OH-G1,Nan Whaley,Mike DeWine,4,Expert ratings adjusted for national environment,-23.84306,0,0,9.959623,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OH-G1,Nan Whaley,Mike DeWine,3,Fundamentals (non-polling factors),-17.35962,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OH-G1,Nan Whaley,Mike DeWine,2,CANTOR (analysis of comparable disticts),-15.18293,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,OH-G1,Nan Whaley,Mike DeWine,1,Polls adjusted for house effects & other factors,-20.43589,18.52978,18.52978,18.52978,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NY-G1,Kathy C. Hochul,Lee M. Zeldin,4,Expert ratings adjusted for national environment,11.0216,0,0,9.135566,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NY-G1,Kathy C. Hochul,Lee M. Zeldin,3,Fundamentals (non-polling factors),16.41364,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NY-G1,Kathy C. Hochul,Lee M. Zeldin,2,CANTOR (analysis of comparable disticts),7.502925,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NY-G1,Kathy C. Hochul,Lee M. Zeldin,1,Polls adjusted for house effects & other factors,8.283066,16.87756,16.87756,16.87756,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NV-G1,Steve Sisolak,Joe Lombardo,4,Expert ratings adjusted for national environment,-3.296664,0,0,9.96288,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NV-G1,Steve Sisolak,Joe Lombardo,3,Fundamentals (non-polling factors),11.90807,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NV-G1,Steve Sisolak,Joe Lombardo,2,CANTOR (analysis of comparable disticts),7.111699,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NV-G1,Steve Sisolak,Joe Lombardo,1,Polls adjusted for house effects & other factors,-1.716362,18.5363,18.5363,18.5363,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NM-G1,Michelle Lujan Grisham,Mark V. Ronchetti,4,Expert ratings adjusted for national environment,4.879385,0,0,4.960671,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NM-G1,Michelle Lujan Grisham,Mark V. Ronchetti,3,Fundamentals (non-polling factors),9.68161,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NM-G1,Michelle Lujan Grisham,Mark V. Ronchetti,2,CANTOR (analysis of comparable disticts),12.49454,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NM-G1,Michelle Lujan Grisham,Mark V. Ronchetti,1,Polls adjusted for house effects & other factors,5.28693,8.506993,8.506993,8.506993,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NH-G1,Tom Sherman,Chris Sununu,4,Expert ratings adjusted for national environment,-24.00846,0,0,9.991895,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NH-G1,Tom Sherman,Chris Sununu,3,Fundamentals (non-polling factors),-1.568223,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NH-G1,Tom Sherman,Chris Sununu,2,CANTOR (analysis of comparable disticts),-10.54044,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NH-G1,Tom Sherman,Chris Sununu,1,Polls adjusted for house effects & other factors,-15.28716,18.59448,18.59448,18.59448,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NE-G1,Carol Blood,Jim Pillen,4,Expert ratings adjusted for national environment,-24.38933,0,0,1.355769,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NE-G1,Carol Blood,Jim Pillen,3,Fundamentals (non-polling factors),-23.29572,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NE-G1,Carol Blood,Jim Pillen,2,CANTOR (analysis of comparable disticts),-10.00991,.7207505,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,NE-G1,Carol Blood,Jim Pillen,1,Polls adjusted for house effects & other factors,-3.884132,1.27925,1.27925,1.27925,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MN-G1,Tim Walz,Scott Jensen,4,Expert ratings adjusted for national environment,9.234112,0,0,3.421367,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MN-G1,Tim Walz,Scott Jensen,3,Fundamentals (non-polling factors),12.96973,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MN-G1,Tim Walz,Scott Jensen,2,CANTOR (analysis of comparable disticts),11.49378,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MN-G1,Tim Walz,Scott Jensen,1,Polls adjusted for house effects & other factors,7.72937,5.420726,5.420726,5.420726,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MI-G1,Gretchen Whitmer,Tudor M. Dixon,4,Expert ratings adjusted for national environment,4.879385,0,0,9.001756,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MI-G1,Gretchen Whitmer,Tudor M. Dixon,3,Fundamentals (non-polling factors),15.54087,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MI-G1,Gretchen Whitmer,Tudor M. Dixon,2,CANTOR (analysis of comparable disticts),10.4106,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MI-G1,Gretchen Whitmer,Tudor M. Dixon,1,Polls adjusted for house effects & other factors,5.5014,16.60927,16.60927,16.60927,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,ME-G1,Janet T. Mills,Paul R. LePage,4,Expert ratings adjusted for national environment,5.659141,0,0,2.969805,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,ME-G1,Janet T. Mills,Paul R. LePage,3,Fundamentals (non-polling factors),10.5828,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,ME-G1,Janet T. Mills,Paul R. LePage,2,CANTOR (analysis of comparable disticts),12.69164,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,ME-G1,Janet T. Mills,Paul R. LePage,1,Polls adjusted for house effects & other factors,6.897251,4.515356,4.515356,4.515356,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MD-G1,Wes Moore,Dan Cox,4,Expert ratings adjusted for national environment,19.79096,0,0,1.845002,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MD-G1,Wes Moore,Dan Cox,3,Fundamentals (non-polling factors),19.8394,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MD-G1,Wes Moore,Dan Cox,2,CANTOR (analysis of comparable disticts),10.60346,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MD-G1,Wes Moore,Dan Cox,1,Polls adjusted for house effects & other factors,27.81696,2.260151,2.260151,2.260151,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MA-G1,Maura Healey,Geoff Diehl,4,Expert ratings adjusted for national environment,19.58084,0,0,3.412568,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MA-G1,Maura Healey,Geoff Diehl,3,Fundamentals (non-polling factors),26.00842,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MA-G1,Maura Healey,Geoff Diehl,2,CANTOR (analysis of comparable disticts),13.4546,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,MA-G1,Maura Healey,Geoff Diehl,1,Polls adjusted for house effects & other factors,23.70554,5.403084,5.403084,5.403084,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,KS-G1,Laura Kelly,Derek Schmidt,4,Expert ratings adjusted for national environment,-3.296664,0,0,1.825073,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,KS-G1,Laura Kelly,Derek Schmidt,3,Fundamentals (non-polling factors),1.941728,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,KS-G1,Laura Kelly,Derek Schmidt,2,CANTOR (analysis of comparable disticts),1.921149,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,KS-G1,Laura Kelly,Derek Schmidt,1,Polls adjusted for house effects & other factors,6.274513,2.220194,2.220194,2.220194,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,IL-G1,J.B. Pritzker,Darren Bailey,4,Expert ratings adjusted for national environment,21.35143,0,0,3.602993,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,IL-G1,J.B. Pritzker,Darren Bailey,3,Fundamentals (non-polling factors),19.59024,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,IL-G1,J.B. Pritzker,Darren Bailey,2,CANTOR (analysis of comparable disticts),15.58989,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,IL-G1,J.B. Pritzker,Darren Bailey,1,Polls adjusted for house effects & other factors,15.49543,5.784882,5.784882,5.784882,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,ID-G1,Stephen Heidt,Brad Little,4,Expert ratings adjusted for national environment,-36.90403,0,0,.7177314,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,ID-G1,Stephen Heidt,Brad Little,3,Fundamentals (non-polling factors),-34.99335,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,ID-G1,Stephen Heidt,Brad Little,2,CANTOR (analysis of comparable disticts),-42.56246,.8358126,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,ID-G1,Stephen Heidt,Brad Little,1,Polls adjusted for house effects & other factors,,0,0,0,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,IA-G1,Deidre DeJear,Kim Reynolds,4,Expert ratings adjusted for national environment,-23.37905,0,0,3.625604,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,IA-G1,Deidre DeJear,Kim Reynolds,3,Fundamentals (non-polling factors),-25.81723,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,IA-G1,Deidre DeJear,Kim Reynolds,2,CANTOR (analysis of comparable disticts),-13.79561,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,IA-G1,Deidre DeJear,Kim Reynolds,1,Polls adjusted for house effects & other factors,-14.90249,5.830217,5.830217,5.830217,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,HI-G1,Josh Green,Duke Aiona,4,Expert ratings adjusted for national environment,25.54133,0,0,.7177314,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,HI-G1,Josh Green,Duke Aiona,3,Fundamentals (non-polling factors),26.64596,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,HI-G1,Josh Green,Duke Aiona,2,CANTOR (analysis of comparable disticts),20.83882,.8358126,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,HI-G1,Josh Green,Duke Aiona,1,Polls adjusted for house effects & other factors,,0,0,0,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,GA-G1,Stacey Abrams,Brian Kemp,4,Expert ratings adjusted for national environment,-9.562054,0,0,18.44398,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,GA-G1,Stacey Abrams,Brian Kemp,3,Fundamentals (non-polling factors),-10.92341,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,GA-G1,Stacey Abrams,Brian Kemp,2,CANTOR (analysis of comparable disticts),-13.7582,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,GA-G1,Stacey Abrams,Brian Kemp,1,Polls adjusted for house effects & other factors,-7.355911,35.54071,35.54071,35.54071,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,FL-G1,Charlie Crist,Ron DeSantis,4,Expert ratings adjusted for national environment,-17.12578,0,0,9.630432,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,FL-G1,Charlie Crist,Ron DeSantis,3,Fundamentals (non-polling factors),-13.69229,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,FL-G1,Charlie Crist,Ron DeSantis,2,CANTOR (analysis of comparable disticts),-14.12789,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,FL-G1,Charlie Crist,Ron DeSantis,1,Polls adjusted for house effects & other factors,-11.38689,17.86975,17.86975,17.86975,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CT-G1,Edward Lamont,Robert Stefanowski,4,Expert ratings adjusted for national environment,18.46912,0,0,4.533158,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CT-G1,Edward Lamont,Robert Stefanowski,3,Fundamentals (non-polling factors),9.446262,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CT-G1,Edward Lamont,Robert Stefanowski,2,CANTOR (analysis of comparable disticts),14.90464,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CT-G1,Edward Lamont,Robert Stefanowski,1,Polls adjusted for house effects & other factors,14.2762,7.64984,7.64984,7.64984,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CO-G1,Jared Polis,Heidi Ganahl,4,Expert ratings adjusted for national environment,22.542,0,0,5.720331,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CO-G1,Jared Polis,Heidi Ganahl,3,Fundamentals (non-polling factors),12.29307,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CO-G1,Jared Polis,Heidi Ganahl,2,CANTOR (analysis of comparable disticts),11.88659,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CO-G1,Jared Polis,Heidi Ganahl,1,Polls adjusted for house effects & other factors,12.81777,10.03009,10.03009,10.03009,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CA-G1,Gavin Newsom,Brian Dahle,4,Expert ratings adjusted for national environment,22.13492,0,0,3.906344,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CA-G1,Gavin Newsom,Brian Dahle,3,Fundamentals (non-polling factors),25.22251,0,1.342794,1.342794,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CA-G1,Gavin Newsom,Brian Dahle,2,CANTOR (analysis of comparable disticts),20.01931,0,.0962403,.0962403,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,CA-G1,Gavin Newsom,Brian Dahle,1,Polls adjusted for house effects & other factors,20.29402,6.393093,6.393093,6.393093,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AZ-G1,Katie Hobbs,Kari Lake,4,Expert ratings adjusted for national environment,-3.296664,0,0,15.64995,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AZ-G1,Katie Hobbs,Kari Lake,3,Fundamentals (non-polling factors),-.0047684,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AZ-G1,Katie Hobbs,Kari Lake,2,CANTOR (analysis of comparable disticts),-4.267591,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AZ-G1,Katie Hobbs,Kari Lake,1,Polls adjusted for house effects & other factors,-1.734051,29.93874,29.93874,29.93874,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AR-G1,Chris Jones,Sarah Huckabee Sanders,4,Expert ratings adjusted for national environment,-23.6722,0,0,2.221899,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AR-G1,Chris Jones,Sarah Huckabee Sanders,3,Fundamentals (non-polling factors),-25.46486,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AR-G1,Chris Jones,Sarah Huckabee Sanders,2,CANTOR (analysis of comparable disticts),-13.45142,0,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AR-G1,Chris Jones,Sarah Huckabee Sanders,1,Polls adjusted for house effects & other factors,-17.56528,3.015821,3.015821,3.015821,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AL-G1,Yolanda Rochelle Flowers,Kay Ivey,4,Expert ratings adjusted for national environment,-33.59358,0,0,1.601254,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AL-G1,Yolanda Rochelle Flowers,Kay Ivey,3,Fundamentals (non-polling factors),-32.25291,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AL-G1,Yolanda Rochelle Flowers,Kay Ivey,2,CANTOR (analysis of comparable disticts),-23.07365,.2285585,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AL-G1,Yolanda Rochelle Flowers,Kay Ivey,1,Polls adjusted for house effects & other factors,-33.38448,1.771441,1.771441,1.771441,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AK-G1,"","",4,Expert ratings adjusted for national environment,-16.96961,0,0,1.585036,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AK-G1,"","",3,Fundamentals (non-polling factors),-13.41186,0,1.284435,1.284435,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AK-G1,"","",2,CANTOR (analysis of comparable disticts),-17.41105,.261075,.1545999,.1545999,40000,00:12:39  8 Nov 2022
+2022,Governor,11/8/22,AK-G1,"","",1,Polls adjusted for house effects & other factors,-20.33628,1.738925,1.738925,1.738925,40000,00:12:39  8 Nov 2022
