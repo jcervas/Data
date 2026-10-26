@@ -1,0 +1,823 @@
+{
+ "generated_utc": "2026-10-25T14:23:55+00:00",
+ "election_date": "2026-11-03",
+ "downloaded": false,
+ "counties_attempted": 42,
+ "counties_with_data": 19,
+ "files": 53,
+ "bytes": 73186446,
+ "registered_voters_covered": 11126177,
+ "share_of_state_rv": 0.5963,
+ "counties": [
+  {
+   "county": "Harris",
+   "path_kind": "county-site",
+   "files": [
+    {
+     "label": "precinct report",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/precinct.pdf",
+     "status": 404,
+     "bytes": 0
+    },
+    {
+     "label": "cumulative report",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/cumulative.pdf",
+     "status": 200,
+     "bytes": 627815
+    }
+   ],
+   "status": "ok",
+   "fips": "48201",
+   "rank_by_rv": 1,
+   "registered_voters": 2702952
+  },
+  {
+   "county": "Dallas",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Dallas/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Dallas/127396/381349/reports/detailxml.zip",
+     "bytes": 679110,
+     "election_name": "General &amp; Joint Election 2026",
+     "election_date": "11/3/2026",
+     "contests": 83,
+     "precinct_nodes": 267071
+    }
+   ],
+   "election_id": "127396",
+   "version": "381349",
+   "status": "ok",
+   "fips": "48113",
+   "rank_by_rv": 2,
+   "registered_voters": 1463708
+  },
+  {
+   "county": "Tarrant",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Tarrant/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/reports/detailxml.zip",
+     "bytes": 1937943,
+     "election_name": "Joint General and Special Election 11/03/2026",
+     "election_date": "11/3/2026",
+     "contests": 118,
+     "precinct_nodes": 702994
+    }
+   ],
+   "election_id": "127297",
+   "version": "379881",
+   "status": "ok",
+   "fips": "48439",
+   "rank_by_rv": 3,
+   "registered_voters": 1306427
+  },
+  {
+   "county": "Bexar",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Bexar/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/reports/detailxml.zip",
+     "bytes": 880228,
+     "election_name": "2026 General Election",
+     "election_date": "11/3/2026",
+     "contests": 183,
+     "precinct_nodes": 335490
+    }
+   ],
+   "election_id": "127291",
+   "version": "379718",
+   "status": "ok",
+   "fips": "48029",
+   "rank_by_rv": 4,
+   "registered_voters": 1293128
+  },
+  {
+   "county": "Travis",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Travis/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48453",
+   "rank_by_rv": 5,
+   "registered_voters": 920645
+  },
+  {
+   "county": "Collin",
+   "path_kind": "county-site",
+   "files": [
+    {
+     "label": "June 13, 2026 - Joint General and Special Runoff Elections - Precinct Results Report - Official Totals",
+     "url": "https://www.collincountytx.gov/docs/default-source/elections/election-results/june-13-2026---joint-runoff-election---official-final-precinct-report.pdf?sfvrsn=c2bebdf2_6",
+     "status": 200,
+     "bytes": 7639527
+    },
+    {
+     "label": "June 13, 2026 - Joint General and Special Runoff Elections - Precinct Results Export - Official Totals",
+     "url": "https://www.collincountytx.gov/docs/default-source/elections/election-results/june-13th-2026---joint-general-runoff---all-races.CSV?sfvrsn=4345d56b_8",
+     "status": 200,
+     "bytes": 0
+    }
+   ],
+   "status": "ok",
+   "fips": "48085",
+   "rank_by_rv": 6,
+   "registered_voters": 752502
+  },
+  {
+   "county": "Denton",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Denton/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Denton/127398/382120/reports/detailxml.zip",
+     "bytes": 123028,
+     "election_name": "2026 General Election",
+     "election_date": "11/3/2026",
+     "contests": 89,
+     "precinct_nodes": 89776
+    }
+   ],
+   "election_id": "127398",
+   "version": "382120",
+   "status": "ok",
+   "fips": "48121",
+   "rank_by_rv": 7,
+   "registered_voters": 644341
+  },
+  {
+   "county": "Fort Bend",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Fort_Bend/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381352/reports/detailxml.zip",
+     "bytes": 84323,
+     "election_name": "November 3, 2026-General Election",
+     "election_date": "11/3/2026",
+     "contests": 67,
+     "precinct_nodes": 78780
+    }
+   ],
+   "election_id": "127480",
+   "version": "381352",
+   "status": "ok",
+   "fips": "48157",
+   "rank_by_rv": 8,
+   "registered_voters": 567664
+  },
+  {
+   "county": "El Paso",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/El_Paso/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/reports/detailxml.zip",
+     "bytes": 68086,
+     "election_name": "NOVEMBER 2026 GENERAL ELECTION",
+     "election_date": "11/3/2026",
+     "contests": 86,
+     "precinct_nodes": 70523
+    }
+   ],
+   "election_id": "127348",
+   "version": "381310",
+   "status": "ok",
+   "fips": "48141",
+   "rank_by_rv": 9,
+   "registered_voters": 518817
+  },
+  {
+   "county": "Montgomery",
+   "path_kind": "county-site",
+   "files": [
+    {
+     "label": "precinct report (predicted name)",
+     "url": "https://elections.mctx.org/results/2026_November_Precinct_Report.pdf",
+     "status": 404,
+     "bytes": 0
+    },
+    {
+     "label": "May 26, 2026 Republican Primary Runoff Election Precinct Report",
+     "url": "https://elections.mctx.org/results/2026_May_Republican_Primary_Runoff_Precinct_Report.pdf",
+     "status": 200,
+     "bytes": 524862
+    },
+    {
+     "label": "May 26, 2026 Democratic Primary Runoff Election Precinct Report",
+     "url": "https://elections.mctx.org/results/2026_May_Democratic_Primary_Runoff_Precinct_Report.pdf",
+     "status": 200,
+     "bytes": 391442
+    },
+    {
+     "label": "May 2, 2026 Joint Election Precinct Report",
+     "url": "https://elections.mctx.org/results/2026_May_Precinct_Report.pdf",
+     "status": 200,
+     "bytes": 822332
+    },
+    {
+     "label": "March 3, 2026 Republican Primary Election Precinct Report",
+     "url": "https://elections.mctx.org/results/2026_March_Republican_Precinct_Report.pdf",
+     "status": 200,
+     "bytes": 9238500
+    },
+    {
+     "label": "March 3, 2026 Democratic Primary Election Precinct Report",
+     "url": "https://elections.mctx.org/results/2026_March_Democratic_Precinct_Report.pdf",
+     "status": 200,
+     "bytes": 6822776
+    },
+    {
+     "label": "December 13, 2025 City of Houston Runoff Precinct Report",
+     "url": "https://elections.mctx.org/results/2025_December_Precinct_Report.pdf",
+     "status": 200,
+     "bytes": 184836
+    }
+   ],
+   "status": "ok",
+   "fips": "48339",
+   "rank_by_rv": 10,
+   "registered_voters": 469174
+  },
+  {
+   "county": "Williamson",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Williamson/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48491",
+   "rank_by_rv": 11,
+   "registered_voters": 455181
+  },
+  {
+   "county": "Hidalgo",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Hidalgo/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48215",
+   "rank_by_rv": 12,
+   "registered_voters": 451612
+  },
+  {
+   "county": "Brazoria",
+   "path_kind": "county-site",
+   "files": [
+    {
+     "label": "Democratic Precinct",
+     "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/31424/639165024357470000",
+     "status": 200,
+     "bytes": 762329
+    },
+    {
+     "label": "Republican Precinct",
+     "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/31456/639165046661470000",
+     "status": 200,
+     "bytes": 925575
+    },
+    {
+     "label": "Democratic Precinct",
+     "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/29642/639092644799470000",
+     "status": 200,
+     "bytes": 6083450
+    },
+    {
+     "label": "Republican Precinct",
+     "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/29476/639092653329030000",
+     "status": 200,
+     "bytes": 6724102
+    },
+    {
+     "label": "Precinct",
+     "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/27996/638990821713270000",
+     "status": 200,
+     "bytes": 2155808
+    },
+    {
+     "label": "Precinct Details",
+     "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/23598/638736792615800000",
+     "status": 200,
+     "bytes": 3698123
+    },
+    {
+     "label": "Democratic Precinct",
+     "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/19925/638736791617470000",
+     "status": 200,
+     "bytes": 3155208
+    },
+    {
+     "label": "Republican Precinct",
+     "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/24097/638736788496200000",
+     "status": 200,
+     "bytes": 5083703
+    }
+   ],
+   "status": "ok",
+   "fips": "48039",
+   "rank_by_rv": 13,
+   "registered_voters": 254533
+  },
+  {
+   "county": "Galveston",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Galveston/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Galveston/127478/381904/reports/detailxml.zip",
+     "bytes": 34637,
+     "election_name": "2026 November General Election",
+     "election_date": "11/3/2026",
+     "contests": 68,
+     "precinct_nodes": 32246
+    }
+   ],
+   "election_id": "127478",
+   "version": "381904",
+   "status": "ok",
+   "fips": "48167",
+   "rank_by_rv": 14,
+   "registered_voters": 246657
+  },
+  {
+   "county": "Cameron",
+   "path_kind": "county-site",
+   "files": [
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/BND_Brownsville_Navigation_District_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 99860
+    },
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/SD3_Cameron_County_Drainage_District_No._3_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 39169
+    },
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/SD6_Cameron_County_Drainage_District_No._6_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 15061
+    },
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/CRH_City_of_Rio_Hondo_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 3185
+    },
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/CSB_City_of_San_Benito_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 20055
+    },
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/IPI_Point_Isabel_Independent_School_District_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 14246
+    },
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/ISB_San_Benito_Consolidated_Independent_School_District_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 39709
+    },
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/ISR_Santa_Rosa_Independent_School_District_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 5251
+    },
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/TSC_Texas_Southmost_College_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 118848
+    },
+    {
+     "label": "PCTxPCT",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/05/CLV_Town_of_Laguna_Vista_PCTxPCT.pdf",
+     "status": 200,
+     "bytes": 3507
+    },
+    {
+     "label": "Precinct by Precinct",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/03/Democrat-Party-Precinct-Result-031126.pdf",
+     "status": 200,
+     "bytes": 4561692
+    },
+    {
+     "label": "Precinct by Precinct",
+     "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/03/Republican-Party-Precinct-Results-031126.pdf",
+     "status": 200,
+     "bytes": 3770648
+    }
+   ],
+   "status": "ok",
+   "fips": "48061",
+   "rank_by_rv": 15,
+   "registered_voters": 238192
+  },
+  {
+   "county": "Bell",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Bell/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48027",
+   "rank_by_rv": 16,
+   "registered_voters": 234576
+  },
+  {
+   "county": "Nueces",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Nueces/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48355",
+   "rank_by_rv": 17,
+   "registered_voters": 216123
+  },
+  {
+   "county": "Lubbock",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Lubbock/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48303",
+   "rank_by_rv": 18,
+   "registered_voters": 199184
+  },
+  {
+   "county": "Hays",
+   "path_kind": "browser",
+   "status": "skipped (pass --browser)",
+   "files": [],
+   "source": "https://www.hayscountytx.gov/Archive.aspx?AMID=53",
+   "fips": "48209",
+   "rank_by_rv": 19,
+   "registered_voters": 193013
+  },
+  {
+   "county": "Smith",
+   "path_kind": "county-site",
+   "files": [
+    {
+     "label": "2026-03 Official Precinct Report (PDF)",
+     "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=4258&repo=r-927d42fb",
+     "status": "viewer",
+     "bytes": 0
+    },
+    {
+     "label": "2026-05 Official Precinct Report (PDF)",
+     "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=6109&repo=r-927d42fb",
+     "status": "viewer",
+     "bytes": 0
+    },
+    {
+     "label": "2026-05 Official Precinct Report (PDF)",
+     "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=7174&repo=r-927d42fb",
+     "status": "viewer",
+     "bytes": 0
+    },
+    {
+     "label": "2026-05 Official Precinct Split Report (PDF)",
+     "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=7175&repo=r-927d42fb",
+     "status": "viewer",
+     "bytes": 0
+    },
+    {
+     "label": "2026-06 Official Precinct Report (PDF)",
+     "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=7726&repo=r-927d42fb",
+     "status": "viewer",
+     "bytes": 0
+    }
+   ],
+   "status": "nothing reachable yet",
+   "fips": "48423",
+   "rank_by_rv": 20,
+   "registered_voters": 160066
+  },
+  {
+   "county": "Mclennan",
+   "path_kind": "browser",
+   "status": "skipped (pass --browser)",
+   "files": [],
+   "source": "https://www.mclennan.gov/Archive.aspx?lngArchiveMasterID=66",
+   "fips": "48309",
+   "rank_by_rv": 21,
+   "registered_voters": 158055
+  },
+  {
+   "county": "Ellis",
+   "path_kind": "county-site",
+   "files": [
+    {
+     "label": "Republican Official For Canvass Precinct by Race Results",
+     "url": "https://www.elliscountytx.gov/DocumentCenter/View/23023",
+     "status": 200,
+     "bytes": 587535
+    },
+    {
+     "label": "Democratic Official For Canvass Precinct by Race Results",
+     "url": "https://www.elliscountytx.gov/DocumentCenter/View/23025",
+     "status": 200,
+     "bytes": 462854
+    }
+   ],
+   "status": "ok",
+   "fips": "48139",
+   "rank_by_rv": 22,
+   "registered_voters": 152671
+  },
+  {
+   "county": "Comal",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Comal/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48091",
+   "rank_by_rv": 23,
+   "registered_voters": 147503
+  },
+  {
+   "county": "Webb",
+   "path_kind": "county-site",
+   "files": [
+    {
+     "label": "Combined (PDF)",
+     "url": "https://www.webbcountytx.gov/DocumentCenter/View/2687/Combined-PDF",
+     "status": 200,
+     "bytes": 1589665
+    },
+    {
+     "label": "Early Voting (PDF)",
+     "url": "https://www.webbcountytx.gov/DocumentCenter/View/2688/Early-Voting-PDF",
+     "status": 200,
+     "bytes": 1588404
+    },
+    {
+     "label": "Election Day (PDF)",
+     "url": "https://www.webbcountytx.gov/DocumentCenter/View/2689/Election-Day-PDF",
+     "status": 200,
+     "bytes": 1573618
+    }
+   ],
+   "status": "ok",
+   "fips": "48479",
+   "rank_by_rv": 24,
+   "registered_voters": 146897
+  },
+  {
+   "county": "Jefferson",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Jefferson/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48245",
+   "rank_by_rv": 25,
+   "registered_voters": 146331
+  },
+  {
+   "county": "Parker",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Parker/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Parker/127479/381866/reports/detailxml.zip",
+     "bytes": 12130,
+     "election_name": "November General Election",
+     "election_date": "11/3/2026",
+     "contests": 41,
+     "precinct_nodes": 11833
+    }
+   ],
+   "election_id": "127479",
+   "version": "381866",
+   "status": "ok",
+   "fips": "48367",
+   "rank_by_rv": 28,
+   "registered_voters": 129537
+  },
+  {
+   "county": "Guadalupe",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Guadalupe/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48187",
+   "rank_by_rv": 29,
+   "registered_voters": 128124
+  },
+  {
+   "county": "Kaufman",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Kaufman/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Kaufman/127485/380761/reports/detailxml.zip",
+     "bytes": 10398,
+     "election_name": "2026 GENERAL ELECTION",
+     "election_date": "11/3/2026",
+     "contests": 77,
+     "precinct_nodes": 11281
+    }
+   ],
+   "election_id": "127485",
+   "version": "380761",
+   "status": "ok",
+   "fips": "48257",
+   "rank_by_rv": 30,
+   "registered_voters": 113504
+  },
+  {
+   "county": "Midland",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Midland/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48329",
+   "rank_by_rv": 33,
+   "registered_voters": 97651
+  },
+  {
+   "county": "Rockwall",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Rockwall/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48397",
+   "rank_by_rv": 34,
+   "registered_voters": 90726
+  },
+  {
+   "county": "Hunt",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Hunt/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48231",
+   "rank_by_rv": 38,
+   "registered_voters": 74838
+  },
+  {
+   "county": "Gregg",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Gregg/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48183",
+   "rank_by_rv": 39,
+   "registered_voters": 73217
+  },
+  {
+   "county": "Bastrop",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Bastrop/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48021",
+   "rank_by_rv": 41,
+   "registered_voters": 62653
+  },
+  {
+   "county": "Victoria",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Victoria/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Victoria/127359/379807/reports/detailxml.zip",
+     "bytes": 7976,
+     "election_name": "2026 General Election",
+     "election_date": "11/3/2026",
+     "contests": 38,
+     "precinct_nodes": 8818
+    }
+   ],
+   "election_id": "127359",
+   "version": "379807",
+   "status": "ok",
+   "fips": "48469",
+   "rank_by_rv": 47,
+   "registered_voters": 57085
+  },
+  {
+   "county": "Hood",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Hood/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48221",
+   "rank_by_rv": 50,
+   "registered_voters": 52728
+  },
+  {
+   "county": "Kendall",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Kendall/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48259",
+   "rank_by_rv": 58,
+   "registered_voters": 39850
+  },
+  {
+   "county": "Wood",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Wood/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Wood/127355/379804/reports/detailxml.zip",
+     "bytes": 8515,
+     "election_name": "2026 General Election",
+     "election_date": "11/3/2026",
+     "contests": 42,
+     "precinct_nodes": 7109
+    }
+   ],
+   "election_id": "127355",
+   "version": "379804",
+   "status": "ok",
+   "fips": "48499",
+   "rank_by_rv": 68,
+   "registered_voters": 35376
+  },
+  {
+   "county": "Rusk",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Rusk/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48401",
+   "rank_by_rv": 69,
+   "registered_voters": 34313
+  },
+  {
+   "county": "Lamar",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Lamar/",
+   "files": [
+    {
+     "label": "detail.xml",
+     "url": "https://results.enr.clarityelections.com/TX/Lamar/127484/381255/reports/detailxml.zip",
+     "bytes": 6377,
+     "election_name": "2026 General",
+     "election_date": "11/3/2026",
+     "contests": 37,
+     "precinct_nodes": 7151
+    }
+   ],
+   "election_id": "127484",
+   "version": "381255",
+   "status": "ok",
+   "fips": "48277",
+   "rank_by_rv": 71,
+   "registered_voters": 33012
+  },
+  {
+   "county": "Montague",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Montague/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48337",
+   "rank_by_rv": 108,
+   "registered_voters": 15522
+  },
+  {
+   "county": "Robertson",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Robertson/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48395",
+   "rank_by_rv": 123,
+   "registered_voters": 12589
+  },
+  {
+   "county": "Clay",
+   "path_kind": "clarity",
+   "source": "https://results.enr.clarityelections.com/TX/Clay/",
+   "files": [],
+   "status": "no site staged for 11/3/2026",
+   "fips": "48077",
+   "rank_by_rv": 152,
+   "registered_voters": 8220
+  }
+ ]
+}

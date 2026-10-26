@@ -1,0 +1,255 @@
+fips,county,rank_by_rv,registered_voters,precincts,platform,results_url,precinct_data_url,format_notes,nov2026_staged,nov2026_eid,verification
+48201,Harris,1,2702952,1166,Hart Verity -> harrisvotes.com file store,https://www.harrisvotes.com/election-results,https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/precinct.pdf,PDF (precinct.pdf); MMYY folder. 1124 + 0526 verified; 1126 folder already live,yes,,verified-pattern
+48113,Dallas,2,1463708,792,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Dallas/,https://results.enr.clarityelections.com/TX/Dallas/127396/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127396,verified
+48439,Tarrant,3,1306427,708,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Tarrant/,https://results.enr.clarityelections.com/TX/Tarrant/127297/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127297,verified
+48029,Bexar,4,1293128,807,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Bexar/,https://results.enr.clarityelections.com/TX/Bexar/127291/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127291,verified
+48453,Travis,5,920645,309,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Travis/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48085,Collin,6,752502,274,county in-house,https://www.collincountytx.gov/elections/election-results,https://www.collincountytx.gov/elections/election-results,"PDF ""Precinct Results Report"" + CSV ""Precinct Results Export"" (CSV! best format in state)",pattern known,,verified
+48121,Denton,7,644341,155,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Denton/,https://results.enr.clarityelections.com/TX/Denton/127398/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127398,verified
+48157,Fort Bend,8,567664,295,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Fort_Bend/,https://results.enr.clarityelections.com/TX/Fort_Bend/127480/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127480,verified
+48141,El Paso,9,518817,228,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/El_Paso/,https://results.enr.clarityelections.com/TX/El_Paso/127348/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127348,verified
+48339,Montgomery,10,469174,122,county in-house (elections.mctx.org),https://elections.mctx.org/ElectionResults.asp,https://elections.mctx.org/results/2026_November_Precinct_Report.pdf,PDF <YEAR>_<Month>_Precinct_Report.pdf; archive back to 1992; GEN110326 folder already live,yes,,verified-pattern
+48491,Williamson,11,455181,177,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Williamson/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48215,Hidalgo,12,451612,260,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Hidalgo/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48039,Brazoria,13,254533,85,county clerk site,https://www.brazoriacountyclerktx.gov/departments/elections/election-results,https://www.brazoriacountyclerktx.gov/departments/elections/election-results,"PDF ""Precinct"" report per election (plus Cumulative + Canvass)",pattern known,,verified
+48167,Galveston,14,246657,97,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Galveston/,https://results.enr.clarityelections.com/TX/Galveston/127478/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127478,verified
+48061,Cameron,15,238192,103,county WordPress site (wp-content/uploads),https://www.cameroncountytx.gov/elections/results/,https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/03/Democrat-Party-Precinct-Result-031126.pdf,"PDF; two flavors: ""<Party>-Party-Precinct-Result-<MMDDYY>.pdf"" countywide and ""<CODE>_<Entity>_PCTxPCT.pdf"" per entity (precinct-part level). Files land under uploads/<YYYY>/<MM>/. Nov 3 2026 section already on the page",yes,,verified
+48027,Bell,16,234576,73,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Bell/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48355,Nueces,17,216123,130,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Nueces/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48303,Lubbock,18,199184,100,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Lubbock/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48209,Hays,19,193013,94,CivicPlus Archive Center (AMID=53),https://www.hayscountytx.gov/Archive.aspx?AMID=53,https://www.hayscountytx.gov/Archive.aspx?ADID=206,"One ADID page per election: Canvass Results (PDF, precinct-level per Elec. Code 67.004), Cumulative Results (PDF), Results Reports (ZIP) and CVRExport (ZIP = cast vote records, ballot level; the Mar 2026 Dem export is 119 MB). Cloudflare blocks all scripted clients - use browser_fetch.mjs",pattern known,,verified
+48423,Smith,20,160066,142,CivicPlus county site + Laserfiche document portal,https://www.smith-county.com/236/Current-Election-Results,https://www.smith-county.com/236/Current-Election-Results,"PDF ""<YYYY-MM> Official Precinct Report"" on portal.laserfiche.com (repo r-927d42fb); also an Official Precinct Split Report",pattern known,,verified
+48309,McLennan,21,158055,96,CivicPlus Archive Center,https://www.mclennan.gov/Archive.aspx?lngArchiveMasterID=66,https://www.mclennan.gov/Archive.aspx?ADID=3372,PDF Cumulative + Canvass + Precinct per election; one ADID page per election under ArchiveMasterID=66; documents served from tx-mclennancounty.civicplus.com. Cloudflare blocks all scripted clients - use browser_fetch.mjs,pattern known,,verified
+48139,Ellis,22,152671,61,CivicPlus county site + Civix GoElect ENR,https://www.elliscountytx.gov/1355/2026-Election-Results,https://www.elliscountytx.gov/1402/November-3-2026-General-and-Special-Elec,"Nov 3 2026 page already live, lists ""Precinct by Race Results (PDF)"" as coming; also links goelect.txelections.civixapps.com",yes,,verified
+48091,Comal,23,147503,42,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Comal/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48479,Webb,24,146897,94,CivicPlus DocumentCenter,https://www.webbcountytx.gov/425/Precinct-By-Precinct-Results,https://www.webbcountytx.gov/DocumentCenter/View/2687/Combined-PDF,"PDF ""PCT by PCT"" report, split Combined / Early Voting (2688) / Election Day (2689)",pattern known,,verified
+48245,Jefferson,25,146331,105,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Jefferson/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48041,Brazos,26,138990,78,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48251,Johnson,27,132109,51,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48367,Parker,28,129537,47,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Parker/,https://results.enr.clarityelections.com/TX/Parker/127479/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127479,verified
+48187,Guadalupe,29,128124,90,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Guadalupe/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48257,Kaufman,30,113504,38,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Kaufman/,https://results.enr.clarityelections.com/TX/Kaufman/127485/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127485,verified
+48181,Grayson,31,100887,42,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48381,Randall,32,100698,32,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48329,Midland,33,97651,49,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Midland/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48397,Rockwall,34,90726,28,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Rockwall/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48135,Ector,35,85664,42,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48441,Taylor,36,85075,35,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48485,Wichita,37,77505,41,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48231,Hunt,38,74838,41,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Hunt/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48183,Gregg,39,73217,22,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Gregg/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48451,Tom Green,40,72329,36,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48021,Bastrop,41,62653,27,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Bastrop/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48037,Bowie,42,60472,53,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48213,Henderson,43,60148,31,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48375,Potter,44,57952,25,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48497,Wise,45,57826,29,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48291,Liberty,46,57715,23,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48469,Victoria,47,57085,36,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Victoria/,https://results.enr.clarityelections.com/TX/Victoria/127359/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127359,verified
+48361,Orange,48,56206,35,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48005,Angelina,49,55445,43,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48221,Hood,50,52728,17,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Hood/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48203,Harrison,51,47042,27,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48099,Coryell,52,45909,17,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48409,San Patricio,53,45066,28,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48473,Waller,54,44615,27,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48199,Hardin,55,43555,20,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48373,Polk,56,43352,23,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48467,Van Zandt,57,42052,19,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48259,Kendall,58,39850,18,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Kendall/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48493,Wilson,59,39755,14,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48347,Nacogdoches,60,39731,20,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48053,Burnet,61,39586,22,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48325,Medina,62,39520,16,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48265,Kerr,63,39293,21,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48471,Walker,64,38969,19,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48071,Chambers,65,38164,19,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48323,Maverick,66,36539,17,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48427,Starr,67,36051,15,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48499,Wood,68,35376,15,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Wood/,https://results.enr.clarityelections.com/TX/Wood/127355/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127355,verified
+48401,Rusk,69,34313,23,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Rusk/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48349,Navarro,70,33638,34,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48277,Lamar,71,33012,27,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Lamar/,https://results.enr.clarityelections.com/TX/Lamar/127484/<CURRENT_VER>/reports/detailxml.zip,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,yes,127484,verified
+48073,Cherokee,72,32215,26,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48013,Atascosa,73,32209,25,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48459,Upshur,74,30686,20,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48001,Anderson,75,30678,23,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48097,Cooke,76,30493,18,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48465,Val Verde,77,30490,18,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48217,Hill,78,27498,14,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48055,Caldwell,79,27268,25,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48481,Wharton,80,26568,13,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48143,Erath,81,26306,22,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48249,Jim Wells,82,25864,22,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48477,Washington,83,25667,20,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48049,Brown,84,25461,19,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48223,Hopkins,85,25317,22,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48147,Fannin,86,24815,18,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48241,Jasper,87,24411,21,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48015,Austin,88,22371,11,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48321,Matagorda,89,22085,19,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48171,Gillespie,90,21928,14,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48067,Cass,91,21620,19,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48185,Grimes,92,21519,14,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48407,San Jacinto,93,20745,12,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48363,Palo Pinto,94,20521,30,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48007,Aransas,95,19411,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48019,Bandera,96,19234,11,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48299,Llano,97,18267,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48149,Fayette,98,18167,16,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48189,Hale,99,18103,31,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48449,Titus,100,17979,21,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48273,Kleberg,101,17784,20,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48365,Panola,102,17755,20,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48463,Uvalde,103,17599,15,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48281,Lampasas,104,17188,11,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48331,Milam,105,17179,12,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48227,Howard,106,16618,32,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48419,Shelby,107,16329,15,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48337,Montague,108,15522,16,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Montague/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48025,Bee,109,15491,14,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48457,Tyler,110,14814,18,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48089,Colorado,111,14523,12,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48285,Lavaca,112,14399,12,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48293,Limestone,113,14376,22,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48219,Hockley,114,14077,11,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48051,Burleson,115,13967,14,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48225,Houston,116,13691,22,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48035,Bosque,117,13504,12,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48161,Freestone,118,13398,14,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48233,Hutchinson,119,13169,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48177,Gonzales,120,13160,16,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48057,Calhoun,121,12841,12,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48503,Young,122,12672,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48395,Robertson,123,12589,14,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Robertson/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48289,Leon,124,12551,15,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48133,Eastland,125,12510,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48455,Trinity,126,12255,21,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48179,Gray,127,12112,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48287,Lee,128,12068,16,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48489,Willacy,129,11567,18,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48123,DeWitt,130,11480,11,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48031,Blanco,131,11110,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48253,Jones,132,10967,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48145,Falls,133,10665,13,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48003,Andrews,134,10637,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48165,Gaines,135,10574,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48059,Callahan,136,10371,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48093,Comanche,137,10226,15,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48341,Moore,138,10080,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48239,Jackson,139,9914,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48163,Frio,140,9584,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48379,Rains,141,9549,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48351,Newton,142,9447,24,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48415,Scurry,143,9226,12,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48353,Nolan,144,8746,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48343,Morris,145,8731,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48117,Deaf Smith,146,8722,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48387,Red River,147,8547,30,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48313,Madison,148,8436,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48063,Camp,149,8424,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48403,Sabine,150,8332,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48371,Pecos,151,8319,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48077,Clay,152,8220,17,Clarity / Scytl Election Night Reporting,https://results.enr.clarityelections.com/TX/Clay/,,per-precinct XML + fixed-width TXT in detailxml.zip / detailtxt.zip,not yet,,platform verified; Nov EID not published yet
+48255,Karnes,153,8210,16,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48487,Wilbarger,154,8192,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48505,Zapata,155,8119,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48389,Reeves,156,7880,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48131,Duval,157,7839,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48315,Marion,158,7759,11,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48159,Franklin,159,7697,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48279,Lamb,160,7676,11,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48297,Live Oak,161,7663,15,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48425,Somervell,162,7561,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48507,Zavala,163,7513,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48043,Brewster,164,7018,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48009,Archer,165,7005,14,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48475,Ward,166,6946,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48399,Runnels,167,6748,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48127,Dimmit,168,6550,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48115,Dawson,169,6432,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48445,Terry,170,6420,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48193,Hamilton,171,6181,12,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48083,Coleman,172,6105,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48405,San Augustine,173,5988,12,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48429,Stephens,174,5834,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48237,Jack,175,5811,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48175,Goliad,176,5684,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48307,McCulloch,177,5346,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48357,Ochiltree,178,5129,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48391,Refugio,179,4895,11,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48047,Brooks,180,4730,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48369,Parmer,181,4523,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48335,Mitchell,182,4457,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48305,Lynn,183,4444,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48377,Presidio,184,4395,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48501,Yoakum,185,4323,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48065,Carson,186,4214,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48495,Winkler,187,4130,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48119,Delta,188,4080,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48283,La Salle,189,4044,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48437,Swisher,190,3834,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48411,San Saba,191,3758,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48075,Childress,192,3668,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48333,Mills,193,3596,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48107,Crosby,194,3586,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48153,Floyd,195,3578,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48317,Martin,196,3572,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48069,Castro,197,3488,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48247,Jim Hogg,198,3410,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48207,Haskell,199,3405,11,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48483,Wheeler,200,3348,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48267,Kimble,201,3312,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48319,Mason,202,3266,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48017,Bailey,203,3102,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48195,Hansford,204,2952,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48111,Dallam,205,2774,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48205,Hartley,206,2768,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48151,Fisher,207,2741,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48103,Crane,208,2732,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48385,Real,209,2670,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48081,Coke,210,2508,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48169,Garza,211,2493,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48417,Shackelford,212,2459,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48129,Donley,213,2453,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48023,Baylor,214,2410,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48435,Sutton,215,2282,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48211,Hemphill,216,2272,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48197,Hardeman,217,2269,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48275,Knox,218,2244,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48105,Crockett,219,2236,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48271,Kinney,220,2197,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48229,Hudspeth,221,2121,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48461,Upton,222,2079,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48087,Collingsworth,223,1936,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48295,Lipscomb,224,1871,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48191,Hall,225,1835,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48383,Reagan,226,1792,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48413,Schleicher,227,1749,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48095,Concho,228,1748,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48109,Culberson,229,1703,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48243,Jeff Davis,230,1546,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48079,Cochran,231,1477,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48327,Menard,232,1473,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48137,Edwards,233,1467,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48011,Armstrong,234,1441,9,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48359,Oldham,235,1370,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48125,Dickens,236,1363,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48421,Sherman,237,1333,8,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48235,Irion,238,1205,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48447,Throckmorton,239,1181,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48045,Briscoe,240,1000,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48433,Stonewall,241,978,10,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48101,Cottle,242,965,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48431,Sterling,243,903,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48173,Glasscock,244,842,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48345,Motley,245,838,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48155,Foard,246,788,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48393,Roberts,247,718,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48311,McMullen,248,657,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48443,Terrell,249,614,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48263,Kent,250,601,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48033,Borden,251,468,6,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48261,Kenedy,252,268,7,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48269,King,253,180,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
+48301,Loving,254,149,5,not on Clarity; county-hosted (unidentified),,,,unknown,,not verified
