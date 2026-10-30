@@ -73,11 +73,14 @@ def sha256(path):
 
 # --- the three access paths ---------------------------------------------------
 
-def do_clarity(slug, date_str, download, outdir):
+def do_clarity(slug, date_str, download, outdir, scan=False):
     """Clarity county: one detail.xml holding every precinct in every contest."""
     out = {"county": slug.replace("_", " "), "path_kind": "clarity",
            "source": f"{CL.BASE}/{slug}/", "files": []}
-    eid = CL.find_eid(slug, date_str)
+    eid, err = CL.find_eid(slug, date_str, scan=scan)
+    if err:                      # could not tell; this is a failure, not a no
+        out["status"] = err
+        return out
     if not eid:
         out["status"] = f"no site staged for {date_str}"
         return out
@@ -183,6 +186,9 @@ def main():
     p.add_argument("--outdir", default="tx_precinct_out")
     p.add_argument("--manifest", default="manifest")
     p.add_argument("--workers", type=int, default=6)
+    p.add_argument("--scan", action="store_true",
+                   help="when a county's elections.json is unusable, probe the "
+                        "Clarity id band for its site (slow, cached after)")
     a = p.parse_args()
 
     date = dt.date.fromisoformat(a.date)
@@ -206,7 +212,7 @@ def main():
         kind, name = job
         try:
             if kind == "clarity":
-                return do_clarity(name, date_str, a.download, a.outdir)
+                return do_clarity(name, date_str, a.download, a.outdir, a.scan)
             if kind == "county":
                 return do_county_site(name, date, a.download, a.outdir)
             if not a.browser:

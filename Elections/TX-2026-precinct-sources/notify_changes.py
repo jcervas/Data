@@ -112,7 +112,11 @@ def main():
                                    "rank": c.get("rank_by_rv"),
                                    "registered_voters": c.get("registered_voters"),
                                    "detail": detail(c)})
-                elif ok_was and not ok_now and not is_soft(now["status"]):
+                elif ok_was and not ok_now:
+                    # Alert even when the new state reads "soft". A county that
+                    # was live and now reports "no site staged" has regressed,
+                    # and staying quiet about it is how Denton's disappearance
+                    # went unnoticed for three days.
                     events.append({"kind": "offline", "county": name,
                                    "detail": now["status"][:160]})
                 elif (not ok_now and not is_soft(now["status"])

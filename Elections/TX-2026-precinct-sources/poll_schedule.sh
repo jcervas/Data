@@ -83,7 +83,9 @@ if [[ "$TODAY" > "$STOP_AFTER" ]]; then
 fi
 
 if [[ "$TODAY" < "$ELECTION" ]]; then
-  once_per "discover-$TODAY" && run "daily discovery"
+  # --scan probes the Clarity id band for counties whose elections.json is
+  # unusable; results are cached, so this is cheap after the first hit.
+  once_per "discover-$TODAY" && run "daily discovery" --scan
   exit 0
 fi
 

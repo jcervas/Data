@@ -51,22 +51,106 @@ def get(url, binary=False):
     return body if binary else body.decode("utf-8", "replace")
 
 
-def find_eid(slug, date):
-    known = KNOWN_EIDS.get(date, {}).get(slug)
-    if known:
-        return known
+CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "known_eids.json")
+
+
+def _cache():
     try:
-        events = json.loads(get(f"{BASE}/{slug}/elections.json"))
+        with open(CACHE) as f:
+            return json.load(f)
     except Exception:
-        return None
-    for e in events if isinstance(events, list) else []:
-        if (e.get("Date") or "").startswith(date):
-            return e.get("EID")
+        return {}
+
+
+def _remember(date, slug, eid):
+    """Persist a discovered id. elections.json is flaky and omits the current
+    event for some counties, so once we have seen an id we keep it."""
+    c = _cache()
+    c.setdefault(date, {})[slug] = eid
+    try:
+        with open(CACHE, "w") as f:
+            json.dump(c, f, indent=1, sort_keys=True)
+    except Exception:
+        pass
+
+
+# Every November 2026 id discovered so far lands in this range. Clarity ids are
+# global and sequential-ish, so when elections.json is useless a bounded scan
+# finds the site. Hits are rare (most counties have none), so verifying each with
+# detail.xml is cheap, and a hit is cached forever.
+EID_BAND = (127250, 127650)
+
+
+def scan_band(slug, date, workers=12):
+    """Last-resort discovery: probe the id band for a site whose detail.xml
+    says it is this election. Returns an eid or None.
+
+    Needed because elections.json is an archive list that returns an empty body
+    for many counties -- Bexar, Dallas, Tarrant, Fort Bend, Parker and Victoria
+    were all found this way, not from their own listing.
+    """
+    import concurrent.futures as cf
+
+    def probe(eid):
+        try:
+            ver = get(f"{BASE}/{slug}/{eid}/current_ver.txt").strip()
+        except Exception:
+            return None
+        if not ver.isdigit():
+            return None
+        try:
+            blob = get(f"{BASE}/{slug}/{eid}/{ver}/reports/detailxml.zip", binary=True)
+            xml = zipfile.ZipFile(io.BytesIO(blob)).read("detail.xml").decode(
+                "utf-8", "replace")
+        except Exception:
+            return None
+        m = re.search(r"<ElectionDate>(.*?)</ElectionDate>", xml)
+        return eid if m and m.group(1).strip() == date else None
+
+    with cf.ThreadPoolExecutor(max_workers=workers) as pool:
+        for hit in pool.map(probe, range(EID_BAND[0], EID_BAND[1] + 1)):
+            if hit:
+                _remember(date, slug, hit)
+                return hit
     return None
 
 
+def find_eid(slug, date, scan=False):
+    """Returns (eid_or_None, error_or_None).
+
+    The two None cases are NOT the same thing and must not be conflated: no
+    matching entry means the county has not stood up its site, while an error
+    means we could not tell. Reporting the second as the first is how Denton
+    silently vanished from a manifest on 2026-10-28 while its site was fine.
+    """
+    known = KNOWN_EIDS.get(date, {}).get(slug) or _cache().get(date, {}).get(slug)
+    if known:
+        return known, None
+    listing, listing_err = None, None
+    try:
+        listing = json.loads(get(f"{BASE}/{slug}/elections.json"))
+    except Exception as exc:
+        listing_err = type(exc).__name__
+    for e in listing if isinstance(listing, list) else []:
+        if (e.get("Date") or "").startswith(date):
+            eid = e.get("EID")
+            _remember(date, slug, eid)
+            return eid, None
+    if listing_err:
+        if scan:
+            hit = scan_band(slug, date)
+            if hit:
+                return hit, None
+            return None, None            # scanned and genuinely absent
+        return None, (f"elections.json unusable ({listing_err}); "
+                      f"run with --scan to probe the id band")
+    return None, None
+
+
 def fetch(slug, date, outdir):
-    eid = find_eid(slug, date)
+    eid, err = find_eid(slug, date)
+    if err:
+        return f"{slug:<12} !! {err}"
     if not eid:
         return f"{slug:<12} -- no site staged for {date}"
     ver = get(f"{BASE}/{slug}/{eid}/current_ver.txt").strip()
