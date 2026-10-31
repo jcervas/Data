@@ -113,6 +113,13 @@ def do_clarity(slug, date_str, download, outdir, scan=False):
 def do_county_site(county, date, download, outdir):
     """County-hosted site: candidate precinct reports, checked with a HEAD."""
     out = {"county": county.title(), "path_kind": "county-site", "files": []}
+    # Counties resolved only as far as a results page carry no precinct link to
+    # check, so record the page and say so rather than erroring every run.
+    if county in getattr(NC, "PAGE_ONLY", {}):
+        page, note = NC.PAGE_ONLY[county]
+        out.update(status="page only, no precinct link resolved",
+                   source=page, note=note)
+        return out
     try:
         hits = NC.HANDLERS[county](date)
     except Exception as exc:

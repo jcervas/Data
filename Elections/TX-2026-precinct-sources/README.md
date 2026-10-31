@@ -37,11 +37,12 @@ but the report types are not, and `not verified` means I did not resolve it.
 ## Coverage
 
 - 32 counties on **Clarity / Scytl** — uniform per-precinct XML, one recipe
-- 12 more resolved by hand, including Harris, Collin and Montgomery
+- 25 more resolved by hand, including Harris, Collin and Montgomery
+- **57 counties total, 16,297,918 registered voters, 87.4% of the state**
 - `fetch_all.py` runs all 42 and records what it found in a manifest
-- **Every county in the top 25 is resolved** — 80.9% of the state's 18,657,918
-  registered voters have an identified platform, 58.9% a source verified end to
-  end today
+- Every county in the top 25 is resolved, plus the next tier down to ~50k
+  registered voters — 87.4% of the state's 18,657,918 voters have an identified
+  source
 - The other ~216 counties are county-hosted PDFs with no shared pattern
 
 ## Recipe 1 — Clarity counties (the good one)
@@ -366,6 +367,7 @@ against the live sites on October 23, 2026:
 | Brazoria | works | needs the curl fallback |
 | Cameron | works | ranks `uploads/<YYYY>/<MM>/` hits by the target month |
 | Hays | needs `--browser` | Cloudflare; 19 docs incl. a 119 MB CVR export |
+| Brazos | needs `--browser` | Cloudflare; 13 docs on one flat page |
 | Smith | listing only | Laserfiche viewer needs a session; URLs are reported |
 | McLennan | needs `--browser` | Cloudflare; ~50 docs across 8 elections |
 | Ellis | works | walks per-election pages, finds the PctbyRace PDFs |
@@ -382,9 +384,52 @@ Three HTTP quirks cost real time and are worth knowing before you write your own
 - **Ranged GETs.** Some DocumentCenter endpoints 404 a `Range: bytes=0-0`
   request that they would serve in full, so that shortcut needs its own fallback.
 
-## Recipe 5 — the two Cloudflare counties
+## Recipe 6 — the second tier (counties 26–50)
 
-Hays and McLennan sit behind Cloudflare, which answers every scripted client
+Fifteen more counties, everything down to about 50,000 registered voters, added
+2026-10-30. They take 6.4% of the state from "no resolved source" to a named
+page, and eleven of them to an actual precinct-level report.
+
+No two share a file naming convention, but all of them put the report behind a
+link whose text says what it is, so these need one line each in
+`fetch_non_clarity.py`'s `SIMPLE` table — a page plus a label pattern — rather
+than a bespoke handler:
+
+| County | RV | What the precinct report is called |
+| --- | --- | --- |
+| Grayson | 100,887 | `Official_<Party>_Party_Pct_Summ_Results_Report_<YYYY>.pdf` |
+| Randall | 100,698 | DocumentCenter canvass reports |
+| Ector | 85,664 | one PDF per precinct group: "Pct. 101, 102, 103, …" |
+| Taylor | 85,075 | "OFFICIAL Taylor County Precinct Results" |
+| Tom Green | 72,329 | "Official Precinct Results (PDF)" |
+| Bowie | 60,472 | "Official Results Pct X Pct (PDF)" |
+| Henderson | 60,148 | "Final Results for Canvassing Authority (PDF)" |
+| Potter | 57,952 | Wix `_files/ugd`: "Democratic / Republican Pct. x Pct." |
+| Wise | 57,826 | "Precinct Results Report" |
+| Liberty | 57,715 | "Final Results by Precincts (Official)" |
+| Brazos | 138,990 | per-election PDFs — **browser only**, see below |
+
+Four are resolved only as far as a results page, and are listed in `PAGE_ONLY`
+so they appear in every manifest instead of silently erroring: **Johnson**
+(132,109 — results page exists, nothing precinct-labelled yet), **Angelina**
+(55,445 — PDFs under `files/pdf/elections/`, none precinct-labelled), **Orange**
+(56,206 — the elections page carries no results links at all) and **Wichita**
+(77,505 — the site 403s every scripted client, so it needs the browser path).
+
+Two bugs this tier shook out, both of which would have bitten on election night:
+
+- **Hrefs with spaces.** Liberty and Angelina link PDFs whose filenames contain
+  spaces, and `urllib` rejects those outright with "URL can't contain control
+  characters". `links()` now percent-encodes every href it extracts. Liberty went
+  from a hard error to eight files.
+- **A DNS blip looks like a dead county.** Brazos and Grayson both failed one run
+  with "Could not resolve host" while being perfectly reachable a minute later —
+  the retry's 3s/15s backoff sat inside the same blip. Worth knowing before you
+  read a single run as truth.
+
+## Recipe 5 — the Cloudflare counties
+
+Hays, McLennan and Brazos sit behind Cloudflare, which answers every scripted client
 with "Attention Required" — `curl`, `urllib`, HTTP/1.1 or /2, cookie jar,
 referer, real user agent, all 403. **Plain headless Chrome is blocked too.**
 

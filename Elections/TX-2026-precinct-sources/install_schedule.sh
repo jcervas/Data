@@ -31,9 +31,13 @@ fi
 
 mkdir -p "$BIN" "$BASE/manifests" "$BASE/files" "$BASE/stamps"
 for f in poll_schedule.sh notify_changes.py fetch_all.py fetch_clarity.py \
-         fetch_non_clarity.py browser_fetch.mjs tx_2026_precinct_sources.csv; do
+         fetch_non_clarity.py browser_fetch.mjs live_urls.py \
+         tx_2026_precinct_sources.csv; do
   cp "$SRC/$f" "$BIN/$f"
 done
+# Seed the agent's EID cache with whatever has been discovered here, so a
+# transient elections.json failure cannot lose a county it already knows.
+[ -f "$SRC/known_eids.json" ] && cp -n "$SRC/known_eids.json" "$BIN/" 2>/dev/null
 chmod +x "$BIN/poll_schedule.sh" "$BIN"/*.py "$BIN/browser_fetch.mjs"
 
 cat > "$PLIST" <<PLIST

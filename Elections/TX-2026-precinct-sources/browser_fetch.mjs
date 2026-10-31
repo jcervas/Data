@@ -40,6 +40,13 @@ const COUNTIES = {
     electionText: /^20(2[5-9]|3\d)/,
     doc: /precinct|canvass|cvrexport|results reports/i,
   },
+  // Brazos puts every election's PDFs on one page, so there are no per-election
+  // pages to walk: flat tells the loop to treat the index as the only one.
+  brazos: {
+    index: "https://elections.brazoscountytx.gov/results/",
+    flat: true,
+    doc: /precinct|canvass|cumulative/i,
+  },
   mclennan: {
     // The bare ArchiveMasterID page renders no list; the search form's own URL
     // does. Keep both and fall through.
@@ -265,8 +272,10 @@ async function run() {
         .filter((l) => spec.electionLink.test(l.href) && spec.electionText.test(l.text));
       await goto(cdp, page, spec.index);
       originNow = new URL(spec.index).origin;
-      let elections = pick(await evaluate(cdp, page, LINKS));
-      if (!elections.length && spec.fallback) {
+      let elections = spec.flat
+        ? [{ text: "all elections", href: spec.index }]
+        : pick(await evaluate(cdp, page, LINKS));
+      if (!elections.length && !spec.flat && spec.fallback) {
         await goto(cdp, page, spec.fallback);
         originNow = new URL(spec.fallback).origin;
         elections = pick(await evaluate(cdp, page, LINKS));

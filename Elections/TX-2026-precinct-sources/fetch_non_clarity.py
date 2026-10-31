@@ -65,6 +65,9 @@ BROWSER_ONLY = {
     "hays": ("https://www.hayscountytx.gov/Archive.aspx?AMID=53",
              "one ADID page per election: Canvass + Cumulative PDFs, Results Reports ZIP, "
              "and CVRExport ZIP (cast vote records, ballot level)"),
+    "brazos": ("https://elections.brazoscountytx.gov/results/",
+               "WordPress page of per-election PDFs; its WAF refuses every "
+               "scripted client but real Chrome gets through"),
     "mclennan": ("https://www.mclennan.gov/Archive.aspx?lngArchiveMasterID=66",
                  "one ADID page per election with Cumulative + Canvass + Precinct PDFs"),
 }
@@ -122,12 +125,22 @@ def fetch(url, binary=False, tries=3):
 
 
 def links(html, base):
-    """Every <a> as (anchor_text, absolute_url)."""
+    """Every <a> as (anchor_text, absolute_url).
+
+    Hrefs are percent-encoded on the way out: several counties link PDFs whose
+    filenames contain spaces (Liberty, Angelina), and urllib rejects those with
+    "URL can't contain control characters" rather than fetching them.
+    """
     out = []
     for m in re.finditer(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>', html, re.S | re.I):
         href, text = m.group(1).strip(), re.sub(r"<[^>]+>", " ", m.group(2))
         text = re.sub(r"\s+", " ", text).strip()
-        out.append((text, urllib.parse.urljoin(base, href)))
+        url = urllib.parse.urljoin(base, href)
+        parts = urllib.parse.urlsplit(url)
+        url = urllib.parse.urlunsplit(parts._replace(
+            path=urllib.parse.quote(parts.path, safe="/%:@&=+$,;~!*'()"),
+            query=urllib.parse.quote(parts.query, safe="/%:@&=+$,;?~!*'()")))
+        out.append((text, url))
     return out
 
 
@@ -240,11 +253,72 @@ def ellis(d):
                             "November-3-2026-General-and-Special-Elec")]
 
 
+# --- second tier -------------------------------------------------------------
+# Counties 26-70 by registered voters. Each is a page plus a label pattern for
+# the precinct-level report, which is all these sites need: no two share a file
+# naming convention, but all of them put the report behind a link whose text
+# says what it is. Verified against the live sites on 2026-10-30.
+SIMPLE = {
+    "grayson": ("https://www.co.grayson.tx.us/page/elec.history",
+                r"Pct_Summ|Pct.?Summ",
+                "Official_<Party>_Party_Pct_Summ_Results_Report_<YYYY>.pdf"),
+    "randall": ("https://www.randallcounty.gov/183/Election-Results",
+                r"canvass", "DocumentCenter canvass reports"),
+    "ector": ("https://www.ectorcountytx.gov/271/Elections",
+              r"^Pct\.", "one PDF per precinct group, labelled Pct. 101, ..."),
+    "taylor": ("https://www.taylorcounty.texas.gov/549/Archived-Election-Results",
+               r"precinct results", "DocumentCenter: OFFICIAL ... Precinct Results"),
+    "tom green": ("https://www.tomgreencountytx.gov/page/ele.ElectionsResults",
+                  r"precinct results", "upload/page/0091/docs/<YYYY>/..."),
+    "bowie": ("https://www.bowiecounty.org/1241/Past-Election-Results",
+              r"pct ?x ?pct|precinct", "Official Results Pct X Pct (PDF)"),
+    "henderson": ("https://www.henderson-county.com/225/Election-Results",
+                  r"canvassing authority|precinct",
+                  "Final Results for Canvassing Authority (PDF)"),
+    "potter": ("https://www.pottercountytexasvotes.gov/archived-election-results",
+               r"pct\.? ?x ?pct\.?|canvass", "Wix _files/ugd: ... Pct. x Pct."),
+    "wise": ("https://www.co.wise.tx.us/315/Elections",
+             r"precinct results", "DocumentCenter: Precinct Results Report"),
+    "liberty": ("https://www.co.liberty.tx.us/page/liberty.elections.past.historical",
+                r"precinct|canvass", "historical results page"),
+}
+
+
+def _simple(county):
+    page, pattern, _ = SIMPLE[county]
+
+    def handler(d, page=page, pattern=pattern):
+        html = fetch(page)
+        hits = by_text(html, page, pattern)
+        hits = [(t, u) for t, u in hits
+                if not re.search(r"\bmap|commissioner|justice of|constable", t, re.I)]
+        return dedupe(hits)[:8] or [("results page (no precinct link matched)", page)]
+
+    return handler
+
+
+# Resolved only as far as a results page: no precinct-labelled link to key on,
+# or the site refuses scripted access. Reported so they are not silently absent.
+PAGE_ONLY = {
+    "johnson": ("https://www.johnsoncountytx.org/departments/elections-office/"
+                "current-election-results", "results page; no precinct link yet"),
+    "angelina": ("https://www.angelinacounty.gov/elections/",
+                 "PDF results under files/pdf/elections/; none precinct-labelled"),
+    "orange": ("https://www.co.orange.tx.us/departments/elections",
+               "elections page carries no results links"),
+    "wichita": ("https://wichitacountytx.com/election_info/",
+                "site returns 403 to every scripted client; needs a browser"),
+}
+
 HANDLERS = {"harris": harris, "collin": collin, "montgomery": montgomery,
             "brazoria": brazoria, "cameron": cameron, "smith": smith,
             "webb": webb, "ellis": ellis}
+HANDLERS.update({c: _simple(c) for c in SIMPLE})
 ORDER = ["harris", "collin", "montgomery", "brazoria", "cameron",
-         "hays", "smith", "mclennan", "ellis", "webb"]
+         "hays", "smith", "mclennan", "ellis", "webb",
+         "brazos", "johnson", "grayson", "randall", "ector", "taylor",
+         "wichita", "tom green", "bowie", "henderson", "potter", "wise",
+         "liberty", "orange", "angelina"]
 
 
 def head(url):

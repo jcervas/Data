@@ -17,6 +17,7 @@ import json
 import os
 import re
 import sys
+import threading
 import urllib.request
 import zipfile
 
@@ -80,8 +81,15 @@ def _remember(date, slug, eid):
 # detail.xml is cheap, and a hit is cached forever.
 EID_BAND = (127250, 127650)
 
+# A band scan is ~400 requests per county. fetch_all runs counties in parallel,
+# so without a global cap a full sweep opens hundreds of sockets at once and the
+# machine starts refusing its own connections (ECONNREFUSED on hosts that were
+# fine a minute earlier). One semaphore across every scanning thread keeps the
+# whole process polite no matter how many counties scan at the same time.
+_SCAN_GATE = threading.Semaphore(8)
 
-def scan_band(slug, date, workers=12):
+
+def scan_band(slug, date, workers=4):
     """Last-resort discovery: probe the id band for a site whose detail.xml
     says it is this election. Returns an eid or None.
 
@@ -92,6 +100,10 @@ def scan_band(slug, date, workers=12):
     import concurrent.futures as cf
 
     def probe(eid):
+        with _SCAN_GATE:
+            return _probe(eid)
+
+    def _probe(eid):
         try:
             ver = get(f"{BASE}/{slug}/{eid}/current_ver.txt").strip()
         except Exception:
