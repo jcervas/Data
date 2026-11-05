@@ -1,0 +1,1163 @@
+county,fips3,precinct,pctkey,race,candidate,party,votes,tlc_match,election_date
+Brazoria,39,0001,390001,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0001,390001,governor,Gina Hinojosa,DEM,882,matched,11/3/2026
+Brazoria,39,0001,390001,governor,Greg Abbott,REP,1230,matched,11/3/2026
+Brazoria,39,0001,390001,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0001,390001,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0001,390001,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0001,390001,governor,Pat Dixon,LIB,59,matched,11/3/2026
+Brazoria,39,0001,390001,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0001,390001,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0001,390001,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0001,390001,us_senate,James Talarico,DEM,907,matched,11/3/2026
+Brazoria,39,0001,390001,us_senate,Ken Paxton,REP,1194,matched,11/3/2026
+Brazoria,39,0001,390001,us_senate,Ted Brown,LIB,65,matched,11/3/2026
+Brazoria,39,0001,390001,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0010,390010,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0010,390010,governor,Gina Hinojosa,DEM,111,matched,11/3/2026
+Brazoria,39,0010,390010,governor,Greg Abbott,REP,448,matched,11/3/2026
+Brazoria,39,0010,390010,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0010,390010,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0010,390010,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0010,390010,governor,Pat Dixon,LIB,10,matched,11/3/2026
+Brazoria,39,0010,390010,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0010,390010,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0010,390010,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0010,390010,us_senate,James Talarico,DEM,124,matched,11/3/2026
+Brazoria,39,0010,390010,us_senate,Ken Paxton,REP,429,matched,11/3/2026
+Brazoria,39,0010,390010,us_senate,Ted Brown,LIB,15,matched,11/3/2026
+Brazoria,39,0010,390010,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0011,390011,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0011,390011,governor,Gina Hinojosa,DEM,1453,matched,11/3/2026
+Brazoria,39,0011,390011,governor,Greg Abbott,REP,973,matched,11/3/2026
+Brazoria,39,0011,390011,governor,Jenn Mack,,3,matched,11/3/2026
+Brazoria,39,0011,390011,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0011,390011,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0011,390011,governor,Pat Dixon,LIB,34,matched,11/3/2026
+Brazoria,39,0011,390011,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0011,390011,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0011,390011,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0011,390011,us_senate,James Talarico,DEM,1495,matched,11/3/2026
+Brazoria,39,0011,390011,us_senate,Ken Paxton,REP,928,matched,11/3/2026
+Brazoria,39,0011,390011,us_senate,Ted Brown,LIB,43,matched,11/3/2026
+Brazoria,39,0011,390011,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0012,390012,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0012,390012,governor,Gina Hinojosa,DEM,1078,matched,11/3/2026
+Brazoria,39,0012,390012,governor,Greg Abbott,REP,1021,matched,11/3/2026
+Brazoria,39,0012,390012,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0012,390012,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0012,390012,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0012,390012,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Brazoria,39,0012,390012,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0012,390012,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0012,390012,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0012,390012,us_senate,James Talarico,DEM,1111,matched,11/3/2026
+Brazoria,39,0012,390012,us_senate,Ken Paxton,REP,980,matched,11/3/2026
+Brazoria,39,0012,390012,us_senate,Ted Brown,LIB,36,matched,11/3/2026
+Brazoria,39,0012,390012,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0013,390013,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0013,390013,governor,Gina Hinojosa,DEM,875,matched,11/3/2026
+Brazoria,39,0013,390013,governor,Greg Abbott,REP,912,matched,11/3/2026
+Brazoria,39,0013,390013,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0013,390013,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0013,390013,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0013,390013,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Brazoria,39,0013,390013,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0013,390013,us_senate,Bradford Brad Hall,,1,matched,11/3/2026
+Brazoria,39,0013,390013,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0013,390013,us_senate,James Talarico,DEM,896,matched,11/3/2026
+Brazoria,39,0013,390013,us_senate,Ken Paxton,REP,887,matched,11/3/2026
+Brazoria,39,0013,390013,us_senate,Ted Brown,LIB,37,matched,11/3/2026
+Brazoria,39,0013,390013,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0014,390014,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0014,390014,governor,Gina Hinojosa,DEM,622,matched,11/3/2026
+Brazoria,39,0014,390014,governor,Greg Abbott,REP,1665,matched,11/3/2026
+Brazoria,39,0014,390014,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0014,390014,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0014,390014,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0014,390014,governor,Pat Dixon,LIB,57,matched,11/3/2026
+Brazoria,39,0014,390014,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0014,390014,us_senate,Bradford Brad Hall,,2,matched,11/3/2026
+Brazoria,39,0014,390014,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0014,390014,us_senate,James Talarico,DEM,649,matched,11/3/2026
+Brazoria,39,0014,390014,us_senate,Ken Paxton,REP,1629,matched,11/3/2026
+Brazoria,39,0014,390014,us_senate,Ted Brown,LIB,65,matched,11/3/2026
+Brazoria,39,0014,390014,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0015,390015,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0015,390015,governor,Gina Hinojosa,DEM,247,matched,11/3/2026
+Brazoria,39,0015,390015,governor,Greg Abbott,REP,1216,matched,11/3/2026
+Brazoria,39,0015,390015,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0015,390015,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0015,390015,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0015,390015,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Brazoria,39,0015,390015,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0015,390015,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0015,390015,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0015,390015,us_senate,James Talarico,DEM,262,matched,11/3/2026
+Brazoria,39,0015,390015,us_senate,Ken Paxton,REP,1190,matched,11/3/2026
+Brazoria,39,0015,390015,us_senate,Ted Brown,LIB,36,matched,11/3/2026
+Brazoria,39,0015,390015,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0016,390016,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0016,390016,governor,Gina Hinojosa,DEM,324,matched,11/3/2026
+Brazoria,39,0016,390016,governor,Greg Abbott,REP,471,matched,11/3/2026
+Brazoria,39,0016,390016,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0016,390016,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0016,390016,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0016,390016,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Brazoria,39,0016,390016,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0016,390016,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0016,390016,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0016,390016,us_senate,James Talarico,DEM,329,matched,11/3/2026
+Brazoria,39,0016,390016,us_senate,Ken Paxton,REP,464,matched,11/3/2026
+Brazoria,39,0016,390016,us_senate,Ted Brown,LIB,21,matched,11/3/2026
+Brazoria,39,0016,390016,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0017,390017,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0017,390017,governor,Gina Hinojosa,DEM,655,matched,11/3/2026
+Brazoria,39,0017,390017,governor,Greg Abbott,REP,413,matched,11/3/2026
+Brazoria,39,0017,390017,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0017,390017,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0017,390017,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0017,390017,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Brazoria,39,0017,390017,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0017,390017,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0017,390017,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0017,390017,us_senate,James Talarico,DEM,665,matched,11/3/2026
+Brazoria,39,0017,390017,us_senate,Ken Paxton,REP,390,matched,11/3/2026
+Brazoria,39,0017,390017,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Brazoria,39,0017,390017,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0018,390018,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0018,390018,governor,Gina Hinojosa,DEM,1195,matched,11/3/2026
+Brazoria,39,0018,390018,governor,Greg Abbott,REP,1729,matched,11/3/2026
+Brazoria,39,0018,390018,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0018,390018,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0018,390018,governor,Mike Miller,,2,matched,11/3/2026
+Brazoria,39,0018,390018,governor,Pat Dixon,LIB,55,matched,11/3/2026
+Brazoria,39,0018,390018,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0018,390018,us_senate,Bradford Brad Hall,,1,matched,11/3/2026
+Brazoria,39,0018,390018,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0018,390018,us_senate,James Talarico,DEM,1234,matched,11/3/2026
+Brazoria,39,0018,390018,us_senate,Ken Paxton,REP,1692,matched,11/3/2026
+Brazoria,39,0018,390018,us_senate,Ted Brown,LIB,49,matched,11/3/2026
+Brazoria,39,0018,390018,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0019,390019,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0019,390019,governor,Gina Hinojosa,DEM,525,matched,11/3/2026
+Brazoria,39,0019,390019,governor,Greg Abbott,REP,324,matched,11/3/2026
+Brazoria,39,0019,390019,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0019,390019,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0019,390019,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0019,390019,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Brazoria,39,0019,390019,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0019,390019,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0019,390019,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0019,390019,us_senate,James Talarico,DEM,535,matched,11/3/2026
+Brazoria,39,0019,390019,us_senate,Ken Paxton,REP,306,matched,11/3/2026
+Brazoria,39,0019,390019,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Brazoria,39,0019,390019,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0002,390002,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0002,390002,governor,Gina Hinojosa,DEM,634,matched,11/3/2026
+Brazoria,39,0002,390002,governor,Greg Abbott,REP,1480,matched,11/3/2026
+Brazoria,39,0002,390002,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0002,390002,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0002,390002,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0002,390002,governor,Pat Dixon,LIB,42,matched,11/3/2026
+Brazoria,39,0002,390002,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0002,390002,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0002,390002,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0002,390002,us_senate,James Talarico,DEM,646,matched,11/3/2026
+Brazoria,39,0002,390002,us_senate,Ken Paxton,REP,1446,matched,11/3/2026
+Brazoria,39,0002,390002,us_senate,Ted Brown,LIB,63,matched,11/3/2026
+Brazoria,39,0002,390002,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0020,390020,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0020,390020,governor,Gina Hinojosa,DEM,0,matched,11/3/2026
+Brazoria,39,0020,390020,governor,Greg Abbott,REP,4,matched,11/3/2026
+Brazoria,39,0020,390020,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0020,390020,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0020,390020,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0020,390020,governor,Pat Dixon,LIB,0,matched,11/3/2026
+Brazoria,39,0020,390020,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0020,390020,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0020,390020,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0020,390020,us_senate,James Talarico,DEM,0,matched,11/3/2026
+Brazoria,39,0020,390020,us_senate,Ken Paxton,REP,4,matched,11/3/2026
+Brazoria,39,0020,390020,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Brazoria,39,0020,390020,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0021,390021,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0021,390021,governor,Gina Hinojosa,DEM,1790,matched,11/3/2026
+Brazoria,39,0021,390021,governor,Greg Abbott,REP,452,matched,11/3/2026
+Brazoria,39,0021,390021,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0021,390021,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0021,390021,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0021,390021,governor,Pat Dixon,LIB,38,matched,11/3/2026
+Brazoria,39,0021,390021,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0021,390021,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0021,390021,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0021,390021,us_senate,James Talarico,DEM,1825,matched,11/3/2026
+Brazoria,39,0021,390021,us_senate,Ken Paxton,REP,414,matched,11/3/2026
+Brazoria,39,0021,390021,us_senate,Ted Brown,LIB,39,matched,11/3/2026
+Brazoria,39,0021,390021,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0022,390022,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0022,390022,governor,Gina Hinojosa,DEM,776,matched,11/3/2026
+Brazoria,39,0022,390022,governor,Greg Abbott,REP,1705,matched,11/3/2026
+Brazoria,39,0022,390022,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0022,390022,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0022,390022,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0022,390022,governor,Pat Dixon,LIB,69,matched,11/3/2026
+Brazoria,39,0022,390022,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0022,390022,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0022,390022,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0022,390022,us_senate,James Talarico,DEM,788,matched,11/3/2026
+Brazoria,39,0022,390022,us_senate,Ken Paxton,REP,1665,matched,11/3/2026
+Brazoria,39,0022,390022,us_senate,Ted Brown,LIB,99,matched,11/3/2026
+Brazoria,39,0022,390022,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0023,390023,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0023,390023,governor,Gina Hinojosa,DEM,825,matched,11/3/2026
+Brazoria,39,0023,390023,governor,Greg Abbott,REP,1323,matched,11/3/2026
+Brazoria,39,0023,390023,governor,Jenn Mack,,2,matched,11/3/2026
+Brazoria,39,0023,390023,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0023,390023,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0023,390023,governor,Pat Dixon,LIB,51,matched,11/3/2026
+Brazoria,39,0023,390023,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0023,390023,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0023,390023,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0023,390023,us_senate,James Talarico,DEM,849,matched,11/3/2026
+Brazoria,39,0023,390023,us_senate,Ken Paxton,REP,1280,matched,11/3/2026
+Brazoria,39,0023,390023,us_senate,Ted Brown,LIB,67,matched,11/3/2026
+Brazoria,39,0023,390023,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0024,390024,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0024,390024,governor,Gina Hinojosa,DEM,264,matched,11/3/2026
+Brazoria,39,0024,390024,governor,Greg Abbott,REP,642,matched,11/3/2026
+Brazoria,39,0024,390024,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0024,390024,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0024,390024,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0024,390024,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Brazoria,39,0024,390024,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0024,390024,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0024,390024,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0024,390024,us_senate,James Talarico,DEM,278,matched,11/3/2026
+Brazoria,39,0024,390024,us_senate,Ken Paxton,REP,627,matched,11/3/2026
+Brazoria,39,0024,390024,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Brazoria,39,0024,390024,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0025,390025,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0025,390025,governor,Gina Hinojosa,DEM,481,matched,11/3/2026
+Brazoria,39,0025,390025,governor,Greg Abbott,REP,870,matched,11/3/2026
+Brazoria,39,0025,390025,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0025,390025,governor,Jinghpaw Majoishingra,,1,matched,11/3/2026
+Brazoria,39,0025,390025,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0025,390025,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Brazoria,39,0025,390025,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0025,390025,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0025,390025,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0025,390025,us_senate,James Talarico,DEM,510,matched,11/3/2026
+Brazoria,39,0025,390025,us_senate,Ken Paxton,REP,836,matched,11/3/2026
+Brazoria,39,0025,390025,us_senate,Ted Brown,LIB,30,matched,11/3/2026
+Brazoria,39,0025,390025,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0026,390026,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0026,390026,governor,Gina Hinojosa,DEM,1379,matched,11/3/2026
+Brazoria,39,0026,390026,governor,Greg Abbott,REP,1081,matched,11/3/2026
+Brazoria,39,0026,390026,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0026,390026,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0026,390026,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0026,390026,governor,Pat Dixon,LIB,46,matched,11/3/2026
+Brazoria,39,0026,390026,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0026,390026,us_senate,Bradford Brad Hall,,1,matched,11/3/2026
+Brazoria,39,0026,390026,us_senate,Jade Simmons,,2,matched,11/3/2026
+Brazoria,39,0026,390026,us_senate,James Talarico,DEM,1410,matched,11/3/2026
+Brazoria,39,0026,390026,us_senate,Ken Paxton,REP,1032,matched,11/3/2026
+Brazoria,39,0026,390026,us_senate,Ted Brown,LIB,55,matched,11/3/2026
+Brazoria,39,0026,390026,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0027,390027,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0027,390027,governor,Gina Hinojosa,DEM,795,matched,11/3/2026
+Brazoria,39,0027,390027,governor,Greg Abbott,REP,716,matched,11/3/2026
+Brazoria,39,0027,390027,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0027,390027,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0027,390027,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0027,390027,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Brazoria,39,0027,390027,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0027,390027,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0027,390027,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0027,390027,us_senate,James Talarico,DEM,837,matched,11/3/2026
+Brazoria,39,0027,390027,us_senate,Ken Paxton,REP,666,matched,11/3/2026
+Brazoria,39,0027,390027,us_senate,Ted Brown,LIB,25,matched,11/3/2026
+Brazoria,39,0027,390027,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0028,390028,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0028,390028,governor,Gina Hinojosa,DEM,1348,matched,11/3/2026
+Brazoria,39,0028,390028,governor,Greg Abbott,REP,1305,matched,11/3/2026
+Brazoria,39,0028,390028,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0028,390028,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0028,390028,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0028,390028,governor,Pat Dixon,LIB,44,matched,11/3/2026
+Brazoria,39,0028,390028,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0028,390028,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0028,390028,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0028,390028,us_senate,James Talarico,DEM,1410,matched,11/3/2026
+Brazoria,39,0028,390028,us_senate,Ken Paxton,REP,1243,matched,11/3/2026
+Brazoria,39,0028,390028,us_senate,Ted Brown,LIB,46,matched,11/3/2026
+Brazoria,39,0028,390028,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0029,390029,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0029,390029,governor,Gina Hinojosa,DEM,1496,matched,11/3/2026
+Brazoria,39,0029,390029,governor,Greg Abbott,REP,739,matched,11/3/2026
+Brazoria,39,0029,390029,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0029,390029,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0029,390029,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0029,390029,governor,Pat Dixon,LIB,37,matched,11/3/2026
+Brazoria,39,0029,390029,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0029,390029,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0029,390029,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0029,390029,us_senate,James Talarico,DEM,1558,matched,11/3/2026
+Brazoria,39,0029,390029,us_senate,Ken Paxton,REP,687,matched,11/3/2026
+Brazoria,39,0029,390029,us_senate,Ted Brown,LIB,33,matched,11/3/2026
+Brazoria,39,0029,390029,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0003,390003,governor,Edward Earl Giles,,1,matched,11/3/2026
+Brazoria,39,0003,390003,governor,Gina Hinojosa,DEM,615,matched,11/3/2026
+Brazoria,39,0003,390003,governor,Greg Abbott,REP,1031,matched,11/3/2026
+Brazoria,39,0003,390003,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0003,390003,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0003,390003,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0003,390003,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Brazoria,39,0003,390003,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0003,390003,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0003,390003,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0003,390003,us_senate,James Talarico,DEM,646,matched,11/3/2026
+Brazoria,39,0003,390003,us_senate,Ken Paxton,REP,999,matched,11/3/2026
+Brazoria,39,0003,390003,us_senate,Ted Brown,LIB,33,matched,11/3/2026
+Brazoria,39,0003,390003,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0030,390030,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0030,390030,governor,Gina Hinojosa,DEM,445,matched,11/3/2026
+Brazoria,39,0030,390030,governor,Greg Abbott,REP,1417,matched,11/3/2026
+Brazoria,39,0030,390030,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0030,390030,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0030,390030,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0030,390030,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Brazoria,39,0030,390030,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0030,390030,us_senate,Bradford Brad Hall,,3,matched,11/3/2026
+Brazoria,39,0030,390030,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0030,390030,us_senate,James Talarico,DEM,471,matched,11/3/2026
+Brazoria,39,0030,390030,us_senate,Ken Paxton,REP,1371,matched,11/3/2026
+Brazoria,39,0030,390030,us_senate,Ted Brown,LIB,43,matched,11/3/2026
+Brazoria,39,0030,390030,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0031,390031,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0031,390031,governor,Gina Hinojosa,DEM,172,matched,11/3/2026
+Brazoria,39,0031,390031,governor,Greg Abbott,REP,519,matched,11/3/2026
+Brazoria,39,0031,390031,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0031,390031,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0031,390031,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0031,390031,governor,Pat Dixon,LIB,16,matched,11/3/2026
+Brazoria,39,0031,390031,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0031,390031,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0031,390031,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0031,390031,us_senate,James Talarico,DEM,180,matched,11/3/2026
+Brazoria,39,0031,390031,us_senate,Ken Paxton,REP,509,matched,11/3/2026
+Brazoria,39,0031,390031,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Brazoria,39,0031,390031,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0032,390032,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0032,390032,governor,Gina Hinojosa,DEM,61,matched,11/3/2026
+Brazoria,39,0032,390032,governor,Greg Abbott,REP,263,matched,11/3/2026
+Brazoria,39,0032,390032,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0032,390032,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0032,390032,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0032,390032,governor,Pat Dixon,LIB,3,matched,11/3/2026
+Brazoria,39,0032,390032,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0032,390032,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0032,390032,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0032,390032,us_senate,James Talarico,DEM,66,matched,11/3/2026
+Brazoria,39,0032,390032,us_senate,Ken Paxton,REP,253,matched,11/3/2026
+Brazoria,39,0032,390032,us_senate,Ted Brown,LIB,8,matched,11/3/2026
+Brazoria,39,0032,390032,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0033,390033,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0033,390033,governor,Gina Hinojosa,DEM,306,matched,11/3/2026
+Brazoria,39,0033,390033,governor,Greg Abbott,REP,764,matched,11/3/2026
+Brazoria,39,0033,390033,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0033,390033,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0033,390033,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0033,390033,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Brazoria,39,0033,390033,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0033,390033,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0033,390033,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0033,390033,us_senate,James Talarico,DEM,312,matched,11/3/2026
+Brazoria,39,0033,390033,us_senate,Ken Paxton,REP,751,matched,11/3/2026
+Brazoria,39,0033,390033,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Brazoria,39,0033,390033,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0034,390034,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0034,390034,governor,Gina Hinojosa,DEM,664,matched,11/3/2026
+Brazoria,39,0034,390034,governor,Greg Abbott,REP,1054,matched,11/3/2026
+Brazoria,39,0034,390034,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0034,390034,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0034,390034,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0034,390034,governor,Pat Dixon,LIB,40,matched,11/3/2026
+Brazoria,39,0034,390034,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0034,390034,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0034,390034,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0034,390034,us_senate,James Talarico,DEM,690,matched,11/3/2026
+Brazoria,39,0034,390034,us_senate,Ken Paxton,REP,1032,matched,11/3/2026
+Brazoria,39,0034,390034,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Brazoria,39,0034,390034,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0035,390035,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0035,390035,governor,Gina Hinojosa,DEM,259,matched,11/3/2026
+Brazoria,39,0035,390035,governor,Greg Abbott,REP,776,matched,11/3/2026
+Brazoria,39,0035,390035,governor,Jenn Mack,,2,matched,11/3/2026
+Brazoria,39,0035,390035,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0035,390035,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0035,390035,governor,Pat Dixon,LIB,15,matched,11/3/2026
+Brazoria,39,0035,390035,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0035,390035,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0035,390035,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0035,390035,us_senate,James Talarico,DEM,265,matched,11/3/2026
+Brazoria,39,0035,390035,us_senate,Ken Paxton,REP,772,matched,11/3/2026
+Brazoria,39,0035,390035,us_senate,Ted Brown,LIB,17,matched,11/3/2026
+Brazoria,39,0035,390035,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0036,390036,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0036,390036,governor,Gina Hinojosa,DEM,552,matched,11/3/2026
+Brazoria,39,0036,390036,governor,Greg Abbott,REP,564,matched,11/3/2026
+Brazoria,39,0036,390036,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0036,390036,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0036,390036,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0036,390036,governor,Pat Dixon,LIB,16,matched,11/3/2026
+Brazoria,39,0036,390036,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0036,390036,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0036,390036,us_senate,Jade Simmons,,2,matched,11/3/2026
+Brazoria,39,0036,390036,us_senate,James Talarico,DEM,563,matched,11/3/2026
+Brazoria,39,0036,390036,us_senate,Ken Paxton,REP,550,matched,11/3/2026
+Brazoria,39,0036,390036,us_senate,Ted Brown,LIB,20,matched,11/3/2026
+Brazoria,39,0036,390036,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0037,390037,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0037,390037,governor,Gina Hinojosa,DEM,1255,matched,11/3/2026
+Brazoria,39,0037,390037,governor,Greg Abbott,REP,1209,matched,11/3/2026
+Brazoria,39,0037,390037,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0037,390037,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0037,390037,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0037,390037,governor,Pat Dixon,LIB,44,matched,11/3/2026
+Brazoria,39,0037,390037,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0037,390037,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0037,390037,us_senate,Jade Simmons,,2,matched,11/3/2026
+Brazoria,39,0037,390037,us_senate,James Talarico,DEM,1308,matched,11/3/2026
+Brazoria,39,0037,390037,us_senate,Ken Paxton,REP,1151,matched,11/3/2026
+Brazoria,39,0037,390037,us_senate,Ted Brown,LIB,48,matched,11/3/2026
+Brazoria,39,0037,390037,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0038,390038,governor,Edward Earl Giles,,1,matched,11/3/2026
+Brazoria,39,0038,390038,governor,Gina Hinojosa,DEM,134,matched,11/3/2026
+Brazoria,39,0038,390038,governor,Greg Abbott,REP,279,matched,11/3/2026
+Brazoria,39,0038,390038,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0038,390038,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0038,390038,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0038,390038,governor,Pat Dixon,LIB,8,matched,11/3/2026
+Brazoria,39,0038,390038,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0038,390038,us_senate,Bradford Brad Hall,,1,matched,11/3/2026
+Brazoria,39,0038,390038,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0038,390038,us_senate,James Talarico,DEM,133,matched,11/3/2026
+Brazoria,39,0038,390038,us_senate,Ken Paxton,REP,270,matched,11/3/2026
+Brazoria,39,0038,390038,us_senate,Ted Brown,LIB,17,matched,11/3/2026
+Brazoria,39,0038,390038,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0039,390039,governor,Edward Earl Giles,,1,matched,11/3/2026
+Brazoria,39,0039,390039,governor,Gina Hinojosa,DEM,925,matched,11/3/2026
+Brazoria,39,0039,390039,governor,Greg Abbott,REP,1170,matched,11/3/2026
+Brazoria,39,0039,390039,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0039,390039,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0039,390039,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0039,390039,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Brazoria,39,0039,390039,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0039,390039,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0039,390039,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0039,390039,us_senate,James Talarico,DEM,961,matched,11/3/2026
+Brazoria,39,0039,390039,us_senate,Ken Paxton,REP,1115,matched,11/3/2026
+Brazoria,39,0039,390039,us_senate,Ted Brown,LIB,47,matched,11/3/2026
+Brazoria,39,0039,390039,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0004,390004,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0004,390004,governor,Gina Hinojosa,DEM,522,matched,11/3/2026
+Brazoria,39,0004,390004,governor,Greg Abbott,REP,1233,matched,11/3/2026
+Brazoria,39,0004,390004,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0004,390004,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0004,390004,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0004,390004,governor,Pat Dixon,LIB,37,matched,11/3/2026
+Brazoria,39,0004,390004,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0004,390004,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0004,390004,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0004,390004,us_senate,James Talarico,DEM,521,matched,11/3/2026
+Brazoria,39,0004,390004,us_senate,Ken Paxton,REP,1205,matched,11/3/2026
+Brazoria,39,0004,390004,us_senate,Ted Brown,LIB,59,matched,11/3/2026
+Brazoria,39,0004,390004,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0040,390040,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0040,390040,governor,Gina Hinojosa,DEM,1772,matched,11/3/2026
+Brazoria,39,0040,390040,governor,Greg Abbott,REP,1364,matched,11/3/2026
+Brazoria,39,0040,390040,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0040,390040,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0040,390040,governor,Mike Miller,,2,matched,11/3/2026
+Brazoria,39,0040,390040,governor,Pat Dixon,LIB,55,matched,11/3/2026
+Brazoria,39,0040,390040,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0040,390040,us_senate,Bradford Brad Hall,,1,matched,11/3/2026
+Brazoria,39,0040,390040,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0040,390040,us_senate,James Talarico,DEM,1825,matched,11/3/2026
+Brazoria,39,0040,390040,us_senate,Ken Paxton,REP,1297,matched,11/3/2026
+Brazoria,39,0040,390040,us_senate,Ted Brown,LIB,63,matched,11/3/2026
+Brazoria,39,0040,390040,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0041,390041,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0041,390041,governor,Gina Hinojosa,DEM,1923,matched,11/3/2026
+Brazoria,39,0041,390041,governor,Greg Abbott,REP,1085,matched,11/3/2026
+Brazoria,39,0041,390041,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0041,390041,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0041,390041,governor,Mike Miller,,2,matched,11/3/2026
+Brazoria,39,0041,390041,governor,Pat Dixon,LIB,56,matched,11/3/2026
+Brazoria,39,0041,390041,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0041,390041,us_senate,Bradford Brad Hall,,1,matched,11/3/2026
+Brazoria,39,0041,390041,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0041,390041,us_senate,James Talarico,DEM,2013,matched,11/3/2026
+Brazoria,39,0041,390041,us_senate,Ken Paxton,REP,990,matched,11/3/2026
+Brazoria,39,0041,390041,us_senate,Ted Brown,LIB,58,matched,11/3/2026
+Brazoria,39,0041,390041,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0042,390042,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0042,390042,governor,Gina Hinojosa,DEM,544,matched,11/3/2026
+Brazoria,39,0042,390042,governor,Greg Abbott,REP,702,matched,11/3/2026
+Brazoria,39,0042,390042,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0042,390042,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0042,390042,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0042,390042,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Brazoria,39,0042,390042,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0042,390042,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0042,390042,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0042,390042,us_senate,James Talarico,DEM,561,matched,11/3/2026
+Brazoria,39,0042,390042,us_senate,Ken Paxton,REP,678,matched,11/3/2026
+Brazoria,39,0042,390042,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Brazoria,39,0042,390042,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0043,390043,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0043,390043,governor,Gina Hinojosa,DEM,942,matched,11/3/2026
+Brazoria,39,0043,390043,governor,Greg Abbott,REP,1432,matched,11/3/2026
+Brazoria,39,0043,390043,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0043,390043,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0043,390043,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0043,390043,governor,Pat Dixon,LIB,48,matched,11/3/2026
+Brazoria,39,0043,390043,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0043,390043,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0043,390043,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0043,390043,us_senate,James Talarico,DEM,976,matched,11/3/2026
+Brazoria,39,0043,390043,us_senate,Ken Paxton,REP,1374,matched,11/3/2026
+Brazoria,39,0043,390043,us_senate,Ted Brown,LIB,62,matched,11/3/2026
+Brazoria,39,0043,390043,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0044,390044,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0044,390044,governor,Gina Hinojosa,DEM,1546,matched,11/3/2026
+Brazoria,39,0044,390044,governor,Greg Abbott,REP,800,matched,11/3/2026
+Brazoria,39,0044,390044,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0044,390044,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0044,390044,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0044,390044,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Brazoria,39,0044,390044,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0044,390044,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0044,390044,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0044,390044,us_senate,James Talarico,DEM,1605,matched,11/3/2026
+Brazoria,39,0044,390044,us_senate,Ken Paxton,REP,739,matched,11/3/2026
+Brazoria,39,0044,390044,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Brazoria,39,0044,390044,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0045,390045,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0045,390045,governor,Gina Hinojosa,DEM,700,matched,11/3/2026
+Brazoria,39,0045,390045,governor,Greg Abbott,REP,1204,matched,11/3/2026
+Brazoria,39,0045,390045,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0045,390045,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0045,390045,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0045,390045,governor,Pat Dixon,LIB,43,matched,11/3/2026
+Brazoria,39,0045,390045,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0045,390045,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0045,390045,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0045,390045,us_senate,James Talarico,DEM,726,matched,11/3/2026
+Brazoria,39,0045,390045,us_senate,Ken Paxton,REP,1171,matched,11/3/2026
+Brazoria,39,0045,390045,us_senate,Ted Brown,LIB,49,matched,11/3/2026
+Brazoria,39,0045,390045,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0046,390046,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0046,390046,governor,Gina Hinojosa,DEM,1271,matched,11/3/2026
+Brazoria,39,0046,390046,governor,Greg Abbott,REP,1507,matched,11/3/2026
+Brazoria,39,0046,390046,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0046,390046,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0046,390046,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0046,390046,governor,Pat Dixon,LIB,68,matched,11/3/2026
+Brazoria,39,0046,390046,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0046,390046,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0046,390046,us_senate,Jade Simmons,,2,matched,11/3/2026
+Brazoria,39,0046,390046,us_senate,James Talarico,DEM,1320,matched,11/3/2026
+Brazoria,39,0046,390046,us_senate,Ken Paxton,REP,1457,matched,11/3/2026
+Brazoria,39,0046,390046,us_senate,Ted Brown,LIB,66,matched,11/3/2026
+Brazoria,39,0046,390046,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0047,390047,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0047,390047,governor,Gina Hinojosa,DEM,838,matched,11/3/2026
+Brazoria,39,0047,390047,governor,Greg Abbott,REP,803,matched,11/3/2026
+Brazoria,39,0047,390047,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0047,390047,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0047,390047,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0047,390047,governor,Pat Dixon,LIB,38,matched,11/3/2026
+Brazoria,39,0047,390047,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0047,390047,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0047,390047,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0047,390047,us_senate,James Talarico,DEM,879,matched,11/3/2026
+Brazoria,39,0047,390047,us_senate,Ken Paxton,REP,768,matched,11/3/2026
+Brazoria,39,0047,390047,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Brazoria,39,0047,390047,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0048,390048,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0048,390048,governor,Gina Hinojosa,DEM,695,matched,11/3/2026
+Brazoria,39,0048,390048,governor,Greg Abbott,REP,992,matched,11/3/2026
+Brazoria,39,0048,390048,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0048,390048,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0048,390048,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0048,390048,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Brazoria,39,0048,390048,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0048,390048,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0048,390048,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0048,390048,us_senate,James Talarico,DEM,721,matched,11/3/2026
+Brazoria,39,0048,390048,us_senate,Ken Paxton,REP,955,matched,11/3/2026
+Brazoria,39,0048,390048,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Brazoria,39,0048,390048,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0049,390049,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0049,390049,governor,Gina Hinojosa,DEM,287,matched,11/3/2026
+Brazoria,39,0049,390049,governor,Greg Abbott,REP,1087,matched,11/3/2026
+Brazoria,39,0049,390049,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0049,390049,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0049,390049,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0049,390049,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Brazoria,39,0049,390049,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0049,390049,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0049,390049,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0049,390049,us_senate,James Talarico,DEM,300,matched,11/3/2026
+Brazoria,39,0049,390049,us_senate,Ken Paxton,REP,1064,matched,11/3/2026
+Brazoria,39,0049,390049,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Brazoria,39,0049,390049,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0005,390005,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0005,390005,governor,Gina Hinojosa,DEM,363,matched,11/3/2026
+Brazoria,39,0005,390005,governor,Greg Abbott,REP,1027,matched,11/3/2026
+Brazoria,39,0005,390005,governor,Jenn Mack,,2,matched,11/3/2026
+Brazoria,39,0005,390005,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0005,390005,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0005,390005,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Brazoria,39,0005,390005,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0005,390005,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0005,390005,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0005,390005,us_senate,James Talarico,DEM,370,matched,11/3/2026
+Brazoria,39,0005,390005,us_senate,Ken Paxton,REP,1021,matched,11/3/2026
+Brazoria,39,0005,390005,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Brazoria,39,0005,390005,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0050,390050,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0050,390050,governor,Gina Hinojosa,DEM,1538,matched,11/3/2026
+Brazoria,39,0050,390050,governor,Greg Abbott,REP,357,matched,11/3/2026
+Brazoria,39,0050,390050,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0050,390050,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0050,390050,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0050,390050,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Brazoria,39,0050,390050,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0050,390050,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0050,390050,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0050,390050,us_senate,James Talarico,DEM,1570,matched,11/3/2026
+Brazoria,39,0050,390050,us_senate,Ken Paxton,REP,313,matched,11/3/2026
+Brazoria,39,0050,390050,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Brazoria,39,0050,390050,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0051,390051,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0051,390051,governor,Gina Hinojosa,DEM,717,matched,11/3/2026
+Brazoria,39,0051,390051,governor,Greg Abbott,REP,1363,matched,11/3/2026
+Brazoria,39,0051,390051,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0051,390051,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0051,390051,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0051,390051,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Brazoria,39,0051,390051,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0051,390051,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0051,390051,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0051,390051,us_senate,James Talarico,DEM,752,matched,11/3/2026
+Brazoria,39,0051,390051,us_senate,Ken Paxton,REP,1326,matched,11/3/2026
+Brazoria,39,0051,390051,us_senate,Ted Brown,LIB,30,matched,11/3/2026
+Brazoria,39,0051,390051,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0052,390052,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0052,390052,governor,Gina Hinojosa,DEM,715,matched,11/3/2026
+Brazoria,39,0052,390052,governor,Greg Abbott,REP,1077,matched,11/3/2026
+Brazoria,39,0052,390052,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0052,390052,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0052,390052,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0052,390052,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Brazoria,39,0052,390052,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0052,390052,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0052,390052,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0052,390052,us_senate,James Talarico,DEM,750,matched,11/3/2026
+Brazoria,39,0052,390052,us_senate,Ken Paxton,REP,1028,matched,11/3/2026
+Brazoria,39,0052,390052,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Brazoria,39,0052,390052,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0053,390053,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0053,390053,governor,Gina Hinojosa,DEM,1733,matched,11/3/2026
+Brazoria,39,0053,390053,governor,Greg Abbott,REP,446,matched,11/3/2026
+Brazoria,39,0053,390053,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0053,390053,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0053,390053,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0053,390053,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Brazoria,39,0053,390053,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0053,390053,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0053,390053,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0053,390053,us_senate,James Talarico,DEM,1770,matched,11/3/2026
+Brazoria,39,0053,390053,us_senate,Ken Paxton,REP,407,matched,11/3/2026
+Brazoria,39,0053,390053,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Brazoria,39,0053,390053,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0054,390054,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0054,390054,governor,Gina Hinojosa,DEM,1305,matched,11/3/2026
+Brazoria,39,0054,390054,governor,Greg Abbott,REP,552,matched,11/3/2026
+Brazoria,39,0054,390054,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0054,390054,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0054,390054,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0054,390054,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Brazoria,39,0054,390054,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0054,390054,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0054,390054,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0054,390054,us_senate,James Talarico,DEM,1337,matched,11/3/2026
+Brazoria,39,0054,390054,us_senate,Ken Paxton,REP,518,matched,11/3/2026
+Brazoria,39,0054,390054,us_senate,Ted Brown,LIB,33,matched,11/3/2026
+Brazoria,39,0054,390054,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0055,390055,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0055,390055,governor,Gina Hinojosa,DEM,646,matched,11/3/2026
+Brazoria,39,0055,390055,governor,Greg Abbott,REP,1178,matched,11/3/2026
+Brazoria,39,0055,390055,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0055,390055,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0055,390055,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0055,390055,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Brazoria,39,0055,390055,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0055,390055,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0055,390055,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0055,390055,us_senate,James Talarico,DEM,658,matched,11/3/2026
+Brazoria,39,0055,390055,us_senate,Ken Paxton,REP,1141,matched,11/3/2026
+Brazoria,39,0055,390055,us_senate,Ted Brown,LIB,44,matched,11/3/2026
+Brazoria,39,0055,390055,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0056,390056,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0056,390056,governor,Gina Hinojosa,DEM,830,matched,11/3/2026
+Brazoria,39,0056,390056,governor,Greg Abbott,REP,1296,matched,11/3/2026
+Brazoria,39,0056,390056,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0056,390056,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0056,390056,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0056,390056,governor,Pat Dixon,LIB,47,matched,11/3/2026
+Brazoria,39,0056,390056,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0056,390056,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0056,390056,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0056,390056,us_senate,James Talarico,DEM,852,matched,11/3/2026
+Brazoria,39,0056,390056,us_senate,Ken Paxton,REP,1249,matched,11/3/2026
+Brazoria,39,0056,390056,us_senate,Ted Brown,LIB,66,matched,11/3/2026
+Brazoria,39,0056,390056,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0057,390057,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0057,390057,governor,Gina Hinojosa,DEM,281,matched,11/3/2026
+Brazoria,39,0057,390057,governor,Greg Abbott,REP,449,matched,11/3/2026
+Brazoria,39,0057,390057,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0057,390057,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0057,390057,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0057,390057,governor,Pat Dixon,LIB,13,matched,11/3/2026
+Brazoria,39,0057,390057,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0057,390057,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0057,390057,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0057,390057,us_senate,James Talarico,DEM,285,matched,11/3/2026
+Brazoria,39,0057,390057,us_senate,Ken Paxton,REP,442,matched,11/3/2026
+Brazoria,39,0057,390057,us_senate,Ted Brown,LIB,15,matched,11/3/2026
+Brazoria,39,0057,390057,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0058,390058,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0058,390058,governor,Gina Hinojosa,DEM,1499,matched,11/3/2026
+Brazoria,39,0058,390058,governor,Greg Abbott,REP,693,matched,11/3/2026
+Brazoria,39,0058,390058,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0058,390058,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0058,390058,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0058,390058,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Brazoria,39,0058,390058,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0058,390058,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0058,390058,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0058,390058,us_senate,James Talarico,DEM,1551,matched,11/3/2026
+Brazoria,39,0058,390058,us_senate,Ken Paxton,REP,634,matched,11/3/2026
+Brazoria,39,0058,390058,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Brazoria,39,0058,390058,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0059,390059,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0059,390059,governor,Gina Hinojosa,DEM,1245,matched,11/3/2026
+Brazoria,39,0059,390059,governor,Greg Abbott,REP,480,matched,11/3/2026
+Brazoria,39,0059,390059,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0059,390059,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0059,390059,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0059,390059,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Brazoria,39,0059,390059,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0059,390059,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0059,390059,us_senate,Jade Simmons,,2,matched,11/3/2026
+Brazoria,39,0059,390059,us_senate,James Talarico,DEM,1295,matched,11/3/2026
+Brazoria,39,0059,390059,us_senate,Ken Paxton,REP,428,matched,11/3/2026
+Brazoria,39,0059,390059,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Brazoria,39,0059,390059,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0006,390006,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0006,390006,governor,Gina Hinojosa,DEM,184,matched,11/3/2026
+Brazoria,39,0006,390006,governor,Greg Abbott,REP,773,matched,11/3/2026
+Brazoria,39,0006,390006,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0006,390006,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0006,390006,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0006,390006,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Brazoria,39,0006,390006,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0006,390006,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0006,390006,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0006,390006,us_senate,James Talarico,DEM,195,matched,11/3/2026
+Brazoria,39,0006,390006,us_senate,Ken Paxton,REP,752,matched,11/3/2026
+Brazoria,39,0006,390006,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Brazoria,39,0006,390006,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0060,390060,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0060,390060,governor,Gina Hinojosa,DEM,1473,matched,11/3/2026
+Brazoria,39,0060,390060,governor,Greg Abbott,REP,1063,matched,11/3/2026
+Brazoria,39,0060,390060,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0060,390060,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0060,390060,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0060,390060,governor,Pat Dixon,LIB,52,matched,11/3/2026
+Brazoria,39,0060,390060,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0060,390060,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0060,390060,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0060,390060,us_senate,James Talarico,DEM,1554,matched,11/3/2026
+Brazoria,39,0060,390060,us_senate,Ken Paxton,REP,983,matched,11/3/2026
+Brazoria,39,0060,390060,us_senate,Ted Brown,LIB,56,matched,11/3/2026
+Brazoria,39,0060,390060,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0061,390061,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0061,390061,governor,Gina Hinojosa,DEM,227,matched,11/3/2026
+Brazoria,39,0061,390061,governor,Greg Abbott,REP,481,matched,11/3/2026
+Brazoria,39,0061,390061,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0061,390061,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0061,390061,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0061,390061,governor,Pat Dixon,LIB,7,matched,11/3/2026
+Brazoria,39,0061,390061,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0061,390061,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0061,390061,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0061,390061,us_senate,James Talarico,DEM,234,matched,11/3/2026
+Brazoria,39,0061,390061,us_senate,Ken Paxton,REP,473,matched,11/3/2026
+Brazoria,39,0061,390061,us_senate,Ted Brown,LIB,9,matched,11/3/2026
+Brazoria,39,0061,390061,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0062,390062,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0062,390062,governor,Gina Hinojosa,DEM,1772,matched,11/3/2026
+Brazoria,39,0062,390062,governor,Greg Abbott,REP,1102,matched,11/3/2026
+Brazoria,39,0062,390062,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0062,390062,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0062,390062,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0062,390062,governor,Pat Dixon,LIB,41,matched,11/3/2026
+Brazoria,39,0062,390062,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0062,390062,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0062,390062,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0062,390062,us_senate,James Talarico,DEM,1815,matched,11/3/2026
+Brazoria,39,0062,390062,us_senate,Ken Paxton,REP,1031,matched,11/3/2026
+Brazoria,39,0062,390062,us_senate,Ted Brown,LIB,52,matched,11/3/2026
+Brazoria,39,0062,390062,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0063,390063,governor,Edward Earl Giles,,1,matched,11/3/2026
+Brazoria,39,0063,390063,governor,Gina Hinojosa,DEM,2051,matched,11/3/2026
+Brazoria,39,0063,390063,governor,Greg Abbott,REP,486,matched,11/3/2026
+Brazoria,39,0063,390063,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0063,390063,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0063,390063,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0063,390063,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Brazoria,39,0063,390063,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0063,390063,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0063,390063,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0063,390063,us_senate,James Talarico,DEM,2088,matched,11/3/2026
+Brazoria,39,0063,390063,us_senate,Ken Paxton,REP,443,matched,11/3/2026
+Brazoria,39,0063,390063,us_senate,Ted Brown,LIB,40,matched,11/3/2026
+Brazoria,39,0063,390063,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0064,390064,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0064,390064,governor,Gina Hinojosa,DEM,314,matched,11/3/2026
+Brazoria,39,0064,390064,governor,Greg Abbott,REP,131,matched,11/3/2026
+Brazoria,39,0064,390064,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0064,390064,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0064,390064,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0064,390064,governor,Pat Dixon,LIB,6,matched,11/3/2026
+Brazoria,39,0064,390064,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0064,390064,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0064,390064,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0064,390064,us_senate,James Talarico,DEM,318,matched,11/3/2026
+Brazoria,39,0064,390064,us_senate,Ken Paxton,REP,127,matched,11/3/2026
+Brazoria,39,0064,390064,us_senate,Ted Brown,LIB,6,matched,11/3/2026
+Brazoria,39,0064,390064,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0065,390065,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0065,390065,governor,Gina Hinojosa,DEM,1801,matched,11/3/2026
+Brazoria,39,0065,390065,governor,Greg Abbott,REP,1258,matched,11/3/2026
+Brazoria,39,0065,390065,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0065,390065,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0065,390065,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0065,390065,governor,Pat Dixon,LIB,47,matched,11/3/2026
+Brazoria,39,0065,390065,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0065,390065,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0065,390065,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0065,390065,us_senate,James Talarico,DEM,1849,matched,11/3/2026
+Brazoria,39,0065,390065,us_senate,Ken Paxton,REP,1213,matched,11/3/2026
+Brazoria,39,0065,390065,us_senate,Ted Brown,LIB,46,matched,11/3/2026
+Brazoria,39,0065,390065,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0066,390066,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0066,390066,governor,Gina Hinojosa,DEM,2216,matched,11/3/2026
+Brazoria,39,0066,390066,governor,Greg Abbott,REP,817,matched,11/3/2026
+Brazoria,39,0066,390066,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0066,390066,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0066,390066,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0066,390066,governor,Pat Dixon,LIB,34,matched,11/3/2026
+Brazoria,39,0066,390066,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0066,390066,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0066,390066,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0066,390066,us_senate,James Talarico,DEM,2301,matched,11/3/2026
+Brazoria,39,0066,390066,us_senate,Ken Paxton,REP,732,matched,11/3/2026
+Brazoria,39,0066,390066,us_senate,Ted Brown,LIB,37,matched,11/3/2026
+Brazoria,39,0066,390066,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0067,390067,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0067,390067,governor,Gina Hinojosa,DEM,1235,matched,11/3/2026
+Brazoria,39,0067,390067,governor,Greg Abbott,REP,325,matched,11/3/2026
+Brazoria,39,0067,390067,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0067,390067,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0067,390067,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0067,390067,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Brazoria,39,0067,390067,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0067,390067,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0067,390067,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0067,390067,us_senate,James Talarico,DEM,1261,matched,11/3/2026
+Brazoria,39,0067,390067,us_senate,Ken Paxton,REP,288,matched,11/3/2026
+Brazoria,39,0067,390067,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Brazoria,39,0067,390067,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0068,390068,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0068,390068,governor,Gina Hinojosa,DEM,2248,matched,11/3/2026
+Brazoria,39,0068,390068,governor,Greg Abbott,REP,604,matched,11/3/2026
+Brazoria,39,0068,390068,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0068,390068,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0068,390068,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0068,390068,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Brazoria,39,0068,390068,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0068,390068,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0068,390068,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0068,390068,us_senate,James Talarico,DEM,2310,matched,11/3/2026
+Brazoria,39,0068,390068,us_senate,Ken Paxton,REP,535,matched,11/3/2026
+Brazoria,39,0068,390068,us_senate,Ted Brown,LIB,40,matched,11/3/2026
+Brazoria,39,0068,390068,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0069,390069,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0069,390069,governor,Gina Hinojosa,DEM,1211,matched,11/3/2026
+Brazoria,39,0069,390069,governor,Greg Abbott,REP,442,matched,11/3/2026
+Brazoria,39,0069,390069,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0069,390069,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0069,390069,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0069,390069,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Brazoria,39,0069,390069,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0069,390069,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0069,390069,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0069,390069,us_senate,James Talarico,DEM,1268,matched,11/3/2026
+Brazoria,39,0069,390069,us_senate,Ken Paxton,REP,388,matched,11/3/2026
+Brazoria,39,0069,390069,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Brazoria,39,0069,390069,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0007,390007,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0007,390007,governor,Gina Hinojosa,DEM,512,matched,11/3/2026
+Brazoria,39,0007,390007,governor,Greg Abbott,REP,220,matched,11/3/2026
+Brazoria,39,0007,390007,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0007,390007,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0007,390007,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0007,390007,governor,Pat Dixon,LIB,22,matched,11/3/2026
+Brazoria,39,0007,390007,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0007,390007,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0007,390007,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0007,390007,us_senate,James Talarico,DEM,522,matched,11/3/2026
+Brazoria,39,0007,390007,us_senate,Ken Paxton,REP,210,matched,11/3/2026
+Brazoria,39,0007,390007,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Brazoria,39,0007,390007,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0070,390070,governor,Edward Earl Giles,,1,matched,11/3/2026
+Brazoria,39,0070,390070,governor,Gina Hinojosa,DEM,2058,matched,11/3/2026
+Brazoria,39,0070,390070,governor,Greg Abbott,REP,794,matched,11/3/2026
+Brazoria,39,0070,390070,governor,Jenn Mack,,2,matched,11/3/2026
+Brazoria,39,0070,390070,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0070,390070,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0070,390070,governor,Pat Dixon,LIB,44,matched,11/3/2026
+Brazoria,39,0070,390070,us_senate,Avery Ayers,,2,matched,11/3/2026
+Brazoria,39,0070,390070,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0070,390070,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0070,390070,us_senate,James Talarico,DEM,2144,matched,11/3/2026
+Brazoria,39,0070,390070,us_senate,Ken Paxton,REP,711,matched,11/3/2026
+Brazoria,39,0070,390070,us_senate,Ted Brown,LIB,52,matched,11/3/2026
+Brazoria,39,0070,390070,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0071,390071,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0071,390071,governor,Gina Hinojosa,DEM,526,matched,11/3/2026
+Brazoria,39,0071,390071,governor,Greg Abbott,REP,226,matched,11/3/2026
+Brazoria,39,0071,390071,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0071,390071,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0071,390071,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0071,390071,governor,Pat Dixon,LIB,10,matched,11/3/2026
+Brazoria,39,0071,390071,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0071,390071,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0071,390071,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0071,390071,us_senate,James Talarico,DEM,531,matched,11/3/2026
+Brazoria,39,0071,390071,us_senate,Ken Paxton,REP,216,matched,11/3/2026
+Brazoria,39,0071,390071,us_senate,Ted Brown,LIB,12,matched,11/3/2026
+Brazoria,39,0071,390071,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0072,390072,governor,Edward Earl Giles,,1,matched,11/3/2026
+Brazoria,39,0072,390072,governor,Gina Hinojosa,DEM,1108,matched,11/3/2026
+Brazoria,39,0072,390072,governor,Greg Abbott,REP,443,matched,11/3/2026
+Brazoria,39,0072,390072,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0072,390072,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0072,390072,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0072,390072,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Brazoria,39,0072,390072,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0072,390072,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0072,390072,us_senate,Jade Simmons,,2,matched,11/3/2026
+Brazoria,39,0072,390072,us_senate,James Talarico,DEM,1146,matched,11/3/2026
+Brazoria,39,0072,390072,us_senate,Ken Paxton,REP,391,matched,11/3/2026
+Brazoria,39,0072,390072,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Brazoria,39,0072,390072,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0073,390073,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0073,390073,governor,Gina Hinojosa,DEM,895,matched,11/3/2026
+Brazoria,39,0073,390073,governor,Greg Abbott,REP,291,matched,11/3/2026
+Brazoria,39,0073,390073,governor,Jenn Mack,,2,matched,11/3/2026
+Brazoria,39,0073,390073,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0073,390073,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0073,390073,governor,Pat Dixon,LIB,7,matched,11/3/2026
+Brazoria,39,0073,390073,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0073,390073,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0073,390073,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0073,390073,us_senate,James Talarico,DEM,914,matched,11/3/2026
+Brazoria,39,0073,390073,us_senate,Ken Paxton,REP,263,matched,11/3/2026
+Brazoria,39,0073,390073,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Brazoria,39,0073,390073,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0074,390074,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0074,390074,governor,Gina Hinojosa,DEM,536,matched,11/3/2026
+Brazoria,39,0074,390074,governor,Greg Abbott,REP,665,matched,11/3/2026
+Brazoria,39,0074,390074,governor,Jenn Mack,,2,matched,11/3/2026
+Brazoria,39,0074,390074,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0074,390074,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0074,390074,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Brazoria,39,0074,390074,us_senate,Avery Ayers,,2,matched,11/3/2026
+Brazoria,39,0074,390074,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0074,390074,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0074,390074,us_senate,James Talarico,DEM,568,matched,11/3/2026
+Brazoria,39,0074,390074,us_senate,Ken Paxton,REP,623,matched,11/3/2026
+Brazoria,39,0074,390074,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Brazoria,39,0074,390074,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0075,390075,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0075,390075,governor,Gina Hinojosa,DEM,682,matched,11/3/2026
+Brazoria,39,0075,390075,governor,Greg Abbott,REP,1059,matched,11/3/2026
+Brazoria,39,0075,390075,governor,Jenn Mack,,2,matched,11/3/2026
+Brazoria,39,0075,390075,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0075,390075,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0075,390075,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Brazoria,39,0075,390075,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0075,390075,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0075,390075,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0075,390075,us_senate,James Talarico,DEM,704,matched,11/3/2026
+Brazoria,39,0075,390075,us_senate,Ken Paxton,REP,1029,matched,11/3/2026
+Brazoria,39,0075,390075,us_senate,Ted Brown,LIB,40,matched,11/3/2026
+Brazoria,39,0075,390075,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0076,390076,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0076,390076,governor,Gina Hinojosa,DEM,193,matched,11/3/2026
+Brazoria,39,0076,390076,governor,Greg Abbott,REP,514,matched,11/3/2026
+Brazoria,39,0076,390076,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0076,390076,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0076,390076,governor,Mike Miller,,1,matched,11/3/2026
+Brazoria,39,0076,390076,governor,Pat Dixon,LIB,8,matched,11/3/2026
+Brazoria,39,0076,390076,us_senate,Avery Ayers,,1,matched,11/3/2026
+Brazoria,39,0076,390076,us_senate,Bradford Brad Hall,,1,matched,11/3/2026
+Brazoria,39,0076,390076,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0076,390076,us_senate,James Talarico,DEM,196,matched,11/3/2026
+Brazoria,39,0076,390076,us_senate,Ken Paxton,REP,500,matched,11/3/2026
+Brazoria,39,0076,390076,us_senate,Ted Brown,LIB,15,matched,11/3/2026
+Brazoria,39,0076,390076,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0077,390077,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0077,390077,governor,Gina Hinojosa,DEM,396,matched,11/3/2026
+Brazoria,39,0077,390077,governor,Greg Abbott,REP,581,matched,11/3/2026
+Brazoria,39,0077,390077,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0077,390077,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0077,390077,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0077,390077,governor,Pat Dixon,LIB,18,matched,11/3/2026
+Brazoria,39,0077,390077,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0077,390077,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0077,390077,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0077,390077,us_senate,James Talarico,DEM,398,matched,11/3/2026
+Brazoria,39,0077,390077,us_senate,Ken Paxton,REP,565,matched,11/3/2026
+Brazoria,39,0077,390077,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Brazoria,39,0077,390077,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0078,390078,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0078,390078,governor,Gina Hinojosa,DEM,514,matched,11/3/2026
+Brazoria,39,0078,390078,governor,Greg Abbott,REP,472,matched,11/3/2026
+Brazoria,39,0078,390078,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0078,390078,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0078,390078,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0078,390078,governor,Pat Dixon,LIB,17,matched,11/3/2026
+Brazoria,39,0078,390078,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0078,390078,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0078,390078,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0078,390078,us_senate,James Talarico,DEM,527,matched,11/3/2026
+Brazoria,39,0078,390078,us_senate,Ken Paxton,REP,456,matched,11/3/2026
+Brazoria,39,0078,390078,us_senate,Ted Brown,LIB,23,matched,11/3/2026
+Brazoria,39,0078,390078,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0079,390079,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0079,390079,governor,Gina Hinojosa,DEM,1595,matched,11/3/2026
+Brazoria,39,0079,390079,governor,Greg Abbott,REP,355,matched,11/3/2026
+Brazoria,39,0079,390079,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0079,390079,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0079,390079,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0079,390079,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Brazoria,39,0079,390079,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0079,390079,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0079,390079,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0079,390079,us_senate,James Talarico,DEM,1610,matched,11/3/2026
+Brazoria,39,0079,390079,us_senate,Ken Paxton,REP,318,matched,11/3/2026
+Brazoria,39,0079,390079,us_senate,Ted Brown,LIB,33,matched,11/3/2026
+Brazoria,39,0079,390079,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0008,390008,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0008,390008,governor,Gina Hinojosa,DEM,18,matched,11/3/2026
+Brazoria,39,0008,390008,governor,Greg Abbott,REP,65,matched,11/3/2026
+Brazoria,39,0008,390008,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0008,390008,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0008,390008,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0008,390008,governor,Pat Dixon,LIB,1,matched,11/3/2026
+Brazoria,39,0008,390008,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0008,390008,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0008,390008,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0008,390008,us_senate,James Talarico,DEM,20,matched,11/3/2026
+Brazoria,39,0008,390008,us_senate,Ken Paxton,REP,65,matched,11/3/2026
+Brazoria,39,0008,390008,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Brazoria,39,0008,390008,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0080,390080,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0080,390080,governor,Gina Hinojosa,DEM,319,matched,11/3/2026
+Brazoria,39,0080,390080,governor,Greg Abbott,REP,657,matched,11/3/2026
+Brazoria,39,0080,390080,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0080,390080,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0080,390080,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0080,390080,governor,Pat Dixon,LIB,13,matched,11/3/2026
+Brazoria,39,0080,390080,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0080,390080,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0080,390080,us_senate,Jade Simmons,,1,matched,11/3/2026
+Brazoria,39,0080,390080,us_senate,James Talarico,DEM,332,matched,11/3/2026
+Brazoria,39,0080,390080,us_senate,Ken Paxton,REP,640,matched,11/3/2026
+Brazoria,39,0080,390080,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Brazoria,39,0080,390080,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0081,390081,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0081,390081,governor,Gina Hinojosa,DEM,304,matched,11/3/2026
+Brazoria,39,0081,390081,governor,Greg Abbott,REP,611,matched,11/3/2026
+Brazoria,39,0081,390081,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0081,390081,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0081,390081,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0081,390081,governor,Pat Dixon,LIB,22,matched,11/3/2026
+Brazoria,39,0081,390081,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0081,390081,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0081,390081,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0081,390081,us_senate,James Talarico,DEM,316,matched,11/3/2026
+Brazoria,39,0081,390081,us_senate,Ken Paxton,REP,593,matched,11/3/2026
+Brazoria,39,0081,390081,us_senate,Ted Brown,LIB,23,matched,11/3/2026
+Brazoria,39,0081,390081,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0082,390082,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0082,390082,governor,Gina Hinojosa,DEM,2,matched,11/3/2026
+Brazoria,39,0082,390082,governor,Greg Abbott,REP,5,matched,11/3/2026
+Brazoria,39,0082,390082,governor,Jenn Mack,,0,matched,11/3/2026
+Brazoria,39,0082,390082,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0082,390082,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0082,390082,governor,Pat Dixon,LIB,0,matched,11/3/2026
+Brazoria,39,0082,390082,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0082,390082,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0082,390082,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0082,390082,us_senate,James Talarico,DEM,2,matched,11/3/2026
+Brazoria,39,0082,390082,us_senate,Ken Paxton,REP,5,matched,11/3/2026
+Brazoria,39,0082,390082,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Brazoria,39,0082,390082,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0083,390083,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0083,390083,governor,Gina Hinojosa,DEM,123,matched,11/3/2026
+Brazoria,39,0083,390083,governor,Greg Abbott,REP,275,matched,11/3/2026
+Brazoria,39,0083,390083,governor,Jenn Mack,,2,matched,11/3/2026
+Brazoria,39,0083,390083,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0083,390083,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0083,390083,governor,Pat Dixon,LIB,6,matched,11/3/2026
+Brazoria,39,0083,390083,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0083,390083,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0083,390083,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0083,390083,us_senate,James Talarico,DEM,0,matched,11/3/2026
+Brazoria,39,0083,390083,us_senate,Ken Paxton,REP,0,matched,11/3/2026
+Brazoria,39,0083,390083,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Brazoria,39,0083,390083,us_senate,Zul Mohamed,,0,matched,11/3/2026
+Brazoria,39,0009,390009,governor,Edward Earl Giles,,0,matched,11/3/2026
+Brazoria,39,0009,390009,governor,Gina Hinojosa,DEM,591,matched,11/3/2026
+Brazoria,39,0009,390009,governor,Greg Abbott,REP,581,matched,11/3/2026
+Brazoria,39,0009,390009,governor,Jenn Mack,,1,matched,11/3/2026
+Brazoria,39,0009,390009,governor,Jinghpaw Majoishingra,,0,matched,11/3/2026
+Brazoria,39,0009,390009,governor,Mike Miller,,0,matched,11/3/2026
+Brazoria,39,0009,390009,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Brazoria,39,0009,390009,us_senate,Avery Ayers,,0,matched,11/3/2026
+Brazoria,39,0009,390009,us_senate,Bradford Brad Hall,,0,matched,11/3/2026
+Brazoria,39,0009,390009,us_senate,Jade Simmons,,0,matched,11/3/2026
+Brazoria,39,0009,390009,us_senate,James Talarico,DEM,606,matched,11/3/2026
+Brazoria,39,0009,390009,us_senate,Ken Paxton,REP,559,matched,11/3/2026
+Brazoria,39,0009,390009,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Brazoria,39,0009,390009,us_senate,Zul Mohamed,,0,matched,11/3/2026

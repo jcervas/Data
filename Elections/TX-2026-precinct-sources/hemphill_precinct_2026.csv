@@ -1,0 +1,57 @@
+county,fips3,precinct,pctkey,race,candidate,party,votes,tlc_match,election_date
+Hemphill,211,0101,2110101,governor,Gina Hinojosa,DEM,55,matched,11/3/2026
+Hemphill,211,0101,2110101,governor,Greg Abbott,REP,195,matched,11/3/2026
+Hemphill,211,0101,2110101,governor,Pat Dixon,LIB,6,matched,11/3/2026
+Hemphill,211,0101,2110101,governor,Write-in,,2,matched,11/3/2026
+Hemphill,211,0101,2110101,us_senate,James Talarico,DEM,56,matched,11/3/2026
+Hemphill,211,0101,2110101,us_senate,Ken Paxton,REP,193,matched,11/3/2026
+Hemphill,211,0101,2110101,us_senate,Ted Brown,LIB,7,matched,11/3/2026
+Hemphill,211,0101,2110101,us_senate,Write-in,,0,matched,11/3/2026
+Hemphill,211,0201,2110201,governor,Gina Hinojosa,DEM,62,matched,11/3/2026
+Hemphill,211,0201,2110201,governor,Greg Abbott,REP,192,matched,11/3/2026
+Hemphill,211,0201,2110201,governor,Pat Dixon,LIB,7,matched,11/3/2026
+Hemphill,211,0201,2110201,governor,Write-in,,0,matched,11/3/2026
+Hemphill,211,0201,2110201,us_senate,James Talarico,DEM,70,matched,11/3/2026
+Hemphill,211,0201,2110201,us_senate,Ken Paxton,REP,188,matched,11/3/2026
+Hemphill,211,0201,2110201,us_senate,Ted Brown,LIB,2,matched,11/3/2026
+Hemphill,211,0201,2110201,us_senate,Write-in,,0,matched,11/3/2026
+Hemphill,211,0202,2110202,governor,Gina Hinojosa,DEM,0,matched,11/3/2026
+Hemphill,211,0202,2110202,governor,Greg Abbott,REP,18,matched,11/3/2026
+Hemphill,211,0202,2110202,governor,Pat Dixon,LIB,1,matched,11/3/2026
+Hemphill,211,0202,2110202,governor,Write-in,,0,matched,11/3/2026
+Hemphill,211,0202,2110202,us_senate,James Talarico,DEM,0,matched,11/3/2026
+Hemphill,211,0202,2110202,us_senate,Ken Paxton,REP,18,matched,11/3/2026
+Hemphill,211,0202,2110202,us_senate,Ted Brown,LIB,1,matched,11/3/2026
+Hemphill,211,0202,2110202,us_senate,Write-in,,0,matched,11/3/2026
+Hemphill,211,0301,2110301,governor,Gina Hinojosa,DEM,65,matched,11/3/2026
+Hemphill,211,0301,2110301,governor,Greg Abbott,REP,260,matched,11/3/2026
+Hemphill,211,0301,2110301,governor,Pat Dixon,LIB,11,matched,11/3/2026
+Hemphill,211,0301,2110301,governor,Write-in,,0,matched,11/3/2026
+Hemphill,211,0301,2110301,us_senate,James Talarico,DEM,62,matched,11/3/2026
+Hemphill,211,0301,2110301,us_senate,Ken Paxton,REP,264,matched,11/3/2026
+Hemphill,211,0301,2110301,us_senate,Ted Brown,LIB,10,matched,11/3/2026
+Hemphill,211,0301,2110301,us_senate,Write-in,,2,matched,11/3/2026
+Hemphill,211,0303,2110303,governor,Gina Hinojosa,DEM,13,matched,11/3/2026
+Hemphill,211,0303,2110303,governor,Greg Abbott,REP,66,matched,11/3/2026
+Hemphill,211,0303,2110303,governor,Pat Dixon,LIB,1,matched,11/3/2026
+Hemphill,211,0303,2110303,governor,Write-in,,0,matched,11/3/2026
+Hemphill,211,0303,2110303,us_senate,James Talarico,DEM,12,matched,11/3/2026
+Hemphill,211,0303,2110303,us_senate,Ken Paxton,REP,68,matched,11/3/2026
+Hemphill,211,0303,2110303,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Hemphill,211,0303,2110303,us_senate,Write-in,,0,matched,11/3/2026
+Hemphill,211,0401,2110401,governor,Gina Hinojosa,DEM,41,matched,11/3/2026
+Hemphill,211,0401,2110401,governor,Greg Abbott,REP,162,matched,11/3/2026
+Hemphill,211,0401,2110401,governor,Pat Dixon,LIB,9,matched,11/3/2026
+Hemphill,211,0401,2110401,governor,Write-in,,0,matched,11/3/2026
+Hemphill,211,0401,2110401,us_senate,James Talarico,DEM,42,matched,11/3/2026
+Hemphill,211,0401,2110401,us_senate,Ken Paxton,REP,161,matched,11/3/2026
+Hemphill,211,0401,2110401,us_senate,Ted Brown,LIB,9,matched,11/3/2026
+Hemphill,211,0401,2110401,us_senate,Write-in,,0,matched,11/3/2026
+Hemphill,211,0402,2110402,governor,Gina Hinojosa,DEM,15,matched,11/3/2026
+Hemphill,211,0402,2110402,governor,Greg Abbott,REP,66,matched,11/3/2026
+Hemphill,211,0402,2110402,governor,Pat Dixon,LIB,1,matched,11/3/2026
+Hemphill,211,0402,2110402,governor,Write-in,,0,matched,11/3/2026
+Hemphill,211,0402,2110402,us_senate,James Talarico,DEM,16,matched,11/3/2026
+Hemphill,211,0402,2110402,us_senate,Ken Paxton,REP,65,matched,11/3/2026
+Hemphill,211,0402,2110402,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Hemphill,211,0402,2110402,us_senate,Write-in,,0,matched,11/3/2026

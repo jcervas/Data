@@ -299,15 +299,29 @@ def _simple(county):
 
 # Resolved only as far as a results page: no precinct-labelled link to key on,
 # or the site refuses scripted access. Reported so they are not silently absent.
+# Counties resolved only as far as a page. All four URLs were re-walked in a
+# real browser on 2026-11-04; two of them were simply wrong, and the notes now
+# say what each county actually publishes rather than what we had assumed.
 PAGE_ONLY = {
     "johnson": ("https://www.johnsoncountytx.org/departments/elections-office/"
-                "current-election-results", "results page; no precinct link yet"),
+                "election-results/elections-archive",
+                "'Elections Precinct by Precinct Results' archive, CivicPlus "
+                "showpublisheddocument ids; newest is May 2026, no November yet. "
+                "(The old 'current-election-results' URL here 404s, and the real "
+                "current-results page only links the Secretary of State.)"),
     "angelina": ("https://www.angelinacounty.gov/elections/",
-                 "PDF results under files/pdf/elections/; none precinct-labelled"),
-    "orange": ("https://www.co.orange.tx.us/departments/elections",
-               "elections page carries no results links"),
-    "wichita": ("https://wichitacountytx.com/election_info/",
-                "site returns 403 to every scripted client; needs a browser"),
+                 "files/pdf/elections/pdf/2026/110326/ exists and holds the "
+                 "public-test and early-voting-history PDFs for November 3, but "
+                 "no results file has landed in it yet"),
+    "orange": ("https://www.co.orange.tx.us/ElectionResults",
+               "publishes one 'Official Results' PDF per election, and it is a "
+               "countywide Summary Results Report -- checked November 2024. "
+               "Orange does not appear to publish precinct-level results at all, "
+               "so this is not a pending link, it is a county to write off."),
+    "wichita": ("https://wichitacountytx.com/election_info/election-results/",
+                "has live November 3, 2026 numbers, but countywide only: one "
+                "block per contest, no precinct breakdown. Not a precinct "
+                "source. (The old election_info/ URL here 404s.)"),
 }
 
 HANDLERS = {"harris": harris, "collin": collin, "montgomery": montgomery,

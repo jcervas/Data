@@ -1,0 +1,518 @@
+county,fips3,race,candidate,party,votes,level,source
+Bastrop,21,governor,Gina Hinojosa,DEM,19268,precinct-derived,gov_senate_precinct_2026.csv
+Bastrop,21,governor,Greg Abbott,REP,17253,precinct-derived,gov_senate_precinct_2026.csv
+Bastrop,21,governor,Pat Dixon,LIB,572,precinct-derived,gov_senate_precinct_2026.csv
+Bastrop,21,governor,Write-in,,41,precinct-derived,gov_senate_precinct_2026.csv
+Bastrop,21,us_senate,James Talarico,DEM,20074,precinct-derived,gov_senate_precinct_2026.csv
+Bastrop,21,us_senate,Ken Paxton,REP,16049,precinct-derived,gov_senate_precinct_2026.csv
+Bastrop,21,us_senate,Ted Brown,LIB,853,precinct-derived,gov_senate_precinct_2026.csv
+Bastrop,21,us_senate,Write-in,,70,precinct-derived,gov_senate_precinct_2026.csv
+Bell,27,governor,Gina Hinojosa,DEM,54047,precinct-derived,gov_senate_precinct_2026.csv
+Bell,27,governor,Greg Abbott,REP,54723,precinct-derived,gov_senate_precinct_2026.csv
+Bell,27,governor,Pat Dixon,LIB,2061,precinct-derived,gov_senate_precinct_2026.csv
+Bell,27,governor,Write-in,,161,precinct-derived,gov_senate_precinct_2026.csv
+Bell,27,us_senate,James Talarico,DEM,56562,precinct-derived,gov_senate_precinct_2026.csv
+Bell,27,us_senate,Ken Paxton,REP,50887,precinct-derived,gov_senate_precinct_2026.csv
+Bell,27,us_senate,Ted Brown,LIB,3046,precinct-derived,gov_senate_precinct_2026.csv
+Bell,27,us_senate,Write-in,,281,precinct-derived,gov_senate_precinct_2026.csv
+Bexar,29,governor,Gina Hinojosa,DEM,427403,precinct-derived,gov_senate_precinct_2026.csv
+Bexar,29,governor,Greg Abbott,REP,223071,precinct-derived,gov_senate_precinct_2026.csv
+Bexar,29,governor,Pat Dixon,LIB,9048,precinct-derived,gov_senate_precinct_2026.csv
+Bexar,29,governor,Write-in,,569,precinct-derived,gov_senate_precinct_2026.csv
+Bexar,29,us_senate,James Talarico,DEM,440148,precinct-derived,gov_senate_precinct_2026.csv
+Bexar,29,us_senate,Ken Paxton,REP,206824,precinct-derived,gov_senate_precinct_2026.csv
+Bexar,29,us_senate,Ted Brown,LIB,11336,precinct-derived,gov_senate_precinct_2026.csv
+Bexar,29,us_senate,Write-in,,906,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,governor,Edward Earl Giles,,6,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,governor,Gina Hinojosa,DEM,70159,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,governor,Greg Abbott,REP,66188,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,governor,Jenn Mack,,37,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,governor,Jinghpaw Majoishingra,,1,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,governor,Mike Miller,,18,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,governor,Pat Dixon,LIB,2393,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,us_senate,Avery Ayers,,16,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,us_senate,Brad Hall,,12,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,us_senate,Jade Simmons,,29,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,us_senate,James Talarico,DEM,72279,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,us_senate,Ken Paxton,REP,63076,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,us_senate,Ted Brown,LIB,2843,precinct-derived,gov_senate_precinct_2026.csv
+Brazoria,39,us_senate,Zul Mohamed,,0,precinct-derived,gov_senate_precinct_2026.csv
+Brooks,47,governor,Gina Hinojosa,DEM,1214,precinct-derived,gov_senate_precinct_2026.csv
+Brooks,47,governor,Greg Abbott,REP,590,precinct-derived,gov_senate_precinct_2026.csv
+Brooks,47,governor,Pat Dixon,LIB,21,precinct-derived,gov_senate_precinct_2026.csv
+Brooks,47,us_senate,James Talarico,DEM,1255,precinct-derived,gov_senate_precinct_2026.csv
+Brooks,47,us_senate,Ken Paxton,REP,521,precinct-derived,gov_senate_precinct_2026.csv
+Brooks,47,us_senate,Ted Brown,LIB,37,precinct-derived,gov_senate_precinct_2026.csv
+Collin,85,governor,Gina Hinojosa,DEM,235938,precinct-derived,gov_senate_precinct_2026.csv
+Collin,85,governor,Greg Abbott,REP,215385,precinct-derived,gov_senate_precinct_2026.csv
+Collin,85,governor,Pat Dixon,LIB,6821,precinct-derived,gov_senate_precinct_2026.csv
+Collin,85,governor,Write-in,,380,precinct-derived,gov_senate_precinct_2026.csv
+Collin,85,us_senate,James Talarico,DEM,252288,precinct-derived,gov_senate_precinct_2026.csv
+Collin,85,us_senate,Ken Paxton,REP,196937,precinct-derived,gov_senate_precinct_2026.csv
+Collin,85,us_senate,Ted Brown,LIB,7910,precinct-derived,gov_senate_precinct_2026.csv
+Collin,85,us_senate,Write-in,,912,precinct-derived,gov_senate_precinct_2026.csv
+Dallas,113,governor,Gina Hinojosa,DEM,539664,precinct-derived,gov_senate_precinct_2026.csv
+Dallas,113,governor,Greg Abbott,REP,231768,precinct-derived,gov_senate_precinct_2026.csv
+Dallas,113,governor,Pat Dixon,LIB,12669,precinct-derived,gov_senate_precinct_2026.csv
+Dallas,113,governor,Write-in,,782,precinct-derived,gov_senate_precinct_2026.csv
+Dallas,113,us_senate,James Talarico,DEM,563186,precinct-derived,gov_senate_precinct_2026.csv
+Dallas,113,us_senate,Ken Paxton,REP,206348,precinct-derived,gov_senate_precinct_2026.csv
+Dallas,113,us_senate,Ted Brown,LIB,13728,precinct-derived,gov_senate_precinct_2026.csv
+Dallas,113,us_senate,Write-in,,2027,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,governor,Edward Earl Giles,,0,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,governor,Gina Hinojosa,DEM,367,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,governor,Greg Abbott,REP,702,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,governor,Jenn Mack,,1,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,governor,Jinghpaw Majoishingra,,0,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,governor,Mike Miller,,0,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,governor,Pat Dixon,LIB,17,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,us_senate,Avery Ayers,,0,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,us_senate,Brad Hall,,2,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,us_senate,Jade Simmons,,0,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,us_senate,James Talarico,DEM,361,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,us_senate,Ken Paxton,REP,685,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,us_senate,Ted Brown,LIB,31,precinct-derived,gov_senate_precinct_2026.csv
+Dawson,115,us_senate,Zul Mohamed,,0,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,governor,Edward Earl Giles,,20,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,governor,Gina Hinojosa,DEM,199625,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,governor,Greg Abbott,REP,191413,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,governor,Jenn Mack,,144,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,governor,Jinghpaw Majoishingra,,12,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,governor,Mike Miller,,73,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,governor,Pat Dixon,LIB,5634,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,us_senate,Avery Ayers,,108,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,us_senate,Brad Hall,,79,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,us_senate,Jade Simmons,,82,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,us_senate,James Talarico,DEM,211266,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,us_senate,Ken Paxton,REP,177859,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,us_senate,Ted Brown,LIB,6834,precinct-derived,gov_senate_precinct_2026.csv
+Denton,121,us_senate,Zul Mohamed,,7,precinct-derived,gov_senate_precinct_2026.csv
+El Paso,141,governor,Gina Hinojosa,DEM,153639,precinct-derived,gov_senate_precinct_2026.csv
+El Paso,141,governor,Greg Abbott,REP,61410,precinct-derived,gov_senate_precinct_2026.csv
+El Paso,141,governor,Pat Dixon,LIB,3819,precinct-derived,gov_senate_precinct_2026.csv
+El Paso,141,governor,Write-in,,180,precinct-derived,gov_senate_precinct_2026.csv
+El Paso,141,us_senate,James Talarico,DEM,159272,precinct-derived,gov_senate_precinct_2026.csv
+El Paso,141,us_senate,Ken Paxton,REP,54576,precinct-derived,gov_senate_precinct_2026.csv
+El Paso,141,us_senate,Ted Brown,LIB,4642,precinct-derived,gov_senate_precinct_2026.csv
+El Paso,141,us_senate,Write-in,,252,precinct-derived,gov_senate_precinct_2026.csv
+Ellis,139,governor,Gina Hinojosa,DEM,39908,precinct-derived,gov_senate_precinct_2026.csv
+Ellis,139,governor,Greg Abbott,REP,47284,precinct-derived,gov_senate_precinct_2026.csv
+Ellis,139,governor,Pat Dixon,LIB,1494,precinct-derived,gov_senate_precinct_2026.csv
+Ellis,139,governor,Write-in,,153,precinct-derived,gov_senate_precinct_2026.csv
+Ellis,139,us_senate,James Talarico,DEM,41351,precinct-derived,gov_senate_precinct_2026.csv
+Ellis,139,us_senate,Ken Paxton,REP,45286,precinct-derived,gov_senate_precinct_2026.csv
+Ellis,139,us_senate,Ted Brown,LIB,1887,precinct-derived,gov_senate_precinct_2026.csv
+Ellis,139,us_senate,Write-in,,208,precinct-derived,gov_senate_precinct_2026.csv
+Fayette,149,governor,Gina Hinojosa,DEM,2743,precinct-derived,gov_senate_precinct_2026.csv
+Fayette,149,governor,Greg Abbott,REP,8381,precinct-derived,gov_senate_precinct_2026.csv
+Fayette,149,governor,Pat Dixon,LIB,146,precinct-derived,gov_senate_precinct_2026.csv
+Fayette,149,governor,Write-in,,9,precinct-derived,gov_senate_precinct_2026.csv
+Fayette,149,us_senate,James Talarico,DEM,2942,precinct-derived,gov_senate_precinct_2026.csv
+Fayette,149,us_senate,Ken Paxton,REP,7984,precinct-derived,gov_senate_precinct_2026.csv
+Fayette,149,us_senate,Ted Brown,LIB,257,precinct-derived,gov_senate_precinct_2026.csv
+Fayette,149,us_senate,Write-in,,23,precinct-derived,gov_senate_precinct_2026.csv
+Fort Bend,157,governor,Gina Hinojosa,DEM,200991,precinct-derived,gov_senate_precinct_2026.csv
+Fort Bend,157,governor,Greg Abbott,REP,126052,precinct-derived,gov_senate_precinct_2026.csv
+Fort Bend,157,governor,Pat Dixon,LIB,4378,precinct-derived,gov_senate_precinct_2026.csv
+Fort Bend,157,governor,Write-in,,298,precinct-derived,gov_senate_precinct_2026.csv
+Fort Bend,157,us_senate,James Talarico,DEM,210745,precinct-derived,gov_senate_precinct_2026.csv
+Fort Bend,157,us_senate,Ken Paxton,REP,115967,precinct-derived,gov_senate_precinct_2026.csv
+Fort Bend,157,us_senate,Ted Brown,LIB,5016,precinct-derived,gov_senate_precinct_2026.csv
+Fort Bend,157,us_senate,Write-in,,541,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,governor,Edward Earl Giles,,46,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,governor,Gina Hinojosa,DEM,59716,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,governor,Greg Abbott,REP,72745,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,governor,Pat Dixon,LIB,2167,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,governor,Write-in,,0,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,us_senate,Avery Ayers,,43,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,us_senate,James Talarico,DEM,62051,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,us_senate,Ken Paxton,REP,69943,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,us_senate,Ted Brown,LIB,2561,precinct-derived,gov_senate_precinct_2026.csv
+Galveston,167,us_senate,Write-in,,0,precinct-derived,gov_senate_precinct_2026.csv
+Gregg,183,governor,Edward Earl Giles,,19,precinct-derived,gov_senate_precinct_2026.csv
+Gregg,183,governor,Gina Hinojosa,DEM,14179,precinct-derived,gov_senate_precinct_2026.csv
+Gregg,183,governor,Greg Abbott,REP,23347,precinct-derived,gov_senate_precinct_2026.csv
+Gregg,183,governor,Pat Dixon,LIB,576,precinct-derived,gov_senate_precinct_2026.csv
+Gregg,183,us_senate,Avery Ayers,,18,precinct-derived,gov_senate_precinct_2026.csv
+Gregg,183,us_senate,James Talarico,DEM,14742,precinct-derived,gov_senate_precinct_2026.csv
+Gregg,183,us_senate,Ken Paxton,REP,22405,precinct-derived,gov_senate_precinct_2026.csv
+Gregg,183,us_senate,Ted Brown,LIB,894,precinct-derived,gov_senate_precinct_2026.csv
+Hemphill,211,governor,Gina Hinojosa,DEM,251,precinct-derived,gov_senate_precinct_2026.csv
+Hemphill,211,governor,Greg Abbott,REP,959,precinct-derived,gov_senate_precinct_2026.csv
+Hemphill,211,governor,Pat Dixon,LIB,36,precinct-derived,gov_senate_precinct_2026.csv
+Hemphill,211,governor,Write-in,,2,precinct-derived,gov_senate_precinct_2026.csv
+Hemphill,211,us_senate,James Talarico,DEM,258,precinct-derived,gov_senate_precinct_2026.csv
+Hemphill,211,us_senate,Ken Paxton,REP,957,precinct-derived,gov_senate_precinct_2026.csv
+Hemphill,211,us_senate,Ted Brown,LIB,29,precinct-derived,gov_senate_precinct_2026.csv
+Hemphill,211,us_senate,Write-in,,2,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,governor,Edward Earl Giles,,4,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,governor,Gina Hinojosa,DEM,143417,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,governor,Greg Abbott,REP,57948,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,governor,Jenn Mack,,8,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,governor,Jinghpaw Majoishingra,,3,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,governor,Mike Miller,,21,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,governor,Pat Dixon,LIB,1996,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,us_senate,Avery Ayers,,21,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,us_senate,Brad Hall,,15,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,us_senate,Jade Simmons,,13,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,us_senate,James Talarico,DEM,146763,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,us_senate,Ken Paxton,REP,52660,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,us_senate,Ted Brown,LIB,3097,precinct-derived,gov_senate_precinct_2026.csv
+Hidalgo,215,us_senate,Zul Mohamed,,3,precinct-derived,gov_senate_precinct_2026.csv
+Hood,221,governor,Edward Earl Giles,,0,precinct-derived,gov_senate_precinct_2026.csv
+Hood,221,governor,Gina Hinojosa,DEM,0,precinct-derived,gov_senate_precinct_2026.csv
+Hood,221,governor,Greg Abbott,REP,0,precinct-derived,gov_senate_precinct_2026.csv
+Hood,221,governor,Pat Dixon,LIB,0,precinct-derived,gov_senate_precinct_2026.csv
+Hood,221,us_senate,Avery Ayers,,0,precinct-derived,gov_senate_precinct_2026.csv
+Hood,221,us_senate,James Talarico,DEM,0,precinct-derived,gov_senate_precinct_2026.csv
+Hood,221,us_senate,Ken Paxton,REP,0,precinct-derived,gov_senate_precinct_2026.csv
+Hood,221,us_senate,Ted Brown,LIB,0,precinct-derived,gov_senate_precinct_2026.csv
+Hunt,231,governor,Gina Hinojosa,DEM,11390,precinct-derived,gov_senate_precinct_2026.csv
+Hunt,231,governor,Greg Abbott,REP,25526,precinct-derived,gov_senate_precinct_2026.csv
+Hunt,231,governor,Pat Dixon,LIB,696,precinct-derived,gov_senate_precinct_2026.csv
+Hunt,231,us_senate,James Talarico,DEM,11898,precinct-derived,gov_senate_precinct_2026.csv
+Hunt,231,us_senate,Ken Paxton,REP,24602,precinct-derived,gov_senate_precinct_2026.csv
+Hunt,231,us_senate,Ted Brown,LIB,1002,precinct-derived,gov_senate_precinct_2026.csv
+Jefferson,245,governor,Gina Hinojosa,DEM,39380,precinct-derived,gov_senate_precinct_2026.csv
+Jefferson,245,governor,Greg Abbott,REP,32737,precinct-derived,gov_senate_precinct_2026.csv
+Jefferson,245,governor,Pat Dixon,LIB,853,precinct-derived,gov_senate_precinct_2026.csv
+Jefferson,245,governor,Write-in,,81,precinct-derived,gov_senate_precinct_2026.csv
+Jefferson,245,us_senate,James Talarico,DEM,40543,precinct-derived,gov_senate_precinct_2026.csv
+Jefferson,245,us_senate,Ken Paxton,REP,30937,precinct-derived,gov_senate_precinct_2026.csv
+Jefferson,245,us_senate,Ted Brown,LIB,1270,precinct-derived,gov_senate_precinct_2026.csv
+Jefferson,245,us_senate,Write-in,,130,precinct-derived,gov_senate_precinct_2026.csv
+Jim Hogg,247,governor,Gina Hinojosa,DEM,987,precinct-derived,gov_senate_precinct_2026.csv
+Jim Hogg,247,governor,Greg Abbott,REP,372,precinct-derived,gov_senate_precinct_2026.csv
+Jim Hogg,247,governor,Pat Dixon,LIB,13,precinct-derived,gov_senate_precinct_2026.csv
+Jim Hogg,247,us_senate,James Talarico,DEM,1004,precinct-derived,gov_senate_precinct_2026.csv
+Jim Hogg,247,us_senate,Ken Paxton,REP,323,precinct-derived,gov_senate_precinct_2026.csv
+Jim Hogg,247,us_senate,Ted Brown,LIB,24,precinct-derived,gov_senate_precinct_2026.csv
+Kaufman,257,governor,Gina Hinojosa,DEM,29874,precinct-derived,gov_senate_precinct_2026.csv
+Kaufman,257,governor,Greg Abbott,REP,31451,precinct-derived,gov_senate_precinct_2026.csv
+Kaufman,257,governor,Pat Dixon,LIB,1017,precinct-derived,gov_senate_precinct_2026.csv
+Kaufman,257,governor,Write-in,,55,precinct-derived,gov_senate_precinct_2026.csv
+Kaufman,257,us_senate,James Talarico,DEM,30899,precinct-derived,gov_senate_precinct_2026.csv
+Kaufman,257,us_senate,Ken Paxton,REP,30114,precinct-derived,gov_senate_precinct_2026.csv
+Kaufman,257,us_senate,Ted Brown,LIB,1237,precinct-derived,gov_senate_precinct_2026.csv
+Kaufman,257,us_senate,Write-in,,118,precinct-derived,gov_senate_precinct_2026.csv
+Kendall,259,governor,Gina Hinojosa,DEM,6654,precinct-derived,gov_senate_precinct_2026.csv
+Kendall,259,governor,Greg Abbott,REP,19152,precinct-derived,gov_senate_precinct_2026.csv
+Kendall,259,governor,Pat Dixon,LIB,353,precinct-derived,gov_senate_precinct_2026.csv
+Kendall,259,governor,Write-in,,24,precinct-derived,gov_senate_precinct_2026.csv
+Kendall,259,us_senate,James Talarico,DEM,7189,precinct-derived,gov_senate_precinct_2026.csv
+Kendall,259,us_senate,Ken Paxton,REP,18437,precinct-derived,gov_senate_precinct_2026.csv
+Kendall,259,us_senate,Ted Brown,LIB,438,precinct-derived,gov_senate_precinct_2026.csv
+Kendall,259,us_senate,Write-in,,64,precinct-derived,gov_senate_precinct_2026.csv
+Lamar,277,governor,Gina Hinojosa,DEM,4234,precinct-derived,gov_senate_precinct_2026.csv
+Lamar,277,governor,Greg Abbott,REP,11954,precinct-derived,gov_senate_precinct_2026.csv
+Lamar,277,governor,Pat Dixon,LIB,250,precinct-derived,gov_senate_precinct_2026.csv
+Lamar,277,us_senate,James Talarico,DEM,4273,precinct-derived,gov_senate_precinct_2026.csv
+Lamar,277,us_senate,Ken Paxton,REP,11763,precinct-derived,gov_senate_precinct_2026.csv
+Lamar,277,us_senate,Ted Brown,LIB,383,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,governor,Edward Earl Giles,,0,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,governor,Gina Hinojosa,DEM,126,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,governor,Greg Abbott,REP,784,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,governor,Jenn Mack,,1,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,governor,Jinghpaw Majoishingra,,0,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,governor,Mike Miller,,2,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,governor,Pat Dixon,LIB,25,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,us_senate,Avery Ayers,,0,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,us_senate,Brad Hall,,0,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,us_senate,Jade Simmons,,0,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,us_senate,James Talarico,DEM,133,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,us_senate,Ken Paxton,REP,763,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,us_senate,Ted Brown,LIB,37,precinct-derived,gov_senate_precinct_2026.csv
+Lipscomb,295,us_senate,Zul Mohamed,,0,precinct-derived,gov_senate_precinct_2026.csv
+Lubbock,303,governor,Gina Hinojosa,DEM,0,precinct-derived,gov_senate_precinct_2026.csv
+Lubbock,303,governor,Greg Abbott,REP,0,precinct-derived,gov_senate_precinct_2026.csv
+Lubbock,303,governor,Pat Dixon,LIB,0,precinct-derived,gov_senate_precinct_2026.csv
+Lubbock,303,us_senate,James Talarico,DEM,0,precinct-derived,gov_senate_precinct_2026.csv
+Lubbock,303,us_senate,Ken Paxton,REP,0,precinct-derived,gov_senate_precinct_2026.csv
+Lubbock,303,us_senate,Ted Brown,LIB,0,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,governor,Edward Earl Giles,,0,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,governor,Gina Hinojosa,DEM,3365,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,governor,Greg Abbott,REP,6128,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,governor,Jenn Mack,,4,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,governor,Jinghpaw Majoishingra,,0,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,governor,Mike Miller,,0,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,governor,Pat Dixon,LIB,210,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,us_senate,Avery Ayers,,4,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,us_senate,Bradford Hall,,4,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,us_senate,Jade Simmons,,0,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,us_senate,James Talarico,DEM,3487,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,us_senate,Ken Paxton,REP,5934,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,us_senate,Ted Brown,LIB,267,precinct-derived,gov_senate_precinct_2026.csv
+Matagorda,321,us_senate,Zul Mohamed,,0,precinct-derived,gov_senate_precinct_2026.csv
+Midland,329,governor,Gina Hinojosa,DEM,12480,precinct-derived,gov_senate_precinct_2026.csv
+Midland,329,governor,Greg Abbott,REP,30904,precinct-derived,gov_senate_precinct_2026.csv
+Midland,329,governor,Pat Dixon,LIB,777,precinct-derived,gov_senate_precinct_2026.csv
+Midland,329,governor,Write-in,,33,precinct-derived,gov_senate_precinct_2026.csv
+Midland,329,us_senate,James Talarico,DEM,13236,precinct-derived,gov_senate_precinct_2026.csv
+Midland,329,us_senate,Ken Paxton,REP,29740,precinct-derived,gov_senate_precinct_2026.csv
+Midland,329,us_senate,Ted Brown,LIB,1063,precinct-derived,gov_senate_precinct_2026.csv
+Midland,329,us_senate,Write-in,,86,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,governor,Edward Earl Giles,,33,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,governor,Gina Hinojosa,DEM,52692,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,governor,Greg Abbott,REP,45887,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,governor,Pat Dixon,LIB,1441,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,governor,Rejected write-ins,,50,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,governor,Write-in,,0,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,us_senate,Avery Ayers,,29,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,us_senate,James Talarico,DEM,54434,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,us_senate,Ken Paxton,REP,43253,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,us_senate,Rejected write-ins,,103,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,us_senate,Ted Brown,LIB,2164,precinct-derived,gov_senate_precinct_2026.csv
+Nueces,355,us_senate,Write-in,,0,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,governor,Edward Earl Giles,,34,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,governor,Gina Hinojosa,DEM,16879,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,governor,Greg Abbott,REP,58039,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,governor,Pat Dixon,LIB,1346,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,governor,Write-in,,0,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,us_senate,Avery Ayers,,44,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,us_senate,James Talarico,DEM,17812,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,us_senate,Ken Paxton,REP,56548,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,us_senate,Ted Brown,LIB,1780,precinct-derived,gov_senate_precinct_2026.csv
+Parker,367,us_senate,Write-in,,0,precinct-derived,gov_senate_precinct_2026.csv
+Robertson,395,governor,Gina Hinojosa,DEM,2117,precinct-derived,gov_senate_precinct_2026.csv
+Robertson,395,governor,Greg Abbott,REP,4766,precinct-derived,gov_senate_precinct_2026.csv
+Robertson,395,governor,Pat Dixon,LIB,137,precinct-derived,gov_senate_precinct_2026.csv
+Robertson,395,governor,Write-in,,9,precinct-derived,gov_senate_precinct_2026.csv
+Robertson,395,us_senate,James Talarico,DEM,2248,precinct-derived,gov_senate_precinct_2026.csv
+Robertson,395,us_senate,Ken Paxton,REP,4516,precinct-derived,gov_senate_precinct_2026.csv
+Robertson,395,us_senate,Ted Brown,LIB,209,precinct-derived,gov_senate_precinct_2026.csv
+Robertson,395,us_senate,Write-in,,21,precinct-derived,gov_senate_precinct_2026.csv
+Rockwall,397,governor,Gina Hinojosa,DEM,19309,precinct-derived,gov_senate_precinct_2026.csv
+Rockwall,397,governor,Greg Abbott,REP,33515,precinct-derived,gov_senate_precinct_2026.csv
+Rockwall,397,governor,Pat Dixon,LIB,818,precinct-derived,gov_senate_precinct_2026.csv
+Rockwall,397,governor,Write-in,,73,precinct-derived,gov_senate_precinct_2026.csv
+Rockwall,397,us_senate,James Talarico,DEM,20283,precinct-derived,gov_senate_precinct_2026.csv
+Rockwall,397,us_senate,Ken Paxton,REP,32300,precinct-derived,gov_senate_precinct_2026.csv
+Rockwall,397,us_senate,Ted Brown,LIB,922,precinct-derived,gov_senate_precinct_2026.csv
+Rockwall,397,us_senate,Write-in,,137,precinct-derived,gov_senate_precinct_2026.csv
+Rusk,401,governor,Gina Hinojosa,DEM,4795,precinct-derived,gov_senate_precinct_2026.csv
+Rusk,401,governor,Greg Abbott,REP,12306,precinct-derived,gov_senate_precinct_2026.csv
+Rusk,401,governor,Pat Dixon,LIB,305,precinct-derived,gov_senate_precinct_2026.csv
+Rusk,401,governor,Write-in,,23,precinct-derived,gov_senate_precinct_2026.csv
+Rusk,401,us_senate,James Talarico,DEM,4968,precinct-derived,gov_senate_precinct_2026.csv
+Rusk,401,us_senate,Ken Paxton,REP,11957,precinct-derived,gov_senate_precinct_2026.csv
+Rusk,401,us_senate,Ted Brown,LIB,421,precinct-derived,gov_senate_precinct_2026.csv
+Rusk,401,us_senate,Write-in,,41,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,governor,Edward Earl Giles,,33,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,governor,Gina Hinojosa,DEM,410931,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,governor,Greg Abbott,REP,307297,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,governor,Jenn Mack,,154,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,governor,Mike Miller,,102,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,governor,Pat Dixon,LIB,10913,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,us_senate,Avery Ayers,,132,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,us_senate,Brad Hall,,85,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,us_senate,Jade Simmons,,154,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,us_senate,James Talarico,DEM,427879,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,us_senate,Ken Paxton,REP,287783,precinct-derived,gov_senate_precinct_2026.csv
+Tarrant,439,us_senate,Ted Brown,LIB,12597,precinct-derived,gov_senate_precinct_2026.csv
+Travis,453,governor,Gina Hinojosa,DEM,415011,precinct-derived,gov_senate_precinct_2026.csv
+Travis,453,governor,Greg Abbott,REP,127275,precinct-derived,gov_senate_precinct_2026.csv
+Travis,453,governor,Pat Dixon,LIB,6305,precinct-derived,gov_senate_precinct_2026.csv
+Travis,453,governor,Write-in,,389,precinct-derived,gov_senate_precinct_2026.csv
+Travis,453,us_senate,James Talarico,DEM,430707,precinct-derived,gov_senate_precinct_2026.csv
+Travis,453,us_senate,Ken Paxton,REP,109791,precinct-derived,gov_senate_precinct_2026.csv
+Travis,453,us_senate,Ted Brown,LIB,8023,precinct-derived,gov_senate_precinct_2026.csv
+Travis,453,us_senate,Write-in,,941,precinct-derived,gov_senate_precinct_2026.csv
+Victoria,469,governor,Gina Hinojosa,DEM,10148,precinct-derived,gov_senate_precinct_2026.csv
+Victoria,469,governor,Greg Abbott,REP,17869,precinct-derived,gov_senate_precinct_2026.csv
+Victoria,469,governor,Pat Dixon,LIB,294,precinct-derived,gov_senate_precinct_2026.csv
+Victoria,469,governor,Write-in,,32,precinct-derived,gov_senate_precinct_2026.csv
+Victoria,469,us_senate,James Talarico,DEM,10599,precinct-derived,gov_senate_precinct_2026.csv
+Victoria,469,us_senate,Ken Paxton,REP,17103,precinct-derived,gov_senate_precinct_2026.csv
+Victoria,469,us_senate,Ted Brown,LIB,465,precinct-derived,gov_senate_precinct_2026.csv
+Victoria,469,us_senate,Write-in,,38,precinct-derived,gov_senate_precinct_2026.csv
+Williamson,491,governor,Gina Hinojosa,DEM,156631,precinct-derived,gov_senate_precinct_2026.csv
+Williamson,491,governor,Greg Abbott,REP,118285,precinct-derived,gov_senate_precinct_2026.csv
+Williamson,491,governor,Pat Dixon,LIB,4223,precinct-derived,gov_senate_precinct_2026.csv
+Williamson,491,governor,Write-in,,297,precinct-derived,gov_senate_precinct_2026.csv
+Williamson,491,us_senate,James Talarico,DEM,164626,precinct-derived,gov_senate_precinct_2026.csv
+Williamson,491,us_senate,Ken Paxton,REP,108074,precinct-derived,gov_senate_precinct_2026.csv
+Williamson,491,us_senate,Ted Brown,LIB,5782,precinct-derived,gov_senate_precinct_2026.csv
+Williamson,491,us_senate,Write-in,,585,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,governor,Edward Earl Giles,,14,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,governor,Gina Hinojosa,DEM,3531,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,governor,Greg Abbott,REP,15999,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,governor,Pat Dixon,LIB,296,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,governor,Write-in,,0,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,us_senate,Avery Ayers,,15,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,us_senate,James Talarico,DEM,3793,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,us_senate,Ken Paxton,REP,15455,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,us_senate,Ted Brown,LIB,506,precinct-derived,gov_senate_precinct_2026.csv
+Wood,499,us_senate,Write-in,,0,precinct-derived,gov_senate_precinct_2026.csv
+Blanco,31,us_senate,Ken Paxton,REP,5282,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,us_senate,James Talarico,DEM,2134,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,us_senate,Ted Brown,LIB,141,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,us_senate,Avery Ayers,,5,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,us_senate,Brad Hall,,2,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,us_senate,Zul Mohamed,,0,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,us_senate,Jade Simmons,,2,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,governor,Greg Abbott,REP,5487,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,governor,Gina Hinojosa,DEM,2016,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,governor,Pat Dixon,LIB,96,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,governor,Edward Earl Giles,,0,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,governor,Jenn Mack,,6,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,governor,Jinghpaw Majoishingra,,0,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Blanco,31,governor,Mike Miller,,1,countywide,blanco_nov2026_ELECTION-UNOFFICIAL-RESULT-REPORT_134091_1793767362240.pdf
+Brazos,41,us_senate,Ken Paxton,REP,36655,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,us_senate,James Talarico,DEM,41425,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,us_senate,Ted Brown,LIB,1787,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,us_senate,Avery Ayers (W),,57,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,us_senate,Bradford Brad Hall (W),,32,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,us_senate,Jade Simmons (W),,42,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,us_senate,Zul Mohamed (W),,2,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,governor,Greg Abbott,REP,38883,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,governor,Gina Hinojosa,DEM,39475,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,governor,Pat Dixon,LIB,1639,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,governor,Edward Earl Giles (W),,10,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,governor,Jenn Mack (W),,47,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,governor,Jinghpaw Majoishingra (W),,2,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Brazos,41,governor,Mike Miller (W),,37,countywide,brazos_Unofficial-Cumulative-Results-11-3-2026.pdf
+Burleson,51,governor,Greg Abbott,REP,5904,countywide,burleson_nov2026_20261103_Unofficial_Results.pdf
+Burleson,51,governor,"Gina Hinojosa Dem 116 35.47% 1,101 21 .88% 562",,1779,countywide,burleson_nov2026_20261103_Unofficial_Results.pdf
+Burleson,51,governor,Pat Dixon Li B,,130,countywide,burleson_nov2026_20261103_Unofficial_Results.pdf
+Burleson,51,governor,Edward Earl Giles (W),,1,countywide,burleson_nov2026_20261103_Unofficial_Results.pdf
+Burleson,51,governor,Jenn Mack (W),,5,countywide,burleson_nov2026_20261103_Unofficial_Results.pdf
+Burleson,51,governor,Jinghpaw Majoishingra (W),,0,countywide,burleson_nov2026_20261103_Unofficial_Results.pdf
+Burleson,51,governor,Mike Miller (W),,1,countywide,burleson_nov2026_20261103_Unofficial_Results.pdf
+Concho,95,us_senate,Ken Paxton,REP,766,countywide,concho_nov2026_11.3.2026_Unofficial_Results.pdf
+Concho,95,us_senate,James Talarico,DEM,190,countywide,concho_nov2026_11.3.2026_Unofficial_Results.pdf
+Concho,95,us_senate,Ted Brown,LIB,37,countywide,concho_nov2026_11.3.2026_Unofficial_Results.pdf
+Concho,95,governor,Greg Abbott,REP,798,countywide,concho_nov2026_11.3.2026_Unofficial_Results.pdf
+Concho,95,governor,Gina Hinojosa,DEM,182,countywide,concho_nov2026_11.3.2026_Unofficial_Results.pdf
+Concho,95,governor,Pat Dixon,LIB,20,countywide,concho_nov2026_11.3.2026_Unofficial_Results.pdf
+Deaf Smith,117,us_senate,Ken Paxton,REP,1989,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,us_senate,James Talarico,DEM,1459,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,us_senate,Ted Brown,LIB,75,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,us_senate,Avery Ayers (w),,2,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,us_senate,Bradford Brad Hall (w),,0,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,us_senate,Jade Simmons (w),,0,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,us_senate,Zul Mohamed (w),,0,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,governor,Greg Abbott,REP,2086,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,governor,Gina Hinojosa,DEM,1407,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,governor,Pat Dixon,LIB,51,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,governor,Edward Earl Giles (w),,0,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,governor,Jenn Mack (w),,0,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,governor,Jinghpaw Majoishingra (w),,0,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Deaf Smith,117,governor,Mike Miller (w),,1,countywide,deaf_smith_nov2026_DSC_Unofficial_Cumulative_Results_11.3.2026.pdf
+Floyd,153,us_senate,Ken Paxton,REP,1128,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,us_senate,James Talarico,DEM,461,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,us_senate,Ted Brown,LIB,39,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,us_senate,Avery Ayers (W),,6,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,us_senate,Bradford Brad Hall (W),,3,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,us_senate,Jade Simmons (W),,3,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,us_senate,Zul Mohamed (W),,0,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,governor,Greg Abbott,REP,1172,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,governor,Gina Hinojosa,DEM,445,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,governor,Pat Dixon,LIB,20,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,governor,Edward Earl Giles (W),,1,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,governor,Jenn Mack (W),,0,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,governor,Jingpaw Majoishingra (W),,0,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Floyd,153,governor,Mike Miller (W),,6,countywide,floyd_nov2026_Cumulative_Results-11-3-2026_09-45-46_PM.pdf
+Gillespie,171,us_senate,Ken Paxton,REP,10582,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,us_senate,James Talarico,DEM,3717,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,us_senate,Ted Brown,LIB,280,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,us_senate,Avery Ayers (w),,7,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,us_senate,Bradford Brad Hall (w),,1,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,us_senate,Jade Simmons (w),,1,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,us_senate,Zul Mohamed (w),,0,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,governor,Greg Abbott,REP,11021,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,governor,Gina Hinojosa,DEM,3413,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,governor,Pat Dixon,LIB,200,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,governor,Edward Earl Giles (w),,2,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,governor,Jenn Mack (w),,5,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,governor,Jinghpaw Majoishingra (w),,0,countywide,gillespie_nov2026_3112.pdf
+Gillespie,171,governor,Mike Miller (w),,3,countywide,gillespie_nov2026_3112.pdf
+Hardin,199,governor,Ginahinojosa,DEM,3517,countywide,hardin_nov2026_General_Election_November_3_2026.html
+Hardin,199,governor,Gregabbott,REP,16954,countywide,hardin_nov2026_General_Election_November_3_2026.html
+Hardin,199,governor,Patdixon,LIB,284,countywide,hardin_nov2026_General_Election_November_3_2026.html
+Hardin,199,us_senate,Jamestalarico,DEM,3683,countywide,hardin_nov2026_General_Election_November_3_2026.html
+Hardin,199,us_senate,Kenpaxton,REP,16515,countywide,hardin_nov2026_General_Election_November_3_2026.html
+Hardin,199,us_senate,Tedbrown,LIB,491,countywide,hardin_nov2026_General_Election_November_3_2026.html
+Harris,201,us_senate,Ken Paxton,REP,451780,countywide,harris_cumulative.pdf
+Harris,201,us_senate,James Talarico,DEM,907617,countywide,harris_cumulative.pdf
+Harris,201,us_senate,Ted Brown,LIB,23478,countywide,harris_cumulative.pdf
+Harris,201,us_senate,Avery Ayers (W),,146,countywide,harris_cumulative.pdf
+Harris,201,us_senate,Bradford Brad Hall (W),,62,countywide,harris_cumulative.pdf
+Harris,201,us_senate,Jade Simmons (W),,381,countywide,harris_cumulative.pdf
+Harris,201,us_senate,Zul Mohamed (W),,16,countywide,harris_cumulative.pdf
+Harris,201,governor,Greg Abbott,REP,483850,countywide,harris_cumulative.pdf
+Harris,201,governor,Gina Hinojosa,DEM,879134,countywide,harris_cumulative.pdf
+Harris,201,governor,Pat Dixon,LIB,20144,countywide,harris_cumulative.pdf
+Harris,201,governor,Edward Earl Giles (W),,30,countywide,harris_cumulative.pdf
+Harris,201,governor,Jenn Mack (W),,178,countywide,harris_cumulative.pdf
+Harris,201,governor,Jinghpaw Majoishingra (W),,6,countywide,harris_cumulative.pdf
+Harris,201,governor,Mike Miller (W),,118,countywide,harris_cumulative.pdf
+Lee,287,governor,Greg Abbott,REP,5053,countywide,lee_nov2026_all_results_110326.pdf
+Lee,287,governor,Gina Hinojosa,DEM,1819,countywide,lee_nov2026_all_results_110326.pdf
+Lee,287,governor,Pat Dixon En,LIB,1,countywide,lee_nov2026_all_results_110326.pdf
+Lee,287,governor,Write-in,,88,countywide,lee_nov2026_all_results_110326.pdf
+Llano,299,us_senate,Ken Paxton,REP,8595,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,us_senate,James Talarico,DEM,2783,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,us_senate,Ted Brown,LIB,287,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,us_senate,Avery Ayers (W),,1,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,us_senate,Bradford Brad Hall (W),,2,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,us_senate,Jade Simmons (W),,1,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,us_senate,Zul Mohamed (W),,0,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,governor,Greg Abbott,REP,9025,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,governor,Gina Hinojosa,DEM,2514,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,governor,Pat Dixon,LIB,157,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,governor,Edward Earl Giles (W),,1,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,governor,Jenn Mack (W),,6,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,governor,Jinghpaw Majoishingra (W),,0,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Llano,299,governor,Mike Miller (W),,1,countywide,llano_nov2026_Cumulative_Results-11-3-2026_10-39-59_PM.pdf
+Marion,315,us_senate,Ken Paxton,REP,2638,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,us_senate,James Talarico,DEM,1053,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,us_senate,Ted Brown,LIB,135,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,us_senate,Avery Ayers (w),,2,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,us_senate,Bradford Brad Hall (w),,0,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,us_senate,Jade Simmons (w),,1,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,us_senate,Zul Mohamed (w),,0,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,governor,Greg Abbott,REP,2736,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,governor,Gina Hinojosa,DEM,1010,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,governor,Pat Dixon,LIB,84,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,governor,Edward Earl Giles (w),,0,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,governor,Jenn Mack (w),,3,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,governor,Jinghpaw Majoishingra (w),,0,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Marion,315,governor,Mike Miller (w),,3,countywide,marion_nov2026_Cumulative-Results-11-3-2026-11-21-08-PM.pdf
+Palo Pinto,363,us_senate,Ken Paxton,REP,5028,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,us_senate,James Talarico,DEM,1880,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,us_senate,Ted Brown,LIB,175,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,us_senate,Avery Ayers (W),,2,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,us_senate,Bradford Hall (W),,2,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,us_senate,Jade Simmons (W),,2,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,us_senate,Zul Mohamed (W),,0,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,governor,Greg Abbott,REP,5083,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,governor,Gina Hinojosa,DEM,1889,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,governor,Pat Dixon,LIB,127,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,governor,Edward Earl Giles (W),,1,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,governor,Jenn Mack (W),,0,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,governor,Jinghpaw Majoishingra (W),,0,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Palo Pinto,363,governor,Mike Miller (W),,2,countywide,palo_pinto_nov2026_November_3_2026_Early_and_ABBM.pdf
+Pecos,371,us_senate,Ken Paxton,REP,1280,countywide,pecos_nov2026_20261103-Unofficial-Early-Voting-Results.pdf
+Pecos,371,us_senate,James Talarico,DEM,1090,countywide,pecos_nov2026_20261103-Unofficial-Early-Voting-Results.pdf
+Pecos,371,us_senate,Ted Brown,LIB,89,countywide,pecos_nov2026_20261103-Unofficial-Early-Voting-Results.pdf
+Pecos,371,us_senate,Write-in,,5,countywide,pecos_nov2026_20261103-Unofficial-Early-Voting-Results.pdf
+Pecos,371,governor,Greg Abbott,REP,1400,countywide,pecos_nov2026_20261103-Unofficial-Early-Voting-Results.pdf
+Pecos,371,governor,Gina Hinojosa,DEM,1038,countywide,pecos_nov2026_20261103-Unofficial-Early-Voting-Results.pdf
+Pecos,371,governor,Pat Dixon,LIB,54,countywide,pecos_nov2026_20261103-Unofficial-Early-Voting-Results.pdf
+Pecos,371,governor,Write-in,,2,countywide,pecos_nov2026_20261103-Unofficial-Early-Voting-Results.pdf
+Starr,427,us_senate,Ken Paxton,REP,2772,countywide,starr_nov2026_Unofficial_Election_Summary_Nov_3_2026_Write_ins.pdf
+Starr,427,us_senate,James Talarico,DEM,10072,countywide,starr_nov2026_Unofficial_Election_Summary_Nov_3_2026_Write_ins.pdf
+Starr,427,us_senate,Ted Brown,LIB,238,countywide,starr_nov2026_Unofficial_Election_Summary_Nov_3_2026_Write_ins.pdf
+Starr,427,us_senate,Write-in,,6,countywide,starr_nov2026_Unofficial_Election_Summary_Nov_3_2026_Write_ins.pdf
+Starr,427,governor,Greg Abbott,REP,3435,countywide,starr_nov2026_Unofficial_Election_Summary_Nov_3_2026_Write_ins.pdf
+Starr,427,governor,Gina Hinojosa,DEM,10091,countywide,starr_nov2026_Unofficial_Election_Summary_Nov_3_2026_Write_ins.pdf
+Starr,427,governor,Pat Dixon,LIB,99,countywide,starr_nov2026_Unofficial_Election_Summary_Nov_3_2026_Write_ins.pdf
+Starr,427,governor,Write-in,,6,countywide,starr_nov2026_Unofficial_Election_Summary_Nov_3_2026_Write_ins.pdf
+Terry,445,us_senate,Ken Paxton,REP,1844,countywide,terry_nov2026_results.pdf
+Terry,445,us_senate,James Talarico,DEM,710,countywide,terry_nov2026_results.pdf
+Terry,445,us_senate,Ted Brown,LIB,62,countywide,terry_nov2026_results.pdf
+Terry,445,us_senate,Write-in,,5,countywide,terry_nov2026_results.pdf
+Terry,445,governor,Greg Abbott,REP,1896,countywide,terry_nov2026_results.pdf
+Terry,445,governor,Gina Hinojosa,DEM,680,countywide,terry_nov2026_results.pdf
+Terry,445,governor,Pat Dixon,LIB,55,countywide,terry_nov2026_results.pdf
+Terry,445,governor,Write-in,,2,countywide,terry_nov2026_results.pdf

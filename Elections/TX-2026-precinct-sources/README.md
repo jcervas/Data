@@ -22,6 +22,16 @@ machine-readable slice of it is the ~32 counties running Clarity.
 | `install_schedule.sh` | Installs/removes the launchd timer that polls until election night |
 | `poll_schedule.sh` | The cadence logic the timer runs |
 | `notify_changes.py` | Diffs consecutive manifests and alerts on what changed |
+| `extract_gov_sen.py` | Pulls Governor + U.S. Senator precinct results out of the Clarity XML and keys them to `PCTKEY` |
+| `parse_precinct_pdf.py` | Parses a county precinct-results PDF into the same rows: Hart layout (Brazoria) and Electionware/Jasper layout (Collin) |
+| `parse_lvt_enr.py` | Reads precinct results straight off a livevoterturnout.com ENR page (Ellis) |
+| `discover_county_sites.py` | Finds a county's site, elections page and results page by convention |
+| `merge_discovered_sites.py` | Folds those findings into the inventory without touching verified rows |
+| `county_sites.csv` | Output of the discovery crawl: one row per county, failures included |
+| `county_totals.py` | Countywide Governor/Senate totals, derived from precincts where we have them |
+| `county_totals_2026.csv` | One row per county/race/candidate, labeled `precinct-derived` or `countywide` |
+| `tlc_precincts.py` | Dependency-free `.dbf` reader for the TLC precinct shapefile |
+| `gov_senate_precinct_2026.csv` | Output of `extract_gov_sen.py` — the joined results table |
 
 ### CSV columns
 
@@ -57,6 +67,11 @@ Three requests per county. No scraping, no PDF parsing.
 3. GET https://results.enr.clarityelections.com/TX/<Slug>/<EID>/<VER>/reports/detailxml.zip
       -> detail.xml: <Contest> / <Choice> / <VoteType> / <Precinct name=... votes=...>
 ```
+
+**Send a browser User-Agent.** As of 2026-11-02 the CloudFront layer in front of
+Clarity answers a bare `curl` with 403; the same request with a Chrome UA gets
+200. The scripts here already send full browser headers, but a hand-rolled
+`curl -s` against these URLs will fail unless you add `-A`.
 
 `detailtxt.zip` is the same data as fixed-width text. `detailxls.zip` 404s on the
 Texas sites — do not rely on it.
@@ -203,18 +218,59 @@ opening them:
 The results page already has its "2026 November 3 General and Special Elections"
 section, updated 10-22-2026, with headings per entity but no files posted yet.
 
-## A fourth platform: Civix GoElect
+## A fourth platform: Civix GoElect -- it is the state's, and it is empty
 
-Ellis links its November 3 results to `goelect.txelections.civixapps.com`, an
-Angular ENR app whose environment reports `"env": "prod-txelections"` and a build
-dated 2026-10-20. The `txelections` hostname suggests a shared or statewide
-deployment rather than a single county.
+Resolved on 2026-11-04. The link Ellis labels "State of Texas Results website"
+points at the bare `goelect.txelections.civixapps.com/ivis-enr-ui/races`, with
+no county or election parameter. Loading it in a browser, the Angular app boots,
+fetches only its i18n bundle, and renders an empty "Home - Election Night
+Results"; the site root redirects to `ems-system-ui`, an Okta-gated management
+app. So GoElect is the Secretary of State's own deployment, it carries no
+county data, and it is not a second uniform feed. Nothing further to probe.
 
-Its data files (`ResultsData.xml`, `event.json` under
-`/ivis-enr-ui/assets/data/`) and its API (`/api-ivis-system/`) are live but
-return nothing populated yet — the static paths fall through to the SPA index and
-the API 404s on the obvious routes. Worth re-probing on election night: if it
-carries multiple counties it would be a second uniform feed alongside Clarity.
+## A fifth platform: livevoterturnout.com -- four counties, one useful
+
+Probed all 254 county slugs as `<county>txenr` (one request each). **Four
+answer: Cameron, Ellis, Hays and Williamson** -- so the earlier note here, that
+a probe of the top 60 found no county other than Cameron, was wrong.
+
+Only Ellis is worth anything, and it is worth a lot:
+
+| County | Status |
+| --- | --- |
+| **Ellis** | `ellistxenr` index **11**, 5.4 MB, **2,088 precinct blocks**. Parsed. |
+| Hays | indices stop at 13, newest May 2022 -- Hays has moved off this vendor |
+| Cameron | indices run past 40 (through 2025) but **no page has a single precinct block**; countywide only |
+| Williamson | already covered by Clarity |
+
+### Ellis is the easiest source in the whole toolkit
+
+One static page carries the entire county: every precinct, every contest,
+already in the markup behind `display: none`. No API, no pagination, no PDF --
+a single GET, and `parse_lvt_enr.py` does the rest. The precinct rows are
+`<div class="list-item-precinct-race">` blocks whose `race-title` reads
+`1001-501 - Governor`, with `<td dc>` for the candidate and `<td dv>` for the
+votes. Precinct labels are `1001-501`, which the existing label normalizer
+already reduces to TLC's `1001` by stripping the trailing `-NNN`.
+
+It checks itself: the same page prints countywide totals, and the precinct rows
+sum to them **to the vote** -- 88,839 Governor and 88,732 Senate across 60 of
+TLC's 61 precincts (1023 did not report). The parser does that comparison on
+every run and reports any gap.
+
+One trap worth naming. The candidate cell holds the name **twice**, once
+visible and once in an `sr-only` span for screen readers. Stripping tags
+naively yields `Greg Abbott REP Greg Abbott`, which merges with nothing and
+silently forks the candidate -- Ellis's 88,839 Governor votes landed in the
+combined table under names of their own, leaving every statewide total
+unchanged while the row count grew. Reading only the first span fixes it, and
+the distinct-candidate count is what catches it: 9 per race, not 11.
+
+Ellis also publishes `DocumentCenter/View/24376`, a "Whole Precinct by Race
+Totals Report" PDF for the same data. That one is a JasperReports cross-tab
+with **vertically rotated column headers**, which `pdftotext -layout` renders
+as one character per line; parsing it would mean reconstructing columns from
+`-bbox` coordinates. The ENR page makes that unnecessary.
 
 ## Running everything at once
 
@@ -249,6 +305,52 @@ One inconsistency to expect in a discovery-only manifest: the HTTP paths report
 byte counts from a `HEAD`, but the browser counties report `bytes: null` until
 you pass `--download`, because the size is only known once the in-page fetch has
 run. Their `status` is still recorded.
+
+### Every run band-scans now, on a budget
+
+A county's own `elections.json` cannot be trusted to say whether its November
+site exists. On 2026-11-04 Bell's listing stopped at May 2026, Comal's at May
+2025, Guadalupe's at 2015, and Lubbock's and Jefferson's were empty arrays --
+while Bell, Hunt, Kendall, Lubbock and Jefferson all had live November sites.
+`find_eid` used to scan the id band only when the listing *errored*, so a
+listing that parsed and simply omitted November was believed. It now scans
+whenever the date is missing for any reason, and the no-scan message reports the
+listing's newest entry instead of asserting the county is unstaged.
+
+`poll_schedule.sh` passes `--scan` on every run, not just the pre-election
+discovery -- the counties most likely to stand a site up late were exactly the
+ones that stopped being scanned once the election started.
+
+Clarity pushes back on that, so three limits keep it sustainable, all
+overridable by environment variable:
+
+| Knob | Default | Why |
+| --- | --- | --- |
+| `TX_SCAN_GATE` | 4 | 8 earned HTTP 405 on a 9-county sweep |
+| `TX_SCAN_BUDGET` | 3 counties/process | caps a run at ~1,200 ids, not ~2,400 |
+| `TX_SCAN_RETRY` | 900s | a county probed this recently is skipped |
+
+`scan_attempts.json` records when each county's band was last probed, hit, miss
+or refusal. The budget plus that file rotate the work: each run spends its
+budget on whichever counties have gone longest unprobed, and the next run moves
+on to the others, so every county is still scanned regularly and none is
+hammered. A refused scan is reported as a refusal -- `band scan refused 369
+time(s)` -- and never as absence, the same distinction `find_eid` already draws
+between "no entry" and "could not tell."
+
+### Two different kinds of empty
+
+Both look like a county with no votes and neither is usable, but they fail
+differently and only one trips a reconciliation check:
+
+- **Lubbock** stages a clean zero template: `precinctsReported=0`, every
+  `totalVotes` 0, every precinct 0. The sums agree perfectly, so nothing looks
+  wrong -- which is the danger.
+- **Hood** reports `precinctsReported=29` and real county totals (Abbott
+  23,380) with every per-precinct value the literal string `N/A`.
+
+`extract_gov_sen.py` flags both with `STAGED BUT EMPTY`, so a county of zeros
+cannot be mistaken for a county that voted.
 
 ## Polling until election night
 
@@ -399,7 +501,7 @@ than a bespoke handler:
 | --- | --- | --- |
 | Grayson | 100,887 | `Official_<Party>_Party_Pct_Summ_Results_Report_<YYYY>.pdf` |
 | Randall | 100,698 | DocumentCenter canvass reports |
-| Ector | 85,664 | one PDF per precinct group: "Pct. 101, 102, 103, …" |
+| Ector | 85,664 | **not results** — the "Pct. 101, 102, 103, …" PDFs are sample ballots, see below |
 | Taylor | 85,075 | "OFFICIAL Taylor County Precinct Results" |
 | Tom Green | 72,329 | "Official Precinct Results (PDF)" |
 | Bowie | 60,472 | "Official Results Pct X Pct (PDF)" |
@@ -465,6 +567,79 @@ the directory. And because McLennan labels every link just "Canvass (.pdf)", it
 names files from the descriptive URL slug instead, qualifying with the election
 and a counter so nothing overwrites.
 
+## Joining results to precinct geography
+
+See `geo/GEOGRAPHY_MATCHING.md`. The short version, independently re-verified
+against `Precincts26P.dbf` (9,614 rows, zero mismatches):
+
+- The join key is **`PCTKEY`** = `str(int(FIPS)) + PREC.rjust(4,"0")`. The FIPS
+  part is *unpadded*, so the key is 6 characters below FIPS 100 and 7 above
+  (`610001` Cameron, `2010001` Harris) — never parse it fixed-width.
+- Reported labels need normalizing first: strip `PCT`/`Pct.`/`Precinct`, drop
+  everything after `" - "` or a trailing `-NN`, remove any `.`, then left-pad
+  the numeric head so numeric+alpha is 4 characters. Wood joins **0 of 26**
+  labels raw and **26 of 26** normalized.
+- **A dot means opposite things in different counties.** Galveston's `232.3` is
+  TLC's `2323`; Ector's `110.7` is a split of `0110` and no `1107` exists. Offer
+  both readings and let the county's TLC set decide — and offer the faithful one
+  first, or Galveston's `230 - BS12` and `230.1 - BS12` collapse onto one
+  precinct and the county silently loses a row.
+- **Don't rank those patterns — test them.** Counties write the same precinct
+  at least six ways (`01` Gregg, `1004-01` Dallas, `137 - BS1` Galveston,
+  `232.3` for TLC's `2323` Galveston, `Bald Prairie 4` Robertson, `1A3B` Lamar,
+  which is a merged precinct that is a real TLC id and must not be padded).
+  Generate candidate forms and accept the first one that exists in TLC's set
+  for that county; list anything that matches nothing. That is what
+  `extract_gov_sen.py` does, and it resolves every label in all 21 counties.
+- Use the **2026 primary** shapefile as the stand-in, not 2024 general. Churn
+  across the cycle was large (703 precincts added, 746 dropped, 47 counties
+  changed between 24G and 26P) while primary→general churn was negligible
+  (1 county in 2024, 5 in 2022). `Precincts26G.zip` is expected around
+  January 2027.
+- Split rows are **additive everywhere checked**: group by base precinct id and
+  sum every row, bare and suffixed alike. Harris emits only split rows
+  (`0366 - 215`, no bare `0366`); Tarrant, Wood and Parker emit bare rows *and*
+  suffixed ones, and there `bare + splits` reproduces Clarity's own
+  `Choice/@totalVotes` per candidate to the vote while `bare` alone falls short
+  — by 21% in Wood's Governor race. The suffixes are separately-tabulated ballot
+  types (`L01`/`L02` limited, `F99` federal-only, Wood's `Joint COQ`), not
+  sub-geographies. Always reconcile the summed county figure against
+  `Choice/@totalVotes`; a mismatch means that county's semantics differ and its
+  numbers are not ready to publish. (An earlier draft of this note said to drop
+  the splits for Tarrant and Wood, inferred from zero templates. That was
+  wrong.)
+
+### Extracting the two statewide races
+
+`extract_gov_sen.py` reads every `*_detail.xml` the poller has downloaded,
+pulls the Governor and U.S. Senator contests, sums split rows by base precinct,
+resolves labels against `Precincts26P.dbf`, and writes one row per
+county/precinct/race/candidate with the `PCTKEY` attached:
+
+```bash
+python3 -I parse_precinct_pdf.py brazoria         # county PDF -> brazoria_precinct_2026.csv
+python3 -I parse_precinct_pdf.py collin
+python3 -I extract_gov_sen.py --also brazoria_precinct_2026.csv \
+                              --also collin_precinct_2026.csv
+python3 -I extract_gov_sen.py --date ''           # include files from other elections
+python3 -I tlc_precincts.py geo/downloads/shp26p/Precincts26P.dbf 167   # list a county's TLC ids
+```
+
+`--also` folds a CSV that `parse_precinct_pdf.py` already produced into the
+same table, re-running the candidate-name normalization over it so a county
+PDF's spelling merges with Clarity's. That matters more than it sounds: the
+counties agree on `Greg Abbott` but not on `Bradford "Brad" Hall`, which
+Hidalgo prints as `Brad Hall`. Case and party prefixes are handled by rule;
+genuine name disagreements go in `ALIASES`, deliberately as an explicit list,
+because a nickname-collapsing heuristic would quietly merge different people.
+
+It reconciles each county's summed votes against Clarity's
+`Choice/@totalVotes` and prints a per-county line with the precinct count, the
+count with votes, TLC's count, and any problem. A `total off by {...}` note
+means that county's numbers are **not** safe to use — Hood, for example, stages
+a November site whose per-precinct vote values are all the string `N/A`, so its
+countywide totals are real and its precinct breakdown is empty.
+
 ## Statewide fallbacks
 
 **Within 30 days (by ~December 3, 2026).** Tex. Elec. Code 67.017 requires each
@@ -487,6 +662,27 @@ Caveat: TLC VTDs are *approximations* of voting precincts and TLC warns its
 numbers may differ slightly from official returns. For exact official numbers,
 use the county canvass.
 
+## The Clarity list is complete: 32 counties, and that is all of them
+
+Probed all 254 county slugs against `/<slug>/elections.json`, one request each,
+on 2026-11-04. **221 return 404** -- the path does not exist, so those counties
+are not Clarity customers at all. The 33 that answer are, every one, already in
+`SLUGS`; the set difference is empty in that direction.
+
+So the Clarity avenue is exhausted, and the 197 counties this toolkit does not
+cover are **all county-hosted PDFs**. That is worth knowing before anyone
+spends time looking for a cheaper route into them: there isn't one.
+
+Two wrinkles in the probe worth recording, both of which say the same thing
+this toolkit keeps learning about Clarity:
+
+- `Clay` and `Robertson` returned 404 on `elections.json` in that sweep, yet
+  Robertson has a working November site (EID 127573, cached). A 404 on the
+  listing says nothing about whether a site exists.
+- `Liberty`, `Potter` and `Wise` returned 403. All three are county-site
+  counties here, so the 403 is a generic edge block, not evidence of Clarity
+  membership.
+
 ## What is not resolved
 
 Every county in the top 25 now has a verified source. The ~212 counties with no
@@ -498,3 +694,449 @@ for the specific counties a given analysis needs.
 Cameron also links a `livevoterturnout.com` live-results page, but its index path
 is county-specific and a probe of the top 60 counties found no other Texas county
 using that pattern.
+
+### Ector's per-precinct PDFs are sample ballots, not results
+
+Caught on 2026-11-04 by reading page 1 of every downloaded PDF instead of
+trusting the link text. All eight `ector_Pct-*.pdf` files open with
+"Sample Ballot ... General and The City of Odessa Election", so the handler has
+been resolving the right precincts off the wrong documents. Ector's actual
+precinct results are not among the files this toolkit has.
+
+They were still worth reading. Their titles carry `110.10`, `110.7`, `204.3`,
+`206.5`, `206.6`, `206.8`, `310.1`, `311.7` and `314.2`, none of which exists in
+TLC even dot-stripped, while TLC Ector is 41 whole precincts `0101`-`0412`. So
+in Ector a dot separates precinct from split (`110.7` is a split of `0110`) --
+a third split notation after Tarrant's `" - L01"` and Dallas's `-01`, and the
+opposite of Galveston, where the dot lives inside the precinct id. See
+`geo/GEOGRAPHY_MATCHING.md`.
+
+### Parsing a county "Precinct Results Report"
+
+`parse_precinct_pdf.py` reads the Hart/ES&S report layout via
+`pdftotext -layout`. Brazoria's November 3, 2026 file is the first one to
+appear: 1,163 pages, **83 precincts** (TLC has 84), both statewide races,
+138,802 Governor votes, and every precinct/race sums exactly to the report's
+own `Cast Votes` line. Two details the layout forces:
+
+- The precinct heading repeats on every page, so the parser re-declares the
+  precinct instead of carrying it across page breaks.
+- That heading ends in `= 45.16%`, the same shape as the page header's
+  `142625 of 262259 = 54.38%`, so it has to be claimed before the
+  header-noise filter runs or every precinct id is swallowed.
+
+Only the final `Total` column is kept; absentee / early / election-day splits
+are in the PDF if they are ever wanted.
+
+### Collin: readable after all, from a 99.3% download
+
+The earlier conclusion here -- that Collin's November report was unusable --
+was wrong, and wrong in an instructive way. Only the report's **front matter**
+is rasterized. A 3 MB sample from the middle of the file holds 30 image
+XObjects against 107 text operators, so the body pages carry text. Judging a
+657 MB PDF by its first 3 MB was the mistake.
+
+What it actually is: a JasperReports/Electionware **"Precinct Summary"**,
+3,424+ pages, one block per reporting unit per contest, `PCT 139` headings and
+`REP Greg Abbott  312  24.47%` rows. `parse_precinct_pdf.py collin` reads it:
+**267 precincts and 20 limited-ballot boards, 454,327 Governor votes**, every
+block reconciling to its own `Total Votes Cast` line.
+
+Three things in that layout each silently cost precincts or votes:
+
+- **Two kinds of reporting unit.** 267 `PCT nnn` precincts and 20 `LB nn`
+  limited-ballot boards. Matching only `PCT` leaves every LB block attributed
+  to whichever precinct came last, which put 2,531 stray votes into precinct
+  0271 -- a precinct that cast 618. LB votes are real and in the county total
+  but belong to no precinct, so they are kept under their own id with
+  `tlc_match=ballot_board` and no `PCTKEY`.
+- **A unit that cast nothing has no percentage column.** `REP Greg Abbott  0`
+  with no `0.00%`. A regex that requires the percent drops those blocks
+  entirely; three precincts vanished that way.
+- **A watermark bleeds into the text.** "Collin County Seal", "Watermark Seal
+  for Collin County." and "Collin County Government" appear mid-table, so a
+  parser cannot assume the lines after a column header are all candidates.
+
+**The last 4.7 MB cannot be downloaded.** The file is 688,796,823 bytes; 684,109,824
+of them arrive fine, and then the CDN delivers exactly 4,096 bytes of any range
+in the tail and stalls -- the same with and without compression, in 256 KB
+chunks, and on resume. Poppler reconstructs the xref and reads the truncated
+file anyway, so this is not fatal, but seven precincts (`0001`, `0002`, `0202`,
+`0269`, `0270`, `0272`, `0273`) are missing with it. Measured against Collin's
+own countywide summary report, the parse is short **4,476 Governor votes of
+458,803 (0.98%)** and 4,468 Senate votes of 458,325. Re-fetch when the CDN
+heals; the archived copy is `collin_precinct_nov2026_partial.pdf`, named for
+what it is.
+
+### Harris's November report is published but not machine-readable
+
+`november-3-2026---joint-general-and-special-election---precinct-results-report---unofficial-totals.pdf`
+exists and returns 200, but `Content-Length` is **688,796,823 bytes** and the
+file is raster-only: the first 3 MB alone holds 10,840 `/Subtype/Image` XObjects
+of 50x5 pixels each and **zero text objects**, so `pdftotext` returns nothing.
+Collin's results page offers no CSV or XLS, and its other November 3 artifacts
+(summary, reconciliation, early-voting summary, write-in summary) are all
+countywide. So county #6 (752,502 voters) has no usable precinct feed until
+either the canvass is posted in a different form or someone OCRs 689 MB of
+tiles. Brazoria is the contrast that shows this is a per-county export setting
+and not a format limit: same report, same vendor layout, 6.7 MB with a clean
+text layer, and `parse_precinct_pdf.py` reads all 83 precincts out of it.
+Harris is a third variant -- its `cumulative.pdf` is posted and parses, but it
+is countywide at 0 of 3,021 precincts and `precinct.pdf` still 404s.
+
+### A manifest "ok" used to mean the server offered the file
+
+Fixed in `fetch_all.py`. `do_county_site` set `status: "ok"` when any candidate
+file returned HTTP 200, regardless of whether the download then succeeded.
+Collin and Ellis both had `status: 200` with an `error: "The read operation
+timed out"`, no `path` and no `sha256`, and the run still reported them as
+online -- which inflated one coverage line to "41/57 counties, 78.7% of Texas"
+when neither county's file was on disk. `ok` now requires a written path with
+no error (a discovery run with no `--download` still counts a reachable 200),
+a failed save reports `download failed: <reason>`, and the advertised size moves
+to `content_length` so the manifest's `bytes` only ever counts bytes held.
+
+### Where each missing large county stood on November 4, 2026
+
+Checked by hand that afternoon, after the day's automated sweeps, so these are
+the reasons a county is absent rather than a guess at them.
+
+| County | Voters | Status |
+| --- | --- | --- |
+| Harris | 2,702,952 | Its "Live Results" page is empty post-election, with no iframe or feed, and no API answers (`results.`/`electionresults.harrisvotes.com` do not resolve; `/api/results` 404s). `cumulative.pdf` only, countywide, 1,392,280 counted. `precinct.pdf` 404s, and probing `Data/1126/` for 63 name/extension combinations found nothing else. No prior-election directory (`Data/1124/` etc.) exists to learn the eventual filename from. |
+| Collin | 752,502 | **Resolved** -- parsed from the 657 MB precinct report, 267 precincts, 0.98% short because the file's last 4.7 MB will not download. See above. |
+| Montgomery | 469,174 | Nothing for November. Four predicted filenames under `results/` all 404, and the results page's newest links are the May 2026 runoff. |
+| Hays | 193,013 | Archive's newest election is the May 26, 2026 primary runoff. November not posted. |
+| McLennan | 158,055 | Same: newest is May 26, 2026. It posted November 4, 2025 about nine days after that election, so expect mid-November. |
+| Brazos | 138,990 | Has a November 3, 2026 report, but it is the Cumulative (countywide) one, already downloaded. No precinct report yet. |
+| Smith | 160,066 | Laserfiche portal's newest document is the 2026-06 precinct report. Five download endpoints tried (`DocumentProxy.aspx`, `api/Document/{id}/Download`, `Download.aspx`, two REST paths); all 302 to a landing page or 404. Moot for now -- there is no November document to fetch. |
+| Johnson | 132,109 | Precinct-by-precinct archive found (see `PAGE_ONLY`); newest is May 2026. |
+| Wichita | 77,505 | Live November 3 numbers, countywide only. Not a precinct source. |
+| Orange | 56,206 | Publishes one countywide Summary Results Report per election. Does not appear to publish precinct results at all. |
+| Angelina | 55,445 | November 3 folder exists with public-test and early-voting PDFs; no results file in it yet. |
+| Comal, Guadalupe, Montague, Clay | 211,075 | No Clarity site; band-scanned cleanly. |
+| The other 197 counties | 2,360,000 | None is on Clarity (see above). The largest is Harrison at 47,042, and sampling the top six found no November precinct results posted -- the "precinct" hits on San Patricio's and Hardin's pages are polling-place maps. TLC's statewide VTD results file, expected around February 2027, covers all of them for free. |
+
+### "counties_with_data" in the manifest is not November coverage
+
+The 2026-11-04 12:02 manifest says `counties_with_data=45`, and 14 of those 45
+are counties whose only held files are from earlier elections -- Montgomery's
+newest is the May 2026 runoff, Ector's eight files are November 2026 *sample
+ballots*, Wise's is November 2024. A county counts as `ok` when we hold a file
+it offered, which is the right meaning for "is this scraper working" and the
+wrong one for "do we have this election".
+
+Harris is the clearest case: `ok`, two files, and neither is precinct-level.
+
+**The authoritative November number is the one `extract_gov_sen.py` prints**,
+because it reads `ElectionDate` out of each file and skips anything that is not
+the target election. On 2026-11-04 that is 31 counties staged, 29 usable, and
+4,941 precincts. Do not quote the manifest's county count as coverage.
+
+## Geographic coverage
+
+Short version: **the geography is complete and the results are at half.** There
+is no geographic gap to close -- `Precincts26P.shp` holds all 9,614 precinct
+polygons for all 254 counties, in EPSG:3082 (NAD83 / Texas Centric Lambert
+Conformal, metres). Note that this project's cross-repo `EPSG_STATE` table uses
+`TX=2845`, a state-plane zone, so these polygons need reprojecting before they
+go into that pipeline.
+
+| | polygons | share |
+| --- | --- | --- |
+| Precinct polygons statewide | 9,614 | 100% |
+| ...with a Governor/Senate row | 5,023 | 52.2% |
+| ...with at least one vote | 4,736 | 49.3% |
+
+`geo/coverage_by_county.csv` has the per-county breakdown and
+`coverage_map.py` draws `geo/coverage_map.svg` from the shapefile directly, no
+GDAL. Full detail, including the verification that the drawing is oriented
+correctly, is in `geo/GEOGRAPHY_MATCHING.md` section 7.
+
+## Locating the other 212 counties
+
+`discover_county_sites.py` walks three stages per county, each stopping as soon
+as it succeeds: guess the hostname by convention, follow the homepage link that
+looks like an elections department, then take the link on that page that looks
+like election results.
+
+Four things it learned the hard way, all now in the code:
+
+- **A county hostname can be someone else's.** `co.harrison.tx.us` has lapsed
+  and 302s to a campaign-tracker domain. Following a county name wherever it
+  points means scraping, and recording, whoever bought the expired name. The
+  final host now has to still look like the county's -- a `.tx.us`/`.tx.gov`/
+  `.gov` host, or one containing the county name -- and Harrison then resolves
+  correctly to `harrisoncounty.org`.
+- **The first elections-ish link is usually the wrong one.** Coryell lists
+  "County Clerk" above "Elections", and the clerk's site carries no results.
+  Candidates are ranked (an `elections` match in the link text beats one in the
+  href, which beats "voter"/"clerk") and up to three are tried.
+- **A site's own search page matches "results".** Hardin resolved to
+  `page/search.results` before that was excluded; with the filter it resolves
+  to `hcelectioncenter.hardincountytx.gov/results/`.
+- **Some counties publish nothing and link to the state.** Kerr's elections
+  page pointed at `electionresults.sos.state.tx.us`. That is a fact about the
+  county, not its results page, so it is recorded as a note instead.
+
+**One more trap, and the worst of them: a county name does not identify a
+county.** The crawl found `knoxcounty.org` for Knox County and downloaded a
+perfectly well-formed "Precinct Results Report" for **Knox County, Tennessee**
+-- Marsha Blackburn for Governor. It parsed without a single error and would
+have put Tennessee votes into a Texas table silently. `parse_precinct_pdf.py`
+now refuses a document that names another state, deliberately narrowly: plenty
+of genuine Texas reports never print the state at all (Brazoria's header is
+just "Brazoria County"), so the test rejects a file that names a *different*
+state rather than one that names none.
+
+Two of the crawler's own bugs are worth recording, because both destroyed work
+rather than merely failing:
+
+- **`--only` was filtered by the inventory.** Naming eight counties explicitly
+  still ran them through the "counties with no results_url" filter, which by
+  then was empty, so the run processed nothing -- and wrote its empty result
+  over the finished 212-county crawl, leaving `county_sites.csv` as a header
+  alone. It was rebuilt from the inventory, which had already absorbed the
+  findings. `--only` now bypasses the filter, and the script refuses to write
+  its output file when it has no rows.
+- **Four counties failed on a space.** `page/Elections 2026` and
+  `upload/page/9613/Bond Election.pdf` raised `InvalidURL` because nothing was
+  percent-encoding the path. Nine more answered 403 to a bare `User-Agent`;
+  they accept a fuller set of browser headers.
+
+The output is candidates, not verified sources: a row says where a county's
+results page appears to be, and nothing yet confirms a precinct-level file sits
+behind it. `merge_discovered_sites.py` fills `results_url` for counties that had
+none and leaves the 42 hand-verified rows untouched.
+
+## Countywide totals as a floor under the precinct data
+
+Precinct data is the goal, but plenty of counties post a countywide
+"Cumulative Results Report" on election night and hold the precinct breakdown
+until the canvass. Refusing to read those leaves the table emptier than the
+published record actually is -- **Harris published 1,383,460 Governor votes on
+election night and no precinct file at all.**
+
+`county_totals.py` writes one row per county/race/candidate with a `level`
+column:
+
+- `precinct-derived` -- the county total obtained by summing
+  `gov_senate_precinct_2026.csv`. Better data; this is where a county lands as
+  soon as its precinct report appears.
+- `countywide` -- read from the county's own countywide report.
+
+A county is upgraded automatically: the precinct sum takes precedence, so when
+Harris posts `precinct.pdf` its row simply changes level on the next run.
+
+**Coverage, November 4 evening:** 44 counties, **13,430,021 of 18,657,918
+registered voters = 72.0%** — 36 counties precinct-level (56.5%) plus 8
+countywide-only (15.5%: Harris, Brazos, Blanco, Concho, Deaf Smith, Floyd,
+Llano, Terry).
+
+### Three countywide layouts, and the same bug in each
+
+Every one of these parsers first shipped with a race left open across a
+contest boundary, and each time the symptom was a wildly inflated total:
+
+- **Hart/Electionware cumulative** (Harris, Concho, Deaf Smith, Floyd, Llano,
+  Brazos): a candidate line carries one `number percent%` pair per voting
+  method, and the **last pair is the total** -- Concho prints four pairs,
+  Harris six, so counting columns does not work. Taking the contest name from
+  the line above each `Choice  Party` header is what bounds a contest; without
+  it Brazos's State Senator rows landed in U.S. Senator and doubled it to
+  **159,323 against a true 80,000**.
+- **Electionware summary, TOTAL first** (Terry): no percentages at all, so the
+  first number is the total, and the contest is bounded by its `Vote For n`.
+- **Secretary of State county report** (Blanco): a wide table whose office
+  column is filled only on an office's first row. Two regex attempts produced
+  first a candidate called "Governor Greg Abbott" holding the county's 5,487
+  votes, then nothing at all. Splitting on runs of two or more spaces and
+  working by position -- last five fields numeric, candidate before them,
+  office before that when present -- is what the layout actually is.
+
+Each Hart-layout county is checked against the `Cast Votes` line the report
+prints for itself. All eight reconcile exactly.
+
+## Why coverage is at half, and when it stops being
+
+Stated plainly, because the percentages above can mislead in both directions.
+
+**The gap is precincts, not voters, and it is not the small counties.** 225
+counties have no results. They hold **4,686 of 9,614 precincts (48.7%)** but
+**5,818,651 of 18,657,918 registered voters (31.2%)**. Within that gap:
+
+| | precincts | share of state |
+| --- | --- | --- |
+| Harris alone | 1,224 | 12.7% |
+| The next 11 missing counties | 906 | 9.4% |
+| The remaining ~213 counties | 2,556 | 26.6% |
+
+So Harris is an eighth of every precinct in Texas by itself, a dozen counties
+are another fifth, and the long tail averages 21 precincts each.
+
+**Correction, same day: discovery *was* part of the bottleneck.** The paragraph
+below was written before `discover_county_sites.py` ran, and the crawl
+disproved it. It located results pages for **156 of the 212 counties that had
+none**, and 25 of those counties had *already published* November 3, 2026
+results -- several explicitly by precinct (Briscoe "Unofficial Results By
+Precinct", Brooks "Precinct Results-11-3-2026.pdf", Hemphill "UNOFFICIAL
+RESULTS BY PRECINCT", Jim Hogg, Lipscomb, Matagorda, Dawson, Fayette). The
+earlier conclusion rested on a six-county sample in which four of the URLs were
+guesses that never resolved. Small counties publish on election night as
+readily as large ones; nobody had found their pages. Six of the 25 are the same
+Hart layout Brazoria uses and parsed immediately.
+
+What survives of the paragraph below is the part about the *mid-size* counties,
+which is still true and still the reason coverage is near half: Harris,
+Montgomery, Hays, McLennan, Smith and the rest have not posted.
+
+**For the mid-size counties, publication is the bottleneck.** `tx_2026_precinct_sources.csv`
+has a `results_url` for only 42 of 254 counties, which looks like the thing to
+fix -- but the 14 mid-size counties whose pages *are* resolved tell the real
+story. On 2026-11-04, every one of Bowie, Henderson, Potter, Randall, Tom
+Green, Liberty, Wise, Taylor, Grayson, Ector, Montgomery, Cameron, Webb and
+Brazos had **no November precinct report posted**. Ector's November files are
+sample ballots; Brazos's is the countywide cumulative. Fourteen for fourteen.
+Finding 212 more county pages would currently find 212 more pages with nothing
+November on them.
+
+**The dates that actually govern this.** A county's local canvass is held
+between the 3rd and 14th day after the election (Tex. Elec. Code 67.003), so
+**November 6-17**, and the precinct-level report each county owes the Secretary
+of State is due within 30 days (67.017), so **by December 3**. That window, not
+any amount of scraping, is when the rest of the state appears.
+
+**Which is why the timer no longer stops on November 6.** It did, and that was
+a real mistake: it would have switched itself off before the first canvass was
+even due. `STOP_AFTER` is now 2026-12-05, with a daily discovery-and-download
+phase from November 7 through December 5. A county posts its canvass once, so
+daily is enough, but it has to keep happening for a month.
+
+### The 25 November documents, sorted out
+
+| Outcome | Counties |
+| --- | --- |
+| **Parsed, Hart layout** | Brooks 5/5, Dawson 9/9, Jim Hogg 5/5, Lipscomb 7/7, Matagorda 18/18 |
+| **Parsed, Electionware layout** | Fayette 12/12, Hemphill 7/7 |
+| Countywide only, no precinct breakdown | Blanco (it is the Secretary of State's own county report), Concho, Deaf Smith, Floyd, Llano, San Augustine, Swisher, Wilson |
+| Image-only scan, OCR does not reconcile | Briscoe, Cochran, Collingsworth, Hockley, Lampasas, Madison, Maverick, McMullen, Pecos |
+
+All seven parsed counties match TLC's precinct count exactly.
+
+### A third report layout: Electionware summary by precinct
+
+Fayette and Hemphill publish the same report family as Collin, but with TOTAL
+first and then Absentee / Early / Election Day and **no percentage column**, so
+a candidate line carries four numbers and the first is the total. Two things
+about it cost real work:
+
+- **The precinct heading has no fixed form.** Fayette writes "Precinct 101
+  North", Hemphill a bare "101". What identifies either is the `Statistics`
+  block underneath -- and in Fayette that sits below the column header, not
+  directly beneath, so the check has to look a few non-blank lines ahead.
+- **Hemphill prints no `Total Votes Cast` line at all.** A parser that only
+  closes a contest on a terminator keeps the previous one open and piles every
+  later contest into it: Governor came out at **28,226 votes in a county of
+  3,000**. Contests are now bounded by their own headings, each of which is
+  followed by "Vote For n", so no terminator need exist.
+
+### OCR: built, gated, and currently refusing everything
+
+`--ocr` rasterizes with `pdftoppm` and reads with `tesseract`. It exists because
+this layout carries its own checksum -- every row prints TOTAL beside Absentee,
+Early and Election Day -- so the OCR can be checked rather than trusted.
+
+It is checked, and it fails. Swisher's scan reads cleanly, but Swisher's report
+is countywide anyway. Briscoe's is genuinely per-precinct and its OCR gives
+`Greg Abbott: 19` where the columns say `7+8+11`, `Ken Paxton: 180` against
+`6+114+30`, precinct totals 2-3x off, and only 1 of 5 precincts detected at all.
+Cochran's hand-ruled grid is worse: `rgaboor———«|=—276| 29]`.
+
+So the parser **refuses to write a CSV** when an OCR run fails its own
+arithmetic, rather than producing a file that looks publishable. Nine counties
+sit behind that gate. They need either a text-layer republication from the
+county or a human reading the scans -- not a better regex.
+
+### Second pass: more URLs, no more precincts
+
+Re-ran the 56 counties the first pass could not resolve, with a deeper crawl:
+results links recognized by year, month, "unofficial", "canvass", "returns" or
+"precinct" rather than only the word "results"; one extra level followed through
+archive and document-center pages; URLs percent-encoded; fuller browser headers;
+four more host conventions including `<county>county.texas.gov`.
+
+**It resolved 24 of the 56, and added zero precincts.** The inventory now has a
+`results_url` for 248 of 254 counties:
+
+| | counties |
+| --- | --- |
+| Verified by hand against real files | 42 |
+| First pass, looks like a results page | 156 |
+| Second pass, lower confidence | 24 |
+| Elections page located, no results link found | 26 |
+| Nothing reachable | 6 |
+
+**Precision falls off at this depth and the column says so.** Of the 24, about
+a third are genuine results destinations; the rest are precinct *maps*
+(Chambers, Duval, La Salle), justice-of-the-peace pages (Dallam, Hale, Scurry),
+a meeting notice (Calhoun), a treasurer's report (Irion), a city council page
+(Uvalde) and the county tax office's web vendor (Coryell). Those are recorded
+with `LOW CONFIDENCE` in `format_notes` rather than dropped, since a human can
+sort them in seconds and a crawl cannot.
+
+The eight genuine leads were all chased to the document:
+
+| County | What it actually is |
+| --- | --- |
+| Terry | November Summary Results Report -- **countywide**, no precinct sections |
+| Marion | `Cumulative-Results-11-3-2026` -- countywide (and the link 404s) |
+| Culberson | "Cumulative Unofficial Results" -- countywide |
+| Nacogdoches | Cumulative Results Report, 20 of 20 precincts reporting but **no breakdown**; scan, no text layer |
+| Sterling | November results PDF, image-only scan |
+| Comanche | the "Precinct N" links are sample ballots |
+| Val Verde | only the March primary so far |
+| Polk | `Precinct Results-3-3-2026` -- the March primary |
+
+So the gap that remains is not a discovery gap any more. It is counties that
+publish only countywide totals, counties that publish images, and the dozen
+mid-size counties that have not published at all.
+
+### Reading a scanned countywide report, and the three checks that make it safe
+
+`county_totals.py --ocr` rasterizes and OCRs the countywide reports that are
+image-only. Countywide OCR is far more tractable than per-precinct -- a handful
+of rows instead of hundreds -- but it still reads digits wrong, so it is gated.
+
+**Structure does not survive a scan; candidate names do.** Nacogdoches's
+contest heading comes through as `Official - 2026 November 3rd Precincts
+Reporting` while the row beneath it reads `GINA HINOJOSA DEM 382 50.20% 6,653
+44.41% 1,750 29.96% 8785 40.70%` perfectly. So rows are assigned by the
+candidate they name, using the ballot learned from the counties whose precinct
+data we already hold, and the contest heading is ignored entirely.
+
+Three checks, each catching what the others miss:
+
+1. **The two races must agree.** Governor and U.S. Senator are both top of the
+   ballot, and across the 44 counties read from verified sources their county
+   totals never differ by more than **1.53%**, averaging 0.295%. That rejected
+   Nacogdoches (98% apart), Culberson (51%) and San Augustine (32%).
+2. **Implied turnout must be plausible** (10-95% of registered). This catches a
+   read that went wrong in both races by the same factor, which check 1 cannot.
+3. **The report's own `Total Votes Cast` is authoritative.** Only the party
+   candidates are read from rows; the write-in figure is the remainder. This
+   matters because the itemized write-ins are a *breakdown* of the write-in
+   total, not extra votes -- Wilson prints `Write-In Totals 23` then Jenn Mack
+   15, Mike Miller 1, Not Certified 7, summing to the same 23. Adding both
+   double-counted it, and **check 1 waved that through at 0.05%** because the
+   error was small. A county with no readable total is rejected, which is why
+   Swisher is out: its report prints no total line at all.
+
+Wilson passes all three and reconciles to its printed 22,072 exactly.
+Culberson, Nacogdoches, San Augustine, Sterling and Swisher are rejected with
+the reason recorded.
+
+**One design mistake worth keeping in view.** The refusal gate originally read
+the text of its own `notes` list, checking for the word "provisional". Rewording
+the success message to something more accurate turned it into a refusal and
+silently dropped Wilson. Control flow now follows an explicit flag, and the
+note only describes what happened.

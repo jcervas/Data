@@ -1,0 +1,97 @@
+county,fips3,precinct,pctkey,race,candidate,party,votes,tlc_match,election_date
+Fayette,149,0101,1490101,governor,Gina Hinojosa,DEM,403,matched,11/3/2026
+Fayette,149,0101,1490101,governor,Greg Abbott,REP,761,matched,11/3/2026
+Fayette,149,0101,1490101,governor,Pat Dixon,LIB,22,matched,11/3/2026
+Fayette,149,0101,1490101,governor,Write-in,,1,matched,11/3/2026
+Fayette,149,0101,1490101,us_senate,James Talarico,DEM,423,matched,11/3/2026
+Fayette,149,0101,1490101,us_senate,Ken Paxton,REP,729,matched,11/3/2026
+Fayette,149,0101,1490101,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Fayette,149,0101,1490101,us_senate,Write-in,,3,matched,11/3/2026
+Fayette,149,0110,1490110,governor,Gina Hinojosa,DEM,141,matched,11/3/2026
+Fayette,149,0110,1490110,governor,Greg Abbott,REP,570,matched,11/3/2026
+Fayette,149,0110,1490110,governor,Pat Dixon,LIB,11,matched,11/3/2026
+Fayette,149,0110,1490110,governor,Write-in,,0,matched,11/3/2026
+Fayette,149,0110,1490110,us_senate,James Talarico,DEM,160,matched,11/3/2026
+Fayette,149,0110,1490110,us_senate,Ken Paxton,REP,543,matched,11/3/2026
+Fayette,149,0110,1490110,us_senate,Ted Brown,LIB,13,matched,11/3/2026
+Fayette,149,0110,1490110,us_senate,Write-in,,0,matched,11/3/2026
+Fayette,149,0112,1490112,governor,Gina Hinojosa,DEM,171,matched,11/3/2026
+Fayette,149,0112,1490112,governor,Greg Abbott,REP,561,matched,11/3/2026
+Fayette,149,0112,1490112,governor,Pat Dixon,LIB,7,matched,11/3/2026
+Fayette,149,0112,1490112,governor,Write-in,,2,matched,11/3/2026
+Fayette,149,0112,1490112,us_senate,James Talarico,DEM,187,matched,11/3/2026
+Fayette,149,0112,1490112,us_senate,Ken Paxton,REP,535,matched,11/3/2026
+Fayette,149,0112,1490112,us_senate,Ted Brown,LIB,15,matched,11/3/2026
+Fayette,149,0112,1490112,us_senate,Write-in,,0,matched,11/3/2026
+Fayette,149,0201,1490201,governor,Gina Hinojosa,DEM,196,matched,11/3/2026
+Fayette,149,0201,1490201,governor,Greg Abbott,REP,584,matched,11/3/2026
+Fayette,149,0201,1490201,governor,Pat Dixon,LIB,6,matched,11/3/2026
+Fayette,149,0201,1490201,governor,Write-in,,0,matched,11/3/2026
+Fayette,149,0201,1490201,us_senate,James Talarico,DEM,208,matched,11/3/2026
+Fayette,149,0201,1490201,us_senate,Ken Paxton,REP,558,matched,11/3/2026
+Fayette,149,0201,1490201,us_senate,Ted Brown,LIB,14,matched,11/3/2026
+Fayette,149,0201,1490201,us_senate,Write-in,,2,matched,11/3/2026
+Fayette,149,0204,1490204,governor,Gina Hinojosa,DEM,189,matched,11/3/2026
+Fayette,149,0204,1490204,governor,Greg Abbott,REP,774,matched,11/3/2026
+Fayette,149,0204,1490204,governor,Pat Dixon,LIB,10,matched,11/3/2026
+Fayette,149,0204,1490204,governor,Write-in,,2,matched,11/3/2026
+Fayette,149,0204,1490204,us_senate,James Talarico,DEM,202,matched,11/3/2026
+Fayette,149,0204,1490204,us_senate,Ken Paxton,REP,745,matched,11/3/2026
+Fayette,149,0204,1490204,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Fayette,149,0204,1490204,us_senate,Write-in,,1,matched,11/3/2026
+Fayette,149,0207,1490207,governor,Gina Hinojosa,DEM,288,matched,11/3/2026
+Fayette,149,0207,1490207,governor,Greg Abbott,REP,1002,matched,11/3/2026
+Fayette,149,0207,1490207,governor,Pat Dixon,LIB,8,matched,11/3/2026
+Fayette,149,0207,1490207,governor,Write-in,,0,matched,11/3/2026
+Fayette,149,0207,1490207,us_senate,James Talarico,DEM,300,matched,11/3/2026
+Fayette,149,0207,1490207,us_senate,Ken Paxton,REP,966,matched,11/3/2026
+Fayette,149,0207,1490207,us_senate,Ted Brown,LIB,17,matched,11/3/2026
+Fayette,149,0207,1490207,us_senate,Write-in,,2,matched,11/3/2026
+Fayette,149,0301,1490301,governor,Gina Hinojosa,DEM,287,matched,11/3/2026
+Fayette,149,0301,1490301,governor,Greg Abbott,REP,740,matched,11/3/2026
+Fayette,149,0301,1490301,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Fayette,149,0301,1490301,governor,Write-in,,1,matched,11/3/2026
+Fayette,149,0301,1490301,us_senate,James Talarico,DEM,311,matched,11/3/2026
+Fayette,149,0301,1490301,us_senate,Ken Paxton,REP,699,matched,11/3/2026
+Fayette,149,0301,1490301,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Fayette,149,0301,1490301,us_senate,Write-in,,4,matched,11/3/2026
+Fayette,149,0315,1490315,governor,Gina Hinojosa,DEM,92,matched,11/3/2026
+Fayette,149,0315,1490315,governor,Greg Abbott,REP,380,matched,11/3/2026
+Fayette,149,0315,1490315,governor,Pat Dixon,LIB,7,matched,11/3/2026
+Fayette,149,0315,1490315,governor,Write-in,,0,matched,11/3/2026
+Fayette,149,0315,1490315,us_senate,James Talarico,DEM,97,matched,11/3/2026
+Fayette,149,0315,1490315,us_senate,Ken Paxton,REP,361,matched,11/3/2026
+Fayette,149,0315,1490315,us_senate,Ted Brown,LIB,14,matched,11/3/2026
+Fayette,149,0315,1490315,us_senate,Write-in,,5,matched,11/3/2026
+Fayette,149,0316,1490316,governor,Gina Hinojosa,DEM,356,matched,11/3/2026
+Fayette,149,0316,1490316,governor,Greg Abbott,REP,1011,matched,11/3/2026
+Fayette,149,0316,1490316,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Fayette,149,0316,1490316,governor,Write-in,,2,matched,11/3/2026
+Fayette,149,0316,1490316,us_senate,James Talarico,DEM,375,matched,11/3/2026
+Fayette,149,0316,1490316,us_senate,Ken Paxton,REP,965,matched,11/3/2026
+Fayette,149,0316,1490316,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Fayette,149,0316,1490316,us_senate,Write-in,,3,matched,11/3/2026
+Fayette,149,0422,1490422,governor,Gina Hinojosa,DEM,100,matched,11/3/2026
+Fayette,149,0422,1490422,governor,Greg Abbott,REP,427,matched,11/3/2026
+Fayette,149,0422,1490422,governor,Pat Dixon,LIB,3,matched,11/3/2026
+Fayette,149,0422,1490422,governor,Write-in,,0,matched,11/3/2026
+Fayette,149,0422,1490422,us_senate,James Talarico,DEM,114,matched,11/3/2026
+Fayette,149,0422,1490422,us_senate,Ken Paxton,REP,401,matched,11/3/2026
+Fayette,149,0422,1490422,us_senate,Ted Brown,LIB,11,matched,11/3/2026
+Fayette,149,0422,1490422,us_senate,Write-in,,1,matched,11/3/2026
+Fayette,149,0423,1490423,governor,Gina Hinojosa,DEM,120,matched,11/3/2026
+Fayette,149,0423,1490423,governor,Greg Abbott,REP,449,matched,11/3/2026
+Fayette,149,0423,1490423,governor,Pat Dixon,LIB,10,matched,11/3/2026
+Fayette,149,0423,1490423,governor,Write-in,,0,matched,11/3/2026
+Fayette,149,0423,1490423,us_senate,James Talarico,DEM,136,matched,11/3/2026
+Fayette,149,0423,1490423,us_senate,Ken Paxton,REP,425,matched,11/3/2026
+Fayette,149,0423,1490423,us_senate,Ted Brown,LIB,15,matched,11/3/2026
+Fayette,149,0423,1490423,us_senate,Write-in,,1,matched,11/3/2026
+Fayette,149,0425,1490425,governor,Gina Hinojosa,DEM,400,matched,11/3/2026
+Fayette,149,0425,1490425,governor,Greg Abbott,REP,1122,matched,11/3/2026
+Fayette,149,0425,1490425,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Fayette,149,0425,1490425,governor,Write-in,,1,matched,11/3/2026
+Fayette,149,0425,1490425,us_senate,James Talarico,DEM,429,matched,11/3/2026
+Fayette,149,0425,1490425,us_senate,Ken Paxton,REP,1057,matched,11/3/2026
+Fayette,149,0425,1490425,us_senate,Ted Brown,LIB,46,matched,11/3/2026
+Fayette,149,0425,1490425,us_senate,Write-in,,1,matched,11/3/2026

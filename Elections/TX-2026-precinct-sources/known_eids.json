@@ -1,10 +1,20 @@
 {
  "11/3/2026": {
   "Bastrop": 127476,
-  "Denton": "127398",
+  "Bell": 127475,
+  "Denton": 127398,
+  "Gregg": 127493,
+  "Hidalgo": 127350,
   "Hood": 127400,
+  "Hunt": 127589,
+  "Kendall": 127404,
+  "Lubbock": 127477,
+  "Midland": 127299,
+  "Nueces": 127557,
   "Robertson": 127573,
   "Rockwall": 127294,
-  "Rusk": "127574"
+  "Rusk": 127574,
+  "Travis": 127492,
+  "Williamson": 127488
  }
 }

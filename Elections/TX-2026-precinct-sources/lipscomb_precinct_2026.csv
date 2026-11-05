@@ -1,0 +1,99 @@
+county,fips3,precinct,pctkey,race,candidate,party,votes,tlc_match,election_date
+Lipscomb,295,0106,2950106,governor,EDWARD EARL GILES,,0,matched,11/3/2026
+Lipscomb,295,0106,2950106,governor,GINA HINOJOSA,DEM,17,matched,11/3/2026
+Lipscomb,295,0106,2950106,governor,GREG ABBOTT,REP,113,matched,11/3/2026
+Lipscomb,295,0106,2950106,governor,JENN MACK,,0,matched,11/3/2026
+Lipscomb,295,0106,2950106,governor,JINGHPAW MAJOISHINGRA,,0,matched,11/3/2026
+Lipscomb,295,0106,2950106,governor,MIKE MILLER,,1,matched,11/3/2026
+Lipscomb,295,0106,2950106,governor,PAT DIXON,LIB,5,matched,11/3/2026
+Lipscomb,295,0106,2950106,us_senate,AVERY AYERS,,0,matched,11/3/2026
+Lipscomb,295,0106,2950106,us_senate,"BRADFORD ""BRAD"" HALL",,0,matched,11/3/2026
+Lipscomb,295,0106,2950106,us_senate,JADE SIMMONS,,0,matched,11/3/2026
+Lipscomb,295,0106,2950106,us_senate,JAMES TALARICO,DEM,20,matched,11/3/2026
+Lipscomb,295,0106,2950106,us_senate,KEN PAXTON,REP,113,matched,11/3/2026
+Lipscomb,295,0106,2950106,us_senate,TED BROWN,LIB,3,matched,11/3/2026
+Lipscomb,295,0106,2950106,us_senate,ZUL MOHAMED,,0,matched,11/3/2026
+Lipscomb,295,0202,2950202,governor,EDWARD EARL GILES,,0,matched,11/3/2026
+Lipscomb,295,0202,2950202,governor,GINA HINOJOSA,DEM,6,matched,11/3/2026
+Lipscomb,295,0202,2950202,governor,GREG ABBOTT,REP,64,matched,11/3/2026
+Lipscomb,295,0202,2950202,governor,JENN MACK,,0,matched,11/3/2026
+Lipscomb,295,0202,2950202,governor,JINGHPAW MAJOISHINGRA,,0,matched,11/3/2026
+Lipscomb,295,0202,2950202,governor,MIKE MILLER,,0,matched,11/3/2026
+Lipscomb,295,0202,2950202,governor,PAT DIXON,LIB,2,matched,11/3/2026
+Lipscomb,295,0202,2950202,us_senate,AVERY AYERS,,0,matched,11/3/2026
+Lipscomb,295,0202,2950202,us_senate,"BRADFORD ""BRAD"" HALL",,0,matched,11/3/2026
+Lipscomb,295,0202,2950202,us_senate,JADE SIMMONS,,0,matched,11/3/2026
+Lipscomb,295,0202,2950202,us_senate,JAMES TALARICO,DEM,6,matched,11/3/2026
+Lipscomb,295,0202,2950202,us_senate,KEN PAXTON,REP,64,matched,11/3/2026
+Lipscomb,295,0202,2950202,us_senate,TED BROWN,LIB,2,matched,11/3/2026
+Lipscomb,295,0202,2950202,us_senate,ZUL MOHAMED,,0,matched,11/3/2026
+Lipscomb,295,0207,2950207,governor,EDWARD EARL GILES,,0,matched,11/3/2026
+Lipscomb,295,0207,2950207,governor,GINA HINOJOSA,DEM,33,matched,11/3/2026
+Lipscomb,295,0207,2950207,governor,GREG ABBOTT,REP,153,matched,11/3/2026
+Lipscomb,295,0207,2950207,governor,JENN MACK,,0,matched,11/3/2026
+Lipscomb,295,0207,2950207,governor,JINGHPAW MAJOISHINGRA,,0,matched,11/3/2026
+Lipscomb,295,0207,2950207,governor,MIKE MILLER,,0,matched,11/3/2026
+Lipscomb,295,0207,2950207,governor,PAT DIXON,LIB,5,matched,11/3/2026
+Lipscomb,295,0207,2950207,us_senate,AVERY AYERS,,0,matched,11/3/2026
+Lipscomb,295,0207,2950207,us_senate,"BRADFORD ""BRAD"" HALL",,0,matched,11/3/2026
+Lipscomb,295,0207,2950207,us_senate,JADE SIMMONS,,0,matched,11/3/2026
+Lipscomb,295,0207,2950207,us_senate,JAMES TALARICO,DEM,35,matched,11/3/2026
+Lipscomb,295,0207,2950207,us_senate,KEN PAXTON,REP,145,matched,11/3/2026
+Lipscomb,295,0207,2950207,us_senate,TED BROWN,LIB,11,matched,11/3/2026
+Lipscomb,295,0207,2950207,us_senate,ZUL MOHAMED,,0,matched,11/3/2026
+Lipscomb,295,0303,2950303,governor,EDWARD EARL GILES,,0,matched,11/3/2026
+Lipscomb,295,0303,2950303,governor,GINA HINOJOSA,DEM,24,matched,11/3/2026
+Lipscomb,295,0303,2950303,governor,GREG ABBOTT,REP,186,matched,11/3/2026
+Lipscomb,295,0303,2950303,governor,JENN MACK,,0,matched,11/3/2026
+Lipscomb,295,0303,2950303,governor,JINGHPAW MAJOISHINGRA,,0,matched,11/3/2026
+Lipscomb,295,0303,2950303,governor,MIKE MILLER,,0,matched,11/3/2026
+Lipscomb,295,0303,2950303,governor,PAT DIXON,LIB,3,matched,11/3/2026
+Lipscomb,295,0303,2950303,us_senate,AVERY AYERS,,0,matched,11/3/2026
+Lipscomb,295,0303,2950303,us_senate,"BRADFORD ""BRAD"" HALL",,0,matched,11/3/2026
+Lipscomb,295,0303,2950303,us_senate,JADE SIMMONS,,0,matched,11/3/2026
+Lipscomb,295,0303,2950303,us_senate,JAMES TALARICO,DEM,28,matched,11/3/2026
+Lipscomb,295,0303,2950303,us_senate,KEN PAXTON,REP,178,matched,11/3/2026
+Lipscomb,295,0303,2950303,us_senate,TED BROWN,LIB,6,matched,11/3/2026
+Lipscomb,295,0303,2950303,us_senate,ZUL MOHAMED,,0,matched,11/3/2026
+Lipscomb,295,0308,2950308,governor,EDWARD EARL GILES,,0,matched,11/3/2026
+Lipscomb,295,0308,2950308,governor,GINA HINOJOSA,DEM,12,matched,11/3/2026
+Lipscomb,295,0308,2950308,governor,GREG ABBOTT,REP,74,matched,11/3/2026
+Lipscomb,295,0308,2950308,governor,JENN MACK,,0,matched,11/3/2026
+Lipscomb,295,0308,2950308,governor,JINGHPAW MAJOISHINGRA,,0,matched,11/3/2026
+Lipscomb,295,0308,2950308,governor,MIKE MILLER,,1,matched,11/3/2026
+Lipscomb,295,0308,2950308,governor,PAT DIXON,LIB,3,matched,11/3/2026
+Lipscomb,295,0308,2950308,us_senate,AVERY AYERS,,0,matched,11/3/2026
+Lipscomb,295,0308,2950308,us_senate,"BRADFORD ""BRAD"" HALL",,0,matched,11/3/2026
+Lipscomb,295,0308,2950308,us_senate,JADE SIMMONS,,0,matched,11/3/2026
+Lipscomb,295,0308,2950308,us_senate,JAMES TALARICO,DEM,12,matched,11/3/2026
+Lipscomb,295,0308,2950308,us_senate,KEN PAXTON,REP,77,matched,11/3/2026
+Lipscomb,295,0308,2950308,us_senate,TED BROWN,LIB,2,matched,11/3/2026
+Lipscomb,295,0308,2950308,us_senate,ZUL MOHAMED,,0,matched,11/3/2026
+Lipscomb,295,0404,2950404,governor,EDWARD EARL GILES,,0,matched,11/3/2026
+Lipscomb,295,0404,2950404,governor,GINA HINOJOSA,DEM,19,matched,11/3/2026
+Lipscomb,295,0404,2950404,governor,GREG ABBOTT,REP,145,matched,11/3/2026
+Lipscomb,295,0404,2950404,governor,JENN MACK,,1,matched,11/3/2026
+Lipscomb,295,0404,2950404,governor,JINGHPAW MAJOISHINGRA,,0,matched,11/3/2026
+Lipscomb,295,0404,2950404,governor,MIKE MILLER,,0,matched,11/3/2026
+Lipscomb,295,0404,2950404,governor,PAT DIXON,LIB,7,matched,11/3/2026
+Lipscomb,295,0404,2950404,us_senate,AVERY AYERS,,0,matched,11/3/2026
+Lipscomb,295,0404,2950404,us_senate,"BRADFORD ""BRAD"" HALL",,0,matched,11/3/2026
+Lipscomb,295,0404,2950404,us_senate,JADE SIMMONS,,0,matched,11/3/2026
+Lipscomb,295,0404,2950404,us_senate,JAMES TALARICO,DEM,18,matched,11/3/2026
+Lipscomb,295,0404,2950404,us_senate,KEN PAXTON,REP,137,matched,11/3/2026
+Lipscomb,295,0404,2950404,us_senate,TED BROWN,LIB,12,matched,11/3/2026
+Lipscomb,295,0404,2950404,us_senate,ZUL MOHAMED,,0,matched,11/3/2026
+Lipscomb,295,0409,2950409,governor,EDWARD EARL GILES,,0,matched,11/3/2026
+Lipscomb,295,0409,2950409,governor,GINA HINOJOSA,DEM,15,matched,11/3/2026
+Lipscomb,295,0409,2950409,governor,GREG ABBOTT,REP,49,matched,11/3/2026
+Lipscomb,295,0409,2950409,governor,JENN MACK,,0,matched,11/3/2026
+Lipscomb,295,0409,2950409,governor,JINGHPAW MAJOISHINGRA,,0,matched,11/3/2026
+Lipscomb,295,0409,2950409,governor,MIKE MILLER,,0,matched,11/3/2026
+Lipscomb,295,0409,2950409,governor,PAT DIXON,LIB,0,matched,11/3/2026
+Lipscomb,295,0409,2950409,us_senate,AVERY AYERS,,0,matched,11/3/2026
+Lipscomb,295,0409,2950409,us_senate,"BRADFORD ""BRAD"" HALL",,0,matched,11/3/2026
+Lipscomb,295,0409,2950409,us_senate,JADE SIMMONS,,0,matched,11/3/2026
+Lipscomb,295,0409,2950409,us_senate,JAMES TALARICO,DEM,14,matched,11/3/2026
+Lipscomb,295,0409,2950409,us_senate,KEN PAXTON,REP,49,matched,11/3/2026
+Lipscomb,295,0409,2950409,us_senate,TED BROWN,LIB,1,matched,11/3/2026
+Lipscomb,295,0409,2950409,us_senate,ZUL MOHAMED,,0,matched,11/3/2026

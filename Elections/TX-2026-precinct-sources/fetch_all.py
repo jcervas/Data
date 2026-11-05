@@ -139,10 +139,25 @@ def do_county_site(county, date, download, outdir):
                 path, n = NC.save(url, outdir, county)
                 rec.update(path=path, bytes=n, sha256=sha256(path))
             except Exception as exc:
-                rec["error"] = str(exc)
+                # Keep the advertised size under its own name and zero `bytes`,
+                # so the manifest's byte totals only ever count bytes we hold.
+                rec.update(error=str(exc), content_length=rec.get("bytes") or 0,
+                           bytes=0)
         out["files"].append(rec)
-    out["status"] = "ok" if any(f.get("status") == 200 for f in out["files"]) \
-        else "nothing reachable yet"
+
+    # "ok" has to mean we have the file, not that the server offered it. Collin
+    # published its November 3 precinct report and advertised 688 MB, the read
+    # timed out, nothing was written -- and the old rollup still called that ok,
+    # which inflated the coverage line by three quarters of a million voters.
+    reachable = [f for f in out["files"] if f.get("status") == 200]
+    held = [f for f in reachable if f.get("path") and not f.get("error")]
+    if held or (reachable and not download):
+        out["status"] = "ok"
+    elif reachable:
+        out["status"] = "download failed: " + "; ".join(
+            sorted({f.get("error") or "no file written" for f in reachable}))
+    else:
+        out["status"] = "nothing reachable yet"
     return out
 
 

@@ -1,0 +1,2293 @@
+county,fips3,precinct,pctkey,race,candidate,party,votes,tlc_match,election_date
+Collin,85,0001,850001,governor,Gina Hinojosa,DEM,767,matched,11/3/2026
+Collin,85,0001,850001,governor,Greg Abbott,REP,792,matched,11/3/2026
+Collin,85,0001,850001,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Collin,85,0001,850001,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0001,850001,us_senate,James Talarico,DEM,803,matched,11/3/2026
+Collin,85,0001,850001,us_senate,Ken Paxton,REP,747,matched,11/3/2026
+Collin,85,0001,850001,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Collin,85,0001,850001,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0002,850002,governor,Gina Hinojosa,DEM,1485,matched,11/3/2026
+Collin,85,0002,850002,governor,Greg Abbott,REP,1077,matched,11/3/2026
+Collin,85,0002,850002,governor,Pat Dixon,LIB,44,matched,11/3/2026
+Collin,85,0002,850002,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0002,850002,us_senate,James Talarico,DEM,1563,matched,11/3/2026
+Collin,85,0002,850002,us_senate,Ken Paxton,REP,987,matched,11/3/2026
+Collin,85,0002,850002,us_senate,Ted Brown,LIB,45,matched,11/3/2026
+Collin,85,0002,850002,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0003,850003,governor,Gina Hinojosa,DEM,946,matched,11/3/2026
+Collin,85,0003,850003,governor,Greg Abbott,REP,312,matched,11/3/2026
+Collin,85,0003,850003,governor,Pat Dixon,LIB,13,matched,11/3/2026
+Collin,85,0003,850003,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0003,850003,us_senate,James Talarico,DEM,982,matched,11/3/2026
+Collin,85,0003,850003,us_senate,Ken Paxton,REP,275,matched,11/3/2026
+Collin,85,0003,850003,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Collin,85,0003,850003,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0004,850004,governor,Gina Hinojosa,DEM,1209,matched,11/3/2026
+Collin,85,0004,850004,governor,Greg Abbott,REP,1570,matched,11/3/2026
+Collin,85,0004,850004,governor,Pat Dixon,LIB,47,matched,11/3/2026
+Collin,85,0004,850004,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0004,850004,us_senate,James Talarico,DEM,1294,matched,11/3/2026
+Collin,85,0004,850004,us_senate,Ken Paxton,REP,1482,matched,11/3/2026
+Collin,85,0004,850004,us_senate,Ted Brown,LIB,51,matched,11/3/2026
+Collin,85,0004,850004,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0005,850005,governor,Gina Hinojosa,DEM,262,matched,11/3/2026
+Collin,85,0005,850005,governor,Greg Abbott,REP,336,matched,11/3/2026
+Collin,85,0005,850005,governor,Pat Dixon,LIB,8,matched,11/3/2026
+Collin,85,0005,850005,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0005,850005,us_senate,James Talarico,DEM,273,matched,11/3/2026
+Collin,85,0005,850005,us_senate,Ken Paxton,REP,320,matched,11/3/2026
+Collin,85,0005,850005,us_senate,Ted Brown,LIB,10,matched,11/3/2026
+Collin,85,0005,850005,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0006,850006,governor,Gina Hinojosa,DEM,599,matched,11/3/2026
+Collin,85,0006,850006,governor,Greg Abbott,REP,340,matched,11/3/2026
+Collin,85,0006,850006,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Collin,85,0006,850006,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0006,850006,us_senate,James Talarico,DEM,631,matched,11/3/2026
+Collin,85,0006,850006,us_senate,Ken Paxton,REP,301,matched,11/3/2026
+Collin,85,0006,850006,us_senate,Ted Brown,LIB,30,matched,11/3/2026
+Collin,85,0006,850006,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0007,850007,governor,Gina Hinojosa,DEM,468,matched,11/3/2026
+Collin,85,0007,850007,governor,Greg Abbott,REP,375,matched,11/3/2026
+Collin,85,0007,850007,governor,Pat Dixon,LIB,12,matched,11/3/2026
+Collin,85,0007,850007,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0007,850007,us_senate,James Talarico,DEM,489,matched,11/3/2026
+Collin,85,0007,850007,us_senate,Ken Paxton,REP,354,matched,11/3/2026
+Collin,85,0007,850007,us_senate,Ted Brown,LIB,14,matched,11/3/2026
+Collin,85,0007,850007,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0008,850008,governor,Gina Hinojosa,DEM,1913,matched,11/3/2026
+Collin,85,0008,850008,governor,Greg Abbott,REP,1589,matched,11/3/2026
+Collin,85,0008,850008,governor,Pat Dixon,LIB,74,matched,11/3/2026
+Collin,85,0008,850008,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0008,850008,us_senate,James Talarico,DEM,1993,matched,11/3/2026
+Collin,85,0008,850008,us_senate,Ken Paxton,REP,1512,matched,11/3/2026
+Collin,85,0008,850008,us_senate,Ted Brown,LIB,69,matched,11/3/2026
+Collin,85,0008,850008,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0009,850009,governor,Gina Hinojosa,DEM,1222,matched,11/3/2026
+Collin,85,0009,850009,governor,Greg Abbott,REP,943,matched,11/3/2026
+Collin,85,0009,850009,governor,Pat Dixon,LIB,43,matched,11/3/2026
+Collin,85,0009,850009,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0009,850009,us_senate,James Talarico,DEM,1267,matched,11/3/2026
+Collin,85,0009,850009,us_senate,Ken Paxton,REP,886,matched,11/3/2026
+Collin,85,0009,850009,us_senate,Ted Brown,LIB,52,matched,11/3/2026
+Collin,85,0009,850009,us_senate,Write-in,,8,matched,11/3/2026
+Collin,85,0010,850010,governor,Gina Hinojosa,DEM,123,matched,11/3/2026
+Collin,85,0010,850010,governor,Greg Abbott,REP,435,matched,11/3/2026
+Collin,85,0010,850010,governor,Pat Dixon,LIB,9,matched,11/3/2026
+Collin,85,0010,850010,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0010,850010,us_senate,James Talarico,DEM,130,matched,11/3/2026
+Collin,85,0010,850010,us_senate,Ken Paxton,REP,411,matched,11/3/2026
+Collin,85,0010,850010,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0010,850010,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0011,850011,governor,Gina Hinojosa,DEM,661,matched,11/3/2026
+Collin,85,0011,850011,governor,Greg Abbott,REP,1737,matched,11/3/2026
+Collin,85,0011,850011,governor,Pat Dixon,LIB,40,matched,11/3/2026
+Collin,85,0011,850011,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0011,850011,us_senate,James Talarico,DEM,699,matched,11/3/2026
+Collin,85,0011,850011,us_senate,Ken Paxton,REP,1679,matched,11/3/2026
+Collin,85,0011,850011,us_senate,Ted Brown,LIB,49,matched,11/3/2026
+Collin,85,0011,850011,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0012,850012,governor,Gina Hinojosa,DEM,566,matched,11/3/2026
+Collin,85,0012,850012,governor,Greg Abbott,REP,728,matched,11/3/2026
+Collin,85,0012,850012,governor,Pat Dixon,LIB,21,matched,11/3/2026
+Collin,85,0012,850012,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0012,850012,us_senate,James Talarico,DEM,599,matched,11/3/2026
+Collin,85,0012,850012,us_senate,Ken Paxton,REP,691,matched,11/3/2026
+Collin,85,0012,850012,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Collin,85,0012,850012,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0013,850013,governor,Gina Hinojosa,DEM,825,matched,11/3/2026
+Collin,85,0013,850013,governor,Greg Abbott,REP,1411,matched,11/3/2026
+Collin,85,0013,850013,governor,Pat Dixon,LIB,34,matched,11/3/2026
+Collin,85,0013,850013,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0013,850013,us_senate,James Talarico,DEM,893,matched,11/3/2026
+Collin,85,0013,850013,us_senate,Ken Paxton,REP,1348,matched,11/3/2026
+Collin,85,0013,850013,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0013,850013,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0014,850014,governor,Gina Hinojosa,DEM,1191,matched,11/3/2026
+Collin,85,0014,850014,governor,Greg Abbott,REP,707,matched,11/3/2026
+Collin,85,0014,850014,governor,Pat Dixon,LIB,16,matched,11/3/2026
+Collin,85,0014,850014,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0014,850014,us_senate,James Talarico,DEM,1343,matched,11/3/2026
+Collin,85,0014,850014,us_senate,Ken Paxton,REP,552,matched,11/3/2026
+Collin,85,0014,850014,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Collin,85,0014,850014,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0015,850015,governor,Gina Hinojosa,DEM,440,matched,11/3/2026
+Collin,85,0015,850015,governor,Greg Abbott,REP,326,matched,11/3/2026
+Collin,85,0015,850015,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Collin,85,0015,850015,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0015,850015,us_senate,James Talarico,DEM,465,matched,11/3/2026
+Collin,85,0015,850015,us_senate,Ken Paxton,REP,300,matched,11/3/2026
+Collin,85,0015,850015,us_senate,Ted Brown,LIB,23,matched,11/3/2026
+Collin,85,0015,850015,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0016,850016,governor,Gina Hinojosa,DEM,605,matched,11/3/2026
+Collin,85,0016,850016,governor,Greg Abbott,REP,943,matched,11/3/2026
+Collin,85,0016,850016,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Collin,85,0016,850016,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0016,850016,us_senate,James Talarico,DEM,637,matched,11/3/2026
+Collin,85,0016,850016,us_senate,Ken Paxton,REP,885,matched,11/3/2026
+Collin,85,0016,850016,us_senate,Ted Brown,LIB,45,matched,11/3/2026
+Collin,85,0016,850016,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0017,850017,governor,Gina Hinojosa,DEM,1206,matched,11/3/2026
+Collin,85,0017,850017,governor,Greg Abbott,REP,1288,matched,11/3/2026
+Collin,85,0017,850017,governor,Pat Dixon,LIB,48,matched,11/3/2026
+Collin,85,0017,850017,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0017,850017,us_senate,James Talarico,DEM,1268,matched,11/3/2026
+Collin,85,0017,850017,us_senate,Ken Paxton,REP,1206,matched,11/3/2026
+Collin,85,0017,850017,us_senate,Ted Brown,LIB,61,matched,11/3/2026
+Collin,85,0017,850017,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0018,850018,governor,Gina Hinojosa,DEM,175,matched,11/3/2026
+Collin,85,0018,850018,governor,Greg Abbott,REP,419,matched,11/3/2026
+Collin,85,0018,850018,governor,Pat Dixon,LIB,9,matched,11/3/2026
+Collin,85,0018,850018,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0018,850018,us_senate,James Talarico,DEM,181,matched,11/3/2026
+Collin,85,0018,850018,us_senate,Ken Paxton,REP,402,matched,11/3/2026
+Collin,85,0018,850018,us_senate,Ted Brown,LIB,14,matched,11/3/2026
+Collin,85,0018,850018,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0019,850019,governor,Gina Hinojosa,DEM,519,matched,11/3/2026
+Collin,85,0019,850019,governor,Greg Abbott,REP,554,matched,11/3/2026
+Collin,85,0019,850019,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Collin,85,0019,850019,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0019,850019,us_senate,James Talarico,DEM,551,matched,11/3/2026
+Collin,85,0019,850019,us_senate,Ken Paxton,REP,522,matched,11/3/2026
+Collin,85,0019,850019,us_senate,Ted Brown,LIB,21,matched,11/3/2026
+Collin,85,0019,850019,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0020,850020,governor,Gina Hinojosa,DEM,685,matched,11/3/2026
+Collin,85,0020,850020,governor,Greg Abbott,REP,940,matched,11/3/2026
+Collin,85,0020,850020,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Collin,85,0020,850020,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0020,850020,us_senate,James Talarico,DEM,740,matched,11/3/2026
+Collin,85,0020,850020,us_senate,Ken Paxton,REP,865,matched,11/3/2026
+Collin,85,0020,850020,us_senate,Ted Brown,LIB,47,matched,11/3/2026
+Collin,85,0020,850020,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0021,850021,governor,Gina Hinojosa,DEM,1542,matched,11/3/2026
+Collin,85,0021,850021,governor,Greg Abbott,REP,1132,matched,11/3/2026
+Collin,85,0021,850021,governor,Pat Dixon,LIB,48,matched,11/3/2026
+Collin,85,0021,850021,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0021,850021,us_senate,James Talarico,DEM,1628,matched,11/3/2026
+Collin,85,0021,850021,us_senate,Ken Paxton,REP,1042,matched,11/3/2026
+Collin,85,0021,850021,us_senate,Ted Brown,LIB,46,matched,11/3/2026
+Collin,85,0021,850021,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0022,850022,governor,Gina Hinojosa,DEM,994,matched,11/3/2026
+Collin,85,0022,850022,governor,Greg Abbott,REP,2087,matched,11/3/2026
+Collin,85,0022,850022,governor,Pat Dixon,LIB,53,matched,11/3/2026
+Collin,85,0022,850022,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0022,850022,us_senate,James Talarico,DEM,1081,matched,11/3/2026
+Collin,85,0022,850022,us_senate,Ken Paxton,REP,1968,matched,11/3/2026
+Collin,85,0022,850022,us_senate,Ted Brown,LIB,71,matched,11/3/2026
+Collin,85,0022,850022,us_senate,Write-in,,10,matched,11/3/2026
+Collin,85,0023,850023,governor,Gina Hinojosa,DEM,1378,matched,11/3/2026
+Collin,85,0023,850023,governor,Greg Abbott,REP,313,matched,11/3/2026
+Collin,85,0023,850023,governor,Pat Dixon,LIB,22,matched,11/3/2026
+Collin,85,0023,850023,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0023,850023,us_senate,James Talarico,DEM,1407,matched,11/3/2026
+Collin,85,0023,850023,us_senate,Ken Paxton,REP,285,matched,11/3/2026
+Collin,85,0023,850023,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0023,850023,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0024,850024,governor,Gina Hinojosa,DEM,699,matched,11/3/2026
+Collin,85,0024,850024,governor,Greg Abbott,REP,278,matched,11/3/2026
+Collin,85,0024,850024,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Collin,85,0024,850024,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0024,850024,us_senate,James Talarico,DEM,734,matched,11/3/2026
+Collin,85,0024,850024,us_senate,Ken Paxton,REP,239,matched,11/3/2026
+Collin,85,0024,850024,us_senate,Ted Brown,LIB,23,matched,11/3/2026
+Collin,85,0024,850024,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0025,850025,governor,Gina Hinojosa,DEM,1535,matched,11/3/2026
+Collin,85,0025,850025,governor,Greg Abbott,REP,1042,matched,11/3/2026
+Collin,85,0025,850025,governor,Pat Dixon,LIB,54,matched,11/3/2026
+Collin,85,0025,850025,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0025,850025,us_senate,James Talarico,DEM,1653,matched,11/3/2026
+Collin,85,0025,850025,us_senate,Ken Paxton,REP,925,matched,11/3/2026
+Collin,85,0025,850025,us_senate,Ted Brown,LIB,49,matched,11/3/2026
+Collin,85,0025,850025,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0026,850026,governor,Gina Hinojosa,DEM,429,matched,11/3/2026
+Collin,85,0026,850026,governor,Greg Abbott,REP,276,matched,11/3/2026
+Collin,85,0026,850026,governor,Pat Dixon,LIB,11,matched,11/3/2026
+Collin,85,0026,850026,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0026,850026,us_senate,James Talarico,DEM,448,matched,11/3/2026
+Collin,85,0026,850026,us_senate,Ken Paxton,REP,251,matched,11/3/2026
+Collin,85,0026,850026,us_senate,Ted Brown,LIB,15,matched,11/3/2026
+Collin,85,0026,850026,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0027,850027,governor,Gina Hinojosa,DEM,793,matched,11/3/2026
+Collin,85,0027,850027,governor,Greg Abbott,REP,711,matched,11/3/2026
+Collin,85,0027,850027,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Collin,85,0027,850027,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0027,850027,us_senate,James Talarico,DEM,832,matched,11/3/2026
+Collin,85,0027,850027,us_senate,Ken Paxton,REP,674,matched,11/3/2026
+Collin,85,0027,850027,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Collin,85,0027,850027,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0028,850028,governor,Gina Hinojosa,DEM,1176,matched,11/3/2026
+Collin,85,0028,850028,governor,Greg Abbott,REP,885,matched,11/3/2026
+Collin,85,0028,850028,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Collin,85,0028,850028,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0028,850028,us_senate,James Talarico,DEM,1249,matched,11/3/2026
+Collin,85,0028,850028,us_senate,Ken Paxton,REP,800,matched,11/3/2026
+Collin,85,0028,850028,us_senate,Ted Brown,LIB,37,matched,11/3/2026
+Collin,85,0028,850028,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0029,850029,governor,Gina Hinojosa,DEM,762,matched,11/3/2026
+Collin,85,0029,850029,governor,Greg Abbott,REP,1359,matched,11/3/2026
+Collin,85,0029,850029,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Collin,85,0029,850029,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0029,850029,us_senate,James Talarico,DEM,839,matched,11/3/2026
+Collin,85,0029,850029,us_senate,Ken Paxton,REP,1282,matched,11/3/2026
+Collin,85,0029,850029,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Collin,85,0029,850029,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0030,850030,governor,Gina Hinojosa,DEM,307,matched,11/3/2026
+Collin,85,0030,850030,governor,Greg Abbott,REP,207,matched,11/3/2026
+Collin,85,0030,850030,governor,Pat Dixon,LIB,9,matched,11/3/2026
+Collin,85,0030,850030,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0030,850030,us_senate,James Talarico,DEM,334,matched,11/3/2026
+Collin,85,0030,850030,us_senate,Ken Paxton,REP,179,matched,11/3/2026
+Collin,85,0030,850030,us_senate,Ted Brown,LIB,11,matched,11/3/2026
+Collin,85,0030,850030,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0031,850031,governor,Gina Hinojosa,DEM,699,matched,11/3/2026
+Collin,85,0031,850031,governor,Greg Abbott,REP,697,matched,11/3/2026
+Collin,85,0031,850031,governor,Pat Dixon,LIB,17,matched,11/3/2026
+Collin,85,0031,850031,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0031,850031,us_senate,James Talarico,DEM,743,matched,11/3/2026
+Collin,85,0031,850031,us_senate,Ken Paxton,REP,645,matched,11/3/2026
+Collin,85,0031,850031,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Collin,85,0031,850031,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0032,850032,governor,Gina Hinojosa,DEM,857,matched,11/3/2026
+Collin,85,0032,850032,governor,Greg Abbott,REP,760,matched,11/3/2026
+Collin,85,0032,850032,governor,Pat Dixon,LIB,34,matched,11/3/2026
+Collin,85,0032,850032,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0032,850032,us_senate,James Talarico,DEM,914,matched,11/3/2026
+Collin,85,0032,850032,us_senate,Ken Paxton,REP,710,matched,11/3/2026
+Collin,85,0032,850032,us_senate,Ted Brown,LIB,23,matched,11/3/2026
+Collin,85,0032,850032,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0033,850033,governor,Gina Hinojosa,DEM,1244,matched,11/3/2026
+Collin,85,0033,850033,governor,Greg Abbott,REP,1386,matched,11/3/2026
+Collin,85,0033,850033,governor,Pat Dixon,LIB,42,matched,11/3/2026
+Collin,85,0033,850033,governor,Write-in,,7,matched,11/3/2026
+Collin,85,0033,850033,us_senate,James Talarico,DEM,1279,matched,11/3/2026
+Collin,85,0033,850033,us_senate,Ken Paxton,REP,1334,matched,11/3/2026
+Collin,85,0033,850033,us_senate,Ted Brown,LIB,49,matched,11/3/2026
+Collin,85,0033,850033,us_senate,Write-in,,9,matched,11/3/2026
+Collin,85,0034,850034,governor,Gina Hinojosa,DEM,1661,matched,11/3/2026
+Collin,85,0034,850034,governor,Greg Abbott,REP,1059,matched,11/3/2026
+Collin,85,0034,850034,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Collin,85,0034,850034,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0034,850034,us_senate,James Talarico,DEM,1847,matched,11/3/2026
+Collin,85,0034,850034,us_senate,Ken Paxton,REP,862,matched,11/3/2026
+Collin,85,0034,850034,us_senate,Ted Brown,LIB,40,matched,11/3/2026
+Collin,85,0034,850034,us_senate,Write-in,,9,matched,11/3/2026
+Collin,85,0035,850035,governor,Gina Hinojosa,DEM,294,matched,11/3/2026
+Collin,85,0035,850035,governor,Greg Abbott,REP,697,matched,11/3/2026
+Collin,85,0035,850035,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0035,850035,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0035,850035,us_senate,James Talarico,DEM,303,matched,11/3/2026
+Collin,85,0035,850035,us_senate,Ken Paxton,REP,680,matched,11/3/2026
+Collin,85,0035,850035,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Collin,85,0035,850035,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0036,850036,governor,Gina Hinojosa,DEM,490,matched,11/3/2026
+Collin,85,0036,850036,governor,Greg Abbott,REP,855,matched,11/3/2026
+Collin,85,0036,850036,governor,Pat Dixon,LIB,13,matched,11/3/2026
+Collin,85,0036,850036,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0036,850036,us_senate,James Talarico,DEM,557,matched,11/3/2026
+Collin,85,0036,850036,us_senate,Ken Paxton,REP,767,matched,11/3/2026
+Collin,85,0036,850036,us_senate,Ted Brown,LIB,21,matched,11/3/2026
+Collin,85,0036,850036,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0037,850037,governor,Gina Hinojosa,DEM,339,matched,11/3/2026
+Collin,85,0037,850037,governor,Greg Abbott,REP,1248,matched,11/3/2026
+Collin,85,0037,850037,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Collin,85,0037,850037,governor,Write-in,,5,matched,11/3/2026
+Collin,85,0037,850037,us_senate,James Talarico,DEM,363,matched,11/3/2026
+Collin,85,0037,850037,us_senate,Ken Paxton,REP,1215,matched,11/3/2026
+Collin,85,0037,850037,us_senate,Ted Brown,LIB,42,matched,11/3/2026
+Collin,85,0037,850037,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0038,850038,governor,Gina Hinojosa,DEM,1402,matched,11/3/2026
+Collin,85,0038,850038,governor,Greg Abbott,REP,752,matched,11/3/2026
+Collin,85,0038,850038,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Collin,85,0038,850038,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0038,850038,us_senate,James Talarico,DEM,1476,matched,11/3/2026
+Collin,85,0038,850038,us_senate,Ken Paxton,REP,671,matched,11/3/2026
+Collin,85,0038,850038,us_senate,Ted Brown,LIB,37,matched,11/3/2026
+Collin,85,0038,850038,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0039,850039,governor,Gina Hinojosa,DEM,1011,matched,11/3/2026
+Collin,85,0039,850039,governor,Greg Abbott,REP,549,matched,11/3/2026
+Collin,85,0039,850039,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0039,850039,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0039,850039,us_senate,James Talarico,DEM,1065,matched,11/3/2026
+Collin,85,0039,850039,us_senate,Ken Paxton,REP,498,matched,11/3/2026
+Collin,85,0039,850039,us_senate,Ted Brown,LIB,36,matched,11/3/2026
+Collin,85,0039,850039,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0040,850040,governor,Gina Hinojosa,DEM,950,matched,11/3/2026
+Collin,85,0040,850040,governor,Greg Abbott,REP,1193,matched,11/3/2026
+Collin,85,0040,850040,governor,Pat Dixon,LIB,48,matched,11/3/2026
+Collin,85,0040,850040,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0040,850040,us_senate,James Talarico,DEM,1013,matched,11/3/2026
+Collin,85,0040,850040,us_senate,Ken Paxton,REP,1128,matched,11/3/2026
+Collin,85,0040,850040,us_senate,Ted Brown,LIB,55,matched,11/3/2026
+Collin,85,0040,850040,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0041,850041,governor,Gina Hinojosa,DEM,466,matched,11/3/2026
+Collin,85,0041,850041,governor,Greg Abbott,REP,923,matched,11/3/2026
+Collin,85,0041,850041,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0041,850041,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0041,850041,us_senate,James Talarico,DEM,520,matched,11/3/2026
+Collin,85,0041,850041,us_senate,Ken Paxton,REP,861,matched,11/3/2026
+Collin,85,0041,850041,us_senate,Ted Brown,LIB,15,matched,11/3/2026
+Collin,85,0041,850041,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0042,850042,governor,Gina Hinojosa,DEM,504,matched,11/3/2026
+Collin,85,0042,850042,governor,Greg Abbott,REP,805,matched,11/3/2026
+Collin,85,0042,850042,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0042,850042,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0042,850042,us_senate,James Talarico,DEM,510,matched,11/3/2026
+Collin,85,0042,850042,us_senate,Ken Paxton,REP,788,matched,11/3/2026
+Collin,85,0042,850042,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0042,850042,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0043,850043,governor,Gina Hinojosa,DEM,1051,matched,11/3/2026
+Collin,85,0043,850043,governor,Greg Abbott,REP,654,matched,11/3/2026
+Collin,85,0043,850043,governor,Pat Dixon,LIB,40,matched,11/3/2026
+Collin,85,0043,850043,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0043,850043,us_senate,James Talarico,DEM,1092,matched,11/3/2026
+Collin,85,0043,850043,us_senate,Ken Paxton,REP,604,matched,11/3/2026
+Collin,85,0043,850043,us_senate,Ted Brown,LIB,42,matched,11/3/2026
+Collin,85,0043,850043,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0044,850044,governor,Gina Hinojosa,DEM,455,matched,11/3/2026
+Collin,85,0044,850044,governor,Greg Abbott,REP,334,matched,11/3/2026
+Collin,85,0044,850044,governor,Pat Dixon,LIB,12,matched,11/3/2026
+Collin,85,0044,850044,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0044,850044,us_senate,James Talarico,DEM,476,matched,11/3/2026
+Collin,85,0044,850044,us_senate,Ken Paxton,REP,308,matched,11/3/2026
+Collin,85,0044,850044,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Collin,85,0044,850044,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0045,850045,governor,Gina Hinojosa,DEM,995,matched,11/3/2026
+Collin,85,0045,850045,governor,Greg Abbott,REP,1154,matched,11/3/2026
+Collin,85,0045,850045,governor,Pat Dixon,LIB,33,matched,11/3/2026
+Collin,85,0045,850045,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0045,850045,us_senate,James Talarico,DEM,1076,matched,11/3/2026
+Collin,85,0045,850045,us_senate,Ken Paxton,REP,1064,matched,11/3/2026
+Collin,85,0045,850045,us_senate,Ted Brown,LIB,45,matched,11/3/2026
+Collin,85,0045,850045,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0046,850046,governor,Gina Hinojosa,DEM,1111,matched,11/3/2026
+Collin,85,0046,850046,governor,Greg Abbott,REP,500,matched,11/3/2026
+Collin,85,0046,850046,governor,Pat Dixon,LIB,34,matched,11/3/2026
+Collin,85,0046,850046,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0046,850046,us_senate,James Talarico,DEM,1136,matched,11/3/2026
+Collin,85,0046,850046,us_senate,Ken Paxton,REP,472,matched,11/3/2026
+Collin,85,0046,850046,us_senate,Ted Brown,LIB,39,matched,11/3/2026
+Collin,85,0046,850046,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0047,850047,governor,Gina Hinojosa,DEM,1008,matched,11/3/2026
+Collin,85,0047,850047,governor,Greg Abbott,REP,569,matched,11/3/2026
+Collin,85,0047,850047,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Collin,85,0047,850047,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0047,850047,us_senate,James Talarico,DEM,1023,matched,11/3/2026
+Collin,85,0047,850047,us_senate,Ken Paxton,REP,551,matched,11/3/2026
+Collin,85,0047,850047,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0047,850047,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0048,850048,governor,Gina Hinojosa,DEM,1337,matched,11/3/2026
+Collin,85,0048,850048,governor,Greg Abbott,REP,890,matched,11/3/2026
+Collin,85,0048,850048,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Collin,85,0048,850048,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0048,850048,us_senate,James Talarico,DEM,1411,matched,11/3/2026
+Collin,85,0048,850048,us_senate,Ken Paxton,REP,811,matched,11/3/2026
+Collin,85,0048,850048,us_senate,Ted Brown,LIB,26,matched,11/3/2026
+Collin,85,0048,850048,us_senate,Write-in,,11,matched,11/3/2026
+Collin,85,0049,850049,governor,Gina Hinojosa,DEM,771,matched,11/3/2026
+Collin,85,0049,850049,governor,Greg Abbott,REP,739,matched,11/3/2026
+Collin,85,0049,850049,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Collin,85,0049,850049,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0049,850049,us_senate,James Talarico,DEM,821,matched,11/3/2026
+Collin,85,0049,850049,us_senate,Ken Paxton,REP,679,matched,11/3/2026
+Collin,85,0049,850049,us_senate,Ted Brown,LIB,26,matched,11/3/2026
+Collin,85,0049,850049,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0050,850050,governor,Gina Hinojosa,DEM,1231,matched,11/3/2026
+Collin,85,0050,850050,governor,Greg Abbott,REP,446,matched,11/3/2026
+Collin,85,0050,850050,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Collin,85,0050,850050,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0050,850050,us_senate,James Talarico,DEM,1282,matched,11/3/2026
+Collin,85,0050,850050,us_senate,Ken Paxton,REP,397,matched,11/3/2026
+Collin,85,0050,850050,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Collin,85,0050,850050,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0051,850051,governor,Gina Hinojosa,DEM,651,matched,11/3/2026
+Collin,85,0051,850051,governor,Greg Abbott,REP,280,matched,11/3/2026
+Collin,85,0051,850051,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0051,850051,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0051,850051,us_senate,James Talarico,DEM,670,matched,11/3/2026
+Collin,85,0051,850051,us_senate,Ken Paxton,REP,256,matched,11/3/2026
+Collin,85,0051,850051,us_senate,Ted Brown,LIB,20,matched,11/3/2026
+Collin,85,0051,850051,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0052,850052,governor,Gina Hinojosa,DEM,1998,matched,11/3/2026
+Collin,85,0052,850052,governor,Greg Abbott,REP,760,matched,11/3/2026
+Collin,85,0052,850052,governor,Pat Dixon,LIB,35,matched,11/3/2026
+Collin,85,0052,850052,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0052,850052,us_senate,James Talarico,DEM,2077,matched,11/3/2026
+Collin,85,0052,850052,us_senate,Ken Paxton,REP,675,matched,11/3/2026
+Collin,85,0052,850052,us_senate,Ted Brown,LIB,38,matched,11/3/2026
+Collin,85,0052,850052,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0053,850053,governor,Gina Hinojosa,DEM,825,matched,11/3/2026
+Collin,85,0053,850053,governor,Greg Abbott,REP,647,matched,11/3/2026
+Collin,85,0053,850053,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Collin,85,0053,850053,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0053,850053,us_senate,James Talarico,DEM,874,matched,11/3/2026
+Collin,85,0053,850053,us_senate,Ken Paxton,REP,594,matched,11/3/2026
+Collin,85,0053,850053,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0053,850053,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0054,850054,governor,Gina Hinojosa,DEM,1298,matched,11/3/2026
+Collin,85,0054,850054,governor,Greg Abbott,REP,570,matched,11/3/2026
+Collin,85,0054,850054,governor,Pat Dixon,LIB,37,matched,11/3/2026
+Collin,85,0054,850054,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0054,850054,us_senate,James Talarico,DEM,1352,matched,11/3/2026
+Collin,85,0054,850054,us_senate,Ken Paxton,REP,501,matched,11/3/2026
+Collin,85,0054,850054,us_senate,Ted Brown,LIB,45,matched,11/3/2026
+Collin,85,0054,850054,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0055,850055,governor,Gina Hinojosa,DEM,1878,matched,11/3/2026
+Collin,85,0055,850055,governor,Greg Abbott,REP,672,matched,11/3/2026
+Collin,85,0055,850055,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Collin,85,0055,850055,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0055,850055,us_senate,James Talarico,DEM,1957,matched,11/3/2026
+Collin,85,0055,850055,us_senate,Ken Paxton,REP,590,matched,11/3/2026
+Collin,85,0055,850055,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0055,850055,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0056,850056,governor,Gina Hinojosa,DEM,955,matched,11/3/2026
+Collin,85,0056,850056,governor,Greg Abbott,REP,1007,matched,11/3/2026
+Collin,85,0056,850056,governor,Pat Dixon,LIB,29,matched,11/3/2026
+Collin,85,0056,850056,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0056,850056,us_senate,James Talarico,DEM,994,matched,11/3/2026
+Collin,85,0056,850056,us_senate,Ken Paxton,REP,938,matched,11/3/2026
+Collin,85,0056,850056,us_senate,Ted Brown,LIB,50,matched,11/3/2026
+Collin,85,0056,850056,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0057,850057,governor,Gina Hinojosa,DEM,462,matched,11/3/2026
+Collin,85,0057,850057,governor,Greg Abbott,REP,371,matched,11/3/2026
+Collin,85,0057,850057,governor,Pat Dixon,LIB,16,matched,11/3/2026
+Collin,85,0057,850057,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0057,850057,us_senate,James Talarico,DEM,484,matched,11/3/2026
+Collin,85,0057,850057,us_senate,Ken Paxton,REP,345,matched,11/3/2026
+Collin,85,0057,850057,us_senate,Ted Brown,LIB,23,matched,11/3/2026
+Collin,85,0057,850057,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0058,850058,governor,Gina Hinojosa,DEM,1217,matched,11/3/2026
+Collin,85,0058,850058,governor,Greg Abbott,REP,829,matched,11/3/2026
+Collin,85,0058,850058,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Collin,85,0058,850058,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0058,850058,us_senate,James Talarico,DEM,1266,matched,11/3/2026
+Collin,85,0058,850058,us_senate,Ken Paxton,REP,781,matched,11/3/2026
+Collin,85,0058,850058,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Collin,85,0058,850058,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0059,850059,governor,Gina Hinojosa,DEM,1191,matched,11/3/2026
+Collin,85,0059,850059,governor,Greg Abbott,REP,1124,matched,11/3/2026
+Collin,85,0059,850059,governor,Pat Dixon,LIB,44,matched,11/3/2026
+Collin,85,0059,850059,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0059,850059,us_senate,James Talarico,DEM,1273,matched,11/3/2026
+Collin,85,0059,850059,us_senate,Ken Paxton,REP,1036,matched,11/3/2026
+Collin,85,0059,850059,us_senate,Ted Brown,LIB,50,matched,11/3/2026
+Collin,85,0059,850059,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0060,850060,governor,Gina Hinojosa,DEM,1007,matched,11/3/2026
+Collin,85,0060,850060,governor,Greg Abbott,REP,1244,matched,11/3/2026
+Collin,85,0060,850060,governor,Pat Dixon,LIB,29,matched,11/3/2026
+Collin,85,0060,850060,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0060,850060,us_senate,James Talarico,DEM,1104,matched,11/3/2026
+Collin,85,0060,850060,us_senate,Ken Paxton,REP,1129,matched,11/3/2026
+Collin,85,0060,850060,us_senate,Ted Brown,LIB,33,matched,11/3/2026
+Collin,85,0060,850060,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0061,850061,governor,Gina Hinojosa,DEM,531,matched,11/3/2026
+Collin,85,0061,850061,governor,Greg Abbott,REP,542,matched,11/3/2026
+Collin,85,0061,850061,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Collin,85,0061,850061,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0061,850061,us_senate,James Talarico,DEM,572,matched,11/3/2026
+Collin,85,0061,850061,us_senate,Ken Paxton,REP,493,matched,11/3/2026
+Collin,85,0061,850061,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0061,850061,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0062,850062,governor,Gina Hinojosa,DEM,905,matched,11/3/2026
+Collin,85,0062,850062,governor,Greg Abbott,REP,565,matched,11/3/2026
+Collin,85,0062,850062,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Collin,85,0062,850062,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0062,850062,us_senate,James Talarico,DEM,941,matched,11/3/2026
+Collin,85,0062,850062,us_senate,Ken Paxton,REP,520,matched,11/3/2026
+Collin,85,0062,850062,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0062,850062,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0063,850063,governor,Gina Hinojosa,DEM,627,matched,11/3/2026
+Collin,85,0063,850063,governor,Greg Abbott,REP,719,matched,11/3/2026
+Collin,85,0063,850063,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Collin,85,0063,850063,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0063,850063,us_senate,James Talarico,DEM,675,matched,11/3/2026
+Collin,85,0063,850063,us_senate,Ken Paxton,REP,657,matched,11/3/2026
+Collin,85,0063,850063,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0063,850063,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0064,850064,governor,Gina Hinojosa,DEM,905,matched,11/3/2026
+Collin,85,0064,850064,governor,Greg Abbott,REP,635,matched,11/3/2026
+Collin,85,0064,850064,governor,Pat Dixon,LIB,21,matched,11/3/2026
+Collin,85,0064,850064,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0064,850064,us_senate,James Talarico,DEM,964,matched,11/3/2026
+Collin,85,0064,850064,us_senate,Ken Paxton,REP,566,matched,11/3/2026
+Collin,85,0064,850064,us_senate,Ted Brown,LIB,26,matched,11/3/2026
+Collin,85,0064,850064,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0065,850065,governor,Gina Hinojosa,DEM,395,matched,11/3/2026
+Collin,85,0065,850065,governor,Greg Abbott,REP,330,matched,11/3/2026
+Collin,85,0065,850065,governor,Pat Dixon,LIB,4,matched,11/3/2026
+Collin,85,0065,850065,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0065,850065,us_senate,James Talarico,DEM,412,matched,11/3/2026
+Collin,85,0065,850065,us_senate,Ken Paxton,REP,306,matched,11/3/2026
+Collin,85,0065,850065,us_senate,Ted Brown,LIB,11,matched,11/3/2026
+Collin,85,0065,850065,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0066,850066,governor,Gina Hinojosa,DEM,707,matched,11/3/2026
+Collin,85,0066,850066,governor,Greg Abbott,REP,552,matched,11/3/2026
+Collin,85,0066,850066,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Collin,85,0066,850066,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0066,850066,us_senate,James Talarico,DEM,753,matched,11/3/2026
+Collin,85,0066,850066,us_senate,Ken Paxton,REP,507,matched,11/3/2026
+Collin,85,0066,850066,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Collin,85,0066,850066,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0067,850067,governor,Gina Hinojosa,DEM,954,matched,11/3/2026
+Collin,85,0067,850067,governor,Greg Abbott,REP,714,matched,11/3/2026
+Collin,85,0067,850067,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Collin,85,0067,850067,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0067,850067,us_senate,James Talarico,DEM,1018,matched,11/3/2026
+Collin,85,0067,850067,us_senate,Ken Paxton,REP,644,matched,11/3/2026
+Collin,85,0067,850067,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0067,850067,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0068,850068,governor,Gina Hinojosa,DEM,694,matched,11/3/2026
+Collin,85,0068,850068,governor,Greg Abbott,REP,424,matched,11/3/2026
+Collin,85,0068,850068,governor,Pat Dixon,LIB,22,matched,11/3/2026
+Collin,85,0068,850068,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0068,850068,us_senate,James Talarico,DEM,721,matched,11/3/2026
+Collin,85,0068,850068,us_senate,Ken Paxton,REP,394,matched,11/3/2026
+Collin,85,0068,850068,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0068,850068,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0069,850069,governor,Gina Hinojosa,DEM,1326,matched,11/3/2026
+Collin,85,0069,850069,governor,Greg Abbott,REP,1141,matched,11/3/2026
+Collin,85,0069,850069,governor,Pat Dixon,LIB,22,matched,11/3/2026
+Collin,85,0069,850069,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0069,850069,us_senate,James Talarico,DEM,1412,matched,11/3/2026
+Collin,85,0069,850069,us_senate,Ken Paxton,REP,1040,matched,11/3/2026
+Collin,85,0069,850069,us_senate,Ted Brown,LIB,41,matched,11/3/2026
+Collin,85,0069,850069,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0070,850070,governor,Gina Hinojosa,DEM,615,matched,11/3/2026
+Collin,85,0070,850070,governor,Greg Abbott,REP,566,matched,11/3/2026
+Collin,85,0070,850070,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Collin,85,0070,850070,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0070,850070,us_senate,James Talarico,DEM,656,matched,11/3/2026
+Collin,85,0070,850070,us_senate,Ken Paxton,REP,517,matched,11/3/2026
+Collin,85,0070,850070,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0070,850070,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0071,850071,governor,Gina Hinojosa,DEM,619,matched,11/3/2026
+Collin,85,0071,850071,governor,Greg Abbott,REP,520,matched,11/3/2026
+Collin,85,0071,850071,governor,Pat Dixon,LIB,17,matched,11/3/2026
+Collin,85,0071,850071,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0071,850071,us_senate,James Talarico,DEM,653,matched,11/3/2026
+Collin,85,0071,850071,us_senate,Ken Paxton,REP,478,matched,11/3/2026
+Collin,85,0071,850071,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Collin,85,0071,850071,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0072,850072,governor,Gina Hinojosa,DEM,546,matched,11/3/2026
+Collin,85,0072,850072,governor,Greg Abbott,REP,492,matched,11/3/2026
+Collin,85,0072,850072,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0072,850072,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0072,850072,us_senate,James Talarico,DEM,575,matched,11/3/2026
+Collin,85,0072,850072,us_senate,Ken Paxton,REP,449,matched,11/3/2026
+Collin,85,0072,850072,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Collin,85,0072,850072,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0073,850073,governor,Gina Hinojosa,DEM,628,matched,11/3/2026
+Collin,85,0073,850073,governor,Greg Abbott,REP,334,matched,11/3/2026
+Collin,85,0073,850073,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Collin,85,0073,850073,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0073,850073,us_senate,James Talarico,DEM,664,matched,11/3/2026
+Collin,85,0073,850073,us_senate,Ken Paxton,REP,305,matched,11/3/2026
+Collin,85,0073,850073,us_senate,Ted Brown,LIB,14,matched,11/3/2026
+Collin,85,0073,850073,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0074,850074,governor,Gina Hinojosa,DEM,517,matched,11/3/2026
+Collin,85,0074,850074,governor,Greg Abbott,REP,639,matched,11/3/2026
+Collin,85,0074,850074,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0074,850074,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0074,850074,us_senate,James Talarico,DEM,545,matched,11/3/2026
+Collin,85,0074,850074,us_senate,Ken Paxton,REP,613,matched,11/3/2026
+Collin,85,0074,850074,us_senate,Ted Brown,LIB,9,matched,11/3/2026
+Collin,85,0074,850074,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0075,850075,governor,Gina Hinojosa,DEM,648,matched,11/3/2026
+Collin,85,0075,850075,governor,Greg Abbott,REP,789,matched,11/3/2026
+Collin,85,0075,850075,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Collin,85,0075,850075,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0075,850075,us_senate,James Talarico,DEM,721,matched,11/3/2026
+Collin,85,0075,850075,us_senate,Ken Paxton,REP,717,matched,11/3/2026
+Collin,85,0075,850075,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0075,850075,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0076,850076,governor,Gina Hinojosa,DEM,1085,matched,11/3/2026
+Collin,85,0076,850076,governor,Greg Abbott,REP,953,matched,11/3/2026
+Collin,85,0076,850076,governor,Pat Dixon,LIB,29,matched,11/3/2026
+Collin,85,0076,850076,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0076,850076,us_senate,James Talarico,DEM,1146,matched,11/3/2026
+Collin,85,0076,850076,us_senate,Ken Paxton,REP,874,matched,11/3/2026
+Collin,85,0076,850076,us_senate,Ted Brown,LIB,39,matched,11/3/2026
+Collin,85,0076,850076,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0077,850077,governor,Gina Hinojosa,DEM,1264,matched,11/3/2026
+Collin,85,0077,850077,governor,Greg Abbott,REP,762,matched,11/3/2026
+Collin,85,0077,850077,governor,Pat Dixon,LIB,34,matched,11/3/2026
+Collin,85,0077,850077,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0077,850077,us_senate,James Talarico,DEM,1317,matched,11/3/2026
+Collin,85,0077,850077,us_senate,Ken Paxton,REP,704,matched,11/3/2026
+Collin,85,0077,850077,us_senate,Ted Brown,LIB,33,matched,11/3/2026
+Collin,85,0077,850077,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0078,850078,governor,Gina Hinojosa,DEM,1658,matched,11/3/2026
+Collin,85,0078,850078,governor,Greg Abbott,REP,827,matched,11/3/2026
+Collin,85,0078,850078,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Collin,85,0078,850078,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0078,850078,us_senate,James Talarico,DEM,1718,matched,11/3/2026
+Collin,85,0078,850078,us_senate,Ken Paxton,REP,747,matched,11/3/2026
+Collin,85,0078,850078,us_senate,Ted Brown,LIB,36,matched,11/3/2026
+Collin,85,0078,850078,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0079,850079,governor,Gina Hinojosa,DEM,710,matched,11/3/2026
+Collin,85,0079,850079,governor,Greg Abbott,REP,673,matched,11/3/2026
+Collin,85,0079,850079,governor,Pat Dixon,LIB,15,matched,11/3/2026
+Collin,85,0079,850079,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0079,850079,us_senate,James Talarico,DEM,763,matched,11/3/2026
+Collin,85,0079,850079,us_senate,Ken Paxton,REP,607,matched,11/3/2026
+Collin,85,0079,850079,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0079,850079,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0080,850080,governor,Gina Hinojosa,DEM,1162,matched,11/3/2026
+Collin,85,0080,850080,governor,Greg Abbott,REP,889,matched,11/3/2026
+Collin,85,0080,850080,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Collin,85,0080,850080,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0080,850080,us_senate,James Talarico,DEM,1219,matched,11/3/2026
+Collin,85,0080,850080,us_senate,Ken Paxton,REP,828,matched,11/3/2026
+Collin,85,0080,850080,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0080,850080,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0081,850081,governor,Gina Hinojosa,DEM,1008,matched,11/3/2026
+Collin,85,0081,850081,governor,Greg Abbott,REP,659,matched,11/3/2026
+Collin,85,0081,850081,governor,Pat Dixon,LIB,35,matched,11/3/2026
+Collin,85,0081,850081,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0081,850081,us_senate,James Talarico,DEM,1085,matched,11/3/2026
+Collin,85,0081,850081,us_senate,Ken Paxton,REP,579,matched,11/3/2026
+Collin,85,0081,850081,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Collin,85,0081,850081,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0082,850082,governor,Gina Hinojosa,DEM,887,matched,11/3/2026
+Collin,85,0082,850082,governor,Greg Abbott,REP,608,matched,11/3/2026
+Collin,85,0082,850082,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Collin,85,0082,850082,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0082,850082,us_senate,James Talarico,DEM,920,matched,11/3/2026
+Collin,85,0082,850082,us_senate,Ken Paxton,REP,567,matched,11/3/2026
+Collin,85,0082,850082,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Collin,85,0082,850082,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0083,850083,governor,Gina Hinojosa,DEM,1111,matched,11/3/2026
+Collin,85,0083,850083,governor,Greg Abbott,REP,1324,matched,11/3/2026
+Collin,85,0083,850083,governor,Pat Dixon,LIB,39,matched,11/3/2026
+Collin,85,0083,850083,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0083,850083,us_senate,James Talarico,DEM,1147,matched,11/3/2026
+Collin,85,0083,850083,us_senate,Ken Paxton,REP,1264,matched,11/3/2026
+Collin,85,0083,850083,us_senate,Ted Brown,LIB,53,matched,11/3/2026
+Collin,85,0083,850083,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0084,850084,governor,Gina Hinojosa,DEM,873,matched,11/3/2026
+Collin,85,0084,850084,governor,Greg Abbott,REP,687,matched,11/3/2026
+Collin,85,0084,850084,governor,Pat Dixon,LIB,13,matched,11/3/2026
+Collin,85,0084,850084,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0084,850084,us_senate,James Talarico,DEM,920,matched,11/3/2026
+Collin,85,0084,850084,us_senate,Ken Paxton,REP,623,matched,11/3/2026
+Collin,85,0084,850084,us_senate,Ted Brown,LIB,14,matched,11/3/2026
+Collin,85,0084,850084,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0085,850085,governor,Gina Hinojosa,DEM,1275,matched,11/3/2026
+Collin,85,0085,850085,governor,Greg Abbott,REP,712,matched,11/3/2026
+Collin,85,0085,850085,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0085,850085,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0085,850085,us_senate,James Talarico,DEM,1319,matched,11/3/2026
+Collin,85,0085,850085,us_senate,Ken Paxton,REP,668,matched,11/3/2026
+Collin,85,0085,850085,us_senate,Ted Brown,LIB,37,matched,11/3/2026
+Collin,85,0085,850085,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0086,850086,governor,Gina Hinojosa,DEM,963,matched,11/3/2026
+Collin,85,0086,850086,governor,Greg Abbott,REP,872,matched,11/3/2026
+Collin,85,0086,850086,governor,Pat Dixon,LIB,33,matched,11/3/2026
+Collin,85,0086,850086,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0086,850086,us_senate,James Talarico,DEM,1065,matched,11/3/2026
+Collin,85,0086,850086,us_senate,Ken Paxton,REP,764,matched,11/3/2026
+Collin,85,0086,850086,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Collin,85,0086,850086,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0087,850087,governor,Gina Hinojosa,DEM,1441,matched,11/3/2026
+Collin,85,0087,850087,governor,Greg Abbott,REP,770,matched,11/3/2026
+Collin,85,0087,850087,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Collin,85,0087,850087,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0087,850087,us_senate,James Talarico,DEM,1770,matched,11/3/2026
+Collin,85,0087,850087,us_senate,Ken Paxton,REP,456,matched,11/3/2026
+Collin,85,0087,850087,us_senate,Ted Brown,LIB,23,matched,11/3/2026
+Collin,85,0087,850087,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0088,850088,governor,Gina Hinojosa,DEM,425,matched,11/3/2026
+Collin,85,0088,850088,governor,Greg Abbott,REP,171,matched,11/3/2026
+Collin,85,0088,850088,governor,Pat Dixon,LIB,10,matched,11/3/2026
+Collin,85,0088,850088,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0088,850088,us_senate,James Talarico,DEM,445,matched,11/3/2026
+Collin,85,0088,850088,us_senate,Ken Paxton,REP,146,matched,11/3/2026
+Collin,85,0088,850088,us_senate,Ted Brown,LIB,13,matched,11/3/2026
+Collin,85,0088,850088,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0089,850089,governor,Gina Hinojosa,DEM,1047,matched,11/3/2026
+Collin,85,0089,850089,governor,Greg Abbott,REP,867,matched,11/3/2026
+Collin,85,0089,850089,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0089,850089,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0089,850089,us_senate,James Talarico,DEM,1130,matched,11/3/2026
+Collin,85,0089,850089,us_senate,Ken Paxton,REP,770,matched,11/3/2026
+Collin,85,0089,850089,us_senate,Ted Brown,LIB,17,matched,11/3/2026
+Collin,85,0089,850089,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0090,850090,governor,Gina Hinojosa,DEM,833,matched,11/3/2026
+Collin,85,0090,850090,governor,Greg Abbott,REP,1263,matched,11/3/2026
+Collin,85,0090,850090,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Collin,85,0090,850090,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0090,850090,us_senate,James Talarico,DEM,974,matched,11/3/2026
+Collin,85,0090,850090,us_senate,Ken Paxton,REP,1080,matched,11/3/2026
+Collin,85,0090,850090,us_senate,Ted Brown,LIB,40,matched,11/3/2026
+Collin,85,0090,850090,us_senate,Write-in,,11,matched,11/3/2026
+Collin,85,0091,850091,governor,Gina Hinojosa,DEM,882,matched,11/3/2026
+Collin,85,0091,850091,governor,Greg Abbott,REP,587,matched,11/3/2026
+Collin,85,0091,850091,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Collin,85,0091,850091,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0091,850091,us_senate,James Talarico,DEM,910,matched,11/3/2026
+Collin,85,0091,850091,us_senate,Ken Paxton,REP,549,matched,11/3/2026
+Collin,85,0091,850091,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0091,850091,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0092,850092,governor,Gina Hinojosa,DEM,1450,matched,11/3/2026
+Collin,85,0092,850092,governor,Greg Abbott,REP,903,matched,11/3/2026
+Collin,85,0092,850092,governor,Pat Dixon,LIB,48,matched,11/3/2026
+Collin,85,0092,850092,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0092,850092,us_senate,James Talarico,DEM,1510,matched,11/3/2026
+Collin,85,0092,850092,us_senate,Ken Paxton,REP,840,matched,11/3/2026
+Collin,85,0092,850092,us_senate,Ted Brown,LIB,43,matched,11/3/2026
+Collin,85,0092,850092,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0093,850093,governor,Gina Hinojosa,DEM,28,matched,11/3/2026
+Collin,85,0093,850093,governor,Greg Abbott,REP,148,matched,11/3/2026
+Collin,85,0093,850093,governor,Pat Dixon,LIB,1,matched,11/3/2026
+Collin,85,0093,850093,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0093,850093,us_senate,James Talarico,DEM,28,matched,11/3/2026
+Collin,85,0093,850093,us_senate,Ken Paxton,REP,148,matched,11/3/2026
+Collin,85,0093,850093,us_senate,Ted Brown,LIB,1,matched,11/3/2026
+Collin,85,0093,850093,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0094,850094,governor,Gina Hinojosa,DEM,1701,matched,11/3/2026
+Collin,85,0094,850094,governor,Greg Abbott,REP,1063,matched,11/3/2026
+Collin,85,0094,850094,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Collin,85,0094,850094,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0094,850094,us_senate,James Talarico,DEM,1801,matched,11/3/2026
+Collin,85,0094,850094,us_senate,Ken Paxton,REP,945,matched,11/3/2026
+Collin,85,0094,850094,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Collin,85,0094,850094,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0095,850095,governor,Gina Hinojosa,DEM,1072,matched,11/3/2026
+Collin,85,0095,850095,governor,Greg Abbott,REP,776,matched,11/3/2026
+Collin,85,0095,850095,governor,Pat Dixon,LIB,17,matched,11/3/2026
+Collin,85,0095,850095,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0095,850095,us_senate,James Talarico,DEM,1115,matched,11/3/2026
+Collin,85,0095,850095,us_senate,Ken Paxton,REP,718,matched,11/3/2026
+Collin,85,0095,850095,us_senate,Ted Brown,LIB,30,matched,11/3/2026
+Collin,85,0095,850095,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0096,850096,governor,Gina Hinojosa,DEM,330,matched,11/3/2026
+Collin,85,0096,850096,governor,Greg Abbott,REP,250,matched,11/3/2026
+Collin,85,0096,850096,governor,Pat Dixon,LIB,7,matched,11/3/2026
+Collin,85,0096,850096,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0096,850096,us_senate,James Talarico,DEM,347,matched,11/3/2026
+Collin,85,0096,850096,us_senate,Ken Paxton,REP,227,matched,11/3/2026
+Collin,85,0096,850096,us_senate,Ted Brown,LIB,13,matched,11/3/2026
+Collin,85,0096,850096,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0097,850097,governor,Gina Hinojosa,DEM,306,matched,11/3/2026
+Collin,85,0097,850097,governor,Greg Abbott,REP,633,matched,11/3/2026
+Collin,85,0097,850097,governor,Pat Dixon,LIB,12,matched,11/3/2026
+Collin,85,0097,850097,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0097,850097,us_senate,James Talarico,DEM,334,matched,11/3/2026
+Collin,85,0097,850097,us_senate,Ken Paxton,REP,593,matched,11/3/2026
+Collin,85,0097,850097,us_senate,Ted Brown,LIB,17,matched,11/3/2026
+Collin,85,0097,850097,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0098,850098,governor,Gina Hinojosa,DEM,439,matched,11/3/2026
+Collin,85,0098,850098,governor,Greg Abbott,REP,400,matched,11/3/2026
+Collin,85,0098,850098,governor,Pat Dixon,LIB,6,matched,11/3/2026
+Collin,85,0098,850098,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0098,850098,us_senate,James Talarico,DEM,451,matched,11/3/2026
+Collin,85,0098,850098,us_senate,Ken Paxton,REP,374,matched,11/3/2026
+Collin,85,0098,850098,us_senate,Ted Brown,LIB,16,matched,11/3/2026
+Collin,85,0098,850098,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0099,850099,governor,Gina Hinojosa,DEM,279,matched,11/3/2026
+Collin,85,0099,850099,governor,Greg Abbott,REP,156,matched,11/3/2026
+Collin,85,0099,850099,governor,Pat Dixon,LIB,7,matched,11/3/2026
+Collin,85,0099,850099,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0099,850099,us_senate,James Talarico,DEM,294,matched,11/3/2026
+Collin,85,0099,850099,us_senate,Ken Paxton,REP,142,matched,11/3/2026
+Collin,85,0099,850099,us_senate,Ted Brown,LIB,7,matched,11/3/2026
+Collin,85,0099,850099,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0100,850100,governor,Gina Hinojosa,DEM,664,matched,11/3/2026
+Collin,85,0100,850100,governor,Greg Abbott,REP,604,matched,11/3/2026
+Collin,85,0100,850100,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0100,850100,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0100,850100,us_senate,James Talarico,DEM,682,matched,11/3/2026
+Collin,85,0100,850100,us_senate,Ken Paxton,REP,570,matched,11/3/2026
+Collin,85,0100,850100,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0100,850100,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0101,850101,governor,Gina Hinojosa,DEM,1377,matched,11/3/2026
+Collin,85,0101,850101,governor,Greg Abbott,REP,998,matched,11/3/2026
+Collin,85,0101,850101,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Collin,85,0101,850101,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0101,850101,us_senate,James Talarico,DEM,1475,matched,11/3/2026
+Collin,85,0101,850101,us_senate,Ken Paxton,REP,902,matched,11/3/2026
+Collin,85,0101,850101,us_senate,Ted Brown,LIB,25,matched,11/3/2026
+Collin,85,0101,850101,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0102,850102,governor,Gina Hinojosa,DEM,664,matched,11/3/2026
+Collin,85,0102,850102,governor,Greg Abbott,REP,1021,matched,11/3/2026
+Collin,85,0102,850102,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Collin,85,0102,850102,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0102,850102,us_senate,James Talarico,DEM,728,matched,11/3/2026
+Collin,85,0102,850102,us_senate,Ken Paxton,REP,950,matched,11/3/2026
+Collin,85,0102,850102,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Collin,85,0102,850102,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0103,850103,governor,Gina Hinojosa,DEM,461,matched,11/3/2026
+Collin,85,0103,850103,governor,Greg Abbott,REP,226,matched,11/3/2026
+Collin,85,0103,850103,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Collin,85,0103,850103,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0103,850103,us_senate,James Talarico,DEM,483,matched,11/3/2026
+Collin,85,0103,850103,us_senate,Ken Paxton,REP,209,matched,11/3/2026
+Collin,85,0103,850103,us_senate,Ted Brown,LIB,14,matched,11/3/2026
+Collin,85,0103,850103,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0104,850104,governor,Gina Hinojosa,DEM,637,matched,11/3/2026
+Collin,85,0104,850104,governor,Greg Abbott,REP,271,matched,11/3/2026
+Collin,85,0104,850104,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0104,850104,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0104,850104,us_senate,James Talarico,DEM,668,matched,11/3/2026
+Collin,85,0104,850104,us_senate,Ken Paxton,REP,235,matched,11/3/2026
+Collin,85,0104,850104,us_senate,Ted Brown,LIB,15,matched,11/3/2026
+Collin,85,0104,850104,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0105,850105,governor,Gina Hinojosa,DEM,121,matched,11/3/2026
+Collin,85,0105,850105,governor,Greg Abbott,REP,32,matched,11/3/2026
+Collin,85,0105,850105,governor,Pat Dixon,LIB,5,matched,11/3/2026
+Collin,85,0105,850105,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0105,850105,us_senate,James Talarico,DEM,132,matched,11/3/2026
+Collin,85,0105,850105,us_senate,Ken Paxton,REP,26,matched,11/3/2026
+Collin,85,0105,850105,us_senate,Ted Brown,LIB,2,matched,11/3/2026
+Collin,85,0105,850105,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0106,850106,governor,Gina Hinojosa,DEM,585,matched,11/3/2026
+Collin,85,0106,850106,governor,Greg Abbott,REP,457,matched,11/3/2026
+Collin,85,0106,850106,governor,Pat Dixon,LIB,22,matched,11/3/2026
+Collin,85,0106,850106,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0106,850106,us_senate,James Talarico,DEM,622,matched,11/3/2026
+Collin,85,0106,850106,us_senate,Ken Paxton,REP,407,matched,11/3/2026
+Collin,85,0106,850106,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Collin,85,0106,850106,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0107,850107,governor,Gina Hinojosa,DEM,1212,matched,11/3/2026
+Collin,85,0107,850107,governor,Greg Abbott,REP,894,matched,11/3/2026
+Collin,85,0107,850107,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0107,850107,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0107,850107,us_senate,James Talarico,DEM,1277,matched,11/3/2026
+Collin,85,0107,850107,us_senate,Ken Paxton,REP,818,matched,11/3/2026
+Collin,85,0107,850107,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0107,850107,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0108,850108,governor,Gina Hinojosa,DEM,1027,matched,11/3/2026
+Collin,85,0108,850108,governor,Greg Abbott,REP,692,matched,11/3/2026
+Collin,85,0108,850108,governor,Pat Dixon,LIB,21,matched,11/3/2026
+Collin,85,0108,850108,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0108,850108,us_senate,James Talarico,DEM,1108,matched,11/3/2026
+Collin,85,0108,850108,us_senate,Ken Paxton,REP,595,matched,11/3/2026
+Collin,85,0108,850108,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Collin,85,0108,850108,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0109,850109,governor,Gina Hinojosa,DEM,1320,matched,11/3/2026
+Collin,85,0109,850109,governor,Greg Abbott,REP,1467,matched,11/3/2026
+Collin,85,0109,850109,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Collin,85,0109,850109,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0109,850109,us_senate,James Talarico,DEM,1469,matched,11/3/2026
+Collin,85,0109,850109,us_senate,Ken Paxton,REP,1290,matched,11/3/2026
+Collin,85,0109,850109,us_senate,Ted Brown,LIB,45,matched,11/3/2026
+Collin,85,0109,850109,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0110,850110,governor,Gina Hinojosa,DEM,896,matched,11/3/2026
+Collin,85,0110,850110,governor,Greg Abbott,REP,781,matched,11/3/2026
+Collin,85,0110,850110,governor,Pat Dixon,LIB,21,matched,11/3/2026
+Collin,85,0110,850110,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0110,850110,us_senate,James Talarico,DEM,943,matched,11/3/2026
+Collin,85,0110,850110,us_senate,Ken Paxton,REP,710,matched,11/3/2026
+Collin,85,0110,850110,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Collin,85,0110,850110,us_senate,Write-in,,8,matched,11/3/2026
+Collin,85,0111,850111,governor,Gina Hinojosa,DEM,665,matched,11/3/2026
+Collin,85,0111,850111,governor,Greg Abbott,REP,1144,matched,11/3/2026
+Collin,85,0111,850111,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Collin,85,0111,850111,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0111,850111,us_senate,James Talarico,DEM,773,matched,11/3/2026
+Collin,85,0111,850111,us_senate,Ken Paxton,REP,1040,matched,11/3/2026
+Collin,85,0111,850111,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Collin,85,0111,850111,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0112,850112,governor,Gina Hinojosa,DEM,1032,matched,11/3/2026
+Collin,85,0112,850112,governor,Greg Abbott,REP,955,matched,11/3/2026
+Collin,85,0112,850112,governor,Pat Dixon,LIB,21,matched,11/3/2026
+Collin,85,0112,850112,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0112,850112,us_senate,James Talarico,DEM,1117,matched,11/3/2026
+Collin,85,0112,850112,us_senate,Ken Paxton,REP,843,matched,11/3/2026
+Collin,85,0112,850112,us_senate,Ted Brown,LIB,30,matched,11/3/2026
+Collin,85,0112,850112,us_senate,Write-in,,8,matched,11/3/2026
+Collin,85,0113,850113,governor,Gina Hinojosa,DEM,1081,matched,11/3/2026
+Collin,85,0113,850113,governor,Greg Abbott,REP,693,matched,11/3/2026
+Collin,85,0113,850113,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0113,850113,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0113,850113,us_senate,James Talarico,DEM,1130,matched,11/3/2026
+Collin,85,0113,850113,us_senate,Ken Paxton,REP,642,matched,11/3/2026
+Collin,85,0113,850113,us_senate,Ted Brown,LIB,37,matched,11/3/2026
+Collin,85,0113,850113,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0114,850114,governor,Gina Hinojosa,DEM,1739,matched,11/3/2026
+Collin,85,0114,850114,governor,Greg Abbott,REP,1352,matched,11/3/2026
+Collin,85,0114,850114,governor,Pat Dixon,LIB,52,matched,11/3/2026
+Collin,85,0114,850114,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0114,850114,us_senate,James Talarico,DEM,1809,matched,11/3/2026
+Collin,85,0114,850114,us_senate,Ken Paxton,REP,1247,matched,11/3/2026
+Collin,85,0114,850114,us_senate,Ted Brown,LIB,86,matched,11/3/2026
+Collin,85,0114,850114,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0115,850115,governor,Gina Hinojosa,DEM,998,matched,11/3/2026
+Collin,85,0115,850115,governor,Greg Abbott,REP,841,matched,11/3/2026
+Collin,85,0115,850115,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Collin,85,0115,850115,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0115,850115,us_senate,James Talarico,DEM,1074,matched,11/3/2026
+Collin,85,0115,850115,us_senate,Ken Paxton,REP,749,matched,11/3/2026
+Collin,85,0115,850115,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0115,850115,us_senate,Write-in,,11,matched,11/3/2026
+Collin,85,0116,850116,governor,Gina Hinojosa,DEM,1559,matched,11/3/2026
+Collin,85,0116,850116,governor,Greg Abbott,REP,1729,matched,11/3/2026
+Collin,85,0116,850116,governor,Pat Dixon,LIB,46,matched,11/3/2026
+Collin,85,0116,850116,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0116,850116,us_senate,James Talarico,DEM,1737,matched,11/3/2026
+Collin,85,0116,850116,us_senate,Ken Paxton,REP,1524,matched,11/3/2026
+Collin,85,0116,850116,us_senate,Ted Brown,LIB,54,matched,11/3/2026
+Collin,85,0116,850116,us_senate,Write-in,,11,matched,11/3/2026
+Collin,85,0117,850117,governor,Gina Hinojosa,DEM,1323,matched,11/3/2026
+Collin,85,0117,850117,governor,Greg Abbott,REP,943,matched,11/3/2026
+Collin,85,0117,850117,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Collin,85,0117,850117,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0117,850117,us_senate,James Talarico,DEM,1384,matched,11/3/2026
+Collin,85,0117,850117,us_senate,Ken Paxton,REP,869,matched,11/3/2026
+Collin,85,0117,850117,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Collin,85,0117,850117,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0118,850118,governor,Gina Hinojosa,DEM,1246,matched,11/3/2026
+Collin,85,0118,850118,governor,Greg Abbott,REP,1222,matched,11/3/2026
+Collin,85,0118,850118,governor,Pat Dixon,LIB,46,matched,11/3/2026
+Collin,85,0118,850118,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0118,850118,us_senate,James Talarico,DEM,1336,matched,11/3/2026
+Collin,85,0118,850118,us_senate,Ken Paxton,REP,1115,matched,11/3/2026
+Collin,85,0118,850118,us_senate,Ted Brown,LIB,55,matched,11/3/2026
+Collin,85,0118,850118,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0119,850119,governor,Gina Hinojosa,DEM,827,matched,11/3/2026
+Collin,85,0119,850119,governor,Greg Abbott,REP,705,matched,11/3/2026
+Collin,85,0119,850119,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0119,850119,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0119,850119,us_senate,James Talarico,DEM,880,matched,11/3/2026
+Collin,85,0119,850119,us_senate,Ken Paxton,REP,635,matched,11/3/2026
+Collin,85,0119,850119,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Collin,85,0119,850119,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0120,850120,governor,Gina Hinojosa,DEM,1049,matched,11/3/2026
+Collin,85,0120,850120,governor,Greg Abbott,REP,1211,matched,11/3/2026
+Collin,85,0120,850120,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Collin,85,0120,850120,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0120,850120,us_senate,James Talarico,DEM,1141,matched,11/3/2026
+Collin,85,0120,850120,us_senate,Ken Paxton,REP,1110,matched,11/3/2026
+Collin,85,0120,850120,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Collin,85,0120,850120,us_senate,Write-in,,8,matched,11/3/2026
+Collin,85,0121,850121,governor,Gina Hinojosa,DEM,1087,matched,11/3/2026
+Collin,85,0121,850121,governor,Greg Abbott,REP,581,matched,11/3/2026
+Collin,85,0121,850121,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0121,850121,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0121,850121,us_senate,James Talarico,DEM,1184,matched,11/3/2026
+Collin,85,0121,850121,us_senate,Ken Paxton,REP,477,matched,11/3/2026
+Collin,85,0121,850121,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0121,850121,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0122,850122,governor,Gina Hinojosa,DEM,1215,matched,11/3/2026
+Collin,85,0122,850122,governor,Greg Abbott,REP,1864,matched,11/3/2026
+Collin,85,0122,850122,governor,Pat Dixon,LIB,34,matched,11/3/2026
+Collin,85,0122,850122,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0122,850122,us_senate,James Talarico,DEM,1320,matched,11/3/2026
+Collin,85,0122,850122,us_senate,Ken Paxton,REP,1722,matched,11/3/2026
+Collin,85,0122,850122,us_senate,Ted Brown,LIB,53,matched,11/3/2026
+Collin,85,0122,850122,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0123,850123,governor,Gina Hinojosa,DEM,608,matched,11/3/2026
+Collin,85,0123,850123,governor,Greg Abbott,REP,663,matched,11/3/2026
+Collin,85,0123,850123,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0123,850123,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0123,850123,us_senate,James Talarico,DEM,655,matched,11/3/2026
+Collin,85,0123,850123,us_senate,Ken Paxton,REP,598,matched,11/3/2026
+Collin,85,0123,850123,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0123,850123,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0124,850124,governor,Gina Hinojosa,DEM,1019,matched,11/3/2026
+Collin,85,0124,850124,governor,Greg Abbott,REP,753,matched,11/3/2026
+Collin,85,0124,850124,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Collin,85,0124,850124,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0124,850124,us_senate,James Talarico,DEM,1088,matched,11/3/2026
+Collin,85,0124,850124,us_senate,Ken Paxton,REP,673,matched,11/3/2026
+Collin,85,0124,850124,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0124,850124,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0125,850125,governor,Gina Hinojosa,DEM,873,matched,11/3/2026
+Collin,85,0125,850125,governor,Greg Abbott,REP,410,matched,11/3/2026
+Collin,85,0125,850125,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Collin,85,0125,850125,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0125,850125,us_senate,James Talarico,DEM,924,matched,11/3/2026
+Collin,85,0125,850125,us_senate,Ken Paxton,REP,359,matched,11/3/2026
+Collin,85,0125,850125,us_senate,Ted Brown,LIB,21,matched,11/3/2026
+Collin,85,0125,850125,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0126,850126,governor,Gina Hinojosa,DEM,1639,matched,11/3/2026
+Collin,85,0126,850126,governor,Greg Abbott,REP,1240,matched,11/3/2026
+Collin,85,0126,850126,governor,Pat Dixon,LIB,48,matched,11/3/2026
+Collin,85,0126,850126,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0126,850126,us_senate,James Talarico,DEM,1714,matched,11/3/2026
+Collin,85,0126,850126,us_senate,Ken Paxton,REP,1149,matched,11/3/2026
+Collin,85,0126,850126,us_senate,Ted Brown,LIB,52,matched,11/3/2026
+Collin,85,0126,850126,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0127,850127,governor,Gina Hinojosa,DEM,1216,matched,11/3/2026
+Collin,85,0127,850127,governor,Greg Abbott,REP,965,matched,11/3/2026
+Collin,85,0127,850127,governor,Pat Dixon,LIB,34,matched,11/3/2026
+Collin,85,0127,850127,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0127,850127,us_senate,James Talarico,DEM,1309,matched,11/3/2026
+Collin,85,0127,850127,us_senate,Ken Paxton,REP,882,matched,11/3/2026
+Collin,85,0127,850127,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0127,850127,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0128,850128,governor,Gina Hinojosa,DEM,631,matched,11/3/2026
+Collin,85,0128,850128,governor,Greg Abbott,REP,1425,matched,11/3/2026
+Collin,85,0128,850128,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Collin,85,0128,850128,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0128,850128,us_senate,James Talarico,DEM,684,matched,11/3/2026
+Collin,85,0128,850128,us_senate,Ken Paxton,REP,1328,matched,11/3/2026
+Collin,85,0128,850128,us_senate,Ted Brown,LIB,48,matched,11/3/2026
+Collin,85,0128,850128,us_senate,Write-in,,12,matched,11/3/2026
+Collin,85,0129,850129,governor,Gina Hinojosa,DEM,1372,matched,11/3/2026
+Collin,85,0129,850129,governor,Greg Abbott,REP,1207,matched,11/3/2026
+Collin,85,0129,850129,governor,Pat Dixon,LIB,46,matched,11/3/2026
+Collin,85,0129,850129,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0129,850129,us_senate,James Talarico,DEM,1452,matched,11/3/2026
+Collin,85,0129,850129,us_senate,Ken Paxton,REP,1107,matched,11/3/2026
+Collin,85,0129,850129,us_senate,Ted Brown,LIB,59,matched,11/3/2026
+Collin,85,0129,850129,us_senate,Write-in,,8,matched,11/3/2026
+Collin,85,0130,850130,governor,Gina Hinojosa,DEM,1458,matched,11/3/2026
+Collin,85,0130,850130,governor,Greg Abbott,REP,992,matched,11/3/2026
+Collin,85,0130,850130,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Collin,85,0130,850130,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0130,850130,us_senate,James Talarico,DEM,1550,matched,11/3/2026
+Collin,85,0130,850130,us_senate,Ken Paxton,REP,888,matched,11/3/2026
+Collin,85,0130,850130,us_senate,Ted Brown,LIB,39,matched,11/3/2026
+Collin,85,0130,850130,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0131,850131,governor,Gina Hinojosa,DEM,804,matched,11/3/2026
+Collin,85,0131,850131,governor,Greg Abbott,REP,975,matched,11/3/2026
+Collin,85,0131,850131,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Collin,85,0131,850131,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0131,850131,us_senate,James Talarico,DEM,872,matched,11/3/2026
+Collin,85,0131,850131,us_senate,Ken Paxton,REP,900,matched,11/3/2026
+Collin,85,0131,850131,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Collin,85,0131,850131,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0132,850132,governor,Gina Hinojosa,DEM,1048,matched,11/3/2026
+Collin,85,0132,850132,governor,Greg Abbott,REP,666,matched,11/3/2026
+Collin,85,0132,850132,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0132,850132,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0132,850132,us_senate,James Talarico,DEM,1103,matched,11/3/2026
+Collin,85,0132,850132,us_senate,Ken Paxton,REP,602,matched,11/3/2026
+Collin,85,0132,850132,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0132,850132,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0133,850133,governor,Gina Hinojosa,DEM,857,matched,11/3/2026
+Collin,85,0133,850133,governor,Greg Abbott,REP,673,matched,11/3/2026
+Collin,85,0133,850133,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Collin,85,0133,850133,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0133,850133,us_senate,James Talarico,DEM,884,matched,11/3/2026
+Collin,85,0133,850133,us_senate,Ken Paxton,REP,641,matched,11/3/2026
+Collin,85,0133,850133,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Collin,85,0133,850133,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0134,850134,governor,Gina Hinojosa,DEM,1415,matched,11/3/2026
+Collin,85,0134,850134,governor,Greg Abbott,REP,940,matched,11/3/2026
+Collin,85,0134,850134,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0134,850134,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0134,850134,us_senate,James Talarico,DEM,1540,matched,11/3/2026
+Collin,85,0134,850134,us_senate,Ken Paxton,REP,820,matched,11/3/2026
+Collin,85,0134,850134,us_senate,Ted Brown,LIB,26,matched,11/3/2026
+Collin,85,0134,850134,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0135,850135,governor,Gina Hinojosa,DEM,1450,matched,11/3/2026
+Collin,85,0135,850135,governor,Greg Abbott,REP,915,matched,11/3/2026
+Collin,85,0135,850135,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Collin,85,0135,850135,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0135,850135,us_senate,James Talarico,DEM,1578,matched,11/3/2026
+Collin,85,0135,850135,us_senate,Ken Paxton,REP,774,matched,11/3/2026
+Collin,85,0135,850135,us_senate,Ted Brown,LIB,36,matched,11/3/2026
+Collin,85,0135,850135,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0136,850136,governor,Gina Hinojosa,DEM,604,matched,11/3/2026
+Collin,85,0136,850136,governor,Greg Abbott,REP,632,matched,11/3/2026
+Collin,85,0136,850136,governor,Pat Dixon,LIB,12,matched,11/3/2026
+Collin,85,0136,850136,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0136,850136,us_senate,James Talarico,DEM,652,matched,11/3/2026
+Collin,85,0136,850136,us_senate,Ken Paxton,REP,571,matched,11/3/2026
+Collin,85,0136,850136,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Collin,85,0136,850136,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0137,850137,governor,Gina Hinojosa,DEM,575,matched,11/3/2026
+Collin,85,0137,850137,governor,Greg Abbott,REP,661,matched,11/3/2026
+Collin,85,0137,850137,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0137,850137,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0137,850137,us_senate,James Talarico,DEM,637,matched,11/3/2026
+Collin,85,0137,850137,us_senate,Ken Paxton,REP,596,matched,11/3/2026
+Collin,85,0137,850137,us_senate,Ted Brown,LIB,16,matched,11/3/2026
+Collin,85,0137,850137,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0138,850138,governor,Gina Hinojosa,DEM,910,matched,11/3/2026
+Collin,85,0138,850138,governor,Greg Abbott,REP,641,matched,11/3/2026
+Collin,85,0138,850138,governor,Pat Dixon,LIB,21,matched,11/3/2026
+Collin,85,0138,850138,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0138,850138,us_senate,James Talarico,DEM,964,matched,11/3/2026
+Collin,85,0138,850138,us_senate,Ken Paxton,REP,586,matched,11/3/2026
+Collin,85,0138,850138,us_senate,Ted Brown,LIB,21,matched,11/3/2026
+Collin,85,0138,850138,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0139,850139,governor,Gina Hinojosa,DEM,1323,matched,11/3/2026
+Collin,85,0139,850139,governor,Greg Abbott,REP,802,matched,11/3/2026
+Collin,85,0139,850139,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Collin,85,0139,850139,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0139,850139,us_senate,James Talarico,DEM,1414,matched,11/3/2026
+Collin,85,0139,850139,us_senate,Ken Paxton,REP,705,matched,11/3/2026
+Collin,85,0139,850139,us_senate,Ted Brown,LIB,23,matched,11/3/2026
+Collin,85,0139,850139,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0140,850140,governor,Gina Hinojosa,DEM,1176,matched,11/3/2026
+Collin,85,0140,850140,governor,Greg Abbott,REP,1692,matched,11/3/2026
+Collin,85,0140,850140,governor,Pat Dixon,LIB,42,matched,11/3/2026
+Collin,85,0140,850140,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0140,850140,us_senate,James Talarico,DEM,1266,matched,11/3/2026
+Collin,85,0140,850140,us_senate,Ken Paxton,REP,1594,matched,11/3/2026
+Collin,85,0140,850140,us_senate,Ted Brown,LIB,44,matched,11/3/2026
+Collin,85,0140,850140,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0141,850141,governor,Gina Hinojosa,DEM,1300,matched,11/3/2026
+Collin,85,0141,850141,governor,Greg Abbott,REP,930,matched,11/3/2026
+Collin,85,0141,850141,governor,Pat Dixon,LIB,42,matched,11/3/2026
+Collin,85,0141,850141,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0141,850141,us_senate,James Talarico,DEM,1395,matched,11/3/2026
+Collin,85,0141,850141,us_senate,Ken Paxton,REP,839,matched,11/3/2026
+Collin,85,0141,850141,us_senate,Ted Brown,LIB,37,matched,11/3/2026
+Collin,85,0141,850141,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0142,850142,governor,Gina Hinojosa,DEM,979,matched,11/3/2026
+Collin,85,0142,850142,governor,Greg Abbott,REP,744,matched,11/3/2026
+Collin,85,0142,850142,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Collin,85,0142,850142,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0142,850142,us_senate,James Talarico,DEM,1059,matched,11/3/2026
+Collin,85,0142,850142,us_senate,Ken Paxton,REP,661,matched,11/3/2026
+Collin,85,0142,850142,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Collin,85,0142,850142,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0143,850143,governor,Gina Hinojosa,DEM,607,matched,11/3/2026
+Collin,85,0143,850143,governor,Greg Abbott,REP,710,matched,11/3/2026
+Collin,85,0143,850143,governor,Pat Dixon,LIB,12,matched,11/3/2026
+Collin,85,0143,850143,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0143,850143,us_senate,James Talarico,DEM,675,matched,11/3/2026
+Collin,85,0143,850143,us_senate,Ken Paxton,REP,634,matched,11/3/2026
+Collin,85,0143,850143,us_senate,Ted Brown,LIB,13,matched,11/3/2026
+Collin,85,0143,850143,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0144,850144,governor,Gina Hinojosa,DEM,969,matched,11/3/2026
+Collin,85,0144,850144,governor,Greg Abbott,REP,882,matched,11/3/2026
+Collin,85,0144,850144,governor,Pat Dixon,LIB,22,matched,11/3/2026
+Collin,85,0144,850144,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0144,850144,us_senate,James Talarico,DEM,1028,matched,11/3/2026
+Collin,85,0144,850144,us_senate,Ken Paxton,REP,817,matched,11/3/2026
+Collin,85,0144,850144,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0144,850144,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0145,850145,governor,Gina Hinojosa,DEM,602,matched,11/3/2026
+Collin,85,0145,850145,governor,Greg Abbott,REP,452,matched,11/3/2026
+Collin,85,0145,850145,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Collin,85,0145,850145,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0145,850145,us_senate,James Talarico,DEM,655,matched,11/3/2026
+Collin,85,0145,850145,us_senate,Ken Paxton,REP,398,matched,11/3/2026
+Collin,85,0145,850145,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0145,850145,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0146,850146,governor,Gina Hinojosa,DEM,1528,matched,11/3/2026
+Collin,85,0146,850146,governor,Greg Abbott,REP,1162,matched,11/3/2026
+Collin,85,0146,850146,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Collin,85,0146,850146,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0146,850146,us_senate,James Talarico,DEM,1617,matched,11/3/2026
+Collin,85,0146,850146,us_senate,Ken Paxton,REP,1057,matched,11/3/2026
+Collin,85,0146,850146,us_senate,Ted Brown,LIB,42,matched,11/3/2026
+Collin,85,0146,850146,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0147,850147,governor,Gina Hinojosa,DEM,695,matched,11/3/2026
+Collin,85,0147,850147,governor,Greg Abbott,REP,430,matched,11/3/2026
+Collin,85,0147,850147,governor,Pat Dixon,LIB,11,matched,11/3/2026
+Collin,85,0147,850147,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0147,850147,us_senate,James Talarico,DEM,711,matched,11/3/2026
+Collin,85,0147,850147,us_senate,Ken Paxton,REP,411,matched,11/3/2026
+Collin,85,0147,850147,us_senate,Ted Brown,LIB,10,matched,11/3/2026
+Collin,85,0147,850147,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0148,850148,governor,Gina Hinojosa,DEM,580,matched,11/3/2026
+Collin,85,0148,850148,governor,Greg Abbott,REP,321,matched,11/3/2026
+Collin,85,0148,850148,governor,Pat Dixon,LIB,9,matched,11/3/2026
+Collin,85,0148,850148,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0148,850148,us_senate,James Talarico,DEM,598,matched,11/3/2026
+Collin,85,0148,850148,us_senate,Ken Paxton,REP,300,matched,11/3/2026
+Collin,85,0148,850148,us_senate,Ted Brown,LIB,9,matched,11/3/2026
+Collin,85,0148,850148,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0149,850149,governor,Gina Hinojosa,DEM,1293,matched,11/3/2026
+Collin,85,0149,850149,governor,Greg Abbott,REP,1467,matched,11/3/2026
+Collin,85,0149,850149,governor,Pat Dixon,LIB,39,matched,11/3/2026
+Collin,85,0149,850149,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0149,850149,us_senate,James Talarico,DEM,1394,matched,11/3/2026
+Collin,85,0149,850149,us_senate,Ken Paxton,REP,1367,matched,11/3/2026
+Collin,85,0149,850149,us_senate,Ted Brown,LIB,39,matched,11/3/2026
+Collin,85,0149,850149,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0150,850150,governor,Gina Hinojosa,DEM,780,matched,11/3/2026
+Collin,85,0150,850150,governor,Greg Abbott,REP,1166,matched,11/3/2026
+Collin,85,0150,850150,governor,Pat Dixon,LIB,17,matched,11/3/2026
+Collin,85,0150,850150,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0150,850150,us_senate,James Talarico,DEM,823,matched,11/3/2026
+Collin,85,0150,850150,us_senate,Ken Paxton,REP,1097,matched,11/3/2026
+Collin,85,0150,850150,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0150,850150,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0151,850151,governor,Gina Hinojosa,DEM,666,matched,11/3/2026
+Collin,85,0151,850151,governor,Greg Abbott,REP,421,matched,11/3/2026
+Collin,85,0151,850151,governor,Pat Dixon,LIB,8,matched,11/3/2026
+Collin,85,0151,850151,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0151,850151,us_senate,James Talarico,DEM,696,matched,11/3/2026
+Collin,85,0151,850151,us_senate,Ken Paxton,REP,379,matched,11/3/2026
+Collin,85,0151,850151,us_senate,Ted Brown,LIB,17,matched,11/3/2026
+Collin,85,0151,850151,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0152,850152,governor,Gina Hinojosa,DEM,98,matched,11/3/2026
+Collin,85,0152,850152,governor,Greg Abbott,REP,27,matched,11/3/2026
+Collin,85,0152,850152,governor,Pat Dixon,LIB,3,matched,11/3/2026
+Collin,85,0152,850152,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0152,850152,us_senate,James Talarico,DEM,102,matched,11/3/2026
+Collin,85,0152,850152,us_senate,Ken Paxton,REP,23,matched,11/3/2026
+Collin,85,0152,850152,us_senate,Ted Brown,LIB,3,matched,11/3/2026
+Collin,85,0152,850152,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0153,850153,governor,Gina Hinojosa,DEM,1334,matched,11/3/2026
+Collin,85,0153,850153,governor,Greg Abbott,REP,1064,matched,11/3/2026
+Collin,85,0153,850153,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Collin,85,0153,850153,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0153,850153,us_senate,James Talarico,DEM,1392,matched,11/3/2026
+Collin,85,0153,850153,us_senate,Ken Paxton,REP,985,matched,11/3/2026
+Collin,85,0153,850153,us_senate,Ted Brown,LIB,46,matched,11/3/2026
+Collin,85,0153,850153,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0154,850154,governor,Gina Hinojosa,DEM,881,matched,11/3/2026
+Collin,85,0154,850154,governor,Greg Abbott,REP,1785,matched,11/3/2026
+Collin,85,0154,850154,governor,Pat Dixon,LIB,37,matched,11/3/2026
+Collin,85,0154,850154,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0154,850154,us_senate,James Talarico,DEM,958,matched,11/3/2026
+Collin,85,0154,850154,us_senate,Ken Paxton,REP,1703,matched,11/3/2026
+Collin,85,0154,850154,us_senate,Ted Brown,LIB,44,matched,11/3/2026
+Collin,85,0154,850154,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0155,850155,governor,Gina Hinojosa,DEM,848,matched,11/3/2026
+Collin,85,0155,850155,governor,Greg Abbott,REP,895,matched,11/3/2026
+Collin,85,0155,850155,governor,Pat Dixon,LIB,37,matched,11/3/2026
+Collin,85,0155,850155,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0155,850155,us_senate,James Talarico,DEM,908,matched,11/3/2026
+Collin,85,0155,850155,us_senate,Ken Paxton,REP,841,matched,11/3/2026
+Collin,85,0155,850155,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0155,850155,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0156,850156,governor,Gina Hinojosa,DEM,1101,matched,11/3/2026
+Collin,85,0156,850156,governor,Greg Abbott,REP,901,matched,11/3/2026
+Collin,85,0156,850156,governor,Pat Dixon,LIB,40,matched,11/3/2026
+Collin,85,0156,850156,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0156,850156,us_senate,James Talarico,DEM,1142,matched,11/3/2026
+Collin,85,0156,850156,us_senate,Ken Paxton,REP,848,matched,11/3/2026
+Collin,85,0156,850156,us_senate,Ted Brown,LIB,53,matched,11/3/2026
+Collin,85,0156,850156,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0157,850157,governor,Gina Hinojosa,DEM,1588,matched,11/3/2026
+Collin,85,0157,850157,governor,Greg Abbott,REP,1220,matched,11/3/2026
+Collin,85,0157,850157,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Collin,85,0157,850157,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0157,850157,us_senate,James Talarico,DEM,1711,matched,11/3/2026
+Collin,85,0157,850157,us_senate,Ken Paxton,REP,1083,matched,11/3/2026
+Collin,85,0157,850157,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Collin,85,0157,850157,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0158,850158,governor,Gina Hinojosa,DEM,1112,matched,11/3/2026
+Collin,85,0158,850158,governor,Greg Abbott,REP,580,matched,11/3/2026
+Collin,85,0158,850158,governor,Pat Dixon,LIB,29,matched,11/3/2026
+Collin,85,0158,850158,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0158,850158,us_senate,James Talarico,DEM,1185,matched,11/3/2026
+Collin,85,0158,850158,us_senate,Ken Paxton,REP,498,matched,11/3/2026
+Collin,85,0158,850158,us_senate,Ted Brown,LIB,30,matched,11/3/2026
+Collin,85,0158,850158,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0159,850159,governor,Gina Hinojosa,DEM,1056,matched,11/3/2026
+Collin,85,0159,850159,governor,Greg Abbott,REP,641,matched,11/3/2026
+Collin,85,0159,850159,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Collin,85,0159,850159,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0159,850159,us_senate,James Talarico,DEM,1097,matched,11/3/2026
+Collin,85,0159,850159,us_senate,Ken Paxton,REP,596,matched,11/3/2026
+Collin,85,0159,850159,us_senate,Ted Brown,LIB,29,matched,11/3/2026
+Collin,85,0159,850159,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0160,850160,governor,Gina Hinojosa,DEM,66,matched,11/3/2026
+Collin,85,0160,850160,governor,Greg Abbott,REP,317,matched,11/3/2026
+Collin,85,0160,850160,governor,Pat Dixon,LIB,6,matched,11/3/2026
+Collin,85,0160,850160,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0160,850160,us_senate,James Talarico,DEM,77,matched,11/3/2026
+Collin,85,0160,850160,us_senate,Ken Paxton,REP,302,matched,11/3/2026
+Collin,85,0160,850160,us_senate,Ted Brown,LIB,9,matched,11/3/2026
+Collin,85,0160,850160,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0161,850161,governor,Gina Hinojosa,DEM,43,matched,11/3/2026
+Collin,85,0161,850161,governor,Greg Abbott,REP,87,matched,11/3/2026
+Collin,85,0161,850161,governor,Pat Dixon,LIB,6,matched,11/3/2026
+Collin,85,0161,850161,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0161,850161,us_senate,James Talarico,DEM,48,matched,11/3/2026
+Collin,85,0161,850161,us_senate,Ken Paxton,REP,81,matched,11/3/2026
+Collin,85,0161,850161,us_senate,Ted Brown,LIB,5,matched,11/3/2026
+Collin,85,0161,850161,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0162,850162,governor,Gina Hinojosa,DEM,373,matched,11/3/2026
+Collin,85,0162,850162,governor,Greg Abbott,REP,474,matched,11/3/2026
+Collin,85,0162,850162,governor,Pat Dixon,LIB,13,matched,11/3/2026
+Collin,85,0162,850162,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0162,850162,us_senate,James Talarico,DEM,395,matched,11/3/2026
+Collin,85,0162,850162,us_senate,Ken Paxton,REP,435,matched,11/3/2026
+Collin,85,0162,850162,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0162,850162,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0163,850163,governor,Gina Hinojosa,DEM,633,matched,11/3/2026
+Collin,85,0163,850163,governor,Greg Abbott,REP,559,matched,11/3/2026
+Collin,85,0163,850163,governor,Pat Dixon,LIB,18,matched,11/3/2026
+Collin,85,0163,850163,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0163,850163,us_senate,James Talarico,DEM,712,matched,11/3/2026
+Collin,85,0163,850163,us_senate,Ken Paxton,REP,483,matched,11/3/2026
+Collin,85,0163,850163,us_senate,Ted Brown,LIB,10,matched,11/3/2026
+Collin,85,0163,850163,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0164,850164,governor,Gina Hinojosa,DEM,769,matched,11/3/2026
+Collin,85,0164,850164,governor,Greg Abbott,REP,861,matched,11/3/2026
+Collin,85,0164,850164,governor,Pat Dixon,LIB,15,matched,11/3/2026
+Collin,85,0164,850164,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0164,850164,us_senate,James Talarico,DEM,863,matched,11/3/2026
+Collin,85,0164,850164,us_senate,Ken Paxton,REP,753,matched,11/3/2026
+Collin,85,0164,850164,us_senate,Ted Brown,LIB,21,matched,11/3/2026
+Collin,85,0164,850164,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0165,850165,governor,Gina Hinojosa,DEM,282,matched,11/3/2026
+Collin,85,0165,850165,governor,Greg Abbott,REP,339,matched,11/3/2026
+Collin,85,0165,850165,governor,Pat Dixon,LIB,5,matched,11/3/2026
+Collin,85,0165,850165,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0165,850165,us_senate,James Talarico,DEM,296,matched,11/3/2026
+Collin,85,0165,850165,us_senate,Ken Paxton,REP,317,matched,11/3/2026
+Collin,85,0165,850165,us_senate,Ted Brown,LIB,9,matched,11/3/2026
+Collin,85,0165,850165,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0166,850166,governor,Gina Hinojosa,DEM,1563,matched,11/3/2026
+Collin,85,0166,850166,governor,Greg Abbott,REP,1156,matched,11/3/2026
+Collin,85,0166,850166,governor,Pat Dixon,LIB,44,matched,11/3/2026
+Collin,85,0166,850166,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0166,850166,us_senate,James Talarico,DEM,1661,matched,11/3/2026
+Collin,85,0166,850166,us_senate,Ken Paxton,REP,1061,matched,11/3/2026
+Collin,85,0166,850166,us_senate,Ted Brown,LIB,39,matched,11/3/2026
+Collin,85,0166,850166,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0167,850167,governor,Gina Hinojosa,DEM,737,matched,11/3/2026
+Collin,85,0167,850167,governor,Greg Abbott,REP,484,matched,11/3/2026
+Collin,85,0167,850167,governor,Pat Dixon,LIB,9,matched,11/3/2026
+Collin,85,0167,850167,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0167,850167,us_senate,James Talarico,DEM,797,matched,11/3/2026
+Collin,85,0167,850167,us_senate,Ken Paxton,REP,419,matched,11/3/2026
+Collin,85,0167,850167,us_senate,Ted Brown,LIB,17,matched,11/3/2026
+Collin,85,0167,850167,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0168,850168,governor,Gina Hinojosa,DEM,447,matched,11/3/2026
+Collin,85,0168,850168,governor,Greg Abbott,REP,732,matched,11/3/2026
+Collin,85,0168,850168,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Collin,85,0168,850168,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0168,850168,us_senate,James Talarico,DEM,498,matched,11/3/2026
+Collin,85,0168,850168,us_senate,Ken Paxton,REP,661,matched,11/3/2026
+Collin,85,0168,850168,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Collin,85,0168,850168,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0169,850169,governor,Gina Hinojosa,DEM,1243,matched,11/3/2026
+Collin,85,0169,850169,governor,Greg Abbott,REP,831,matched,11/3/2026
+Collin,85,0169,850169,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Collin,85,0169,850169,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0169,850169,us_senate,James Talarico,DEM,1325,matched,11/3/2026
+Collin,85,0169,850169,us_senate,Ken Paxton,REP,742,matched,11/3/2026
+Collin,85,0169,850169,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0169,850169,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0170,850170,governor,Gina Hinojosa,DEM,515,matched,11/3/2026
+Collin,85,0170,850170,governor,Greg Abbott,REP,638,matched,11/3/2026
+Collin,85,0170,850170,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0170,850170,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0170,850170,us_senate,James Talarico,DEM,549,matched,11/3/2026
+Collin,85,0170,850170,us_senate,Ken Paxton,REP,601,matched,11/3/2026
+Collin,85,0170,850170,us_senate,Ted Brown,LIB,21,matched,11/3/2026
+Collin,85,0170,850170,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0171,850171,governor,Gina Hinojosa,DEM,1025,matched,11/3/2026
+Collin,85,0171,850171,governor,Greg Abbott,REP,743,matched,11/3/2026
+Collin,85,0171,850171,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Collin,85,0171,850171,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0171,850171,us_senate,James Talarico,DEM,1090,matched,11/3/2026
+Collin,85,0171,850171,us_senate,Ken Paxton,REP,667,matched,11/3/2026
+Collin,85,0171,850171,us_senate,Ted Brown,LIB,33,matched,11/3/2026
+Collin,85,0171,850171,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0172,850172,governor,Gina Hinojosa,DEM,919,matched,11/3/2026
+Collin,85,0172,850172,governor,Greg Abbott,REP,1253,matched,11/3/2026
+Collin,85,0172,850172,governor,Pat Dixon,LIB,39,matched,11/3/2026
+Collin,85,0172,850172,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0172,850172,us_senate,James Talarico,DEM,973,matched,11/3/2026
+Collin,85,0172,850172,us_senate,Ken Paxton,REP,1180,matched,11/3/2026
+Collin,85,0172,850172,us_senate,Ted Brown,LIB,48,matched,11/3/2026
+Collin,85,0172,850172,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0173,850173,governor,Gina Hinojosa,DEM,158,matched,11/3/2026
+Collin,85,0173,850173,governor,Greg Abbott,REP,249,matched,11/3/2026
+Collin,85,0173,850173,governor,Pat Dixon,LIB,5,matched,11/3/2026
+Collin,85,0173,850173,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0173,850173,us_senate,James Talarico,DEM,175,matched,11/3/2026
+Collin,85,0173,850173,us_senate,Ken Paxton,REP,228,matched,11/3/2026
+Collin,85,0173,850173,us_senate,Ted Brown,LIB,9,matched,11/3/2026
+Collin,85,0173,850173,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0174,850174,governor,Gina Hinojosa,DEM,1324,matched,11/3/2026
+Collin,85,0174,850174,governor,Greg Abbott,REP,1165,matched,11/3/2026
+Collin,85,0174,850174,governor,Pat Dixon,LIB,48,matched,11/3/2026
+Collin,85,0174,850174,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0174,850174,us_senate,James Talarico,DEM,1364,matched,11/3/2026
+Collin,85,0174,850174,us_senate,Ken Paxton,REP,1114,matched,11/3/2026
+Collin,85,0174,850174,us_senate,Ted Brown,LIB,50,matched,11/3/2026
+Collin,85,0174,850174,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0175,850175,governor,Gina Hinojosa,DEM,600,matched,11/3/2026
+Collin,85,0175,850175,governor,Greg Abbott,REP,661,matched,11/3/2026
+Collin,85,0175,850175,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Collin,85,0175,850175,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0175,850175,us_senate,James Talarico,DEM,632,matched,11/3/2026
+Collin,85,0175,850175,us_senate,Ken Paxton,REP,623,matched,11/3/2026
+Collin,85,0175,850175,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0175,850175,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0176,850176,governor,Gina Hinojosa,DEM,1080,matched,11/3/2026
+Collin,85,0176,850176,governor,Greg Abbott,REP,524,matched,11/3/2026
+Collin,85,0176,850176,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0176,850176,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0176,850176,us_senate,James Talarico,DEM,1128,matched,11/3/2026
+Collin,85,0176,850176,us_senate,Ken Paxton,REP,474,matched,11/3/2026
+Collin,85,0176,850176,us_senate,Ted Brown,LIB,17,matched,11/3/2026
+Collin,85,0176,850176,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0177,850177,governor,Gina Hinojosa,DEM,778,matched,11/3/2026
+Collin,85,0177,850177,governor,Greg Abbott,REP,925,matched,11/3/2026
+Collin,85,0177,850177,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Collin,85,0177,850177,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0177,850177,us_senate,James Talarico,DEM,842,matched,11/3/2026
+Collin,85,0177,850177,us_senate,Ken Paxton,REP,860,matched,11/3/2026
+Collin,85,0177,850177,us_senate,Ted Brown,LIB,26,matched,11/3/2026
+Collin,85,0177,850177,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0178,850178,governor,Gina Hinojosa,DEM,788,matched,11/3/2026
+Collin,85,0178,850178,governor,Greg Abbott,REP,1342,matched,11/3/2026
+Collin,85,0178,850178,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Collin,85,0178,850178,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0178,850178,us_senate,James Talarico,DEM,872,matched,11/3/2026
+Collin,85,0178,850178,us_senate,Ken Paxton,REP,1248,matched,11/3/2026
+Collin,85,0178,850178,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0178,850178,us_senate,Write-in,,8,matched,11/3/2026
+Collin,85,0179,850179,governor,Gina Hinojosa,DEM,1008,matched,11/3/2026
+Collin,85,0179,850179,governor,Greg Abbott,REP,2280,matched,11/3/2026
+Collin,85,0179,850179,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Collin,85,0179,850179,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0179,850179,us_senate,James Talarico,DEM,1138,matched,11/3/2026
+Collin,85,0179,850179,us_senate,Ken Paxton,REP,2117,matched,11/3/2026
+Collin,85,0179,850179,us_senate,Ted Brown,LIB,54,matched,11/3/2026
+Collin,85,0179,850179,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0180,850180,governor,Gina Hinojosa,DEM,1179,matched,11/3/2026
+Collin,85,0180,850180,governor,Greg Abbott,REP,815,matched,11/3/2026
+Collin,85,0180,850180,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Collin,85,0180,850180,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0180,850180,us_senate,James Talarico,DEM,1257,matched,11/3/2026
+Collin,85,0180,850180,us_senate,Ken Paxton,REP,727,matched,11/3/2026
+Collin,85,0180,850180,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0180,850180,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0181,850181,governor,Gina Hinojosa,DEM,862,matched,11/3/2026
+Collin,85,0181,850181,governor,Greg Abbott,REP,936,matched,11/3/2026
+Collin,85,0181,850181,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0181,850181,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0181,850181,us_senate,James Talarico,DEM,897,matched,11/3/2026
+Collin,85,0181,850181,us_senate,Ken Paxton,REP,898,matched,11/3/2026
+Collin,85,0181,850181,us_senate,Ted Brown,LIB,36,matched,11/3/2026
+Collin,85,0181,850181,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0182,850182,governor,Gina Hinojosa,DEM,1278,matched,11/3/2026
+Collin,85,0182,850182,governor,Greg Abbott,REP,1033,matched,11/3/2026
+Collin,85,0182,850182,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Collin,85,0182,850182,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0182,850182,us_senate,James Talarico,DEM,1369,matched,11/3/2026
+Collin,85,0182,850182,us_senate,Ken Paxton,REP,932,matched,11/3/2026
+Collin,85,0182,850182,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0182,850182,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0183,850183,governor,Gina Hinojosa,DEM,23,matched,11/3/2026
+Collin,85,0183,850183,governor,Greg Abbott,REP,71,matched,11/3/2026
+Collin,85,0183,850183,governor,Pat Dixon,LIB,0,matched,11/3/2026
+Collin,85,0183,850183,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0183,850183,us_senate,James Talarico,DEM,25,matched,11/3/2026
+Collin,85,0183,850183,us_senate,Ken Paxton,REP,68,matched,11/3/2026
+Collin,85,0183,850183,us_senate,Ted Brown,LIB,1,matched,11/3/2026
+Collin,85,0183,850183,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0184,850184,governor,Gina Hinojosa,DEM,916,matched,11/3/2026
+Collin,85,0184,850184,governor,Greg Abbott,REP,551,matched,11/3/2026
+Collin,85,0184,850184,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Collin,85,0184,850184,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0184,850184,us_senate,James Talarico,DEM,964,matched,11/3/2026
+Collin,85,0184,850184,us_senate,Ken Paxton,REP,507,matched,11/3/2026
+Collin,85,0184,850184,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Collin,85,0184,850184,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0185,850185,governor,Gina Hinojosa,DEM,1037,matched,11/3/2026
+Collin,85,0185,850185,governor,Greg Abbott,REP,1114,matched,11/3/2026
+Collin,85,0185,850185,governor,Pat Dixon,LIB,38,matched,11/3/2026
+Collin,85,0185,850185,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0185,850185,us_senate,James Talarico,DEM,1098,matched,11/3/2026
+Collin,85,0185,850185,us_senate,Ken Paxton,REP,1040,matched,11/3/2026
+Collin,85,0185,850185,us_senate,Ted Brown,LIB,49,matched,11/3/2026
+Collin,85,0185,850185,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0186,850186,governor,Gina Hinojosa,DEM,110,matched,11/3/2026
+Collin,85,0186,850186,governor,Greg Abbott,REP,413,matched,11/3/2026
+Collin,85,0186,850186,governor,Pat Dixon,LIB,4,matched,11/3/2026
+Collin,85,0186,850186,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0186,850186,us_senate,James Talarico,DEM,113,matched,11/3/2026
+Collin,85,0186,850186,us_senate,Ken Paxton,REP,396,matched,11/3/2026
+Collin,85,0186,850186,us_senate,Ted Brown,LIB,16,matched,11/3/2026
+Collin,85,0186,850186,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0187,850187,governor,Gina Hinojosa,DEM,380,matched,11/3/2026
+Collin,85,0187,850187,governor,Greg Abbott,REP,299,matched,11/3/2026
+Collin,85,0187,850187,governor,Pat Dixon,LIB,15,matched,11/3/2026
+Collin,85,0187,850187,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0187,850187,us_senate,James Talarico,DEM,405,matched,11/3/2026
+Collin,85,0187,850187,us_senate,Ken Paxton,REP,279,matched,11/3/2026
+Collin,85,0187,850187,us_senate,Ted Brown,LIB,13,matched,11/3/2026
+Collin,85,0187,850187,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0188,850188,governor,Gina Hinojosa,DEM,187,matched,11/3/2026
+Collin,85,0188,850188,governor,Greg Abbott,REP,219,matched,11/3/2026
+Collin,85,0188,850188,governor,Pat Dixon,LIB,18,matched,11/3/2026
+Collin,85,0188,850188,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0188,850188,us_senate,James Talarico,DEM,198,matched,11/3/2026
+Collin,85,0188,850188,us_senate,Ken Paxton,REP,209,matched,11/3/2026
+Collin,85,0188,850188,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Collin,85,0188,850188,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0189,850189,governor,Gina Hinojosa,DEM,551,matched,11/3/2026
+Collin,85,0189,850189,governor,Greg Abbott,REP,1020,matched,11/3/2026
+Collin,85,0189,850189,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Collin,85,0189,850189,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0189,850189,us_senate,James Talarico,DEM,571,matched,11/3/2026
+Collin,85,0189,850189,us_senate,Ken Paxton,REP,986,matched,11/3/2026
+Collin,85,0189,850189,us_senate,Ted Brown,LIB,33,matched,11/3/2026
+Collin,85,0189,850189,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0190,850190,governor,Gina Hinojosa,DEM,324,matched,11/3/2026
+Collin,85,0190,850190,governor,Greg Abbott,REP,478,matched,11/3/2026
+Collin,85,0190,850190,governor,Pat Dixon,LIB,9,matched,11/3/2026
+Collin,85,0190,850190,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0190,850190,us_senate,James Talarico,DEM,374,matched,11/3/2026
+Collin,85,0190,850190,us_senate,Ken Paxton,REP,430,matched,11/3/2026
+Collin,85,0190,850190,us_senate,Ted Brown,LIB,7,matched,11/3/2026
+Collin,85,0190,850190,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0191,850191,governor,Gina Hinojosa,DEM,289,matched,11/3/2026
+Collin,85,0191,850191,governor,Greg Abbott,REP,259,matched,11/3/2026
+Collin,85,0191,850191,governor,Pat Dixon,LIB,9,matched,11/3/2026
+Collin,85,0191,850191,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0191,850191,us_senate,James Talarico,DEM,306,matched,11/3/2026
+Collin,85,0191,850191,us_senate,Ken Paxton,REP,242,matched,11/3/2026
+Collin,85,0191,850191,us_senate,Ted Brown,LIB,7,matched,11/3/2026
+Collin,85,0191,850191,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0192,850192,governor,Gina Hinojosa,DEM,1065,matched,11/3/2026
+Collin,85,0192,850192,governor,Greg Abbott,REP,1545,matched,11/3/2026
+Collin,85,0192,850192,governor,Pat Dixon,LIB,54,matched,11/3/2026
+Collin,85,0192,850192,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0192,850192,us_senate,James Talarico,DEM,1128,matched,11/3/2026
+Collin,85,0192,850192,us_senate,Ken Paxton,REP,1461,matched,11/3/2026
+Collin,85,0192,850192,us_senate,Ted Brown,LIB,73,matched,11/3/2026
+Collin,85,0192,850192,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0193,850193,governor,Gina Hinojosa,DEM,245,matched,11/3/2026
+Collin,85,0193,850193,governor,Greg Abbott,REP,572,matched,11/3/2026
+Collin,85,0193,850193,governor,Pat Dixon,LIB,7,matched,11/3/2026
+Collin,85,0193,850193,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0193,850193,us_senate,James Talarico,DEM,255,matched,11/3/2026
+Collin,85,0193,850193,us_senate,Ken Paxton,REP,552,matched,11/3/2026
+Collin,85,0193,850193,us_senate,Ted Brown,LIB,10,matched,11/3/2026
+Collin,85,0193,850193,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0194,850194,governor,Gina Hinojosa,DEM,1302,matched,11/3/2026
+Collin,85,0194,850194,governor,Greg Abbott,REP,1457,matched,11/3/2026
+Collin,85,0194,850194,governor,Pat Dixon,LIB,53,matched,11/3/2026
+Collin,85,0194,850194,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0194,850194,us_senate,James Talarico,DEM,1380,matched,11/3/2026
+Collin,85,0194,850194,us_senate,Ken Paxton,REP,1360,matched,11/3/2026
+Collin,85,0194,850194,us_senate,Ted Brown,LIB,67,matched,11/3/2026
+Collin,85,0194,850194,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0195,850195,governor,Gina Hinojosa,DEM,182,matched,11/3/2026
+Collin,85,0195,850195,governor,Greg Abbott,REP,397,matched,11/3/2026
+Collin,85,0195,850195,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0195,850195,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0195,850195,us_senate,James Talarico,DEM,195,matched,11/3/2026
+Collin,85,0195,850195,us_senate,Ken Paxton,REP,377,matched,11/3/2026
+Collin,85,0195,850195,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Collin,85,0195,850195,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0196,850196,governor,Gina Hinojosa,DEM,598,matched,11/3/2026
+Collin,85,0196,850196,governor,Greg Abbott,REP,545,matched,11/3/2026
+Collin,85,0196,850196,governor,Pat Dixon,LIB,12,matched,11/3/2026
+Collin,85,0196,850196,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0196,850196,us_senate,James Talarico,DEM,634,matched,11/3/2026
+Collin,85,0196,850196,us_senate,Ken Paxton,REP,501,matched,11/3/2026
+Collin,85,0196,850196,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Collin,85,0196,850196,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0197,850197,governor,Gina Hinojosa,DEM,441,matched,11/3/2026
+Collin,85,0197,850197,governor,Greg Abbott,REP,289,matched,11/3/2026
+Collin,85,0197,850197,governor,Pat Dixon,LIB,17,matched,11/3/2026
+Collin,85,0197,850197,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0197,850197,us_senate,James Talarico,DEM,477,matched,11/3/2026
+Collin,85,0197,850197,us_senate,Ken Paxton,REP,248,matched,11/3/2026
+Collin,85,0197,850197,us_senate,Ted Brown,LIB,21,matched,11/3/2026
+Collin,85,0197,850197,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0198,850198,governor,Gina Hinojosa,DEM,1225,matched,11/3/2026
+Collin,85,0198,850198,governor,Greg Abbott,REP,1124,matched,11/3/2026
+Collin,85,0198,850198,governor,Pat Dixon,LIB,47,matched,11/3/2026
+Collin,85,0198,850198,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0198,850198,us_senate,James Talarico,DEM,1307,matched,11/3/2026
+Collin,85,0198,850198,us_senate,Ken Paxton,REP,1053,matched,11/3/2026
+Collin,85,0198,850198,us_senate,Ted Brown,LIB,37,matched,11/3/2026
+Collin,85,0198,850198,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0199,850199,governor,Gina Hinojosa,DEM,1002,matched,11/3/2026
+Collin,85,0199,850199,governor,Greg Abbott,REP,1732,matched,11/3/2026
+Collin,85,0199,850199,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Collin,85,0199,850199,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0199,850199,us_senate,James Talarico,DEM,1119,matched,11/3/2026
+Collin,85,0199,850199,us_senate,Ken Paxton,REP,1586,matched,11/3/2026
+Collin,85,0199,850199,us_senate,Ted Brown,LIB,39,matched,11/3/2026
+Collin,85,0199,850199,us_senate,Write-in,,10,matched,11/3/2026
+Collin,85,0200,850200,governor,Gina Hinojosa,DEM,774,matched,11/3/2026
+Collin,85,0200,850200,governor,Greg Abbott,REP,1038,matched,11/3/2026
+Collin,85,0200,850200,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0200,850200,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0200,850200,us_senate,James Talarico,DEM,843,matched,11/3/2026
+Collin,85,0200,850200,us_senate,Ken Paxton,REP,968,matched,11/3/2026
+Collin,85,0200,850200,us_senate,Ted Brown,LIB,30,matched,11/3/2026
+Collin,85,0200,850200,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0201,850201,governor,Gina Hinojosa,DEM,0,matched,11/3/2026
+Collin,85,0201,850201,governor,Greg Abbott,REP,0,matched,11/3/2026
+Collin,85,0201,850201,governor,Pat Dixon,LIB,0,matched,11/3/2026
+Collin,85,0201,850201,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0201,850201,us_senate,James Talarico,DEM,0,matched,11/3/2026
+Collin,85,0201,850201,us_senate,Ken Paxton,REP,0,matched,11/3/2026
+Collin,85,0201,850201,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Collin,85,0201,850201,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0203,850203,governor,Gina Hinojosa,DEM,841,matched,11/3/2026
+Collin,85,0203,850203,governor,Greg Abbott,REP,1149,matched,11/3/2026
+Collin,85,0203,850203,governor,Pat Dixon,LIB,26,matched,11/3/2026
+Collin,85,0203,850203,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0203,850203,us_senate,James Talarico,DEM,899,matched,11/3/2026
+Collin,85,0203,850203,us_senate,Ken Paxton,REP,1086,matched,11/3/2026
+Collin,85,0203,850203,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Collin,85,0203,850203,us_senate,Write-in,,8,matched,11/3/2026
+Collin,85,0204,850204,governor,Gina Hinojosa,DEM,111,matched,11/3/2026
+Collin,85,0204,850204,governor,Greg Abbott,REP,155,matched,11/3/2026
+Collin,85,0204,850204,governor,Pat Dixon,LIB,6,matched,11/3/2026
+Collin,85,0204,850204,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0204,850204,us_senate,James Talarico,DEM,123,matched,11/3/2026
+Collin,85,0204,850204,us_senate,Ken Paxton,REP,142,matched,11/3/2026
+Collin,85,0204,850204,us_senate,Ted Brown,LIB,3,matched,11/3/2026
+Collin,85,0204,850204,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0205,850205,governor,Gina Hinojosa,DEM,445,matched,11/3/2026
+Collin,85,0205,850205,governor,Greg Abbott,REP,347,matched,11/3/2026
+Collin,85,0205,850205,governor,Pat Dixon,LIB,9,matched,11/3/2026
+Collin,85,0205,850205,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0205,850205,us_senate,James Talarico,DEM,460,matched,11/3/2026
+Collin,85,0205,850205,us_senate,Ken Paxton,REP,323,matched,11/3/2026
+Collin,85,0205,850205,us_senate,Ted Brown,LIB,13,matched,11/3/2026
+Collin,85,0205,850205,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0206,850206,governor,Gina Hinojosa,DEM,562,matched,11/3/2026
+Collin,85,0206,850206,governor,Greg Abbott,REP,655,matched,11/3/2026
+Collin,85,0206,850206,governor,Pat Dixon,LIB,17,matched,11/3/2026
+Collin,85,0206,850206,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0206,850206,us_senate,James Talarico,DEM,597,matched,11/3/2026
+Collin,85,0206,850206,us_senate,Ken Paxton,REP,614,matched,11/3/2026
+Collin,85,0206,850206,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Collin,85,0206,850206,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0207,850207,governor,Gina Hinojosa,DEM,1118,matched,11/3/2026
+Collin,85,0207,850207,governor,Greg Abbott,REP,1276,matched,11/3/2026
+Collin,85,0207,850207,governor,Pat Dixon,LIB,54,matched,11/3/2026
+Collin,85,0207,850207,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0207,850207,us_senate,James Talarico,DEM,1186,matched,11/3/2026
+Collin,85,0207,850207,us_senate,Ken Paxton,REP,1203,matched,11/3/2026
+Collin,85,0207,850207,us_senate,Ted Brown,LIB,46,matched,11/3/2026
+Collin,85,0207,850207,us_senate,Write-in,,10,matched,11/3/2026
+Collin,85,0208,850208,governor,Gina Hinojosa,DEM,1246,matched,11/3/2026
+Collin,85,0208,850208,governor,Greg Abbott,REP,1532,matched,11/3/2026
+Collin,85,0208,850208,governor,Pat Dixon,LIB,46,matched,11/3/2026
+Collin,85,0208,850208,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0208,850208,us_senate,James Talarico,DEM,1366,matched,11/3/2026
+Collin,85,0208,850208,us_senate,Ken Paxton,REP,1399,matched,11/3/2026
+Collin,85,0208,850208,us_senate,Ted Brown,LIB,56,matched,11/3/2026
+Collin,85,0208,850208,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0209,850209,governor,Gina Hinojosa,DEM,34,matched,11/3/2026
+Collin,85,0209,850209,governor,Greg Abbott,REP,68,matched,11/3/2026
+Collin,85,0209,850209,governor,Pat Dixon,LIB,1,matched,11/3/2026
+Collin,85,0209,850209,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0209,850209,us_senate,James Talarico,DEM,36,matched,11/3/2026
+Collin,85,0209,850209,us_senate,Ken Paxton,REP,64,matched,11/3/2026
+Collin,85,0209,850209,us_senate,Ted Brown,LIB,3,matched,11/3/2026
+Collin,85,0209,850209,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0210,850210,governor,Gina Hinojosa,DEM,767,matched,11/3/2026
+Collin,85,0210,850210,governor,Greg Abbott,REP,407,matched,11/3/2026
+Collin,85,0210,850210,governor,Pat Dixon,LIB,11,matched,11/3/2026
+Collin,85,0210,850210,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0210,850210,us_senate,James Talarico,DEM,809,matched,11/3/2026
+Collin,85,0210,850210,us_senate,Ken Paxton,REP,360,matched,11/3/2026
+Collin,85,0210,850210,us_senate,Ted Brown,LIB,16,matched,11/3/2026
+Collin,85,0210,850210,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0211,850211,governor,Gina Hinojosa,DEM,1064,matched,11/3/2026
+Collin,85,0211,850211,governor,Greg Abbott,REP,1008,matched,11/3/2026
+Collin,85,0211,850211,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0211,850211,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0211,850211,us_senate,James Talarico,DEM,1143,matched,11/3/2026
+Collin,85,0211,850211,us_senate,Ken Paxton,REP,930,matched,11/3/2026
+Collin,85,0211,850211,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Collin,85,0211,850211,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0212,850212,governor,Gina Hinojosa,DEM,946,matched,11/3/2026
+Collin,85,0212,850212,governor,Greg Abbott,REP,721,matched,11/3/2026
+Collin,85,0212,850212,governor,Pat Dixon,LIB,16,matched,11/3/2026
+Collin,85,0212,850212,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0212,850212,us_senate,James Talarico,DEM,1097,matched,11/3/2026
+Collin,85,0212,850212,us_senate,Ken Paxton,REP,562,matched,11/3/2026
+Collin,85,0212,850212,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Collin,85,0212,850212,us_senate,Write-in,,8,matched,11/3/2026
+Collin,85,0213,850213,governor,Gina Hinojosa,DEM,1292,matched,11/3/2026
+Collin,85,0213,850213,governor,Greg Abbott,REP,883,matched,11/3/2026
+Collin,85,0213,850213,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Collin,85,0213,850213,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0213,850213,us_senate,James Talarico,DEM,1420,matched,11/3/2026
+Collin,85,0213,850213,us_senate,Ken Paxton,REP,753,matched,11/3/2026
+Collin,85,0213,850213,us_senate,Ted Brown,LIB,32,matched,11/3/2026
+Collin,85,0213,850213,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0214,850214,governor,Gina Hinojosa,DEM,635,matched,11/3/2026
+Collin,85,0214,850214,governor,Greg Abbott,REP,1854,matched,11/3/2026
+Collin,85,0214,850214,governor,Pat Dixon,LIB,19,matched,11/3/2026
+Collin,85,0214,850214,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0214,850214,us_senate,James Talarico,DEM,702,matched,11/3/2026
+Collin,85,0214,850214,us_senate,Ken Paxton,REP,1754,matched,11/3/2026
+Collin,85,0214,850214,us_senate,Ted Brown,LIB,36,matched,11/3/2026
+Collin,85,0214,850214,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0215,850215,governor,Gina Hinojosa,DEM,1020,matched,11/3/2026
+Collin,85,0215,850215,governor,Greg Abbott,REP,844,matched,11/3/2026
+Collin,85,0215,850215,governor,Pat Dixon,LIB,35,matched,11/3/2026
+Collin,85,0215,850215,governor,Write-in,,6,matched,11/3/2026
+Collin,85,0215,850215,us_senate,James Talarico,DEM,1066,matched,11/3/2026
+Collin,85,0215,850215,us_senate,Ken Paxton,REP,784,matched,11/3/2026
+Collin,85,0215,850215,us_senate,Ted Brown,LIB,41,matched,11/3/2026
+Collin,85,0215,850215,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0216,850216,governor,Gina Hinojosa,DEM,1224,matched,11/3/2026
+Collin,85,0216,850216,governor,Greg Abbott,REP,1767,matched,11/3/2026
+Collin,85,0216,850216,governor,Pat Dixon,LIB,45,matched,11/3/2026
+Collin,85,0216,850216,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0216,850216,us_senate,James Talarico,DEM,1291,matched,11/3/2026
+Collin,85,0216,850216,us_senate,Ken Paxton,REP,1679,matched,11/3/2026
+Collin,85,0216,850216,us_senate,Ted Brown,LIB,64,matched,11/3/2026
+Collin,85,0216,850216,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0217,850217,governor,Gina Hinojosa,DEM,923,matched,11/3/2026
+Collin,85,0217,850217,governor,Greg Abbott,REP,906,matched,11/3/2026
+Collin,85,0217,850217,governor,Pat Dixon,LIB,38,matched,11/3/2026
+Collin,85,0217,850217,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0217,850217,us_senate,James Talarico,DEM,966,matched,11/3/2026
+Collin,85,0217,850217,us_senate,Ken Paxton,REP,856,matched,11/3/2026
+Collin,85,0217,850217,us_senate,Ted Brown,LIB,36,matched,11/3/2026
+Collin,85,0217,850217,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0218,850218,governor,Gina Hinojosa,DEM,1535,matched,11/3/2026
+Collin,85,0218,850218,governor,Greg Abbott,REP,1171,matched,11/3/2026
+Collin,85,0218,850218,governor,Pat Dixon,LIB,35,matched,11/3/2026
+Collin,85,0218,850218,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0218,850218,us_senate,James Talarico,DEM,1681,matched,11/3/2026
+Collin,85,0218,850218,us_senate,Ken Paxton,REP,1009,matched,11/3/2026
+Collin,85,0218,850218,us_senate,Ted Brown,LIB,42,matched,11/3/2026
+Collin,85,0218,850218,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0219,850219,governor,Gina Hinojosa,DEM,1565,matched,11/3/2026
+Collin,85,0219,850219,governor,Greg Abbott,REP,1116,matched,11/3/2026
+Collin,85,0219,850219,governor,Pat Dixon,LIB,35,matched,11/3/2026
+Collin,85,0219,850219,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0219,850219,us_senate,James Talarico,DEM,1686,matched,11/3/2026
+Collin,85,0219,850219,us_senate,Ken Paxton,REP,993,matched,11/3/2026
+Collin,85,0219,850219,us_senate,Ted Brown,LIB,40,matched,11/3/2026
+Collin,85,0219,850219,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0220,850220,governor,Gina Hinojosa,DEM,1052,matched,11/3/2026
+Collin,85,0220,850220,governor,Greg Abbott,REP,619,matched,11/3/2026
+Collin,85,0220,850220,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0220,850220,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0220,850220,us_senate,James Talarico,DEM,1194,matched,11/3/2026
+Collin,85,0220,850220,us_senate,Ken Paxton,REP,477,matched,11/3/2026
+Collin,85,0220,850220,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Collin,85,0220,850220,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0221,850221,governor,Gina Hinojosa,DEM,450,matched,11/3/2026
+Collin,85,0221,850221,governor,Greg Abbott,REP,852,matched,11/3/2026
+Collin,85,0221,850221,governor,Pat Dixon,LIB,21,matched,11/3/2026
+Collin,85,0221,850221,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0221,850221,us_senate,James Talarico,DEM,491,matched,11/3/2026
+Collin,85,0221,850221,us_senate,Ken Paxton,REP,796,matched,11/3/2026
+Collin,85,0221,850221,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0221,850221,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0222,850222,governor,Gina Hinojosa,DEM,1394,matched,11/3/2026
+Collin,85,0222,850222,governor,Greg Abbott,REP,1076,matched,11/3/2026
+Collin,85,0222,850222,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Collin,85,0222,850222,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0222,850222,us_senate,James Talarico,DEM,1548,matched,11/3/2026
+Collin,85,0222,850222,us_senate,Ken Paxton,REP,910,matched,11/3/2026
+Collin,85,0222,850222,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0222,850222,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0223,850223,governor,Gina Hinojosa,DEM,913,matched,11/3/2026
+Collin,85,0223,850223,governor,Greg Abbott,REP,721,matched,11/3/2026
+Collin,85,0223,850223,governor,Pat Dixon,LIB,15,matched,11/3/2026
+Collin,85,0223,850223,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0223,850223,us_senate,James Talarico,DEM,996,matched,11/3/2026
+Collin,85,0223,850223,us_senate,Ken Paxton,REP,633,matched,11/3/2026
+Collin,85,0223,850223,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Collin,85,0223,850223,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0224,850224,governor,Gina Hinojosa,DEM,673,matched,11/3/2026
+Collin,85,0224,850224,governor,Greg Abbott,REP,1457,matched,11/3/2026
+Collin,85,0224,850224,governor,Pat Dixon,LIB,25,matched,11/3/2026
+Collin,85,0224,850224,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0224,850224,us_senate,James Talarico,DEM,743,matched,11/3/2026
+Collin,85,0224,850224,us_senate,Ken Paxton,REP,1395,matched,11/3/2026
+Collin,85,0224,850224,us_senate,Ted Brown,LIB,13,matched,11/3/2026
+Collin,85,0224,850224,us_senate,Write-in,,8,matched,11/3/2026
+Collin,85,0225,850225,governor,Gina Hinojosa,DEM,1428,matched,11/3/2026
+Collin,85,0225,850225,governor,Greg Abbott,REP,902,matched,11/3/2026
+Collin,85,0225,850225,governor,Pat Dixon,LIB,43,matched,11/3/2026
+Collin,85,0225,850225,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0225,850225,us_senate,James Talarico,DEM,1606,matched,11/3/2026
+Collin,85,0225,850225,us_senate,Ken Paxton,REP,735,matched,11/3/2026
+Collin,85,0225,850225,us_senate,Ted Brown,LIB,39,matched,11/3/2026
+Collin,85,0225,850225,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0226,850226,governor,Gina Hinojosa,DEM,1372,matched,11/3/2026
+Collin,85,0226,850226,governor,Greg Abbott,REP,990,matched,11/3/2026
+Collin,85,0226,850226,governor,Pat Dixon,LIB,42,matched,11/3/2026
+Collin,85,0226,850226,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0226,850226,us_senate,James Talarico,DEM,1444,matched,11/3/2026
+Collin,85,0226,850226,us_senate,Ken Paxton,REP,912,matched,11/3/2026
+Collin,85,0226,850226,us_senate,Ted Brown,LIB,47,matched,11/3/2026
+Collin,85,0226,850226,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0227,850227,governor,Gina Hinojosa,DEM,1441,matched,11/3/2026
+Collin,85,0227,850227,governor,Greg Abbott,REP,1191,matched,11/3/2026
+Collin,85,0227,850227,governor,Pat Dixon,LIB,40,matched,11/3/2026
+Collin,85,0227,850227,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0227,850227,us_senate,James Talarico,DEM,1544,matched,11/3/2026
+Collin,85,0227,850227,us_senate,Ken Paxton,REP,1081,matched,11/3/2026
+Collin,85,0227,850227,us_senate,Ted Brown,LIB,45,matched,11/3/2026
+Collin,85,0227,850227,us_senate,Write-in,,6,matched,11/3/2026
+Collin,85,0228,850228,governor,Gina Hinojosa,DEM,1490,matched,11/3/2026
+Collin,85,0228,850228,governor,Greg Abbott,REP,845,matched,11/3/2026
+Collin,85,0228,850228,governor,Pat Dixon,LIB,58,matched,11/3/2026
+Collin,85,0228,850228,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0228,850228,us_senate,James Talarico,DEM,1539,matched,11/3/2026
+Collin,85,0228,850228,us_senate,Ken Paxton,REP,793,matched,11/3/2026
+Collin,85,0228,850228,us_senate,Ted Brown,LIB,60,matched,11/3/2026
+Collin,85,0228,850228,us_senate,Write-in,,7,matched,11/3/2026
+Collin,85,0229,850229,governor,Gina Hinojosa,DEM,748,matched,11/3/2026
+Collin,85,0229,850229,governor,Greg Abbott,REP,495,matched,11/3/2026
+Collin,85,0229,850229,governor,Pat Dixon,LIB,15,matched,11/3/2026
+Collin,85,0229,850229,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0229,850229,us_senate,James Talarico,DEM,783,matched,11/3/2026
+Collin,85,0229,850229,us_senate,Ken Paxton,REP,453,matched,11/3/2026
+Collin,85,0229,850229,us_senate,Ted Brown,LIB,16,matched,11/3/2026
+Collin,85,0229,850229,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0230,850230,governor,Gina Hinojosa,DEM,1493,matched,11/3/2026
+Collin,85,0230,850230,governor,Greg Abbott,REP,909,matched,11/3/2026
+Collin,85,0230,850230,governor,Pat Dixon,LIB,39,matched,11/3/2026
+Collin,85,0230,850230,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0230,850230,us_senate,James Talarico,DEM,1606,matched,11/3/2026
+Collin,85,0230,850230,us_senate,Ken Paxton,REP,800,matched,11/3/2026
+Collin,85,0230,850230,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Collin,85,0230,850230,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0231,850231,governor,Gina Hinojosa,DEM,1853,matched,11/3/2026
+Collin,85,0231,850231,governor,Greg Abbott,REP,1495,matched,11/3/2026
+Collin,85,0231,850231,governor,Pat Dixon,LIB,55,matched,11/3/2026
+Collin,85,0231,850231,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0231,850231,us_senate,James Talarico,DEM,1986,matched,11/3/2026
+Collin,85,0231,850231,us_senate,Ken Paxton,REP,1358,matched,11/3/2026
+Collin,85,0231,850231,us_senate,Ted Brown,LIB,43,matched,11/3/2026
+Collin,85,0231,850231,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0232,850232,governor,Gina Hinojosa,DEM,1166,matched,11/3/2026
+Collin,85,0232,850232,governor,Greg Abbott,REP,1139,matched,11/3/2026
+Collin,85,0232,850232,governor,Pat Dixon,LIB,33,matched,11/3/2026
+Collin,85,0232,850232,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0232,850232,us_senate,James Talarico,DEM,1208,matched,11/3/2026
+Collin,85,0232,850232,us_senate,Ken Paxton,REP,1083,matched,11/3/2026
+Collin,85,0232,850232,us_senate,Ted Brown,LIB,41,matched,11/3/2026
+Collin,85,0232,850232,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0233,850233,governor,Gina Hinojosa,DEM,635,matched,11/3/2026
+Collin,85,0233,850233,governor,Greg Abbott,REP,581,matched,11/3/2026
+Collin,85,0233,850233,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Collin,85,0233,850233,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0233,850233,us_senate,James Talarico,DEM,655,matched,11/3/2026
+Collin,85,0233,850233,us_senate,Ken Paxton,REP,549,matched,11/3/2026
+Collin,85,0233,850233,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Collin,85,0233,850233,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0234,850234,governor,Gina Hinojosa,DEM,1387,matched,11/3/2026
+Collin,85,0234,850234,governor,Greg Abbott,REP,915,matched,11/3/2026
+Collin,85,0234,850234,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0234,850234,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0234,850234,us_senate,James Talarico,DEM,1599,matched,11/3/2026
+Collin,85,0234,850234,us_senate,Ken Paxton,REP,688,matched,11/3/2026
+Collin,85,0234,850234,us_senate,Ted Brown,LIB,41,matched,11/3/2026
+Collin,85,0234,850234,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0235,850235,governor,Gina Hinojosa,DEM,659,matched,11/3/2026
+Collin,85,0235,850235,governor,Greg Abbott,REP,491,matched,11/3/2026
+Collin,85,0235,850235,governor,Pat Dixon,LIB,20,matched,11/3/2026
+Collin,85,0235,850235,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0235,850235,us_senate,James Talarico,DEM,723,matched,11/3/2026
+Collin,85,0235,850235,us_senate,Ken Paxton,REP,422,matched,11/3/2026
+Collin,85,0235,850235,us_senate,Ted Brown,LIB,19,matched,11/3/2026
+Collin,85,0235,850235,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0236,850236,governor,Gina Hinojosa,DEM,880,matched,11/3/2026
+Collin,85,0236,850236,governor,Greg Abbott,REP,1218,matched,11/3/2026
+Collin,85,0236,850236,governor,Pat Dixon,LIB,23,matched,11/3/2026
+Collin,85,0236,850236,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0236,850236,us_senate,James Talarico,DEM,935,matched,11/3/2026
+Collin,85,0236,850236,us_senate,Ken Paxton,REP,1140,matched,11/3/2026
+Collin,85,0236,850236,us_senate,Ted Brown,LIB,35,matched,11/3/2026
+Collin,85,0236,850236,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0237,850237,governor,Gina Hinojosa,DEM,773,matched,11/3/2026
+Collin,85,0237,850237,governor,Greg Abbott,REP,523,matched,11/3/2026
+Collin,85,0237,850237,governor,Pat Dixon,LIB,15,matched,11/3/2026
+Collin,85,0237,850237,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0237,850237,us_senate,James Talarico,DEM,806,matched,11/3/2026
+Collin,85,0237,850237,us_senate,Ken Paxton,REP,488,matched,11/3/2026
+Collin,85,0237,850237,us_senate,Ted Brown,LIB,16,matched,11/3/2026
+Collin,85,0237,850237,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0238,850238,governor,Gina Hinojosa,DEM,1276,matched,11/3/2026
+Collin,85,0238,850238,governor,Greg Abbott,REP,740,matched,11/3/2026
+Collin,85,0238,850238,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Collin,85,0238,850238,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0238,850238,us_senate,James Talarico,DEM,1356,matched,11/3/2026
+Collin,85,0238,850238,us_senate,Ken Paxton,REP,668,matched,11/3/2026
+Collin,85,0238,850238,us_senate,Ted Brown,LIB,22,matched,11/3/2026
+Collin,85,0238,850238,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0239,850239,governor,Gina Hinojosa,DEM,908,matched,11/3/2026
+Collin,85,0239,850239,governor,Greg Abbott,REP,1578,matched,11/3/2026
+Collin,85,0239,850239,governor,Pat Dixon,LIB,39,matched,11/3/2026
+Collin,85,0239,850239,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0239,850239,us_senate,James Talarico,DEM,994,matched,11/3/2026
+Collin,85,0239,850239,us_senate,Ken Paxton,REP,1487,matched,11/3/2026
+Collin,85,0239,850239,us_senate,Ted Brown,LIB,42,matched,11/3/2026
+Collin,85,0239,850239,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0240,850240,governor,Gina Hinojosa,DEM,1127,matched,11/3/2026
+Collin,85,0240,850240,governor,Greg Abbott,REP,1645,matched,11/3/2026
+Collin,85,0240,850240,governor,Pat Dixon,LIB,39,matched,11/3/2026
+Collin,85,0240,850240,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0240,850240,us_senate,James Talarico,DEM,1238,matched,11/3/2026
+Collin,85,0240,850240,us_senate,Ken Paxton,REP,1531,matched,11/3/2026
+Collin,85,0240,850240,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Collin,85,0240,850240,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0241,850241,governor,Gina Hinojosa,DEM,557,matched,11/3/2026
+Collin,85,0241,850241,governor,Greg Abbott,REP,450,matched,11/3/2026
+Collin,85,0241,850241,governor,Pat Dixon,LIB,14,matched,11/3/2026
+Collin,85,0241,850241,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0241,850241,us_senate,James Talarico,DEM,590,matched,11/3/2026
+Collin,85,0241,850241,us_senate,Ken Paxton,REP,413,matched,11/3/2026
+Collin,85,0241,850241,us_senate,Ted Brown,LIB,15,matched,11/3/2026
+Collin,85,0241,850241,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0242,850242,governor,Gina Hinojosa,DEM,1172,matched,11/3/2026
+Collin,85,0242,850242,governor,Greg Abbott,REP,1093,matched,11/3/2026
+Collin,85,0242,850242,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Collin,85,0242,850242,governor,Write-in,,4,matched,11/3/2026
+Collin,85,0242,850242,us_senate,James Talarico,DEM,1309,matched,11/3/2026
+Collin,85,0242,850242,us_senate,Ken Paxton,REP,949,matched,11/3/2026
+Collin,85,0242,850242,us_senate,Ted Brown,LIB,40,matched,11/3/2026
+Collin,85,0242,850242,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0243,850243,governor,Gina Hinojosa,DEM,437,matched,11/3/2026
+Collin,85,0243,850243,governor,Greg Abbott,REP,712,matched,11/3/2026
+Collin,85,0243,850243,governor,Pat Dixon,LIB,10,matched,11/3/2026
+Collin,85,0243,850243,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0243,850243,us_senate,James Talarico,DEM,486,matched,11/3/2026
+Collin,85,0243,850243,us_senate,Ken Paxton,REP,660,matched,11/3/2026
+Collin,85,0243,850243,us_senate,Ted Brown,LIB,11,matched,11/3/2026
+Collin,85,0243,850243,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0244,850244,governor,Gina Hinojosa,DEM,1018,matched,11/3/2026
+Collin,85,0244,850244,governor,Greg Abbott,REP,919,matched,11/3/2026
+Collin,85,0244,850244,governor,Pat Dixon,LIB,22,matched,11/3/2026
+Collin,85,0244,850244,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0244,850244,us_senate,James Talarico,DEM,1114,matched,11/3/2026
+Collin,85,0244,850244,us_senate,Ken Paxton,REP,810,matched,11/3/2026
+Collin,85,0244,850244,us_senate,Ted Brown,LIB,33,matched,11/3/2026
+Collin,85,0244,850244,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0245,850245,governor,Gina Hinojosa,DEM,725,matched,11/3/2026
+Collin,85,0245,850245,governor,Greg Abbott,REP,651,matched,11/3/2026
+Collin,85,0245,850245,governor,Pat Dixon,LIB,15,matched,11/3/2026
+Collin,85,0245,850245,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0245,850245,us_senate,James Talarico,DEM,773,matched,11/3/2026
+Collin,85,0245,850245,us_senate,Ken Paxton,REP,590,matched,11/3/2026
+Collin,85,0245,850245,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0245,850245,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0246,850246,governor,Gina Hinojosa,DEM,950,matched,11/3/2026
+Collin,85,0246,850246,governor,Greg Abbott,REP,933,matched,11/3/2026
+Collin,85,0246,850246,governor,Pat Dixon,LIB,29,matched,11/3/2026
+Collin,85,0246,850246,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0246,850246,us_senate,James Talarico,DEM,1036,matched,11/3/2026
+Collin,85,0246,850246,us_senate,Ken Paxton,REP,842,matched,11/3/2026
+Collin,85,0246,850246,us_senate,Ted Brown,LIB,26,matched,11/3/2026
+Collin,85,0246,850246,us_senate,Write-in,,5,matched,11/3/2026
+Collin,85,0247,850247,governor,Gina Hinojosa,DEM,526,matched,11/3/2026
+Collin,85,0247,850247,governor,Greg Abbott,REP,1087,matched,11/3/2026
+Collin,85,0247,850247,governor,Pat Dixon,LIB,27,matched,11/3/2026
+Collin,85,0247,850247,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0247,850247,us_senate,James Talarico,DEM,584,matched,11/3/2026
+Collin,85,0247,850247,us_senate,Ken Paxton,REP,1024,matched,11/3/2026
+Collin,85,0247,850247,us_senate,Ted Brown,LIB,28,matched,11/3/2026
+Collin,85,0247,850247,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0248,850248,governor,Gina Hinojosa,DEM,729,matched,11/3/2026
+Collin,85,0248,850248,governor,Greg Abbott,REP,611,matched,11/3/2026
+Collin,85,0248,850248,governor,Pat Dixon,LIB,11,matched,11/3/2026
+Collin,85,0248,850248,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0248,850248,us_senate,James Talarico,DEM,780,matched,11/3/2026
+Collin,85,0248,850248,us_senate,Ken Paxton,REP,536,matched,11/3/2026
+Collin,85,0248,850248,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0248,850248,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0249,850249,governor,Gina Hinojosa,DEM,1206,matched,11/3/2026
+Collin,85,0249,850249,governor,Greg Abbott,REP,1246,matched,11/3/2026
+Collin,85,0249,850249,governor,Pat Dixon,LIB,59,matched,11/3/2026
+Collin,85,0249,850249,governor,Write-in,,3,matched,11/3/2026
+Collin,85,0249,850249,us_senate,James Talarico,DEM,1261,matched,11/3/2026
+Collin,85,0249,850249,us_senate,Ken Paxton,REP,1169,matched,11/3/2026
+Collin,85,0249,850249,us_senate,Ted Brown,LIB,79,matched,11/3/2026
+Collin,85,0249,850249,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0250,850250,governor,Gina Hinojosa,DEM,1730,matched,11/3/2026
+Collin,85,0250,850250,governor,Greg Abbott,REP,995,matched,11/3/2026
+Collin,85,0250,850250,governor,Pat Dixon,LIB,44,matched,11/3/2026
+Collin,85,0250,850250,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0250,850250,us_senate,James Talarico,DEM,2099,matched,11/3/2026
+Collin,85,0250,850250,us_senate,Ken Paxton,REP,621,matched,11/3/2026
+Collin,85,0250,850250,us_senate,Ted Brown,LIB,50,matched,11/3/2026
+Collin,85,0250,850250,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0251,850251,governor,Gina Hinojosa,DEM,639,matched,11/3/2026
+Collin,85,0251,850251,governor,Greg Abbott,REP,792,matched,11/3/2026
+Collin,85,0251,850251,governor,Pat Dixon,LIB,28,matched,11/3/2026
+Collin,85,0251,850251,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0251,850251,us_senate,James Talarico,DEM,679,matched,11/3/2026
+Collin,85,0251,850251,us_senate,Ken Paxton,REP,748,matched,11/3/2026
+Collin,85,0251,850251,us_senate,Ted Brown,LIB,31,matched,11/3/2026
+Collin,85,0251,850251,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0252,850252,governor,Gina Hinojosa,DEM,770,matched,11/3/2026
+Collin,85,0252,850252,governor,Greg Abbott,REP,1206,matched,11/3/2026
+Collin,85,0252,850252,governor,Pat Dixon,LIB,32,matched,11/3/2026
+Collin,85,0252,850252,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0252,850252,us_senate,James Talarico,DEM,812,matched,11/3/2026
+Collin,85,0252,850252,us_senate,Ken Paxton,REP,1163,matched,11/3/2026
+Collin,85,0252,850252,us_senate,Ted Brown,LIB,34,matched,11/3/2026
+Collin,85,0252,850252,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0253,850253,governor,Gina Hinojosa,DEM,1366,matched,11/3/2026
+Collin,85,0253,850253,governor,Greg Abbott,REP,736,matched,11/3/2026
+Collin,85,0253,850253,governor,Pat Dixon,LIB,16,matched,11/3/2026
+Collin,85,0253,850253,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0253,850253,us_senate,James Talarico,DEM,1544,matched,11/3/2026
+Collin,85,0253,850253,us_senate,Ken Paxton,REP,549,matched,11/3/2026
+Collin,85,0253,850253,us_senate,Ted Brown,LIB,27,matched,11/3/2026
+Collin,85,0253,850253,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0254,850254,governor,Gina Hinojosa,DEM,375,matched,11/3/2026
+Collin,85,0254,850254,governor,Greg Abbott,REP,270,matched,11/3/2026
+Collin,85,0254,850254,governor,Pat Dixon,LIB,5,matched,11/3/2026
+Collin,85,0254,850254,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0254,850254,us_senate,James Talarico,DEM,380,matched,11/3/2026
+Collin,85,0254,850254,us_senate,Ken Paxton,REP,253,matched,11/3/2026
+Collin,85,0254,850254,us_senate,Ted Brown,LIB,17,matched,11/3/2026
+Collin,85,0254,850254,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0255,850255,governor,Gina Hinojosa,DEM,1102,matched,11/3/2026
+Collin,85,0255,850255,governor,Greg Abbott,REP,1084,matched,11/3/2026
+Collin,85,0255,850255,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0255,850255,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0255,850255,us_senate,James Talarico,DEM,1186,matched,11/3/2026
+Collin,85,0255,850255,us_senate,Ken Paxton,REP,990,matched,11/3/2026
+Collin,85,0255,850255,us_senate,Ted Brown,LIB,48,matched,11/3/2026
+Collin,85,0255,850255,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0256,850256,governor,Gina Hinojosa,DEM,151,matched,11/3/2026
+Collin,85,0256,850256,governor,Greg Abbott,REP,393,matched,11/3/2026
+Collin,85,0256,850256,governor,Pat Dixon,LIB,10,matched,11/3/2026
+Collin,85,0256,850256,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0256,850256,us_senate,James Talarico,DEM,160,matched,11/3/2026
+Collin,85,0256,850256,us_senate,Ken Paxton,REP,382,matched,11/3/2026
+Collin,85,0256,850256,us_senate,Ted Brown,LIB,10,matched,11/3/2026
+Collin,85,0256,850256,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0257,850257,governor,Gina Hinojosa,DEM,601,matched,11/3/2026
+Collin,85,0257,850257,governor,Greg Abbott,REP,411,matched,11/3/2026
+Collin,85,0257,850257,governor,Pat Dixon,LIB,17,matched,11/3/2026
+Collin,85,0257,850257,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0257,850257,us_senate,James Talarico,DEM,626,matched,11/3/2026
+Collin,85,0257,850257,us_senate,Ken Paxton,REP,388,matched,11/3/2026
+Collin,85,0257,850257,us_senate,Ted Brown,LIB,16,matched,11/3/2026
+Collin,85,0257,850257,us_senate,Write-in,,1,matched,11/3/2026
+Collin,85,0258,850258,governor,Gina Hinojosa,DEM,1130,matched,11/3/2026
+Collin,85,0258,850258,governor,Greg Abbott,REP,693,matched,11/3/2026
+Collin,85,0258,850258,governor,Pat Dixon,LIB,31,matched,11/3/2026
+Collin,85,0258,850258,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0258,850258,us_senate,James Talarico,DEM,1207,matched,11/3/2026
+Collin,85,0258,850258,us_senate,Ken Paxton,REP,631,matched,11/3/2026
+Collin,85,0258,850258,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Collin,85,0258,850258,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0259,850259,governor,Gina Hinojosa,DEM,1141,matched,11/3/2026
+Collin,85,0259,850259,governor,Greg Abbott,REP,1009,matched,11/3/2026
+Collin,85,0259,850259,governor,Pat Dixon,LIB,36,matched,11/3/2026
+Collin,85,0259,850259,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0259,850259,us_senate,James Talarico,DEM,1190,matched,11/3/2026
+Collin,85,0259,850259,us_senate,Ken Paxton,REP,958,matched,11/3/2026
+Collin,85,0259,850259,us_senate,Ted Brown,LIB,38,matched,11/3/2026
+Collin,85,0259,850259,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0260,850260,governor,Gina Hinojosa,DEM,95,matched,11/3/2026
+Collin,85,0260,850260,governor,Greg Abbott,REP,215,matched,11/3/2026
+Collin,85,0260,850260,governor,Pat Dixon,LIB,3,matched,11/3/2026
+Collin,85,0260,850260,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0260,850260,us_senate,James Talarico,DEM,99,matched,11/3/2026
+Collin,85,0260,850260,us_senate,Ken Paxton,REP,211,matched,11/3/2026
+Collin,85,0260,850260,us_senate,Ted Brown,LIB,4,matched,11/3/2026
+Collin,85,0260,850260,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0261,850261,governor,Gina Hinojosa,DEM,875,matched,11/3/2026
+Collin,85,0261,850261,governor,Greg Abbott,REP,963,matched,11/3/2026
+Collin,85,0261,850261,governor,Pat Dixon,LIB,30,matched,11/3/2026
+Collin,85,0261,850261,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0261,850261,us_senate,James Talarico,DEM,933,matched,11/3/2026
+Collin,85,0261,850261,us_senate,Ken Paxton,REP,912,matched,11/3/2026
+Collin,85,0261,850261,us_senate,Ted Brown,LIB,24,matched,11/3/2026
+Collin,85,0261,850261,us_senate,Write-in,,2,matched,11/3/2026
+Collin,85,0262,850262,governor,Gina Hinojosa,DEM,1098,matched,11/3/2026
+Collin,85,0262,850262,governor,Greg Abbott,REP,698,matched,11/3/2026
+Collin,85,0262,850262,governor,Pat Dixon,LIB,24,matched,11/3/2026
+Collin,85,0262,850262,governor,Write-in,,1,matched,11/3/2026
+Collin,85,0262,850262,us_senate,James Talarico,DEM,1168,matched,11/3/2026
+Collin,85,0262,850262,us_senate,Ken Paxton,REP,604,matched,11/3/2026
+Collin,85,0262,850262,us_senate,Ted Brown,LIB,41,matched,11/3/2026
+Collin,85,0262,850262,us_senate,Write-in,,3,matched,11/3/2026
+Collin,85,0263,850263,governor,Gina Hinojosa,DEM,658,matched,11/3/2026
+Collin,85,0263,850263,governor,Greg Abbott,REP,746,matched,11/3/2026
+Collin,85,0263,850263,governor,Pat Dixon,LIB,18,matched,11/3/2026
+Collin,85,0263,850263,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0263,850263,us_senate,James Talarico,DEM,699,matched,11/3/2026
+Collin,85,0263,850263,us_senate,Ken Paxton,REP,703,matched,11/3/2026
+Collin,85,0263,850263,us_senate,Ted Brown,LIB,18,matched,11/3/2026
+Collin,85,0263,850263,us_senate,Write-in,,4,matched,11/3/2026
+Collin,85,0264,850264,governor,Gina Hinojosa,DEM,1054,matched,11/3/2026
+Collin,85,0264,850264,governor,Greg Abbott,REP,1259,matched,11/3/2026
+Collin,85,0264,850264,governor,Pat Dixon,LIB,42,matched,11/3/2026
+Collin,85,0264,850264,governor,Write-in,,2,matched,11/3/2026
+Collin,85,0264,850264,us_senate,James Talarico,DEM,1134,matched,11/3/2026
+Collin,85,0264,850264,us_senate,Ken Paxton,REP,1171,matched,11/3/2026
+Collin,85,0264,850264,us_senate,Ted Brown,LIB,40,matched,11/3/2026
+Collin,85,0264,850264,us_senate,Write-in,,11,matched,11/3/2026
+Collin,85,0265,850265,governor,Gina Hinojosa,DEM,0,matched,11/3/2026
+Collin,85,0265,850265,governor,Greg Abbott,REP,0,matched,11/3/2026
+Collin,85,0265,850265,governor,Pat Dixon,LIB,0,matched,11/3/2026
+Collin,85,0265,850265,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0265,850265,us_senate,James Talarico,DEM,0,matched,11/3/2026
+Collin,85,0265,850265,us_senate,Ken Paxton,REP,0,matched,11/3/2026
+Collin,85,0265,850265,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Collin,85,0265,850265,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0266,850266,governor,Gina Hinojosa,DEM,17,matched,11/3/2026
+Collin,85,0266,850266,governor,Greg Abbott,REP,7,matched,11/3/2026
+Collin,85,0266,850266,governor,Pat Dixon,LIB,0,matched,11/3/2026
+Collin,85,0266,850266,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0266,850266,us_senate,James Talarico,DEM,18,matched,11/3/2026
+Collin,85,0266,850266,us_senate,Ken Paxton,REP,7,matched,11/3/2026
+Collin,85,0266,850266,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Collin,85,0266,850266,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0267,850267,governor,Gina Hinojosa,DEM,9,matched,11/3/2026
+Collin,85,0267,850267,governor,Greg Abbott,REP,5,matched,11/3/2026
+Collin,85,0267,850267,governor,Pat Dixon,LIB,0,matched,11/3/2026
+Collin,85,0267,850267,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0267,850267,us_senate,James Talarico,DEM,9,matched,11/3/2026
+Collin,85,0267,850267,us_senate,Ken Paxton,REP,5,matched,11/3/2026
+Collin,85,0267,850267,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Collin,85,0267,850267,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0268,850268,governor,Gina Hinojosa,DEM,0,matched,11/3/2026
+Collin,85,0268,850268,governor,Greg Abbott,REP,0,matched,11/3/2026
+Collin,85,0268,850268,governor,Pat Dixon,LIB,0,matched,11/3/2026
+Collin,85,0268,850268,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0268,850268,us_senate,James Talarico,DEM,0,matched,11/3/2026
+Collin,85,0268,850268,us_senate,Ken Paxton,REP,0,matched,11/3/2026
+Collin,85,0268,850268,us_senate,Ted Brown,LIB,0,matched,11/3/2026
+Collin,85,0268,850268,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,0271,850271,governor,Gina Hinojosa,DEM,328,matched,11/3/2026
+Collin,85,0271,850271,governor,Greg Abbott,REP,278,matched,11/3/2026
+Collin,85,0271,850271,governor,Pat Dixon,LIB,12,matched,11/3/2026
+Collin,85,0271,850271,governor,Write-in,,0,matched,11/3/2026
+Collin,85,0271,850271,us_senate,James Talarico,DEM,358,matched,11/3/2026
+Collin,85,0271,850271,us_senate,Ken Paxton,REP,250,matched,11/3/2026
+Collin,85,0271,850271,us_senate,Ted Brown,LIB,10,matched,11/3/2026
+Collin,85,0271,850271,us_senate,Write-in,,0,matched,11/3/2026
+Collin,85,LB01,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB01,,us_senate,Ken Paxton,REP,1,ballot_board,11/3/2026
+Collin,85,LB01,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB01,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB02,,governor,Gina Hinojosa,DEM,776,ballot_board,11/3/2026
+Collin,85,LB02,,governor,Greg Abbott,REP,444,ballot_board,11/3/2026
+Collin,85,LB02,,governor,Pat Dixon,LIB,21,ballot_board,11/3/2026
+Collin,85,LB02,,governor,Write-in,,1,ballot_board,11/3/2026
+Collin,85,LB02,,us_senate,James Talarico,DEM,815,ballot_board,11/3/2026
+Collin,85,LB02,,us_senate,Ken Paxton,REP,414,ballot_board,11/3/2026
+Collin,85,LB02,,us_senate,Ted Brown,LIB,14,ballot_board,11/3/2026
+Collin,85,LB02,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB03,,governor,Gina Hinojosa,DEM,424,ballot_board,11/3/2026
+Collin,85,LB03,,governor,Greg Abbott,REP,203,ballot_board,11/3/2026
+Collin,85,LB03,,governor,Pat Dixon,LIB,10,ballot_board,11/3/2026
+Collin,85,LB03,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB03,,us_senate,James Talarico,DEM,443,ballot_board,11/3/2026
+Collin,85,LB03,,us_senate,Ken Paxton,REP,180,ballot_board,11/3/2026
+Collin,85,LB03,,us_senate,Ted Brown,LIB,13,ballot_board,11/3/2026
+Collin,85,LB03,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB05,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB05,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB05,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB05,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB05,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB05,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB05,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB05,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB06,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB06,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB06,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB06,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB06,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB06,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB06,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB06,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB07,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB07,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB07,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB07,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB07,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB07,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB07,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB07,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB08,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB08,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB08,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB08,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB08,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB08,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB08,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB08,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB09,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB09,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB09,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB09,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB09,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB09,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB09,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB09,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB10,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB10,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB10,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB10,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB10,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB10,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB10,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB10,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB12,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB12,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB12,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB12,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB12,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB12,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB12,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB12,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB13,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB13,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB13,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB13,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB13,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB13,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB13,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB13,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB14,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB14,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB14,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB14,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB14,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB14,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB14,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB14,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB15,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB15,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB15,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB15,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB15,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB15,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB15,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB15,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB17,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB17,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB17,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB17,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB17,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB17,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB17,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB17,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB19,,governor,Gina Hinojosa,DEM,0,ballot_board,11/3/2026
+Collin,85,LB19,,governor,Greg Abbott,REP,0,ballot_board,11/3/2026
+Collin,85,LB19,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB19,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB19,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB19,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB19,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB19,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB20,,governor,Gina Hinojosa,DEM,12,ballot_board,11/3/2026
+Collin,85,LB20,,governor,Greg Abbott,REP,6,ballot_board,11/3/2026
+Collin,85,LB20,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB20,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB20,,us_senate,James Talarico,DEM,12,ballot_board,11/3/2026
+Collin,85,LB20,,us_senate,Ken Paxton,REP,6,ballot_board,11/3/2026
+Collin,85,LB20,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB20,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB21,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB21,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB21,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB21,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB22,,governor,Gina Hinojosa,DEM,8,ballot_board,11/3/2026
+Collin,85,LB22,,governor,Greg Abbott,REP,8,ballot_board,11/3/2026
+Collin,85,LB22,,governor,Pat Dixon,LIB,0,ballot_board,11/3/2026
+Collin,85,LB22,,governor,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB22,,us_senate,James Talarico,DEM,8,ballot_board,11/3/2026
+Collin,85,LB22,,us_senate,Ken Paxton,REP,8,ballot_board,11/3/2026
+Collin,85,LB22,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB22,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB23,,us_senate,James Talarico,DEM,0,ballot_board,11/3/2026
+Collin,85,LB23,,us_senate,Ken Paxton,REP,0,ballot_board,11/3/2026
+Collin,85,LB23,,us_senate,Ted Brown,LIB,0,ballot_board,11/3/2026
+Collin,85,LB23,,us_senate,Write-in,,0,ballot_board,11/3/2026
+Collin,85,LB26,,governor,Gina Hinojosa,DEM,26,ballot_board,11/3/2026
+Collin,85,LB26,,governor,Greg Abbott,REP,20,ballot_board,11/3/2026
+Collin,85,LB26,,governor,Pat Dixon,LIB,1,ballot_board,11/3/2026
+Collin,85,LB26,,governor,Write-in,,1,ballot_board,11/3/2026
+Collin,85,LB26,,us_senate,James Talarico,DEM,26,ballot_board,11/3/2026
+Collin,85,LB26,,us_senate,Ken Paxton,REP,19,ballot_board,11/3/2026
+Collin,85,LB26,,us_senate,Ted Brown,LIB,2,ballot_board,11/3/2026
+Collin,85,LB26,,us_senate,Write-in,,1,ballot_board,11/3/2026
