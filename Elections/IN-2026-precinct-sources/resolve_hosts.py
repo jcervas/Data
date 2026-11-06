@@ -174,8 +174,8 @@ def main():
             except Exception as e:
                 res.setdefault(c, []).append((u, "dead", u, repr(e)))
 
-    order = {"live": 0, "blocked": 1, "thin": 2, "parked": 3, "offdomain": 4,
-             "dead": 5}
+    order = {"live": 0, "blocked": 1, "unconfirmed": 2, "thin": 3,
+             "parked": 4, "outofstate": 5, "offdomain": 6, "dead": 7}
     winners = {}
     with open(OUT, "w", newline="") as fh:
         w = csv.writer(fh)
