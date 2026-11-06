@@ -1,0 +1,93 @@
+fips,county,office_name,address,city,zip,phone,reporting_regions
+18001,Adams,Adams County Election Board,112 South 2nd Street,Decatur,46733,2607245309,1
+18003,Allen,Allen County Election Board,1 E Main St,Fort Wayne,46802,2604497329,1
+18005,Bartholomew,Bartholomew County Voter Registration And Elections,P O Box 924,Columbus,47202-0924,8123791604,1
+18007,Benton,Courthouse,"706 E. 5th St., #37",Fowler,47944,7658840930,1
+18009,Blackford,Blackford County Election Office,110 W Washington St.,Hartford City,47348-2295,7653487217,1
+18011,Boone,Boone County Clerk's Office,212 Courthouse Square,Lebanon,46052,7654823510,1
+18013,Brown,Brown County Voter Registration/elections,Po Box 85,Nashville,47448,8129885510,1
+18015,Carroll,Carroll County Election Board,101 W. Main St. Ste. 207,Delphi,46923,7655646795,1
+18017,Cass,Cass County Voter Registration,200 Court Park Room 407,Logansport,46947,5747537870,1
+18019,Clark,Clark County Voter Registration,"501 E. Court Ave, Room 139",Jeffersonville,47130,8122856329,1
+18021,Clay,Clay County Court House,"609 E National Av, Rm 211",Brazil,47834,8124489023,1
+18023,Clinton,Clinton County Election Board,"2 E Washington St, Suite 304",Frankfort,46041,7656596335,1
+18025,Crawford,Crawford County Voter Registration,715 Judicial Plaza Drive,English,47118,8123382565,1
+18027,Daviess,County Election Board,Daviess County Courthouse,Washington,47501,8122548679,1
+18029,Dearborn,Dearborn County Voter Registration,165 Mary Street,Lawrenceburg,47025,8125378867,1
+18031,Decatur,Decatur County Voter Registration,"150 Courthouse Square, Suite 244",Greensburg,47240,8126638223,1
+18033,DeKalb,Dekalb County Voter Registration,100 S Main Street,Auburn,46706,2609259787,1
+18035,Delaware,Election Board,100 W Main Street,Muncie,47305,7657477812,1
+18037,Dubois,Dubois County Election Board,One Courthouse Square,Jasper,47546,8124817035,1
+18039,Elkhart,Elkhart County Election Board,1905 Reliance Road,Goshen,46526,5745383600,1
+18041,Fayette,"Election Board, Clerk's Office",401 Central Avenue,Connersville,47331,7658251813,1
+18043,Floyd,Floyd County Voter Registration,311 Hauss Square  Room 235,New Albany,47150,8129485419,1
+18045,Fountain,Fountain County Voter Registration,301 4th Street,Covington,47932,7657936230,1
+18047,Franklin,Franklin County Voter Registration,459 Main Street,Brookville,47012,7656475111,1
+18049,Fulton,Fulton County Election Board,815 Main St,Rochester,46975,5742234824,1
+18051,Gibson,Gibson County Voter Registration,101 N Main St,Princeton,47670,8123852541,1
+18053,Grant,Grant County Election Office,Grant County Courthouse,Marion,46952,7656687458,1
+18055,Greene,Greene County Voter Registration,Po Box 229,Bloomfield,47424-0229,8123842015,1
+18057,Hamilton,Hamilton County Election Board,1 Hamilton Cty Sq Suite 106,Noblesville,46060,3177768476,1
+18059,Hancock,Hancock County Election Office,"9 E. Main St, Rm 227",Greenfield,46140,3174771171,1
+18061,Harrison,Harrison County Voter Registration,300 N Capitol Avenue,Corydon,47112,8127384289,1
+18063,Hendricks,Hendricks County Voter Registration,355 S Washington St Ste 120,Danville,46122-1798,3177459249,1
+18065,Henry,Henry County Voter Registration,1215 Race St Suite 130,New Castle,47362,7655299310,1
+18067,Howard,Howard County Voter Registration,120 E Mulberry St,Kokomo,46901,7654562219,1
+18069,Huntington,Huntington County Voter Registration,201 N Jefferson St Room 201,Huntington,46750,2603584820,1
+18071,Jackson,Jackson County Voter Registration,"109 S Sugar St, Clerk Suite 130",Brownstown,47220,8123586120,1
+18073,Jasper,Jasper County Voter Registration,"115 W Washington Street, Suite 204",Rensselaer,47978,2198664929,1
+18075,Jay,Jay County Election Board,120 N Court Street,Portland,47371,2607266915,1
+18077,Jefferson,Jefferson County Voter Registration,"300 E Main Street, Room 203",Madison,47250,8122658926,1
+18079,Jennings,Jennings County Election Office,Po Box 385,Vernon,47282,8123523080,1
+18081,Johnson,Johnson Co. Voter Registration,P.o.  Box 451,Franklin,46131-0451,3173464467,1
+18083,Knox,Knox County Voter Registration,111 N 7th Street Ste. 27,Vincennes,47591-2022,8128954928,1
+18085,Kosciusko,Kosciusko County Election Board,121 N Lake St,Warsaw,46580,5742652639,1
+18087,LaGrange,Lagrange County Election Board,105 N Detroit St,Lagrange,46761,2604996372,1
+18089,Lake,Lake County Board Of Elections,2293 N Main Street,Crown Point,46307,2197553795,1
+18091,LaPorte,County Election Board,813 Lincolnway Way,Laporte,46350,2193266808,1
+18093,Lawrence,Lawrence County Voter Registration,918 16th St. Suite 200,Bedford,47421,8122772036,1
+18095,Madison,Madison County Election Board,16 E 9th St,Anderson,46016,7656419459,1
+18097,Marion,Marion County Election Board,"200 E. Washington Street, W-144",Indianapolis,46204,3173275100,1
+18099,Marshall,Marshall County Voter Registration,211 W Madison Street,Plymouth,46563,5749358713,1
+18101,Martin,Martin County Voter Registration,Po Box 120,Shoals,47581,8122473651,1
+18103,Miami,Miami County Voter Registration,"25 N. Broadway, Room 108",Peru,46970,7654723901,1
+18105,Monroe,Monroe County Election Board,501 N Morton St,Bloomington,47404,8123492612,1
+18107,Montgomery,Montgomery County Voter Registration,100 E Main Street,Crawfordsville,47933,7653646437,1
+18109,Morgan,Morgan County Voter Registration,180 S. Main St.    Ste 111,Martinsville,46151,7652051548,1
+18111,Newton,Newton County Voter Registration,201 North Third Street,Kentland,47951,2194746081,1
+18113,Noble,Noble County Voter Registration,101 N Orange Street,Albion,46701,2606362736,1
+18115,Ohio,Ohio County Election Board,P.o. Box 185,Rising Sun,47040,8124382610,1
+18117,Orange,Orange County Voter Registration,"1 Court Street, Courthouse",Paoli,47454,8127232649,1
+18119,Owen,Election Board,P O Box 146,Spencer,47460,8128295028,1
+18121,Parke,Parke County Election Board,"116 W. High Street, Room 204",Rockville,47872-1781,7655695132,1
+18123,Perry,Perry County Voter Registration,2219 Payne Street,Tell City,47586,8125473741,1
+18125,Pike,Pike County Voter Registration,Po Box 125,Petersburg,47567-0125,8123546025,1
+18127,Porter,Porter County Board Of Elections & Registration,155 Franklin St,Valparaiso,46383,2194653485,1
+18129,Posey,Posey County Voter Registration,"300 Main St., Room 115",Mt Vernon,47620,8128381339,1
+18131,Pulaski,Pulaski County Clerk's Office,"112 E Main Street, Room 018",Winamac,46996,5749463313,1
+18133,Putnam,Putnam County Voter Registration,Po Box 546,Greencastle,46135,7656551538,1
+18135,Randolph,Randolph County Voter Registration,100 S. Main St.,Winchester,47394,7655844903,1
+18137,Ripley,Ripley County Voter Registration,Po Box 177,Versailles,47042,8126894783,1
+18139,Rush,Rush County Voter Registration,101 E 2nd St,Rushville,46173,7659322086,1
+18141,St. Joseph,St. Joseph County Clerk,101 S Main Street,South Bend,46601-1871,5742359635,1
+18143,Scott,Election Board,1 E Mcclain Avenue,Scottsburg,47170,8127528420,1
+18145,Shelby,Shelby County Clerk,Po Box 198,Shelbyville,46176-0198,3173926324,1
+18147,Spencer,Spencer County Voter Registration,200 Main Street Room # 5,Rockport,47635,8126496017,1
+18149,Starke,Starke County Voter Registration,Po Box 395,Knox,46534,5747729160,1
+18151,Steuben,Steuben County Voter Registration,305 S  Martha St,Angola,46703,2606681000,1
+18153,Sullivan,Sullivan County Clerk,Po Box 370,Sullivan,47882,8122684657,1
+18155,Switzerland,Switzerland County Election Board,212 W Main Street,Vevay,47043,8124274415,1
+18157,Tippecanoe,Tippecanoe County Board Of Elections And Registration,20 N 3rd St,Lafayette,47901,7654239303,1
+18159,Tipton,Tipton County Voter Registration,101 E Jefferson Street,Tipton,46072,7656752795,1
+18161,Union,Union County Voter Registration,26 West Union Street,Liberty,47353,7654586121,1
+18163,Vanderburgh,Election Board,Po Box 3343,Evansville,47732-3343,8124355123,1
+18165,Vermillion,Vermillion County Election Board,Po Box 10,Newport,47966,7654925350,1
+18167,Vigo,Vigo County Election Board,33 S. 3rd St,Terre Haute,47807-3425,8124623214,1
+18169,Wabash,Wabash County Voter Registration,69 W Hill Street,Wabash,46992,2605630661,1
+18171,Warren,Warren County Voter Registration,125 N Monroe Street,Williamsport,47993,7657622834,1
+18173,Warrick,Election Board,One County Square Suite 220,Boonville,47601,8128976161,1
+18175,Washington,Washington County Election And Voter Services Office,"Stephanie K. Rockey, Clerk Of Courts",Salem,47167,8128835748,1
+18177,Wayne,Wayne County Clerk - Voter Registration,301 E Main St,Richmond,47374,7659739304,1
+18179,Wells,Wells County Voter Registration,"102 W Market Street, Suite 201",Bluffton,46714,2608246479,1
+18181,White,White County Voter Registration,Po Box 350,Monticello,47960,5745831531,1
+18183,Whitley,Whitley County Election Board,101 W Van Buren St,Columbia City,46725,2602483164,1

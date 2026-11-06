@@ -1,0 +1,93 @@
+county,site,elections_url,results_url,results_label,note
+Adams,https://www.co.adams.in.us/,https://www.co.adams.in.us/359/Elections,https://www.co.adams.in.us/DocumentCenter/View/47337/2024-Primary-Precinct-Summary-Results,2024 Primary Precinct Summary Results,
+Allen,https://www.allencounty.in.gov/,,,,HTTP 403 (blocks scripted clients)
+Bartholomew,https://bartholomewcounty.org/,,,,"site found, no elections link on the homepage"
+Benton,https://www.bentoncounty.in.gov/,https://www.bentoncounty.in.gov/department/County-Clerk,,,no html at https://www.bentoncounty.in.gov/_files/ugd/918579_1fec05896cc445a2bfcaf95e8305cadd.pdf; no html at https://www.bentoncounty.in.gov/_files/ugd/918579_93aea86daf524f019d878a9a57252563.pdf
+Blackford,https://www.blackfordcounty.com/,https://www.blackfordcounty.com/DocumentCenter/View/422/Legal-Notice-of-General-Election-Candidates-November-3-2026,,,no html at https://www.blackfordcounty.com/DocumentCenter/View/422/Legal-Notice-of-General-Election-Candidates-November-3-2026
+Boone,https://boonecounty.in.gov/,https://boonecounty.in.gov/offices/clerk/election-information/,https://boonecounty.in.gov/offices/clerk/election-results-history/,Election Results History,
+Brown,https://browncounty.com/,,,,"site found, no elections link on the homepage"
+Carroll,https://www.in.gov/counties/carroll/,https://www.in.gov/counties/carroll/departments/clerks-office/,https://www.in.gov/counties/carroll/files/Carroll-LCR-proposal-2025.pdf,2025 Local Court Rules Amendments,
+Cass,https://www.in.gov/counties/cass/,https://www.in.gov/counties/cass/departments/clerk/election-information-and-results,https://www.in.gov/dA/bddec37bbb/Cass-County-2026-Primary-Official-Precinct-Level-Results.pdf?language_id=1,Cass County 2026 Primary Official Precinct Level Results,
+Clark,https://www.clarkcounty.in.gov/,https://www.clarkcounty.in.gov/index.php/clark-county-indiana-government/clark-county-indiana-clerk-s-office,,,"elections page found, no results link on it"
+Clay,https://www.in.gov/counties/clay/,https://www.in.gov/counties/clay/county-offices/county-clerk/,https://www.in.gov/counties/clay/files/VRG-11-2024-revision.pdf,Download,
+Clinton,https://www.clintoncountyin.gov/,https://www.in.gov/localhealth/clintoncounty/,https://www.in.gov/localhealth/clintoncounty/health-first-program/2024-grant-awards,2024 Grant Awards,
+Crawford,https://www.in.gov/counties/crawford/,https://www.in.gov/counties/crawford/2026-elections/,https://www.in.gov/counties/crawford/2026-elections,2026 Elections - Click to Expand,
+Daviess,https://www.daviesscountyin.gov/,,,,"site found, no elections link on the homepage"
+DeKalb,https://www.co.dekalb.in.us/,https://www.co.dekalb.in.us/egov/apps/document/center.egov?view=item&id=10220,https://www.co.dekalb.in.us/egov/apps/document/center.egov?view=item&id=10220,2026 General Election Results,
+Dearborn,https://www.dearborncounty.org/,https://www.dearborncounty.org/department/index.php?structureid=149,https://www.dearborncounty.org/egov/apps/document/center.egov?view=item&id=3959,"Candidates for November 3 , 2026 General Election",
+Decatur,https://decaturcounty.in.gov/,https://decaturcounty.in.gov/election/,https://decaturcounty.in.gov/election/2026-general-election-results/,Current Election Results,
+Delaware,https://www.co.delaware.in.us/,,,,HTTP 403 (blocks scripted clients)
+Dubois,https://duboiscounty.in.gov/,https://duboiscounty.in.gov/explore_dubois_county/voter_information/election_results.php,https://duboiscounty.in.gov/explore_dubois_county/voter_information/explore_dubois_county/voter_information/election_results.php,Find Election Results,
+Elkhart,https://www.elkhartcounty.com/,,,,HTTP 403 (blocks scripted clients)
+Fayette,https://co.fayette.in.us/,https://co.fayette.in.us/government/,,,"elections page found, no results link on it"
+Floyd,https://www.in.gov/counties/floyd/,https://www.in.gov/counties/floyd/frequently-asked-questions/voting-and-elections,http://floydcountyclerk.org/index.php/floyd-county-indiana-elections/floyd-county-indiana-election-results,Floyd County Clerk's Office website,
+Fountain,https://in-fountaincounty.civicplus.com/,https://in-fountaincounty.civicplus.com/1221/Elections,,,"elections page found, no results link on it"
+Franklin,https://www.franklincounty.in.gov/,https://www.franklincounty.in.gov/information/elected-officials/,https://www.franklincounty.in.gov/wp-content/uploads/2025/05/Zoom-Meeting-Links.pdf,Zoom Meeting links,
+Fulton,https://www.co.fulton.in.us/,https://www.co.fulton.in.us/m/newsflash/home/detail/26,https://www.co.fulton.in.us/DocumentCenter/View/1863/2026-Unofficial-General-Election-Precinct-Results-PDF,https://www.co.fulton.in.us/DocumentCenter/View/1863/2026-Unofficial-General-Ele,
+Gibson,https://www.gibsoncounty.org/,,,,"site found, no elections link on the homepage"
+Grant,https://www.in.gov/counties/grant/,https://www.in.gov/counties/grant/Elections/,http://clerk.grantcounty27.us/custom/00000127/elections/elections/index.htm,Current Election Results,
+Greene,https://www.co.greene.in.us/,https://www.co.greene.in.us/topic/subtopic.php?topicid=158&structureid=13,https://www.co.greene.in.us/topic/index.php?topicid=145&structureid=13,Greene County Election Results,
+Hamilton,https://www.hamiltoncounty.in.gov/,https://www.hamiltoncounty.in.gov/219/Election-Office,https://www.hamiltoncounty.in.gov/CivicAlerts.aspx?AID=2847,Unofficial Results for the Hamilton County 2026 General Election,
+Hancock,https://www.hancockcounty.org/,,,,"site found, no elections link on the homepage"
+Harrison,https://www.in.gov/counties/harrison/,https://www.in.gov/counties/harrison/departments/voter-information/early-and-election-day-voting,https://www.in.gov/counties/harrison/departments/voter-information/county-election-results2,County Election Results,
+Hendricks,https://www.co.hendricks.in.us/,https://www.co.hendricks.in.us/department/index.php?structureid=30,https://www.co.hendricks.in.us/egov/documents/1735233773_77492.pdf,"2025 Calendar of Submission Dates for Agenda Requests, Supporting Documents, and",
+Henry,https://www.henrycounty.in.gov/,https://www.henrycounty.in.gov/174/Election-Voter-Information,https://www.henrycounty.in.gov/Archive.aspx?AMID=36,Election Results,
+Howard,https://www.in.gov/counties/howard/,https://www.in.gov/counties/howard/elections/2026-general/,https://www.in.gov/counties/howard/files/upl/elections/2026/general/unofficial-precinct-summary-G26.pdf,Unofficial Precinct Results HERE,
+Huntington,,,,,hosts resolved but none answered
+Jackson,https://www.jacksoncounty.in.gov/,https://www.jacksoncounty.in.gov/government/departments_a-h/clerk_election_board/index.php,https://www.jacksoncounty.in.gov/government/departments_a-h/clerk_election_board/TRUSTEE DIRECTORY 2024.pdf,Jackson County Township Trustees,
+Jasper,https://www.jaspercountyin.gov/,https://www.jaspercountyin.gov/departments/county-clerk,https://www.jaspercountyin.gov/government/forms/department-documents/county-clerk/small-claims/331-small-claims-rules-2025/file,pdf,
+Jay,https://www.in.gov/counties/jay/,https://www.in.gov/counties/jay/departments,,,"elections page found, no results link on it"
+Jefferson,https://www.jeffersoncounty.in.gov/,https://www.jeffersoncounty.in.gov/AlertCenter.aspx,https://www.jeffersoncounty.in.gov/AlertCenter.aspx?AID=ELECTION-RESULTS-8,ELECTION RESULTS View All Precincts,
+Jennings,https://jenningscounty.org/,,,,"site found, no elections link on the homepage"
+Johnson,https://johnsoncounty.in.gov/,https://johnsoncounty.in.gov/department/division.php?structureid=77,https://johnsoncounty.in.gov/topic/index.php?topicid=72&structureid=77,Election Results,
+Knox,https://knoxcounty.in.gov/,https://knoxcounty.in.gov/county-departments/voter-registration,https://cdn.prod.website-files.com/679a8e8b7ced4573d58ead2f/6ac529d8f94a04617e23146a_Knox%20G26%20Sample%20Ballots_RevB_all.pdf,2026 General Election Sample Ballots,
+Kosciusko,https://www.kosciuskocounty.com/,,,,"site found, no elections link on the homepage"
+LaGrange,https://www.lagrangecounty.org/,https://www.lagrangecounty.org/egov/apps/document/center.egov?view=item&id=2284,,,no html at https://www.lagrangecounty.org/egov/apps/document/center.egov?view=item&id=2284
+LaPorte,https://www.laportecounty.in.gov:443/login_up.php,,,,"site found, no elections link on the homepage"
+Lake,https://www.lakecountyin.gov/,https://www.lakecountyin.gov/departments/voters,https://www.lakecountyin.gov/departments/voters/election-results-c,ELECTION RESULTS,
+Lawrence,https://www.lawrencecounty.in.gov/,,,,"site found, no elections link on the homepage"
+Madison,https://www.madisoncounty.in.gov/,https://www.madisoncounty.in.gov/election-office,https://www.madisoncounty.in.gov/election-results,,
+Marion,https://www.indy.gov/,https://www.indy.gov/agency/marion-county-clerks-office,,,"elections page found, no results link on it"
+Marshall,https://www.co.marshall.in.us/,https://www.co.marshall.in.us/egov/apps/document/center.egov?view=item&id=1754,,,no html at https://www.co.marshall.in.us/egov/apps/document/center.egov?view=item&id=1754; HTTPError on https://www.co.marshall.in.us/elections
+Martin,https://www.in.gov/counties/martin/,https://indianavoters.in.gov/,https://history.house.gov/Institution/Election-Statistics/Election-Statistics/,Federal Election Results Prior to 2002,
+Miami,https://www.miamicountyin.gov/,https://www.miamicountyin.gov/417/Election-Resources,https://www.miamicountyin.gov/345/Past-Election-Results,Past Election Results,
+Monroe,https://www.in.gov/counties/monroe/,https://www.in.gov/counties/monroe/departments/clerk-of-court/monroe-county-election-board/,https://www.in.gov/counties/monroe/boards-commissions-and-committees/precinct-and-district-boundary,Precinct & District Boundary,
+Montgomery,https://www.montgomerycounty.in.gov/,https://www.montgomerycounty.in.gov/m/newsflash/home/detail/26,https://www.montgomerycounty.in.gov/DocumentCenter/View/1655,2026 General Election Results,
+Morgan,https://morgancounty.in.gov/,https://morgancounty.in.gov/egov/apps/events/calendar.egov?view=detail;id=490,,,"elections page found, no results link on it"
+Newton,https://www.newtoncounty.in.gov/,https://www.newtoncounty.in.gov/egov/apps/document/center.egov?view=item&id=1215,,,no html at https://www.newtoncounty.in.gov/egov/apps/document/center.egov?view=item&id=1215
+Noble,https://www.in.gov/counties/noble/,https://www.in.gov/counties/noble/election-info/,https://www.in.gov/counties/noble/files/Voting_Precincts_Map_11x17_20180119.pdf,Precincts,
+Ohio,https://ohiocountyin.gov/,https://ohiocountyin.gov/clerk/,http://ohiocountyin.gov/elections#results,Election Results,
+Orange,http://gov.orangecounty59.us/,http://gov.orangecounty59.us/cgi.exe?PAGEID=0002,http://gov.orangecounty59.us/cgi.exe?CALL_PROGRAM=LOGREPORTS&LOGYEAR=2026&SHOWREPORT=GENERAL.HTML,General Summary,
+Owen,https://www.owencounty.in.gov/,https://www.owencounty.in.gov/government/election-board-voter-registration/,https://www.owencounty.in.gov/wp-content/uploads/2026-03-24-Election-Board-Testing.pdf,03-24-2026 Election Board Mtg.,
+Parke,https://www.in.gov/counties/parke/,https://www.in.gov/counties/parke/election-board,,,no html at https://www.in.gov/counties/parke/files/2026/Clerk-Post.pdf
+Perry,https://perrycounty.in.gov/,http://perrycounty.in.gov/circuit-court-clerk/,https://perrycounty.in.gov/wp-content/uploads/2024/12/clerk_-_estate_claim_form.pdf,View and Download Form,
+Pike,https://www.pikecounty.in.gov/,,,,"site found, no elections link on the homepage"
+Porter,https://www.portercountyin.gov/,https://www.portercountyin.gov/170/Elections-Registration,https://www.portercountyin.gov/DocumentCenter/View/56168/2026-PRIMARY-PRECINCT-SUMMARY-OFFICIAL,Precinct Results,
+Posey,https://www.poseycountyin.gov/,https://www.poseycountyin.gov/our-county/election-information/,https://www.poseycountyin.gov/posey-county-2026-general-election-unofficial-results/,Posey County 2026 General Election Unofficial Results,
+Pulaski,https://www.pulaskicounty.org/,https://www.pulaskicounty.org/registrar.html,https://www.elections.virginia.gov/resultsreports/election-security/rla/,Risk Limiting Audits,
+Putnam,https://co.putnam.in.us/,https://www.in.gov/localhealth/putnamcounty/,https://www.in.gov/dA/1c5f1a80d3/Summary-of-CDR-Changes-2026.pdf?language_id=1,Summary of Reporting Changes Document,
+Randolph,https://www.randolphcounty.com/,,,,"site found, no elections link on the homepage"
+Ripley,https://www.ripleycounty.in.gov/,https://ripleycounty.in.gov/election/,https://ripleycounty.in.gov/wp-content/uploads/election/results-1.html,Ripley County Unofficial 2026 General Election Results,
+Rush,https://rushcounty.in.gov/,https://rushcounty.in.gov/election-information/,https://rushcounty.in.gov/wp-content/uploads/2026/01/1-2026-Amended-Vote-Center-Plan-Rush-Co.pdf,here,
+Scott,https://www.scottcounty.in.gov/,https://www.scottcounty.in.gov/AlertCenter.aspx,https://www.scottcounty.in.gov/AlertCenter.aspx,Election results,
+Shelby,https://www.in.gov/counties/shelby/,https://www.in.gov/counties/shelby/voter-registration/election-board,https://www.in.gov/counties/shelby/auditor/tax-sale/tax-sale-list-2024,Tax Sale List 2024,
+Spencer,https://www.in.gov/counties/spencer/,https://www.in.gov/counties/spencer/government/agendas-and-minutes/election-board,https://www.in.gov/counties/spencer/departments/elections-voter-registration/election-results,Election Results,
+St. Joseph,https://www.sjcindiana.gov/,,,,HTTP 403 (blocks scripted clients)
+Starke,,,,,hosts resolved but none answered
+Steuben,https://www.co.steuben.in.us/,https://www.co.steuben.in.us/departments/clerk/index.php,https://www.co.steuben.in.us/departments/clerk/departments/clerk/election_results.php,Election Results,
+Sullivan,https://www.sullivancounty.in.gov/,,,,"site found, no elections link on the homepage"
+Switzerland,,,,,hosts resolved but none answered
+Tippecanoe,https://www.tippecanoe.in.gov/,https://www.tippecanoe.in.gov/149/Elected-Officials,https://tippecanoehub.hub.arcgis.com/pages/59a2d667998a4b8295e2735167481e01,2026 Residential Land Values,
+Tipton,https://www.tiptoncounty.org/,,,,"site found, no elections link on the homepage"
+Union,https://www.in.gov/counties/union/,https://www.in.gov/counties/union/departments/clerk/,https://www.in.gov/counties/union/departments/clerk/election-results,Election Results,
+Vanderburgh,,,,,"www.vanderburghgov.org redirects off-domain to www.evansvillegov.org -- lapsed name, not followed"
+Vermillion,,,,,hosts resolved but none answered
+Vigo,https://www.vigocounty.in.gov/,https://www.vigocounty.in.gov/department/division.php?structureid=197,https://www.vigocounty.in.gov/egov/apps/document/center.egov?view=item&id=6906,Johnny Vaughn 2026 Pre-Election Report,
+Wabash,https://www.in.gov/counties/wabash/,https://www.in.gov/counties/wabash/departments/,https://www.in.gov/counties/wabash/files/2024-Wabash-County-Holidays.pdf,2024 Wabash County Holidays,
+Warren,https://www.warrencounty.in.gov/,https://www.warrencounty.in.gov/government/offices/index.php,https://www.warrencounty.in.gov/government/offices/Documents/How Do I/COMMISSIONER MEETING SCHEDULE 2026 (1).doc,2026 Commissioner Meeting Schedule,
+Warrick,,,,,no candidate hostname resolved
+Washington,https://www.washingtoncounty.in.gov/,https://www.washingtoncounty.in.gov/explore_washington_county/resident/election_and_voting/index.php,https://www.washingtoncounty.in.gov/explore_washington_county/resident/election_and_voting/explore_washington_county/resident/election_and_voting/washington_county_election_information.php,Election Results,
+Wayne,https://www.co.wayne.in.us/,https://waynecounty.in.gov/clerk/election/index.htm,https://waynecounty.in.gov/clerk/election/PrecinctResults/index.html,Precincts Report,
+Wells,,,,,"www.wellscounty.us redirects off-domain to playglobal15.com -- lapsed name, not followed"
+White,https://www.in.gov/counties/white/,https://www.in.gov/counties/white/departments/voter-information/previous-elections/,https://www.in.gov/counties/white/files/2026-primary-results/Election_Summary_Report_743.pdf,2026 Primary Elections (Summary),
+Whitley,https://www.whitleycounty.in.gov/,https://www.whitleycounty.in.gov/department/board.php?structureid=211,https://www.whitleycounty.in.gov/egov/apps/document/center.egov?view=item&id=7917,2026 General Election Polling Locations,

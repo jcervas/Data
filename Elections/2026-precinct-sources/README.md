@@ -4,6 +4,25 @@ Built and verified October 25, 2026, for the nine mid-decade redistricting
 states. Texas was surveyed separately and in more depth; see
 `../TX-2026-precinct-sources/`.
 
+Indiana was added November 5, 2026 and likewise surveyed separately; see
+`../IN-2026-precinct-sources/`. Its rows are in `sources.csv` and in the table
+below. It is the one state so far where the geography is the easy half — the
+state publishes a clean 5,121-precinct statewide layer, annually — and the one
+with no statewide precinct results path of any kind, not even an archived
+Clarity tier. Both of its statewide applications, the election-night feed and
+the historical archive, were fetched and shown to have no precinct field at
+all. Results come from 92 counties individually: as of November 6, **64 are
+resolved, covering 4,295 of 5,121 precincts**, and nine counties already have
+2026 general results up per precinct.
+
+Indiana is also where the survey's running cost moved from finding results to
+finding *counties*. The counties that resisted two crawls were not the ones
+publishing nothing; they were the ones whose obvious hostname is wrong, in
+three ways that all answer `200 OK` — a parked domain, a lapsed domain
+redirecting off-site, and a shared platform shell that looks like a county
+homepage. Worth assuming the same of Ohio, Tennessee and Alabama before
+concluding their counties publish nothing.
+
 The purpose is a **counterfactual**: 2026 votes reaggregated onto the 2024
 district lines, to isolate what each redraw did. That works because the precinct
 crosswalk in `wapo-redistricting-2026` is keyed on RDH's `PRECINCTID`, which is
@@ -19,6 +38,7 @@ through the crosswalk reproduced RDH's block-built district totals to the vote.
 | **TX** | 32 Clarity counties (no state source) | election night, for Clarity counties |
 | **OH** | Hamilton County on Clarity; rest unresolved | after certification |
 | **FL** | not established | after counties submit (2024 files: July 2025) |
+| **IN** | none — 92 counties individually, no Clarity | 9 counties already live; certified files from noon Nov 16, 2026 |
 | **AL** | none found | after certification, **and partly modeled even then** |
 | **TN** | none found | after certification |
 | **LA** | unresolved (portal is a JS app) | unknown |
@@ -166,6 +186,13 @@ publish individually on the night. California is the largest state in the
 project and the least tractable for a fast counterfactual.
 
 ## What was actually fetched
+
+Indiana's own retrievals are listed in `../IN-2026-precinct-sources/README.md`;
+the join there is validated end to end on four counties (Jasper, Noble,
+Kosciusko and Warrick — 169 printed precincts, every one placed) by
+`validate_join.py`. The same script records what the *wrong* join would have
+done: on Kosciusko, multiplying the printed precinct ID by ten matches all 65
+crosswalk codes and puts 29 of them on the wrong precinct.
 
 Verified by retrieval and parsing: the NC election-night zip, the NC
 `STATEWIDE` precinct-sort file (412 MB) plus Alamance and the ten counties that

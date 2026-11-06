@@ -1,0 +1,449 @@
+county,candidate,verdict,final_url,note
+Morgan,http://clerk.morgancounty55.us/,live,http://clerk.morgancounty55.us/,8393 bytes
+Morgan,http://gov.morgan.in.datapitstop.us/,live,http://gov.morgan.in.datapitstop.us/,8435 bytes
+Morgan,http://gov.morgancounty55.us/,live,http://gov.morgancounty55.us/,8393 bytes
+Morgan,https://morgancounty.in.gov/,live,https://morgancounty.in.gov/,23993 bytes
+Morgan,https://www.morgancounty.in.gov/,live,https://morgancounty.in.gov/,23993 bytes
+Morgan,https://morgan.org/,thin,https://www.morgan.org/,"1286 bytes, nothing county-shaped"
+Morgan,https://www.morgancounty.org/,dead,https://www.morgancounty.org/,URLError
+Morgan,https://co.morgan.in.us/,dead,https://co.morgan.in.us/,URLError
+Morgan,https://www.morgan.in.gov/,dead,https://www.morgan.in.gov/,URLError
+Morgan,https://morgancoingov.com/,dead,https://morgancoingov.com/,URLError
+Morgan,https://morgancounty-in.gov/,dead,https://morgancounty-in.gov/,URLError
+Morgan,https://morgan.in.gov/,dead,https://morgan.in.gov/,URLError
+Morgan,https://www.morgancounty.gov/,dead,https://www.morgancounty.gov/,URLError
+Morgan,https://morgancountyin.gov/,dead,https://morgancountyin.gov/,URLError
+Morgan,https://www.morgangov.com/,dead,https://www.morgangov.com/,URLError
+Morgan,https://www.in.gov/counties/morgan/,dead,https://www.in.gov/counties/morgan/,HTTP 404
+Bartholomew,https://www.bartholomewcounty.org/,live,https://bartholomewcounty.org/,85525 bytes
+Bartholomew,https://www.bartholomew.in.gov/,live,https://www.bartholomew.in.gov/,40972 bytes
+Bartholomew,https://bartholomew.in.gov/,live,https://bartholomew.in.gov/,40888 bytes
+Bartholomew,http://gov.bartholomew.in.datapitstop.us/,thin,http://gov.bartholomew.in.datapitstop.us/,"13037 bytes, nothing county-shaped"
+Bartholomew,https://bartholomew.org/,parked,https://bartholomew.org/,domain-parking lander
+Bartholomew,https://co.bartholomew.in.us/,dead,https://co.bartholomew.in.us/,URLError
+Bartholomew,https://www.bartholomewcounty.in.gov/,dead,https://www.bartholomewcounty.in.gov/,URLError
+Bartholomew,https://bartholomewcounty.in.gov/,dead,https://bartholomewcounty.in.gov/,URLError
+Bartholomew,https://bartholomewcoingov.com/,dead,https://bartholomewcoingov.com/,URLError
+Bartholomew,http://gov.bartholomewcounty3.us/,dead,http://gov.bartholomewcounty3.us/,URLError
+Bartholomew,http://clerk.bartholomewcounty3.us/,dead,http://clerk.bartholomewcounty3.us/,URLError
+Bartholomew,https://bartholomewcounty-in.gov/,dead,https://bartholomewcounty-in.gov/,URLError
+Bartholomew,https://www.bartholomewcounty.gov/,dead,https://www.bartholomewcounty.gov/,URLError
+Bartholomew,https://bartholomewcountyin.gov/,dead,https://bartholomewcountyin.gov/,URLError
+Bartholomew,https://www.bartholomewgov.com/,dead,https://www.bartholomewgov.com/,URLError
+Bartholomew,https://www.in.gov/counties/bartholomew/,dead,https://www.in.gov/counties/bartholomew/,HTTP 404
+Lawrence,http://clerk.lawrencecounty47.us/,live,http://clerk.lawrencecounty47.us/,8258 bytes
+Lawrence,http://gov.lawrencecounty47.us/,live,http://gov.lawrencecounty47.us/,8258 bytes
+Lawrence,http://gov.lawrence.in.datapitstop.us/,live,http://gov.lawrence.in.datapitstop.us/,8300 bytes
+Lawrence,https://www.lawrencecounty.in.gov/,live,https://www.lawrencecounty.in.gov/,113852 bytes
+Lawrence,https://lawrencecounty.in.gov/,live,https://lawrencecounty.in.gov/,113852 bytes
+Lawrence,https://www.lawrencecounty.org/,blocked,https://www.lawrencecounty.org/,HTTP 403
+Lawrence,https://lawrence.org/,thin,https://www.lawrence.org/,"3036 bytes, nothing county-shaped"
+Lawrence,https://www.lawrencegov.com/,parked,https://www.lawrencegov.com/,domain-parking lander
+Lawrence,https://www.lawrence.in.gov/,dead,https://www.lawrence.in.gov/,URLError
+Lawrence,https://co.lawrence.in.us/,dead,https://co.lawrence.in.us/,URLError
+Lawrence,https://lawrencecoingov.com/,dead,https://lawrencecoingov.com/,URLError
+Lawrence,https://lawrence.in.gov/,dead,https://lawrence.in.gov/,URLError
+Lawrence,https://www.lawrencecounty.gov/,dead,https://www.lawrencecounty.gov/,URLError
+Lawrence,https://lawrencecounty-in.gov/,dead,https://lawrencecounty-in.gov/,URLError
+Lawrence,https://lawrencecountyin.gov/,dead,https://lawrencecountyin.gov/,URLError
+Lawrence,https://www.in.gov/counties/lawrence/,dead,https://www.in.gov/counties/lawrence/,HTTP 404
+Putnam,https://co.putnam.in.us/,live,https://co.putnam.in.us/,124155 bytes
+Putnam,http://gov.putnam.in.datapitstop.us/,live,http://gov.putnam.in.datapitstop.us/,8430 bytes
+Putnam,http://gov.putnamcounty67.us/,live,http://gov.putnamcounty67.us/,8381 bytes
+Putnam,http://clerk.putnamcounty67.us/,live,http://clerk.putnamcounty67.us/,8381 bytes
+Putnam,https://www.putnamcounty.org/,blocked,https://www.putnamcounty.org/,HTTP 403
+Putnam,https://putnam.org/,thin,https://www.putnam.org/,"307360 bytes, nothing county-shaped"
+Putnam,https://www.putnamcounty.in.gov/,dead,https://www.putnamcounty.in.gov/,URLError
+Putnam,https://putnamcounty.in.gov/,dead,https://putnamcounty.in.gov/,URLError
+Putnam,https://www.putnam.in.gov/,dead,https://www.putnam.in.gov/,URLError
+Putnam,https://putnam.in.gov/,dead,https://putnam.in.gov/,URLError
+Putnam,https://putnamcoingov.com/,dead,https://putnamcoingov.com/,URLError
+Putnam,https://putnamcountyin.gov/,dead,https://putnamcountyin.gov/,URLError
+Putnam,https://www.putnamcounty.gov/,dead,https://www.putnamcounty.gov/,URLError
+Putnam,https://putnamcounty-in.gov/,dead,https://putnamcounty-in.gov/,URLError
+Putnam,https://www.putnamgov.com/,dead,https://www.putnamgov.com/,URLError
+Putnam,https://www.in.gov/counties/putnam/,dead,https://www.in.gov/counties/putnam/,HTTP 404
+Knox,https://knoxcounty.in.gov/,live,https://knoxcounty.in.gov/,66000 bytes
+Knox,https://www.knoxcounty.org/,live,https://www.knoxcounty.org/,76187 bytes
+Knox,http://clerk.knoxcounty42.us/,live,http://clerk.knoxcounty42.us/,8348 bytes
+Knox,http://gov.knox.in.datapitstop.us/,live,http://gov.knox.in.datapitstop.us/,8390 bytes
+Knox,http://gov.knoxcounty42.us/,live,http://gov.knoxcounty42.us/,8348 bytes
+Knox,https://www.knoxgov.com/,blocked,https://www.knoxgov.com/,HTTP 403
+Knox,https://knox.org/,thin,https://knox.org/,"50070 bytes, nothing county-shaped"
+Knox,https://www.knoxcounty.in.gov/,dead,https://www.knoxcounty.in.gov/,URLError
+Knox,https://www.knox.in.gov/,dead,https://www.knox.in.gov/,URLError
+Knox,https://co.knox.in.us/,dead,https://co.knox.in.us/,URLError
+Knox,https://knoxcoingov.com/,dead,https://knoxcoingov.com/,URLError
+Knox,https://knox.in.gov/,dead,https://knox.in.gov/,URLError
+Knox,https://www.knoxcounty.gov/,dead,https://www.knoxcounty.gov/,URLError
+Knox,https://knoxcounty-in.gov/,dead,https://knoxcounty-in.gov/,URLError
+Knox,https://knoxcountyin.gov/,dead,https://knoxcountyin.gov/,URLError
+Knox,https://www.in.gov/counties/knox/,dead,https://www.in.gov/counties/knox/,HTTP 404
+Clinton,https://clintoncountyin.gov/,live,https://clintoncountyin.gov/,14872 bytes
+Clinton,http://gov.clinton.in.datapitstop.us/,live,http://gov.clinton.in.datapitstop.us/,8268 bytes
+Clinton,http://gov.clintoncounty12.us/,live,http://gov.clintoncounty12.us/,8226 bytes
+Clinton,http://clerk.clintoncounty12.us/,live,http://clerk.clintoncounty12.us/,8226 bytes
+Clinton,https://clinton.org/,thin,https://clinton.org/,"2 bytes, nothing county-shaped"
+Clinton,https://www.clintoncounty.in.gov/,dead,https://www.clintoncounty.in.gov/,URLError
+Clinton,https://clintoncounty.in.gov/,dead,https://clintoncounty.in.gov/,URLError
+Clinton,https://www.clinton.in.gov/,dead,https://www.clinton.in.gov/,URLError
+Clinton,https://clinton.in.gov/,dead,https://clinton.in.gov/,URLError
+Clinton,https://co.clinton.in.us/,dead,https://co.clinton.in.us/,URLError
+Clinton,https://www.clintoncounty.org/,dead,https://www.clintoncounty.org/,URLError
+Clinton,https://clintoncoingov.com/,dead,https://clintoncoingov.com/,URLError
+Clinton,https://www.clintoncounty.gov/,dead,https://www.clintoncounty.gov/,URLError
+Clinton,https://clintoncounty-in.gov/,dead,https://clintoncounty-in.gov/,URLError
+Clinton,https://www.clintongov.com/,dead,https://www.clintongov.com/,URLError
+Clinton,https://www.in.gov/counties/clinton/,dead,https://www.in.gov/counties/clinton/,HTTP 404
+Jennings,https://www.jenningscounty.org/,live,https://jenningscounty.org/,184149 bytes
+Jennings,https://jenningscounty-in.gov/,live,https://jenningscounty-in.gov/,282529 bytes
+Jennings,http://clerk.jenningscounty40.us/,live,http://clerk.jenningscounty40.us/,8893 bytes
+Jennings,http://gov.jennings.in.datapitstop.us/,live,http://gov.jennings.in.datapitstop.us/,8949 bytes
+Jennings,http://gov.jenningscounty40.us/,live,http://gov.jenningscounty40.us/,8893 bytes
+Jennings,https://jennings.org/,thin,https://jennings.org/,"12233 bytes, nothing county-shaped"
+Jennings,https://www.jenningscounty.in.gov/,dead,https://www.jenningscounty.in.gov/,URLError
+Jennings,https://jenningscounty.in.gov/,dead,https://jenningscounty.in.gov/,URLError
+Jennings,https://www.jennings.in.gov/,dead,https://www.jennings.in.gov/,URLError
+Jennings,https://jennings.in.gov/,dead,https://jennings.in.gov/,URLError
+Jennings,https://co.jennings.in.us/,dead,https://co.jennings.in.us/,URLError
+Jennings,https://jenningscoingov.com/,dead,https://jenningscoingov.com/,URLError
+Jennings,https://www.jenningscounty.gov/,dead,https://www.jenningscounty.gov/,URLError
+Jennings,https://jenningscountyin.gov/,dead,https://jenningscountyin.gov/,URLError
+Jennings,https://www.jenningsgov.com/,dead,https://www.jenningsgov.com/,URLError
+Jennings,https://www.in.gov/counties/jennings/,dead,https://www.in.gov/counties/jennings/,HTTP 404
+Franklin,http://gov.franklin.in.datapitstop.us/,live,http://gov.franklin.in.datapitstop.us/,8854 bytes
+Franklin,http://clerk.franklincounty24.us/,live,http://clerk.franklincounty24.us/,8798 bytes
+Franklin,http://gov.franklincounty24.us/,live,http://gov.franklincounty24.us/,8798 bytes
+Franklin,https://www.franklin.in.gov/,live,https://www.franklin.in.gov/,61917 bytes
+Franklin,https://franklin.in.gov/,live,https://www.franklin.in.gov/,61917 bytes
+Franklin,https://www.franklincounty.in.gov/,live,https://www.franklincounty.in.gov/,197096 bytes
+Franklin,https://franklincounty.in.gov/,live,https://www.franklincounty.in.gov/,197096 bytes
+Franklin,https://franklin.org/,thin,https://franklin.org/,"12233 bytes, nothing county-shaped"
+Franklin,https://co.franklin.in.us/,dead,https://co.franklin.in.us/,URLError
+Franklin,https://franklincoingov.com/,dead,https://franklincoingov.com/,URLError
+Franklin,https://www.franklincounty.gov/,dead,https://www.franklincounty.gov/,URLError
+Franklin,https://franklincountyin.gov/,dead,https://franklincountyin.gov/,URLError
+Franklin,https://franklincounty-in.gov/,dead,https://franklincounty-in.gov/,URLError
+Franklin,https://www.franklingov.com/,dead,https://www.franklingov.com/,URLError
+Franklin,https://www.in.gov/counties/franklin/,dead,https://www.in.gov/counties/franklin/,HTTP 404
+Franklin,https://www.franklincounty.org/,dead,https://www.franklincounty.org/,URLError
+Randolph,https://www.in.gov/counties/randolph/,live,https://www.in.gov/counties/randolph/,93059 bytes
+Randolph,http://clerk.randolphcounty68.us/,live,http://clerk.randolphcounty68.us/,8074 bytes
+Randolph,http://gov.randolph.in.datapitstop.us/,live,http://gov.randolph.in.datapitstop.us/,8116 bytes
+Randolph,http://gov.randolphcounty68.us/,live,http://gov.randolphcounty68.us/,8074 bytes
+Randolph,https://randolph.in.gov/,live,https://www.in.gov/counties/randolph/,93059 bytes
+Randolph,https://www.randolph.in.gov/,live,https://www.in.gov/counties/randolph/,93059 bytes
+Randolph,https://randolph.org/,parked,https://randolph.org/,domain-parking lander
+Randolph,https://www.randolphcounty.in.gov/,dead,https://www.randolphcounty.in.gov/,URLError
+Randolph,https://randolphcounty.in.gov/,dead,https://randolphcounty.in.gov/,URLError
+Randolph,https://co.randolph.in.us/,dead,https://co.randolph.in.us/,URLError
+Randolph,https://www.randolphcounty.org/,dead,https://www.randolphcounty.org/,URLError
+Randolph,https://randolphcoingov.com/,dead,https://randolphcoingov.com/,URLError
+Randolph,https://www.randolphcounty.gov/,dead,https://www.randolphcounty.gov/,URLError
+Randolph,https://randolphcountyin.gov/,dead,https://randolphcountyin.gov/,URLError
+Randolph,https://randolphcounty-in.gov/,dead,https://randolphcounty-in.gov/,URLError
+Randolph,https://www.randolphgov.com/,dead,https://www.randolphgov.com/,URLError
+Sullivan,https://www.sullivancounty.in.gov/,live,https://www.sullivancounty.in.gov/,17700 bytes
+Sullivan,https://sullivancounty.in.gov/,live,https://www.sullivancounty.in.gov/,17700 bytes
+Sullivan,http://gov.sullivancounty77.us/,live,http://gov.sullivancounty77.us/,8093 bytes
+Sullivan,http://clerk.sullivancounty77.us/,live,http://clerk.sullivancounty77.us/,8093 bytes
+Sullivan,http://gov.sullivan.in.datapitstop.us/,live,http://gov.sullivan.in.datapitstop.us/,8135 bytes
+Sullivan,https://www.sullivancounty.org/,live,https://sullivancounty.org/,170075 bytes
+Sullivan,https://www.sullivan.in.gov/,dead,https://www.sullivan.in.gov/,URLError
+Sullivan,https://co.sullivan.in.us/,dead,https://co.sullivan.in.us/,URLError
+Sullivan,https://sullivancoingov.com/,dead,https://sullivancoingov.com/,URLError
+Sullivan,https://sullivan.in.gov/,dead,https://sullivan.in.gov/,URLError
+Sullivan,https://www.sullivancounty.gov/,dead,https://www.sullivancounty.gov/,URLError
+Sullivan,https://sullivancountyin.gov/,dead,https://sullivancountyin.gov/,URLError
+Sullivan,https://sullivancounty-in.gov/,dead,https://sullivancounty-in.gov/,URLError
+Sullivan,https://www.sullivangov.com/,dead,https://www.sullivangov.com/,URLError
+Sullivan,https://www.in.gov/counties/sullivan/,dead,https://www.in.gov/counties/sullivan/,HTTP 404
+Sullivan,https://sullivan.org/,dead,https://sullivan.org/,HTTP 502
+Orange,http://gov.orange.in.datapitstop.us/,live,http://gov.orange.in.datapitstop.us/,10504 bytes
+Orange,http://clerk.orangecounty59.us/,live,http://clerk.orangecounty59.us/,6644 bytes
+Orange,http://gov.orangecounty59.us/,live,http://gov.orangecounty59.us/,10448 bytes
+Orange,https://www.orangecounty.in.gov/,offdomain,http://gov.orangecounty59.us/,redirects to gov.orangecounty59.us
+Orange,https://orangecounty.in.gov/,offdomain,http://gov.orangecounty59.us/,redirects to gov.orangecounty59.us
+Orange,https://www.orange.in.gov/,dead,https://www.orange.in.gov/,URLError
+Orange,https://orange.in.gov/,dead,https://orange.in.gov/,URLError
+Orange,https://orangecoingov.com/,dead,https://orangecoingov.com/,URLError
+Orange,https://co.orange.in.us/,dead,https://co.orange.in.us/,URLError
+Orange,https://www.orangecounty.gov/,dead,https://www.orangecounty.gov/,URLError
+Orange,https://www.in.gov/counties/orange/,dead,https://www.in.gov/counties/orange/,HTTP 404
+Orange,https://orangecountyin.gov/,dead,https://orangecountyin.gov/,URLError
+Orange,https://orangecounty-in.gov/,dead,https://orangecounty-in.gov/,URLError
+Orange,https://www.orangegov.com/,dead,https://www.orangegov.com/,URLError
+Orange,https://www.orangecounty.org/,dead,https://www.orangecounty.org/,URLError
+Orange,https://orange.org/,dead,https://orange.org/,URLError
+Perry,http://clerk.perrycounty62.us/,live,http://clerk.perrycounty62.us/,8830 bytes
+Perry,http://gov.perrycounty62.us/,live,http://gov.perrycounty62.us/,8830 bytes
+Perry,https://perrycounty.in.gov/,live,https://perrycounty.in.gov/,131154 bytes
+Perry,http://gov.perry.in.datapitstop.us/,live,http://gov.perry.in.datapitstop.us/,8900 bytes
+Perry,https://perry.org/,thin,https://ww16.perry.org/?sub1=20261107-0240-237a-9d81-ed2566cec6f3,"3035 bytes, nothing county-shaped"
+Perry,https://www.perrycounty.org/,parked,https://www.perrycounty.org/,domain-parking lander
+Perry,https://www.perry.in.gov/,dead,https://www.perry.in.gov/,URLError
+Perry,https://perry.in.gov/,dead,https://perry.in.gov/,URLError
+Perry,https://co.perry.in.us/,dead,https://co.perry.in.us/,URLError
+Perry,https://www.perrycounty.in.gov/,dead,https://www.perrycounty.in.gov/,HTTP 525
+Perry,https://perrycoingov.com/,dead,https://perrycoingov.com/,URLError
+Perry,https://www.perrycounty.gov/,dead,https://www.perrycounty.gov/,URLError
+Perry,https://perrycountyin.gov/,dead,https://perrycountyin.gov/,URLError
+Perry,https://perrycounty-in.gov/,dead,https://perrycounty-in.gov/,URLError
+Perry,https://www.in.gov/counties/perry/,dead,https://www.in.gov/counties/perry/,HTTP 404
+Perry,https://www.perrygov.com/,dead,https://www.perrygov.com/,URLError
+Jay,http://gov.jaycounty38.us/,live,http://gov.jaycounty38.us/,7988 bytes
+Jay,http://clerk.jaycounty38.us/,live,http://clerk.jaycounty38.us/,7988 bytes
+Jay,http://gov.jay.in.datapitstop.us/,live,http://gov.jay.in.datapitstop.us/,8030 bytes
+Jay,https://www.in.gov/counties/jay/,live,https://www.in.gov/counties/jay/,49736 bytes
+Jay,https://www.jaycounty.in.gov/,live,https://www.in.gov/counties/jay/,49736 bytes
+Jay,https://jaycounty.in.gov/,live,https://www.in.gov/counties/jay/,49736 bytes
+Jay,https://www.jay.in.gov/,dead,https://www.jay.in.gov/,URLError
+Jay,https://www.jaycounty.org/,dead,https://www.jaycounty.org/,URLError
+Jay,https://jaycoingov.com/,dead,https://jaycoingov.com/,URLError
+Jay,https://jay.in.gov/,dead,https://jay.in.gov/,URLError
+Jay,https://www.jaycounty.gov/,dead,https://www.jaycounty.gov/,URLError
+Jay,https://jaycountyin.gov/,dead,https://jaycountyin.gov/,URLError
+Jay,https://www.jaygov.com/,dead,https://www.jaygov.com/,URLError
+Jay,https://jaycounty-in.gov/,dead,https://jaycounty-in.gov/,URLError
+Jay,https://co.jay.in.us/,dead,https://co.jay.in.us/,URLError
+Jay,https://jay.org/,dead,https://jay.org/,URLError
+Vermillion,http://clerk.vermillioncounty83.us/,live,http://clerk.vermillioncounty83.us/,9711 bytes
+Vermillion,http://gov.vermillioncounty83.us/,live,http://gov.vermillioncounty83.us/,9711 bytes
+Vermillion,http://gov.vermillion.in.datapitstop.us/,live,http://gov.vermillion.in.datapitstop.us/,9795 bytes
+Vermillion,https://vermillioncounty.in.gov/,thin,https://vermillioncounty.in.gov/,"870 bytes, nothing county-shaped"
+Vermillion,https://www.vermillioncounty.in.gov/,thin,https://www.vermillioncounty.in.gov/,"870 bytes, nothing county-shaped"
+Vermillion,https://vermillion.org/,thin,https://vermillion.org/,"12253 bytes, nothing county-shaped"
+Vermillion,https://www.vermillion.in.gov/,dead,https://www.vermillion.in.gov/,URLError
+Vermillion,https://vermillion.in.gov/,dead,https://vermillion.in.gov/,URLError
+Vermillion,https://co.vermillion.in.us/,dead,https://co.vermillion.in.us/,URLError
+Vermillion,https://vermillioncoingov.com/,dead,https://vermillioncoingov.com/,URLError
+Vermillion,https://www.vermillioncounty.org/,dead,https://www.vermillioncounty.org/,URLError
+Vermillion,https://www.vermillioncounty.gov/,dead,https://www.vermillioncounty.gov/,URLError
+Vermillion,https://vermillioncountyin.gov/,dead,https://vermillioncountyin.gov/,URLError
+Vermillion,https://vermillioncounty-in.gov/,dead,https://vermillioncounty-in.gov/,URLError
+Vermillion,https://www.vermilliongov.com/,dead,https://www.vermilliongov.com/,URLError
+Vermillion,https://www.in.gov/counties/vermillion/,dead,https://www.in.gov/counties/vermillion/,HTTP 404
+Newton,https://www.newtoncounty.in.gov/,live,https://www.newtoncounty.in.gov/,13597 bytes
+Newton,http://gov.newtoncounty56.us/,live,http://gov.newtoncounty56.us/,8228 bytes
+Newton,http://gov.newton.in.datapitstop.us/,live,http://gov.newton.in.datapitstop.us/,8270 bytes
+Newton,http://clerk.newtoncounty56.us/,live,http://clerk.newtoncounty56.us/,8228 bytes
+Newton,https://newtoncounty.in.gov/,live,https://www.newtoncounty.in.gov/,13597 bytes
+Newton,https://newton.org/,thin,https://newton.org/,"72978 bytes, nothing county-shaped"
+Newton,https://www.newtongov.com/,parked,https://www.newtongov.com/,domain-parking lander
+Newton,https://www.newton.in.gov/,dead,https://www.newton.in.gov/,URLError
+Newton,https://newton.in.gov/,dead,https://newton.in.gov/,URLError
+Newton,https://co.newton.in.us/,dead,https://co.newton.in.us/,URLError
+Newton,https://www.newtoncounty.org/,dead,https://www.newtoncounty.org/,URLError
+Newton,https://newtoncoingov.com/,dead,https://newtoncoingov.com/,URLError
+Newton,https://www.newtoncounty.gov/,dead,https://www.newtoncounty.gov/,URLError
+Newton,https://newtoncountyin.gov/,dead,https://newtoncountyin.gov/,URLError
+Newton,https://newtoncounty-in.gov/,dead,https://newtoncounty-in.gov/,URLError
+Newton,https://www.in.gov/counties/newton/,dead,https://www.in.gov/counties/newton/,HTTP 404
+Parke,http://gov.parkecounty61.us/,live,http://gov.parkecounty61.us/,8406 bytes
+Parke,http://clerk.parkecounty61.us/,live,http://clerk.parkecounty61.us/,8406 bytes
+Parke,https://www.in.gov/counties/parke/,live,https://www.in.gov/counties/parke/,62787 bytes
+Parke,https://www.parkecounty.org/,live,https://parkecounty.org/,132093 bytes
+Parke,https://parke.org/,live,https://www.parke.org/,399960 bytes
+Parke,http://gov.parke.in.datapitstop.us/,live,http://gov.parke.in.datapitstop.us/,8448 bytes
+Parke,https://parkecounty.in.gov/,live,https://www.in.gov/counties/parke/,62787 bytes
+Parke,https://parkecounty-in.gov/,thin,https://parkecounty-in.gov/,"8907 bytes, nothing county-shaped"
+Parke,https://www.parkecounty.in.gov/,dead,https://www.parkecounty.in.gov/,URLError
+Parke,https://www.parke.in.gov/,dead,https://www.parke.in.gov/,URLError
+Parke,https://co.parke.in.us/,dead,https://co.parke.in.us/,URLError
+Parke,https://parkecoingov.com/,dead,https://parkecoingov.com/,URLError
+Parke,https://parke.in.gov/,dead,https://parke.in.gov/,URLError
+Parke,https://www.parkecounty.gov/,dead,https://www.parkecounty.gov/,URLError
+Parke,https://parkecountyin.gov/,dead,https://parkecountyin.gov/,URLError
+Parke,https://www.parkegov.com/,dead,https://www.parkegov.com/,URLError
+Pike,http://gov.pikecounty63.us/,live,http://gov.pikecounty63.us/,8370 bytes
+Pike,https://www.pikecounty.in.gov/,live,https://www.pikecounty.in.gov/,20913 bytes
+Pike,http://gov.pike.in.datapitstop.us/,live,http://gov.pike.in.datapitstop.us/,8412 bytes
+Pike,https://pikecounty.in.gov/,live,https://www.pikecounty.in.gov/,20913 bytes
+Pike,http://clerk.pikecounty63.us/,live,http://clerk.pikecounty63.us/,8370 bytes
+Pike,https://pike.org/,thin,https://pike.org/,"12193 bytes, nothing county-shaped"
+Pike,https://www.pike.in.gov/,dead,https://www.pike.in.gov/,URLError
+Pike,https://co.pike.in.us/,dead,https://co.pike.in.us/,URLError
+Pike,https://www.pikecounty.org/,dead,https://www.pikecounty.org/,URLError
+Pike,https://pikecoingov.com/,dead,https://pikecoingov.com/,URLError
+Pike,https://pike.in.gov/,dead,https://pike.in.gov/,URLError
+Pike,https://www.pikecounty.gov/,dead,https://www.pikecounty.gov/,URLError
+Pike,https://pikecountyin.gov/,dead,https://pikecountyin.gov/,URLError
+Pike,https://pikecounty-in.gov/,dead,https://pikecounty-in.gov/,URLError
+Pike,https://www.pikegov.com/,dead,https://www.pikegov.com/,URLError
+Pike,https://www.in.gov/counties/pike/,dead,https://www.in.gov/counties/pike/,HTTP 404
+Pulaski,https://www.pulaskicounty.org/,live,https://www.pulaskicounty.org/,90799 bytes
+Pulaski,http://clerk.pulaskicounty66.us/,live,http://clerk.pulaskicounty66.us/,8241 bytes
+Pulaski,http://gov.pulaski.in.datapitstop.us/,live,http://gov.pulaski.in.datapitstop.us/,8283 bytes
+Pulaski,http://gov.pulaskicounty66.us/,live,http://gov.pulaskicounty66.us/,8241 bytes
+Pulaski,https://www.pulaskigov.com/,live,https://www.pulaskigov.com/,103776 bytes
+Pulaski,https://www.pulaski.in.gov/,dead,https://www.pulaski.in.gov/,URLError
+Pulaski,https://co.pulaski.in.us/,dead,https://co.pulaski.in.us/,URLError
+Pulaski,https://pulaski.in.gov/,dead,https://pulaski.in.gov/,URLError
+Pulaski,https://pulaskicoingov.com/,dead,https://pulaskicoingov.com/,URLError
+Pulaski,https://www.pulaskicounty.gov/,dead,https://www.pulaskicounty.gov/,URLError
+Pulaski,https://pulaskicountyin.gov/,dead,https://pulaskicountyin.gov/,URLError
+Pulaski,https://pulaskicounty-in.gov/,dead,https://pulaskicounty-in.gov/,URLError
+Pulaski,https://www.in.gov/counties/pulaski/,dead,https://www.in.gov/counties/pulaski/,HTTP 404
+Pulaski,https://pulaski.org/,dead,https://pulaski.org/,URLError
+Pulaski,https://www.pulaskicounty.in.gov/,dead,https://www.pulaskicounty.in.gov/,HTTP 522
+Pulaski,https://pulaskicounty.in.gov/,dead,https://pulaskicounty.in.gov/,HTTP 522
+Switzerland,http://gov.switzerlandcounty78.us/,live,http://gov.switzerlandcounty78.us/,8136 bytes
+Switzerland,http://clerk.switzerlandcounty78.us/,live,http://clerk.switzerlandcounty78.us/,8136 bytes
+Switzerland,http://gov.switzerland.in.datapitstop.us/,live,http://gov.switzerland.in.datapitstop.us/,8178 bytes
+Switzerland,https://www.in.gov/counties/switzerland/,live,https://www.in.gov/counties/switzerland/,80642 bytes
+Switzerland,https://switzerland.in.gov/,live,https://www.in.gov/counties/switzerland/,80642 bytes
+Switzerland,https://www.switzerland.in.gov/,live,https://www.in.gov/counties/switzerland/,80642 bytes
+Switzerland,https://switzerland.org/,parked,https://switzerland.org/,domain-parking lander
+Switzerland,https://www.switzerlandcounty.in.gov/,dead,https://www.switzerlandcounty.in.gov/,URLError
+Switzerland,https://switzerlandcounty.in.gov/,dead,https://switzerlandcounty.in.gov/,URLError
+Switzerland,https://co.switzerland.in.us/,dead,https://co.switzerland.in.us/,URLError
+Switzerland,https://www.switzerlandcounty.org/,dead,https://www.switzerlandcounty.org/,URLError
+Switzerland,https://switzerlandcoingov.com/,dead,https://switzerlandcoingov.com/,URLError
+Switzerland,https://www.switzerlandcounty.gov/,dead,https://www.switzerlandcounty.gov/,URLError
+Switzerland,https://switzerlandcountyin.gov/,dead,https://switzerlandcountyin.gov/,URLError
+Switzerland,https://switzerlandcounty-in.gov/,dead,https://switzerlandcounty-in.gov/,URLError
+Switzerland,https://www.switzerlandgov.com/,dead,https://www.switzerlandgov.com/,URLError
+Martin,https://www.in.gov/counties/martin/,live,https://www.in.gov/counties/martin/,54483 bytes
+Martin,http://gov.martin.in.datapitstop.us/,live,http://gov.martin.in.datapitstop.us/,8351 bytes
+Martin,http://gov.martincounty51.us/,live,http://gov.martincounty51.us/,8309 bytes
+Martin,http://clerk.martincounty51.us/,live,http://clerk.martincounty51.us/,8309 bytes
+Martin,https://martincounty.in.gov/,live,https://www.in.gov/counties/martin/,54483 bytes
+Martin,https://www.martincounty.in.gov/,live,https://www.in.gov/counties/martin/,54483 bytes
+Martin,https://www.martincounty.org/,offdomain,https://claycomocityjail.org/,redirects to claycomocityjail.org
+Martin,https://www.martin.in.gov/,dead,https://www.martin.in.gov/,URLError
+Martin,https://martin.in.gov/,dead,https://martin.in.gov/,URLError
+Martin,https://co.martin.in.us/,dead,https://co.martin.in.us/,URLError
+Martin,https://martincoingov.com/,dead,https://martincoingov.com/,URLError
+Martin,https://www.martincounty.gov/,dead,https://www.martincounty.gov/,URLError
+Martin,https://martincountyin.gov/,dead,https://martincountyin.gov/,URLError
+Martin,https://martincounty-in.gov/,dead,https://martincounty-in.gov/,URLError
+Martin,https://www.martingov.com/,dead,https://www.martingov.com/,URLError
+Martin,https://martin.org/,dead,https://martin.org/,URLError
+Benton,https://www.bentoncounty.in.gov/,live,https://www.bentoncounty.in.gov/,399848 bytes
+Benton,https://bentoncounty.in.gov/,live,https://www.bentoncounty.in.gov/,399848 bytes
+Benton,http://gov.benton.in.datapitstop.us/,live,http://gov.benton.in.datapitstop.us/,8082 bytes
+Benton,https://www.bentoncounty.org/,thin,https://www.bentoncounty.org/,"482 bytes, nothing county-shaped"
+Benton,https://benton.org/,thin,https://www.benton.org/,"43241 bytes, nothing county-shaped"
+Benton,https://www.benton.in.gov/,dead,https://www.benton.in.gov/,URLError
+Benton,https://benton.in.gov/,dead,https://benton.in.gov/,URLError
+Benton,https://co.benton.in.us/,dead,https://co.benton.in.us/,URLError
+Benton,https://bentoncoingov.com/,dead,https://bentoncoingov.com/,URLError
+Benton,https://www.bentoncounty.gov/,dead,https://www.bentoncounty.gov/,URLError
+Benton,https://bentoncountyin.gov/,dead,https://bentoncountyin.gov/,URLError
+Benton,https://bentoncounty-in.gov/,dead,https://bentoncounty-in.gov/,URLError
+Benton,https://www.in.gov/counties/benton/,dead,https://www.in.gov/counties/benton/,HTTP 404
+Benton,http://gov.bentoncounty4.us/,dead,http://gov.bentoncounty4.us/,URLError
+Benton,http://clerk.bentoncounty4.us/,dead,http://clerk.bentoncounty4.us/,URLError
+Benton,https://www.bentongov.com/,dead,https://www.bentongov.com/,URLError
+Brown,https://browncounty-in.gov/,live,https://browncounty-in.gov/,106129 bytes
+Brown,http://gov.brown.in.datapitstop.us/,thin,http://gov.brown.in.datapitstop.us/,"13037 bytes, nothing county-shaped"
+Brown,https://brown.org/,thin,https://brown.org/,"12203 bytes, nothing county-shaped"
+Brown,https://www.browncounty.org/,offdomain,https://browncounty.com/,redirects to browncounty.com
+Brown,https://www.browncounty.in.gov/,dead,https://www.browncounty.in.gov/,URLError
+Brown,https://browncounty.in.gov/,dead,https://browncounty.in.gov/,URLError
+Brown,https://www.brown.in.gov/,dead,https://www.brown.in.gov/,URLError
+Brown,https://brown.in.gov/,dead,https://brown.in.gov/,URLError
+Brown,https://co.brown.in.us/,dead,https://co.brown.in.us/,URLError
+Brown,https://browncoingov.com/,dead,https://browncoingov.com/,URLError
+Brown,https://www.browncounty.gov/,dead,https://www.browncounty.gov/,URLError
+Brown,http://gov.browncounty7.us/,dead,http://gov.browncounty7.us/,URLError
+Brown,https://browncountyin.gov/,dead,https://browncountyin.gov/,URLError
+Brown,http://clerk.browncounty7.us/,dead,http://clerk.browncounty7.us/,URLError
+Brown,https://www.browngov.com/,dead,https://www.browngov.com/,URLError
+Brown,https://www.in.gov/counties/brown/,dead,https://www.in.gov/counties/brown/,HTTP 404
+Carroll,https://www.carrollcounty.org/,live,https://www.carrollcounty.org/,43549 bytes
+Carroll,http://gov.carroll.in.datapitstop.us/,live,http://gov.carroll.in.datapitstop.us/,8621 bytes
+Carroll,https://www.in.gov/counties/carroll/,live,https://www.in.gov/counties/carroll/,51401 bytes
+Carroll,https://www.carrollcounty.in.gov/,live,https://www.in.gov/counties/carroll/,51401 bytes
+Carroll,https://carrollcounty.in.gov/,live,https://www.in.gov/counties/carroll/,51401 bytes
+Carroll,https://carroll.org/,live,https://carroll.org/,132095 bytes
+Carroll,https://www.carroll.in.gov/,dead,https://www.carroll.in.gov/,URLError
+Carroll,https://carroll.in.gov/,dead,https://carroll.in.gov/,URLError
+Carroll,https://co.carroll.in.us/,dead,https://co.carroll.in.us/,URLError
+Carroll,https://carrollcoingov.com/,dead,https://carrollcoingov.com/,URLError
+Carroll,https://www.carrollcounty.gov/,dead,https://www.carrollcounty.gov/,URLError
+Carroll,https://carrollcounty-in.gov/,dead,https://carrollcounty-in.gov/,URLError
+Carroll,http://gov.carrollcounty8.us/,dead,http://gov.carrollcounty8.us/,URLError
+Carroll,http://clerk.carrollcounty8.us/,dead,http://clerk.carrollcounty8.us/,URLError
+Carroll,https://carrollcountyin.gov/,dead,https://carrollcountyin.gov/,URLError
+Carroll,https://www.carrollgov.com/,dead,https://www.carrollgov.com/,URLError
+Clark,https://www.clarkcounty.org/,live,https://www.clarkcounty.org/,19106 bytes
+Clark,http://gov.clarkcounty10.us/,live,http://gov.clarkcounty10.us/,8024 bytes
+Clark,http://clerk.clarkcounty10.us/,live,http://clerk.clarkcounty10.us/,8024 bytes
+Clark,http://gov.clark.in.datapitstop.us/,live,http://gov.clark.in.datapitstop.us/,8066 bytes
+Clark,https://clarkcounty.in.gov/,live,https://clarkcounty.in.gov/,55710 bytes
+Clark,https://www.clarkcounty.in.gov/,live,https://www.clarkcounty.in.gov/,55730 bytes
+Clark,https://co.clark.in.us/,live,https://co.clark.in.us/,55690 bytes
+Clark,https://clark.org/,thin,https://clark.org/,"163 bytes, nothing county-shaped"
+Clark,https://www.clark.in.gov/,dead,https://www.clark.in.gov/,URLError
+Clark,https://clark.in.gov/,dead,https://clark.in.gov/,URLError
+Clark,https://clarkcoingov.com/,dead,https://clarkcoingov.com/,URLError
+Clark,https://www.clarkcounty.gov/,dead,https://www.clarkcounty.gov/,URLError
+Clark,https://clarkcountyin.gov/,dead,https://clarkcountyin.gov/,URLError
+Clark,https://clarkcounty-in.gov/,dead,https://clarkcounty-in.gov/,URLError
+Clark,https://www.clarkgov.com/,dead,https://www.clarkgov.com/,URLError
+Clark,https://www.in.gov/counties/clark/,dead,https://www.in.gov/counties/clark/,HTTP 404
+Fayette,http://gov.fayettecounty21.us/,live,http://gov.fayettecounty21.us/,8445 bytes
+Fayette,http://gov.fayette.in.datapitstop.us/,live,http://gov.fayette.in.datapitstop.us/,8487 bytes
+Fayette,http://clerk.fayettecounty21.us/,live,http://clerk.fayettecounty21.us/,8445 bytes
+Fayette,https://co.fayette.in.us/,live,https://co.fayette.in.us/,256473 bytes
+Fayette,https://www.fayettecounty.org/,parked,https://www.fayettecounty.org/,domain-parking lander
+Fayette,https://fayette.org/,offdomain,https://qcol.secureserversites.net/,redirects to qcol.secureserversites.net
+Fayette,https://www.fayettecounty.in.gov/,dead,https://www.fayettecounty.in.gov/,URLError
+Fayette,https://fayettecounty.in.gov/,dead,https://fayettecounty.in.gov/,URLError
+Fayette,https://www.fayette.in.gov/,dead,https://www.fayette.in.gov/,URLError
+Fayette,https://fayette.in.gov/,dead,https://fayette.in.gov/,URLError
+Fayette,https://fayettecoingov.com/,dead,https://fayettecoingov.com/,URLError
+Fayette,https://www.fayettecounty.gov/,dead,https://www.fayettecounty.gov/,URLError
+Fayette,https://fayettecountyin.gov/,dead,https://fayettecountyin.gov/,URLError
+Fayette,https://fayettecounty-in.gov/,dead,https://fayettecounty-in.gov/,URLError
+Fayette,https://www.fayettegov.com/,dead,https://www.fayettegov.com/,URLError
+Fayette,https://www.in.gov/counties/fayette/,dead,https://www.in.gov/counties/fayette/,HTTP 404
+Hancock,http://gov.hancock.in.datapitstop.us/,live,http://gov.hancock.in.datapitstop.us/,8112 bytes
+Hancock,http://gov.hancockcounty30.us/,live,http://gov.hancockcounty30.us/,8070 bytes
+Hancock,http://clerk.hancockcounty30.us/,live,http://clerk.hancockcounty30.us/,8070 bytes
+Hancock,https://www.hancockcounty.org/,parked,https://www.hancockcounty.org/,domain-parking lander
+Hancock,https://www.hancockcounty.in.gov/,dead,https://www.hancockcounty.in.gov/,URLError
+Hancock,https://hancockcounty.in.gov/,dead,https://hancockcounty.in.gov/,URLError
+Hancock,https://www.hancock.in.gov/,dead,https://www.hancock.in.gov/,URLError
+Hancock,https://hancock.in.gov/,dead,https://hancock.in.gov/,URLError
+Hancock,https://co.hancock.in.us/,dead,https://co.hancock.in.us/,URLError
+Hancock,https://hancockcoingov.com/,dead,https://hancockcoingov.com/,URLError
+Hancock,https://hancockcountyin.gov/,dead,https://hancockcountyin.gov/,URLError
+Hancock,https://www.hancockcounty.gov/,dead,https://www.hancockcounty.gov/,URLError
+Hancock,https://hancockcounty-in.gov/,dead,https://hancockcounty-in.gov/,URLError
+Hancock,https://www.hancockgov.com/,dead,https://www.hancockgov.com/,URLError
+Hancock,https://www.in.gov/counties/hancock/,dead,https://www.in.gov/counties/hancock/,HTTP 404
+Hancock,https://hancock.org/,dead,https://hancock.org/,URLError
+Monroe,http://gov.monroecounty53.us/,live,http://gov.monroecounty53.us/,8052 bytes
+Monroe,https://www.monroecounty.gov/,live,https://www.monroecounty.gov/,113176 bytes
+Monroe,http://gov.monroe.in.datapitstop.us/,live,http://gov.monroe.in.datapitstop.us/,8094 bytes
+Monroe,http://clerk.monroecounty53.us/,live,http://clerk.monroecounty53.us/,8052 bytes
+Monroe,https://www.in.gov/counties/monroe/,live,https://www.in.gov/counties/monroe/,399996 bytes
+Monroe,https://monroecounty.in.gov/,live,https://www.in.gov/counties/monroe/,399996 bytes
+Monroe,https://www.monroecounty.in.gov/,live,https://www.in.gov/counties/monroe/,399996 bytes
+Monroe,https://monroe.org/,thin,https://monroe.org/,"237495 bytes, nothing county-shaped"
+Monroe,https://www.monroecounty.org/,parked,https://www.monroecounty.org/,domain-parking lander
+Monroe,https://www.monroegov.com/,parked,https://www.monroegov.com/,domain-parking lander
+Monroe,https://www.monroe.in.gov/,dead,https://www.monroe.in.gov/,URLError
+Monroe,https://monroecoingov.com/,dead,https://monroecoingov.com/,URLError
+Monroe,https://monroecountyin.gov/,dead,https://monroecountyin.gov/,URLError
+Monroe,https://monroecounty-in.gov/,dead,https://monroecounty-in.gov/,URLError
+Monroe,https://monroe.in.gov/,dead,https://monroe.in.gov/,URLError
+Monroe,https://co.monroe.in.us/,dead,https://co.monroe.in.us/,URLError
+Shelby,http://gov.shelbycounty73.us/,live,http://gov.shelbycounty73.us/,12353 bytes
+Shelby,http://gov.shelby.in.datapitstop.us/,live,http://gov.shelby.in.datapitstop.us/,12444 bytes
+Shelby,http://clerk.shelbycounty73.us/,live,http://clerk.shelbycounty73.us/,6891 bytes
+Shelby,https://www.in.gov/counties/shelby/,live,https://www.in.gov/counties/shelby/,250207 bytes
+Shelby,https://www.shelbycounty.in.gov/,live,https://www.in.gov/counties/shelby/,250207 bytes
+Shelby,https://co.shelby.in.us/,live,https://www.in.gov/counties/shelby/,250207 bytes
+Shelby,https://shelbycounty.in.gov/,live,https://www.in.gov/counties/shelby/,250207 bytes
+Shelby,https://www.shelbycounty.org/,thin,https://www.shelbycounty.org/,"482 bytes, nothing county-shaped"
+Shelby,https://shelby.org/,thin,https://shelby.org/,"12213 bytes, nothing county-shaped"
+Shelby,https://www.shelby.in.gov/,dead,https://www.shelby.in.gov/,URLError
+Shelby,https://shelby.in.gov/,dead,https://shelby.in.gov/,URLError
+Shelby,https://shelbycoingov.com/,dead,https://shelbycoingov.com/,URLError
+Shelby,https://www.shelbycounty.gov/,dead,https://www.shelbycounty.gov/,URLError
+Shelby,https://shelbycounty-in.gov/,dead,https://shelbycounty-in.gov/,URLError
+Shelby,https://shelbycountyin.gov/,dead,https://shelbycountyin.gov/,URLError
+Shelby,https://www.shelbygov.com/,dead,https://www.shelbygov.com/,URLError
